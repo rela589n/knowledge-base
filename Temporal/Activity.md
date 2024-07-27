@@ -1,0 +1,1 @@
+Encapsulates the code that talks to external systems and could fail anytime.

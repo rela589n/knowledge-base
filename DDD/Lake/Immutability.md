@@ -1,0 +1,1 @@
+Concept meaning an object can not be changed except by full replacement.

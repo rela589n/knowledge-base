@@ -1,0 +1,1 @@
+**Smearing** - usually NTP servers **gradually apply leap second** over the course of a day.

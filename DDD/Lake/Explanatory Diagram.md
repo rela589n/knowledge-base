@@ -1,0 +1,1 @@
+Is an informal [[Diagrams|diagram]] to clarify the meaning of business concept. It represents [[Explanatory Model|explanatory model]] and it is not software design model, hence it shall not have any UML

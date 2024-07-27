@@ -1,0 +1,1 @@
+**Byzantine fault model** - [[System Models|model]], by which system may experience [[Byzantine faults]].

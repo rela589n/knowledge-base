@@ -1,0 +1,12 @@
+See:
+- `#[CurrentUser]` controller argument;
+- `#[Required]` replacement of `@required`;
+- `#[Autoconfigure(tags: ['app.some_tag'])]` on interface;
+- `#[AutoconfigureTag('app.custom_tag')]` on interface;
+- `#[AsController]` adds tag `controller.service_arguments`.
+- `#[AsDecorator(decorates: Mailer::class)]` -  decorator;
+- `#[MapDecorated]` - inject inner;
+- `#[Autowire(service: 'some_service')]`;
+- `#[AsTaggedItem(index: 'handler_one', priority: 10)]`;
+- `#[TaggedIterator('app.handler')]`;
+- `#[AsEventListener]`, `#[AsCommand]`;

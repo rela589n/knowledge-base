@@ -1,0 +1,1 @@
+[[Design Documents]] become obsolete as project evolves. It may use not used anymore terms, which are not in the [[Ubiquitous Language]] anymore.

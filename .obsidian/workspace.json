@@ -1,0 +1,203 @@
+{
+  "main": {
+    "id": "9f11f1c5247797b2",
+    "type": "split",
+    "children": [
+      {
+        "id": "7a7fd083f71bae5f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b1f526235160f839",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4b9de91053ff5668",
+    "type": "split",
+    "children": [
+      {
+        "id": "4823aa97c56ca854",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "63a537e7ba9dcd12",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "04be5ca97fb8eae6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "\"field tag\"",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2a5f074c11035911",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "ed8a53a9e20252ae",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "417916358c0cbb0d",
+    "type": "split",
+    "children": [
+      {
+        "id": "b4f43dc4951ee4e5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1ad6c7e4c2341fc8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a4e04d3ac4605910",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "35e4b9783de5cdf7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e5436e94f4b7b7c1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "33b6c917201f01f1",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "63a537e7ba9dcd12",
+  "lastOpenFiles": [
+    "Interview/Interview Wisdom.md",
+    "Interview/Instructions.md",
+    "Interview/Experience.md",
+    "Centrifugo/Centrifugo.md",
+    "Tools",
+    "Database/DDIA/II - Distributed Data/5. Replication.md",
+    "Database/DDIA/II - Distributed Data/9. Consistency and Consensus.md",
+    "Database/PostgreSQL/Explaining Unexplainable/part 1.md",
+    "Database/DDIA",
+    "Database/PostgreSQL/Transactions/Transaction Isolation.md",
+    "Database/Lake/Isolation Levels.md",
+    "Design Patterns/Visitor/Visitor Pattern.md",
+    "Design Patterns/Structural/Flyweight.md",
+    "Design Patterns/Structural/Composite pattern.md",
+    "Design Patterns/Behavioral/Chain of Responsibility.md",
+    "Networking/Nginx - https locally (SSL).md",
+    "gRPC/gRPC.md",
+    "DDD/Lake/Module.md",
+    "RPC",
+    "DDD/Evans/II - The building blocks of model-driven design/5. Model expressed in software.md",
+    "DDD/Evans/II - The building blocks of model-driven design/4. Isolating the Domain.md",
+    "DDD/Evans/I - putting the domain model to work/3. Binding model and implementation.md",
+    "DDD/Evans/I - putting the domain model to work/2. Communication and the Use of Language.md",
+    "DDD/Evans/I - putting the domain model to work/1. Crunching Knowledge.md",
+    "DDD/Evans/I - putting the domain model to work/0. Putting the Domain Model to Work.md",
+    "DDD/Lake/Anemic model.md",
+    "DDD/Lake/Layered Architecture.md",
+    "DDD/Lake/DDD.md",
+    "PHP/Interview Questions.md",
+    "Monitoring",
+    "Neo4j",
+    "Untitled.canvas",
+    "Environments",
+    "Monitoring/Prometheus",
+    "Centrifugo",
+    "Protobuf",
+    "DDD/Lake/Constrained relationship.png",
+    "RoadRunner",
+    "Database/Lake/Pasted image 20240616181302.png"
+  ]
+}

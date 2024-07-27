@@ -1,0 +1,1 @@
+**TCP uses ACK timeout** based on previous round-trips and **retransmits packet** if it was lost.

@@ -1,0 +1,1 @@
+**Crash-stop faults model** - [[System Models|model]], by which system may fail only in one way (crash), and node will not rise up again.

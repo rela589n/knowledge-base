@@ -1,0 +1,1 @@
+[[Service]] is not a domain service, if it doesn't operate with [[Domain Model]] objects.

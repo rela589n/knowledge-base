@@ -1,0 +1,1 @@
+**Network congestion** - when **packet waits for a free slot** to be passed through.

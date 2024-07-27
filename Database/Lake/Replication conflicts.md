@@ -1,0 +1,1 @@
+The conflict may be not only **on a row-basis**, but on **a table-basis as well**. For example, if **table has constraint** that time slots should **not overlap**. There may be a race condition when two records for the same time slot were booked on the different leader databases.

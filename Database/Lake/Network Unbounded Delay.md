@@ -1,0 +1,1 @@
+**Unbounded Delay** - [[Async networks|async network]] gives **no guarantees when packet will arrive**. It just tries to deliver it ASAP, but no **upper limit exists**.

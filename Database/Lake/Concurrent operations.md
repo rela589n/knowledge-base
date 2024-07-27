@@ -1,0 +1,1 @@
+**Concurrency** - if **neither** of operations **[[Happens-before relationship|happens before]]** the other (if **neither knows** about the other).  On **concurrent** modifications the **conflicts must be resolved**. 

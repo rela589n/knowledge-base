@@ -1,0 +1,1 @@
+When logic can't be sensibly implemented via **[[Atomic write operations]]**, then during `select` statement the `for update` may be specified. This will lock all rows returned by the query until current transaction commits.

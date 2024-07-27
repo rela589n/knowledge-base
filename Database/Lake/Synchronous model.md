@@ -1,0 +1,1 @@
+**Synchronous model** - [[System Models by timing assumptions|model]], which has [[Network Bounded Delay|bounded network delays]], limited [[Process Pauses]], and [[Clock drifts]].

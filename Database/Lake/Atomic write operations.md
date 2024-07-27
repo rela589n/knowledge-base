@@ -1,0 +1,1 @@
+In some cases **instead of [[read-modify-write]]** (plain assignment, rewrite) the **modification operation** may be **applied** to the value which will lead to the final expected state. For instance, increment is applied `SET val = val + 1`, for json modification `jsonb_set` may be used.

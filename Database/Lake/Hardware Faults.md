@@ -1,0 +1,3 @@
+**Hardware Faults** (disk, memory, cpu, network, power, etc). Those doesn't come together unless there's **common cause**. If one hard disc crashed - unlikely reserved one will crash at the same time. ^616ce6
+
+It makes sense to **deliberately trigger some faults** in order to test how software would operate and **make sure that faults are recoverable**. For instance, we'd need to **anticipate network issues**, **node power offs** etc. ^deliberate-errors

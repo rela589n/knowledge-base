@@ -1,0 +1,1 @@
+[[Service]] is usually stateless and [[Immutability|Immutable]]. 

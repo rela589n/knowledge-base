@@ -1,0 +1,1 @@
+It's some abstraction for data communication.

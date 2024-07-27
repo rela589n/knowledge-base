@@ -1,0 +1,1 @@
+**Network backpressure** (**flow control**, **congestion avoidance**) - each sender itself limits packets sending rate to avoid overloaded links (see [[Network congestion]]).

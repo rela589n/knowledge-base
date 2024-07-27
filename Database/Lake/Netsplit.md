@@ -1,0 +1,1 @@
+**Netsplit** (**Network partiotion**) - when part of the **network is cut off from the rest** due to a network fault.

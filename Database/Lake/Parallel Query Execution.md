@@ -1,0 +1,1 @@
+**Massively parallel processing** - queries which significantly benefit from the [[Partitioning|database split]], because **queries may execute in parallel** on multiple nodes. Usually such queries are used for [[3. Storage and retrieval#Transaction Processing or Analytics|analytics]] and include bunch of joins, aggregations, conditions etc.

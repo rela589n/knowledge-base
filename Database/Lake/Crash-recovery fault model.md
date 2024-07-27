@@ -1,0 +1,1 @@
+**Crash-recovery fault model** - [[System Models|model]], by which system may **fail for some time**, but it's **state persistend on disk** (though, RAM state is lost) and after some time **it'll rise up again**.

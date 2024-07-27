@@ -1,0 +1,1 @@
+[[Design Documents]] may [[Documents fall behind during evolution|fall behind the project]]. Unused docs  are not serving their main purpose. It makes no sense to waste time updating documents which are never read. Let them be in history.
