@@ -1,12 +1,27 @@
 {
-  "collapse-filter": true,
-  "search": "",
+  "collapse-filter": false,
+  "search": "path:Imaging (tag:#solution OR tag:#feature)))",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#feature",
+      "color": {
+        "a": 1,
+        "rgb": 14114912
+      }
+    },
+    {
+      "query": "tag:#solution",
+      "color": {
+        "a": 1,
+        "rgb": 5165179
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
@@ -17,6 +32,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.2866871219824645,
+  "scale": 1.112608542855452,
   "close": false
 }

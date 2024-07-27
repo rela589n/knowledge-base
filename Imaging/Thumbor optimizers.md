@@ -1,0 +1,2 @@
+- [[jpegtran optimizer]] (either on or off)
+- gifv
