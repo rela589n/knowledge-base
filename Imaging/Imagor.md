@@ -9,6 +9,7 @@ In most features it is Go replacement of [[Thumbor]] (it uses the same url forma
 
 Provides:
 - [[Signed image urls]]
+- [[Images with expiration time]]
 - [[Resizing]]
 - [[Basic Compression]] for jpeg
 - [[MozJPEG optimizer]]
