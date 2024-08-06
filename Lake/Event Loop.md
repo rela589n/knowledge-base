@@ -1,7 +1,7 @@
 
 See https://dev.to/nodedoctors/an-animated-guide-to-nodejs-event-loop-3g62
 
-An event loop is basically a scheme of async processing in sync environments.
+An event loop is basically an algorithm for async processing in sync environments.
 
 First off, there's a call stack, which is used to handle function calls.
 
