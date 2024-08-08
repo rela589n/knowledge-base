@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "4a880e9cc882ab3e",
+        "id": "f67e1bc807348c7d",
         "type": "tabs",
         "children": [
           {
-            "id": "291a391ebb265659",
+            "id": "57b16b451aebf424",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Database/Lake/Deferrable primary key constraint.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Database/Lake/Deferrable primary key constraint.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Database/Lake/Deferrable primary key constraint.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Database/Lake/Deferrable primary key constraint.md"
+              }
             }
           },
           {
@@ -159,38 +167,36 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "291a391ebb265659",
+  "active": "57b16b451aebf424",
   "lastOpenFiles": [
-    "Imaging/Kraken.io.md",
+    "Database/Lake/Deferrable primary key constraint.md",
+    "Imaging/Imaging proxies (self-hosted).md",
+    "Imaging/Imagor.md",
+    "Imaging/Thumbor.md",
     "Imaging/Images with expiration time.md",
-    "Imaging/Facial detection.md",
-    "Lake/Event Loop.md",
-    "PHP/amphp",
-    "PHP/AMPHP",
+    "Imaging/MozJPEG optimizer.md",
+    "Imaging/jpegtran optimizer.md",
+    "Docker/Docker Image.md",
+    "Imaging/Built-in image caching.md",
+    "Imaging/ImgProxy.md",
+    "Imaging/Thumbor optimizers.md",
+    "Imaging/ImgProxy PRO.md",
+    "Imaging/Advanced compression.md",
+    "Imaging/Basic Compression.md",
+    "Imaging/SAAS Imaging solutions.md",
+    "Imaging/Kraken.io.md",
+    "Imaging/Imaging.md",
+    "Imaging/Imaging services (self-hosted).md",
+    "Imaging/Dynamic imaging.md",
+    "Imaging/Signed image urls.md",
     "Algorithms/Untitled Kanban.md",
     "aa.md",
     "Imaging/Imaginary.md",
     "Algorithms/Binary Search.md",
-    "Imaging/Imaging services (self-hosted).md",
-    "Imaging/Imaging.md",
-    "Imaging/MozJPEG optimizer.md",
-    "Imaging/Imagor.md",
-    "Docker/Docker Image.md",
-    "Imaging/Thumbor.md",
-    "Imaging/Thumbor optimizers.md",
-    "Imaging/jpegtran optimizer.md",
-    "Imaging/Advanced compression.md",
     "Imaging/ImageProxy.md",
-    "Imaging/Imaging proxies (self-hosted).md",
-    "Imaging/ImgProxy.md",
-    "Imaging/Built-in image caching.md",
     "Imaging/Sirv.md",
-    "Imaging/Basic Compression.md",
     "Imaging/Facial detection.png",
-    "Imaging/ImgProxy PRO.md",
-    "Monitoring/Sentry/Sentry.md",
     "Monitoring/Sentry",
-    "Imaging/Resizing.md",
     "Docker",
     "Imaging/Dynamic imaging.png",
     "Algorithms",
@@ -199,6 +205,8 @@
     "Img resizing",
     "Tools",
     "Database/DDIA",
+    "RPC",
+    "Monitoring",
     "Untitled.canvas",
     "DDD/Lake/Constrained relationship.png",
     "Database/Lake/Pasted image 20240616181302.png"
