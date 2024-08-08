@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f67e1bc807348c7d",
+        "id": "8e8f4c62ea0909b9",
         "type": "tabs",
         "children": [
           {
-            "id": "57b16b451aebf424",
+            "id": "3fb2673b1dce7503",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/Lake/Deferrable primary key constraint.md",
+                "file": "Docker/Container hosts configuration.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/Lake/Deferrable primary key constraint.md",
+                "file": "Docker/Container hosts configuration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database/Lake/Deferrable primary key constraint.md",
+                "file": "Docker/Container hosts configuration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Database/Lake/Deferrable primary key constraint.md"
+                "file": "Docker/Container hosts configuration.md"
               }
             }
           },
@@ -167,8 +167,9 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "57b16b451aebf424",
+  "active": "3fb2673b1dce7503",
   "lastOpenFiles": [
+    "Docker/Container hosts configuration.md",
     "Database/Lake/Deferrable primary key constraint.md",
     "Imaging/Imaging proxies (self-hosted).md",
     "Imaging/Imagor.md",
@@ -194,7 +195,6 @@
     "Imaging/Imaginary.md",
     "Algorithms/Binary Search.md",
     "Imaging/ImageProxy.md",
-    "Imaging/Sirv.md",
     "Imaging/Facial detection.png",
     "Monitoring/Sentry",
     "Docker",
