@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8e8f4c62ea0909b9",
+        "id": "ee1c63a619abf1d9",
         "type": "tabs",
         "children": [
           {
-            "id": "3fb2673b1dce7503",
+            "id": "ab66cfc3304ac543",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Container hosts configuration.md",
+                "file": "PHP/Lazy Objects.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Container hosts configuration.md",
+                "file": "PHP/Lazy Objects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/Container hosts configuration.md",
+                "file": "PHP/Lazy Objects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Container hosts configuration.md"
+                "file": "PHP/Lazy Objects.md"
               }
             }
           },
@@ -167,34 +167,36 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "3fb2673b1dce7503",
+  "active": "ab66cfc3304ac543",
   "lastOpenFiles": [
+    "PHP/Lazy Objects.md",
+    "PHP/Symfony/Symfony microservices.md",
     "Docker/Container hosts configuration.md",
     "Database/Lake/Deferrable primary key constraint.md",
-    "Imaging/Imaging proxies (self-hosted).md",
-    "Imaging/Imagor.md",
-    "Imaging/Thumbor.md",
-    "Imaging/Images with expiration time.md",
-    "Imaging/MozJPEG optimizer.md",
-    "Imaging/jpegtran optimizer.md",
-    "Docker/Docker Image.md",
-    "Imaging/Built-in image caching.md",
-    "Imaging/ImgProxy.md",
-    "Imaging/Thumbor optimizers.md",
-    "Imaging/ImgProxy PRO.md",
-    "Imaging/Advanced compression.md",
-    "Imaging/Basic Compression.md",
-    "Imaging/SAAS Imaging solutions.md",
     "Imaging/Kraken.io.md",
-    "Imaging/Imaging.md",
-    "Imaging/Imaging services (self-hosted).md",
-    "Imaging/Dynamic imaging.md",
-    "Imaging/Signed image urls.md",
+    "Imaging/Images with expiration time.md",
+    "Imaging/Facial detection.md",
+    "Lake/Event Loop.md",
+    "PHP/amphp",
+    "PHP/AMPHP",
     "Algorithms/Untitled Kanban.md",
     "aa.md",
     "Imaging/Imaginary.md",
     "Algorithms/Binary Search.md",
+    "Imaging/Imaging services (self-hosted).md",
+    "Imaging/Imaging.md",
+    "Imaging/MozJPEG optimizer.md",
+    "Imaging/Imagor.md",
+    "Docker/Docker Image.md",
+    "Imaging/Thumbor.md",
+    "Imaging/Thumbor optimizers.md",
+    "Imaging/jpegtran optimizer.md",
+    "Imaging/Advanced compression.md",
     "Imaging/ImageProxy.md",
+    "Imaging/Imaging proxies (self-hosted).md",
+    "Imaging/ImgProxy.md",
+    "Imaging/Built-in image caching.md",
+    "Imaging/Sirv.md",
     "Imaging/Facial detection.png",
     "Monitoring/Sentry",
     "Docker",
@@ -205,8 +207,6 @@
     "Img resizing",
     "Tools",
     "Database/DDIA",
-    "RPC",
-    "Monitoring",
     "Untitled.canvas",
     "DDD/Lake/Constrained relationship.png",
     "Database/Lake/Pasted image 20240616181302.png"
