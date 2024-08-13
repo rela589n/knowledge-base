@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PHP/Lazy Objects.md",
+                "file": "PHP/Symfony/Autowire method.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PHP/Lazy Objects.md",
+                "file": "PHP/Symfony/Autowire method.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PHP/Lazy Objects.md",
+                "file": "PHP/Symfony/Autowire method.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PHP/Lazy Objects.md"
+                "file": "PHP/Symfony/Autowire method.md"
               }
             }
           },
@@ -170,6 +170,7 @@
   "active": "ab66cfc3304ac543",
   "lastOpenFiles": [
     "PHP/Lazy Objects.md",
+    "PHP/Symfony/Autowire method.md",
     "PHP/Symfony/Symfony microservices.md",
     "Docker/Container hosts configuration.md",
     "Database/Lake/Deferrable primary key constraint.md",
@@ -196,7 +197,6 @@
     "Imaging/Imaging proxies (self-hosted).md",
     "Imaging/ImgProxy.md",
     "Imaging/Built-in image caching.md",
-    "Imaging/Sirv.md",
     "Imaging/Facial detection.png",
     "Monitoring/Sentry",
     "Docker",
