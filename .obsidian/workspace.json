@@ -11,8 +11,12 @@
             "id": "3396f4b90489995d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "PHP/Symfony/Recursive services.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "PHP/Symfony/Recursive services.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "PHP/Symfony/Recursive services.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "PHP/Symfony/Recursive services.md"
+              }
             }
           },
           {
@@ -161,6 +169,7 @@
   },
   "active": "3396f4b90489995d",
   "lastOpenFiles": [
+    "PHP/Symfony/Recursive services.md",
     "PHP/Psalm in a separate composer.json.md",
     "PHP/Symfony/Autowire method.md",
     "PHP/Lazy Objects.md",
@@ -188,7 +197,6 @@
     "Imaging/Advanced compression.md",
     "Imaging/ImageProxy.md",
     "Imaging/Imaging proxies (self-hosted).md",
-    "Imaging/ImgProxy.md",
     "Imaging/Facial detection.png",
     "Monitoring/Sentry",
     "Docker",
