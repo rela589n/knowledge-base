@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "ee1c63a619abf1d9",
+        "id": "6802e00c183fd594",
         "type": "tabs",
         "children": [
           {
-            "id": "ab66cfc3304ac543",
+            "id": "3396f4b90489995d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PHP/Symfony/Autowire method.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PHP/Symfony/Autowire method.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PHP/Symfony/Autowire method.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "PHP/Symfony/Autowire method.md"
-              }
+              "state": {}
             }
           },
           {
@@ -167,10 +159,11 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "ab66cfc3304ac543",
+  "active": "3396f4b90489995d",
   "lastOpenFiles": [
-    "PHP/Lazy Objects.md",
+    "PHP/Psalm in a separate composer.json.md",
     "PHP/Symfony/Autowire method.md",
+    "PHP/Lazy Objects.md",
     "PHP/Symfony/Symfony microservices.md",
     "Docker/Container hosts configuration.md",
     "Database/Lake/Deferrable primary key constraint.md",
@@ -196,7 +189,6 @@
     "Imaging/ImageProxy.md",
     "Imaging/Imaging proxies (self-hosted).md",
     "Imaging/ImgProxy.md",
-    "Imaging/Built-in image caching.md",
     "Imaging/Facial detection.png",
     "Monitoring/Sentry",
     "Docker",
