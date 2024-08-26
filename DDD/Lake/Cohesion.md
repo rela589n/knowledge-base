@@ -1,0 +1,1 @@
+The extent of connection of conceptually related things together.

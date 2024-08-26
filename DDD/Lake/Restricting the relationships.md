@@ -8,6 +8,8 @@ Also, a questionnaire may have many answered sections (1-many), but they are con
 ```php
 public function getAnsweredSection(Section $s): AnsweredSection
 {
-	return $this->answeredSections->oneOfSection($s);
+	return $this->answeredSections
+	    ->matching('section = :$s')
+	    ->first();
 }
 ```
