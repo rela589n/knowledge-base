@@ -8,54 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0592877e76d66157",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "DDD/Lake/Modeling paradigms.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 1,
-                  "close": false
-                }
-              }
-            }
-          },
-          {
             "id": "ef061daaffa5deab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DDD/Lake/Modeling paradigms.md",
+                "file": "DDD/Lake/DDD Modeling paradigms.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -129,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DDD/Lake/Modeling paradigms.md",
+                "file": "DDD/Lake/DDD Modeling paradigms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DDD/Lake/Modeling paradigms.md",
+                "file": "DDD/Lake/DDD Modeling paradigms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DDD/Lake/Modeling paradigms.md"
+                "file": "DDD/Lake/DDD Modeling paradigms.md"
               }
             }
           },
@@ -206,7 +170,7 @@
   "active": "ef061daaffa5deab",
   "lastOpenFiles": [
     "DDD/Lake/Distilling the model.md",
-    "DDD/Lake/Modeling paradigms.md",
+    "DDD/Lake/DDD Modeling paradigms.md",
     "DDD/Lake/Restricting the relationships.md",
     "DDD/Lake/Associations.md",
     "DDD/Lake/Imposing traversal direction.md",
