@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DDD/Lake/DDD Modeling paradigms.md",
+                "file": "Database/PostgreSQL/PostgreSQL docker configuration.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DDD/Lake/DDD Modeling paradigms.md",
+                "file": "Database/PostgreSQL/PostgreSQL docker configuration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DDD/Lake/DDD Modeling paradigms.md",
+                "file": "Database/PostgreSQL/PostgreSQL docker configuration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DDD/Lake/DDD Modeling paradigms.md"
+                "file": "Database/PostgreSQL/PostgreSQL docker configuration.md"
               }
             }
           },
@@ -169,8 +169,11 @@
   },
   "active": "ef061daaffa5deab",
   "lastOpenFiles": [
-    "DDD/Lake/Distilling the model.md",
     "DDD/Lake/DDD Modeling paradigms.md",
+    "Database/PostgreSQL/PostgreSQL docker configuration.md",
+    "DDD/Lake/Model-driven Design.md",
+    "DDD/Lake/Rules engine.md",
+    "DDD/Lake/Distilling the model.md",
     "DDD/Lake/Restricting the relationships.md",
     "DDD/Lake/Associations.md",
     "DDD/Lake/Imposing traversal direction.md",
@@ -194,9 +197,6 @@
     "Lake/Event Loop.md",
     "PHP/amphp",
     "PHP/AMPHP",
-    "Algorithms/Untitled Kanban.md",
-    "aa.md",
-    "Imaging/Imaginary.md",
     "Imaging/Facial detection.png",
     "Monitoring/Sentry",
     "Docker",
