@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6b0d079f2b16a40f",
+        "id": "1f2f59db71d5fd8f",
         "type": "tabs",
         "children": [
           {
-            "id": "7b1669a6e9e9491e",
+            "id": "57689bb58cd891ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -167,10 +167,11 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "7b1669a6e9e9491e",
+  "active": "57689bb58cd891ff",
   "lastOpenFiles": [
-    "Nginx/Nginx.md",
+    "PHP/PHP-FPM configuration.md",
     "PHP/PHP-FPM lifecycle.md",
+    "Nginx/Nginx.md",
     "PHP/PHP-FPM strategies.md",
     "Pasted image 20240914203222.png",
     "PHP/Pasted image 20240914203127.png",
