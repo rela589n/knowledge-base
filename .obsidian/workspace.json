@@ -169,9 +169,9 @@
   },
   "active": "de8e35c05dfed31d",
   "lastOpenFiles": [
-    "Database/RabbitMQ/RabbitMQ.md",
-    "Database/RabbitMQ/Scheduled messages processing.md",
     "Database/RabbitMQ/Dead-letter exchange (DLX).md",
+    "Database/RabbitMQ/Scheduled messages processing.md",
+    "Database/RabbitMQ/RabbitMQ.md",
     "Database/RabbitMQ/Headers exchange.md",
     "Database/RabbitMQ/RabbitMQ exchanges.md",
     "Database/RabbitMQ/Direct exchange.md",
