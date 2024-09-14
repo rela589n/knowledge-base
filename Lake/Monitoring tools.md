@@ -2,7 +2,6 @@
 aliases:
   - monitoring tool
 ---
-
-See:
+Monitoring tools:
 - [[Prometheus]]
 - 

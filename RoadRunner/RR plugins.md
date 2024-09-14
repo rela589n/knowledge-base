@@ -1,3 +1,6 @@
 Are used to generate input requests for [[RR Server]] to handle.
 
-See [[RR available plugins]]
+Available plugins:
+- [[RR HTTP plugin|HTTP]]
+- [[RR Centrifugo Plugin|Centrifugo]]
+- - [[RR Temporal Plugin|Temporal ]]

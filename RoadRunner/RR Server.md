@@ -5,10 +5,12 @@ The server is capable of nothing by itself w/o [[RR plugins]] .
 ```yaml
 version: '3'  
 server:  
-    # RR uses a single server approach
-    # This server could only handle incoming http requests
-    # If something else (like queued processing) is needed, then server.command
-    # should contain a php file that could handle both types of requests (depending on incoming RR_MODE env)
+    # RR uses a single entry point approach
+    # This server could handle either incoming 
+    # http requests or queued processing or anything
+    # else (then server.command should contain a single
+    # php file that could handle all types of incoming
+    # requests depending on RR_MODE env
 	command: "php server.php"
 ```
 
