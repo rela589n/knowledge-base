@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1f2f59db71d5fd8f",
+        "id": "c25b02f9d5a57f43",
         "type": "tabs",
         "children": [
           {
-            "id": "57689bb58cd891ff",
+            "id": "8a4efebb108df60c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PHP/PHP-FPM lifecycle.md",
+                "file": "PHP/JWT/Lexik empty jwt.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PHP/PHP-FPM lifecycle.md",
+                "file": "PHP/JWT/Lexik empty jwt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PHP/PHP-FPM lifecycle.md",
+                "file": "PHP/JWT/Lexik empty jwt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PHP/PHP-FPM lifecycle.md"
+                "file": "PHP/JWT/Lexik empty jwt.md"
               }
             }
           },
@@ -167,40 +167,39 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "57689bb58cd891ff",
+  "active": "8a4efebb108df60c",
   "lastOpenFiles": [
-    "PHP/PHP-FPM configuration.md",
-    "PHP/PHP-FPM lifecycle.md",
-    "Nginx/Nginx.md",
-    "PHP/PHP-FPM strategies.md",
+    "PHP/JWT/Lexik empty jwt.md",
+    "PHP/JWT",
+    "Docker/Container hosts configuration.md",
     "Pasted image 20240914203222.png",
+    "PHP/Symfony/Symfony microservices.md",
+    "PHP/Symfony/Recursive services.md",
+    "PHP/Symfony/Autowire method.md",
+    "PHP/Psalm in a separate composer.json.md",
     "PHP/Pasted image 20240914203127.png",
-    "PHP/PHP Sockets.md",
+    "PHP/PHP-FPM strategies.md",
+    "PHP/PHP-FPM lifecycle.md",
+    "PHP/PHP-FPM configuration.md",
+    "PHP/Lazy Objects.md",
+    "Nginx/Nginx.md",
     "Nginx",
-    "RoadRunner/RR Server.md",
-    "RoadRunner/RR plugins.md",
-    "RoadRunner/RR Centrifugo Plugin.md",
-    "RoadRunner/RR Centrifuge Prometheus integration.md",
-    "Centrifugo/Centrifugo.md",
-    "RoadRunner/RR HTTP plugin.md",
-    "RoadRunner/RR available plugins.md",
-    "RoadRunner/RR Single entry point.md",
-    "RoadRunner/RoadRunner.md",
-    "gRPC/gRPC.md",
-    "Lake/Thundering herd effect.md",
-    "Lake/Socket.md",
-    "Lake/Monitoring tools.md",
-    "Monitoring/Prometheus/Prometheus.md",
-    "Lake/Event Loop.md",
-    "Database/RabbitMQ/Default exchange.md",
-    "Database/PostgreSQL/PostgreSQL docker configuration.md",
+    "Database/RabbitMQ/Topic exchange.md",
     "Database/RabbitMQ/Scheduled messages processing.md",
-    "Database/RabbitMQ/Dead-letter exchange (DLX).md",
     "Database/RabbitMQ/RabbitMQ.md",
+    "Database/RabbitMQ/RabbitMQ exchanges.md",
     "Database/RabbitMQ/Headers exchange.md",
+    "Database/RabbitMQ/Fanout exchange.md",
+    "Database/RabbitMQ/Exchange to Exchange.md",
+    "Database/RabbitMQ/Direct exchange.md",
+    "Database/RabbitMQ/Default exchange.md",
+    "Database/RabbitMQ/Dead-letter exchange (DLX).md",
     "Database/RabbitMQ",
-    "PHP/amphp",
-    "PHP/AMPHP",
+    "Database/PostgreSQL/PostgreSQL docker configuration.md",
+    "DDD/Lake/Rules engine.md",
+    "DDD/Lake/Restricting the relationships.md",
+    "DDD/Lake/Folder by type packaging.md",
+    "DDD/Lake/DDD Modeling paradigms.md",
     "Imaging/Facial detection.png",
     "Monitoring/Sentry",
     "Docker",
@@ -209,6 +208,7 @@
     "Imaging/Untitled",
     "Imaging",
     "Img resizing",
+    "Tools",
     "Untitled.canvas",
     "DDD/Lake/Constrained relationship.png",
     "Database/Lake/Pasted image 20240616181302.png"
