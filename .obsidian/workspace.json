@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PHP/JWT/Lexik empty jwt.md",
+                "file": "Nginx/Nginx https.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PHP/JWT/Lexik empty jwt.md",
+                "file": "Nginx/Nginx https.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PHP/JWT/Lexik empty jwt.md",
+                "file": "Nginx/Nginx https.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PHP/JWT/Lexik empty jwt.md"
+                "file": "Nginx/Nginx https.md"
               }
             }
           },
@@ -169,6 +169,8 @@
   },
   "active": "8a4efebb108df60c",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Nginx/Nginx https.md",
     "PHP/JWT/Lexik empty jwt.md",
     "PHP/JWT",
     "Docker/Container hosts configuration.md",
@@ -198,8 +200,6 @@
     "Database/PostgreSQL/PostgreSQL docker configuration.md",
     "DDD/Lake/Rules engine.md",
     "DDD/Lake/Restricting the relationships.md",
-    "DDD/Lake/Folder by type packaging.md",
-    "DDD/Lake/DDD Modeling paradigms.md",
     "Imaging/Facial detection.png",
     "Monitoring/Sentry",
     "Docker",
