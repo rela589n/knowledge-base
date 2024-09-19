@@ -34,3 +34,6 @@ Therefore, if we have [[Third quartile|p75]] [[Server-side response time]] as 0.
 
 It doesn't necessarily mean that no users will ever wait for longer than 3 seconds. Due to [[Head of Line Blocking]], there could be one request lasting 10 seconds just because it takes some time to process. Some other request would need to wait for it to complete. Though, in [[Third quartile|p75]] perspective, given configuration provides [[Client-side response time]] as 3 seconds.
 
+What will happen if system operates on 32 RPS (100% capacity) and then load increases to 33 RPS (103%)? After 96 seconds queue will become full and every second one unlucky request will be dropped. The overall [[Client-side response time]] in p75 of cases will increase to around 3 seconds instead of 0.5. Yet, there are still [[First quartile|p25]] that could experience response time of more than 3 seconds.
+
+ The overall [[Client-side response time]] in p75 of cases will increase to around 3 seconds instead of 0.5. Yet, there are still [[First quartile|p25]] that could experience response time of more than 3 seconds.

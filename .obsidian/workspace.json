@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RPS/Thundering herd effect.md",
+                "file": "RPS/Request allocation timeout.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RPS/Thundering herd effect.md",
+                "file": "RPS/Request allocation timeout.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "RPS/Thundering herd effect.md",
+                "file": "RPS/Request allocation timeout.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RPS/Thundering herd effect.md"
+                "file": "RPS/Request allocation timeout.md"
               }
             }
           },
@@ -169,8 +169,11 @@
   },
   "active": "5bd12d04aed82b80",
   "lastOpenFiles": [
-    "RPS/Configuring max queue size.md",
     "RPS/Max queue size.md",
+    "RPS/Max queue size configuration.md",
+    "RPS/Request allocation timeout.md",
+    "RPS/First quartile.md",
+    "RPS/Thundering herd effect.md",
     "RPS.md",
     "RPS/Third quartile.md",
     "RPS/Client-side response time.md",
@@ -180,14 +183,12 @@
     "Database/Lake/Head of Line Blocking.md",
     "RPS/Median percentile.md",
     "RPS/Percentiles.md",
-    "RPS/Thundering herd effect.md",
     "RPS/Quartiles Percentiles.png",
     "Database/Lake/Network Timeouts.md",
     "Database/Lake/Real-time systems.md",
     "Database/Lake/Scalability.md",
     "RPS/Service level objectives.md",
     "RPS/Arithmetic average.md",
-    "RPS/First quartile.md",
     "SLO.md",
     "RPS/Service level agreements.md",
     "RPS/Load spike.md",
@@ -196,7 +197,6 @@
     "RPS",
     "RoadRunner/Roadrunner Debug Mode.md",
     "RoadRunner/Roadrunner Installation.md",
-    "RoadRunner/RR allows RPC calls to Go.md",
     "Monitoring/Prometheus/Prometheus chart.png",
     "Monitoring/Grafana",
     "PHP/JWT",

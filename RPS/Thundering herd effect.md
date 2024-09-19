@@ -7,24 +7,24 @@ Suppose you have 3 servers that operate at their 100% capacity of 100 req/s:
 
 Hence, it's 300 requests that are processed each second with the input rate of 300 req/s.
 
-- 1 - 300
-- 2 - 300
-- 3 - 300
+- 1s - 300
+- 2s - 300
+- 3s - 300
 
 Up to this point it all works fine, but it's the last point system can operate. If we increase rate just by 1 req/second, - the system will stop operating after some time.
 
-| Second | Input | Processed | Left |
-| ------ | ----- | --------- | ---- |
-| 1      | 301   | 300       | 1    |
-| 2      | 302   | 300       | 2    |
-| 3      | 303   | 300       | 3    |
+| Second | Input | Processed | Queued |
+| ------ | ----- | --------- | ------ |
+| 1      | 301   | 300       | 1      |
+| 2      | 302   | 300       | 2      |
+| 3      | 303   | 300       | 3      |
 
 After some time, 300 seconds (5 minutes) to be more precise,  queue would be filled with 300 pending requests:
 
-| Second | Input | Processed | Left |
-| ------ | ----- | --------- | ---- |
-| 300    | 600   | 300       | 300  |
-| 301    | 601   | 300       | 301  |
+| Second | Input | Processed | Queued |
+| ------ | ----- | --------- | ------ |
+| 300    | 600   | 300       | 300    |
+| 301    | 601   | 300       | 301    |
 
 Basically at this point, if a user sends the request, it'll have [[Latency]] of two seconds, meaning that it won't be get into processing until first 600 requests from the [[Head of Line Blocking|head of line]] are processed.
 
@@ -43,11 +43,11 @@ Now, let's get back to the original system state when it consumes 300 [[Request 
 
 Consider something goes wrong with the third server (system fault, or temporary power outage). The rest two servers will face a **thundering herd** of 100 requests per second:
 
-| Second | Input | Processed | Left |
-| ------ | ----- | --------- | ---- |
-| 1      | 300   | 200       | 100  |
-| 2      | 400   | 200       | 200  |
-| 3      | 500   | 200       | 300  |
+| Second | Input | Processed | Queue |
+| ------ | ----- | --------- | ----- |
+| 1      | 300   | 200       | 100   |
+| 2      | 400   | 200       | 200   |
+| 3      | 500   | 200       | 300   |
 
 Obviously in this scenario queue grows tremendously fast - with an increasing speed of 100 [[Request per second|RPS]] per second.
 
@@ -76,21 +76,21 @@ Le'ts consider that we stick with max queue size of 100 items. This would mean t
 
 Therefore, during the load spike we'll get the following situation:
 
-| Second | Input | Processed | Left | Rejected |
-| ------ | ----- | --------- | ---- | -------- |
-| 1      | 300   | 300       | 0    | 0        |
-| 2      | 301   | 300       | 0    | 1        |
-| 3      | 337   | 300       | 0    | 37       |
+| Second | Input | Processed | Queued | Rejected |
+| ------ | ----- | --------- | ------ | -------- |
+| 1      | 300   | 300       | 0      | 0        |
+| 2      | 301   | 300       | 0      | 1        |
+| 3      | 337   | 300       | 0      | 37       |
 
 Not ideal for that 301-st user whose request will not be  processed, but it's far better for the system, since the complete crash because of thundering herd effect will not happen.
 
 In case if third server suddenly crashes, only 2/3 of requests will be processed, - which is still quite a bad situation:
 
-| Second | Input | Processed | Left | Rejected |
-| ------ | ----- | --------- | ---- | -------- |
-| 1      | 300   | 200       | 0    | 100      |
-| 2      | 301   | 200       | 0    | 101      |
-| 3      | 337   | 200       | 0    | 137      |
+| Second | Input | Processed | Queued | Rejected |
+| ------ | ----- | --------- | ------ | -------- |
+| 1      | 300   | 200       | 0      | 100      |
+| 2      | 301   | 200       | 0      | 101      |
+| 3      | 337   | 200       | 0      | 137      |
 
 If it was a temporary power outage on the third server, presumably it'll get back very soon (let's say up to a minute). Then, having the same input rate of 300 [[Request per second|RPS]], all these requests will be processed.
 
