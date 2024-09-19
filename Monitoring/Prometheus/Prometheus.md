@@ -5,3 +5,5 @@ It allows you to get the insights about what happens in your application from th
 It works by scrapping your endpoint response in [[OpenMetrics format]]. 
 
 Basically, there are open-source solutions ([prometheus bundle](https://github.com/artprima/prometheus-metrics-bundle)) that provide tools for you to collect the metrics right away as the events happen (e.g. user gets registered) and store them into some external Redis/Apcu storage, exposing these from public endpoint later on.
+
+![[Prometheus chart.png]]

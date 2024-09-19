@@ -1,3 +1,3 @@
-Latency and response time are not the same. 
+Latency and [[Response time]] are not the same. 
 
-**Latency** is the actual time of request waiting to be handled.
+**Latency** is the actual time of request waiting in the queue ([[Head of Line Blocking]]) to be handled.

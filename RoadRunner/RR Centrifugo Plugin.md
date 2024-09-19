@@ -1,4 +1,4 @@
 [[RoadRunner|RR]] has a [[Centrifugo]]  integration.
 
-Also, there's a [[RR Centrifuge Prometheus integration]].
+Also, there's a [[Roadrunner Prometheus integration]].
 

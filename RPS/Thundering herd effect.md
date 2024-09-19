@@ -1,3 +1,5 @@
+Thundering herd effect, or why **max queue size is important**.
+
 Suppose you have 3 servers that operate at their 100% capacity of 100 req/s:
 - 100 req/s
 - 100 req/s

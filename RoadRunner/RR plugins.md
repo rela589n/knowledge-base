@@ -1,4 +1,4 @@
-Are used to generate input requests for [[RR Server]] to handle.
+Are used to generate input requests for [[Roadrunner Server]] to handle.
 
 Available plugins:
 - [[RR HTTP plugin|HTTP]]

@@ -1,1 +1,2 @@
-**Head of line blocking** - when batch of requests are pushed for processing (like to nginx), if **slow request is in the head of line**, all subsequent requests (usually fast ones) are **waiting for the slow** to complete. Therefore it is important to measure client-side response times.
+**Head of line blocking** - when batch of requests are pushed for processing (like to nginx), if **slow request is in the head of line**, all subsequent requests (usually fast ones) are **waiting for the slow** to complete. 
+Therefore it is important to measure client-side [[Response time|response times]].

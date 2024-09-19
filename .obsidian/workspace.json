@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1f2f59db71d5fd8f",
+        "id": "9ccea93bb82b7082",
         "type": "tabs",
         "children": [
           {
-            "id": "57689bb58cd891ff",
+            "id": "5bd12d04aed82b80",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Monitoring/Prometheus/Prometheus.md",
+                "file": "RPS/Thundering herd effect.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"field tag\"",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Monitoring/Prometheus/Prometheus.md",
+                "file": "RPS/Thundering herd effect.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Monitoring/Prometheus/Prometheus.md",
+                "file": "RPS/Thundering herd effect.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Monitoring/Prometheus/Prometheus.md"
+                "file": "RPS/Thundering herd effect.md"
               }
             }
           },
@@ -167,39 +167,42 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "57689bb58cd891ff",
+  "active": "5bd12d04aed82b80",
   "lastOpenFiles": [
-    "Monitoring/Monitoring tools.md",
-    "Monitoring/Grafana/Grafana.md",
-    "Monitoring/Grafana",
-    "Monitoring/Sentry/Sentry.md",
+    "RPS/Configuring max queue size.md",
+    "RPS/Max queue size.md",
+    "RPS.md",
+    "RPS/Third quartile.md",
+    "RPS/Client-side response time.md",
+    "RPS/Response time.md",
+    "RPS/Server-side response time.md",
+    "Database/Lake/Latency.md",
+    "Database/Lake/Head of Line Blocking.md",
+    "RPS/Median percentile.md",
+    "RPS/Percentiles.md",
+    "RPS/Thundering herd effect.md",
+    "RPS/Quartiles Percentiles.png",
+    "Database/Lake/Network Timeouts.md",
+    "Database/Lake/Real-time systems.md",
+    "Database/Lake/Scalability.md",
+    "RPS/Service level objectives.md",
+    "RPS/Arithmetic average.md",
+    "RPS/First quartile.md",
+    "SLO.md",
+    "RPS/Service level agreements.md",
+    "RPS/Load spike.md",
     "Monitoring/Prometheus/Prometheus.md",
-    "Monitoring/Prometheus/OpenMetrics format.md",
-    "PHP/PHP-FPM lifecycle.md",
-    "Untitled.md",
-    "PHP/JWT/Lexik empty jwt.md",
+    "RPS/Request per second.md",
+    "RPS",
+    "RoadRunner/Roadrunner Debug Mode.md",
+    "RoadRunner/Roadrunner Installation.md",
+    "RoadRunner/RR allows RPC calls to Go.md",
+    "Monitoring/Prometheus/Prometheus chart.png",
+    "Monitoring/Grafana",
     "PHP/JWT",
-    "Nginx/Nginx https.md",
-    "PHP/PHP-FPM configuration.md",
-    "Nginx/Nginx.md",
-    "PHP/PHP-FPM strategies.md",
     "Pasted image 20240914203222.png",
     "PHP/Pasted image 20240914203127.png",
-    "PHP/PHP Sockets.md",
     "Nginx",
-    "RoadRunner/RR Server.md",
-    "RoadRunner/RR plugins.md",
-    "RoadRunner/RR Centrifugo Plugin.md",
-    "RoadRunner/RR Centrifuge Prometheus integration.md",
-    "Centrifugo/Centrifugo.md",
-    "RoadRunner/RR HTTP plugin.md",
-    "RoadRunner/RR available plugins.md",
-    "RoadRunner/RR Single entry point.md",
-    "RoadRunner/RoadRunner.md",
-    "gRPC/gRPC.md",
-    "Lake/Thundering herd effect.md",
-    "Lake/Socket.md",
-    "Lake/Event Loop.md",
     "Database/RabbitMQ",
     "PHP/amphp",
     "PHP/AMPHP",
@@ -208,7 +211,6 @@
     "Docker",
     "Imaging/Dynamic imaging.png",
     "Algorithms",
-    "Imaging/Untitled",
     "Untitled.canvas",
     "DDD/Lake/Constrained relationship.png",
     "Database/Lake/Pasted image 20240616181302.png"
