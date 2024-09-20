@@ -1,13 +1,15 @@
-![[Latency]]
+See [[Percentiles distribution chart]].
+
+Could be used to measure:
+- [[Latency]];
+- [[Response time]].
 
 There are quartile percentiles:
-- [[Median percentile]]
-- [[First quartile]]
-- [[Third quartile]]
+- [[First quartile]];
+- [[Median percentile]];
+- [[Third quartile]].
 
-Also, there are be **90-th percentile**, **95-th**, **99.9-th percentiles**.
-
-![[Quartiles Percentiles.png]]
+Also, there are **90-th percentile**, **95-th**, **99.9-th percentiles**.
 
 [[Service level objectives]] & [[Service level agreements]] usually are **described in percentiles**.
 
