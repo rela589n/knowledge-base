@@ -5,9 +5,11 @@ Use following config to enable https:
 ```
 listen 443 ssl http2;  
 
-ssl_certificate         /opt/ssl/certificate.crt;  
-ssl_certificate_key     /opt/ssl/privateKey.key;
+ssl_certificate         /etc/ssl/certificate.crt;  
+ssl_certificate_key     /etc/ssl/privateKey.key;
 ```
+
+See [[Generate self-signed certificate]].
 
 #### HTTPS header (*very important*)
 
