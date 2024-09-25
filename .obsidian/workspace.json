@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PHP/Symfony/Symfony yaml anchor configuration.md",
+                "file": "PHP/Symfony/Symfony tagged locator.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PHP/Symfony/Symfony yaml anchor configuration.md",
+                "file": "PHP/Symfony/Symfony tagged locator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PHP/Symfony/Symfony yaml anchor configuration.md",
+                "file": "PHP/Symfony/Symfony tagged locator.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PHP/Symfony/Symfony yaml anchor configuration.md"
+                "file": "PHP/Symfony/Symfony tagged locator.md"
               }
             }
           },
@@ -169,8 +169,9 @@
   },
   "active": "294fc859b11a69c5",
   "lastOpenFiles": [
-    "PHP/Symfony/Nelmio api doc Area is not supported in bundle.md",
     "PHP/Symfony/Symfony yaml anchor configuration.md",
+    "PHP/Symfony/Symfony tagged locator.md",
+    "PHP/Symfony/Nelmio api doc Area is not supported in bundle.md",
     "PHP/Symfony/Symfony configuration default key.md",
     "PHP/PHP docker image.md",
     "PHP/Composer/Composer docker installation.md",
@@ -197,7 +198,6 @@
     "RPS/Server-side response time.md",
     "RPS/First quartile.md",
     "RPS/Thundering herd effect.md",
-    "RPS.md",
     "RPS/Quartiles Percentiles.png",
     "RPS",
     "Monitoring/Prometheus/Prometheus chart.png",
