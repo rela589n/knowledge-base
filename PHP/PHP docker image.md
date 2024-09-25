@@ -10,3 +10,7 @@ Installation of php extensions in docker:
 - `docker-php-ext-enable`
 
 See https://hub.docker.com/_/php
+
+See:
+- [[Composer docker installation]]
+- [[PHP pgsql docker installation]]

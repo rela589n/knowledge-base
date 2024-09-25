@@ -11,8 +11,12 @@
             "id": "294fc859b11a69c5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "PHP/Symfony/Symfony configuration default key.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "PHP/Symfony/Symfony configuration default key.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "PHP/Symfony/Symfony configuration default key.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "PHP/Symfony/Symfony configuration default key.md"
+              }
             }
           },
           {
@@ -161,13 +169,15 @@
   },
   "active": "294fc859b11a69c5",
   "lastOpenFiles": [
-    "PHP/Composer/Composer Docker installation.md",
+    "PHP/PHP docker image.md",
+    "PHP/Symfony/Symfony configuration default key.md",
+    "PHP/Composer/Composer docker installation.md",
+    "PHP/PHP pgsql docker installation.md",
     "PHP/Composer",
     "PHP/Psalm in a separate composer.json.md",
     "Nginx/Nginx https.md",
     "Nginx/Generate self-signed certificate.md",
     "PHP/PHP-fpm vs PHP-cli.md",
-    "PHP/PHP Docker images.md",
     "RPS/Max queue size configuration.md",
     "RPS/Max queue size.md",
     "RPS/Request allocation timeout.md",
@@ -188,9 +198,7 @@
     "RPS.md",
     "RPS/Third quartile.md",
     "RPS/Client-side response time.md",
-    "RPS/Response time.md",
     "RPS/Quartiles Percentiles.png",
-    "Database/Lake/Network Timeouts.md",
     "RPS",
     "Monitoring/Prometheus/Prometheus chart.png",
     "Monitoring/Grafana",
