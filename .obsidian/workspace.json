@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PHP/Symfony/Symfony configuration default key.md",
+                "file": "PHP/Symfony/Symfony yaml anchor configuration.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PHP/Symfony/Symfony configuration default key.md",
+                "file": "PHP/Symfony/Symfony yaml anchor configuration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PHP/Symfony/Symfony configuration default key.md",
+                "file": "PHP/Symfony/Symfony yaml anchor configuration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PHP/Symfony/Symfony configuration default key.md"
+                "file": "PHP/Symfony/Symfony yaml anchor configuration.md"
               }
             }
           },
@@ -169,8 +169,10 @@
   },
   "active": "294fc859b11a69c5",
   "lastOpenFiles": [
-    "PHP/PHP docker image.md",
+    "PHP/Symfony/Nelmio api doc Area is not supported in bundle.md",
+    "PHP/Symfony/Symfony yaml anchor configuration.md",
     "PHP/Symfony/Symfony configuration default key.md",
+    "PHP/PHP docker image.md",
     "PHP/Composer/Composer docker installation.md",
     "PHP/PHP pgsql docker installation.md",
     "PHP/Composer",
@@ -196,8 +198,6 @@
     "RPS/First quartile.md",
     "RPS/Thundering herd effect.md",
     "RPS.md",
-    "RPS/Third quartile.md",
-    "RPS/Client-side response time.md",
     "RPS/Quartiles Percentiles.png",
     "RPS",
     "Monitoring/Prometheus/Prometheus chart.png",
