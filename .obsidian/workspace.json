@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c25b02f9d5a57f43",
+        "id": "b1288c97a2329de0",
         "type": "tabs",
         "children": [
           {
-            "id": "8a4efebb108df60c",
+            "id": "db6add9a2d5a38bf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lake/Ssh config.md",
+                "file": "PHP/Psalm stub does not load.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lake/Ssh config.md",
+                "file": "PHP/Psalm stub does not load.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lake/Ssh config.md",
+                "file": "PHP/Psalm stub does not load.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lake/Ssh config.md"
+                "file": "PHP/Psalm stub does not load.md"
               }
             }
           },
@@ -167,10 +167,11 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "8a4efebb108df60c",
+  "active": "db6add9a2d5a38bf",
   "lastOpenFiles": [
-    "Nginx/Nginx https.md",
+    "PHP/Psalm stub does not load.md",
     "Lake/Ssh config.md",
+    "Nginx/Nginx https.md",
     "RoadRunner/Roadrunner Server.md",
     "RoadRunner/Roadrunner Relay.md",
     "RoadRunner/Roadrunner Prometheus integration.md",
@@ -197,7 +198,6 @@
     "RPS/Load spike.md",
     "RPS/First quartile.md",
     "RPS/Client-side response time.md",
-    "RPS/Arithmetic average.md",
     "RPS",
     "PHP/Composer",
     "Monitoring/Prometheus/Prometheus chart.png",
