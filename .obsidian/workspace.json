@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lake/Digital Signatures.md",
+                "file": "Lake/Linux add application to activities menu.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lake/Digital Signatures.md",
+                "file": "Lake/Linux add application to activities menu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lake/Digital Signatures.md",
+                "file": "Lake/Linux add application to activities menu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lake/Digital Signatures.md"
+                "file": "Lake/Linux add application to activities menu.md"
               }
             }
           },
@@ -169,8 +169,10 @@
   },
   "active": "3866035e78979309",
   "lastOpenFiles": [
-    "Lake/Oauth2 generate private key.md",
     "Lake/Digital Signatures.md",
+    "Lake/Linux add application to activities menu.md",
+    "PHP/Symfony/Yaml anchors configuration.md",
+    "Lake/Oauth2 generate private key.md",
     "Docker/Docker compose override ports.md",
     "Database/PostgreSQL/Filter by time in time-zone postgresql.md",
     "PHP/Psalm stub does not load.md",
@@ -196,8 +198,6 @@
     "RPS/Percentiles.md",
     "RPS/Percentiles distribution.png",
     "RPS/Percentiles distribution chart.md",
-    "RPS/Median percentile.md",
-    "RPS/Max queue size.md",
     "RPS",
     "PHP/Composer",
     "Monitoring/Prometheus/Prometheus chart.png",
