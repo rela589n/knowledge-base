@@ -7,6 +7,4 @@ The command to consume the message:
 
 `messanger:consume <transport>`
 
-When the message is consumed **all handlers for this message are called**. Though, if message was delivered to multiple transports, we may want to limit handlers to some specific transport.
 
-The `fromTransport` is responsible for binding handler to the specific transport.

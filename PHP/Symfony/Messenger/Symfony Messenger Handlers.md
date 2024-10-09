@@ -5,3 +5,5 @@ Each message is just a plain object, which is required to be serializable.
 ## Dispatching the message
 
 `MessageBusInterface` is used for messages dispatching. The default bus which comes along with symfony is `messenger.default_bus`. Custom bus services are allowed to be defined.
+
+When the message is processed **all handlers for this message are called**. 
