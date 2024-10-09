@@ -9,7 +9,7 @@ ssl_certificate         /etc/ssl/certificate.crt;
 ssl_certificate_key     /etc/ssl/privateKey.key;
 ```
 
-See [[Generate self-signed certificate]].
+See [[OpenSSL generate self-signed certificate]].
 
 #### HTTPS header (*very important*)
 

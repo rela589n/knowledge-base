@@ -13,4 +13,4 @@ See https://hub.docker.com/_/php
 
 See:
 - [[Composer docker installation]]
-- [[PHP pgsql docker installation]]
+- [[PHP pgsql extension docker installation]]

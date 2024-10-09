@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"f60d6a6dc2bd1e87","type":"file","file":"RoadRunner/RoadRunner.md","x":-520,"y":-220,"width":400,"height":220},
+		{"id":"592d73755e84f6d3","type":"file","file":"gRPC/gRPC.md","x":-60,"y":100,"width":400,"height":235},
+		{"id":"732ed0b8f12414ea","x":140,"y":-620,"width":460,"height":240,"type":"file","file":"Temporal/Temporal.md"},
+		{"id":"a45c3baaad292197","x":680,"y":260,"width":440,"height":215,"type":"file","file":"gRPC/Protobuf/Protobuf.md"}
+	],
+	"edges":[
+		{"id":"30b4b928c9d530b3","fromNode":"732ed0b8f12414ea","fromSide":"bottom","toNode":"f60d6a6dc2bd1e87","toSide":"top"},
+		{"id":"5ba78a72073fe402","fromNode":"732ed0b8f12414ea","fromSide":"bottom","toNode":"592d73755e84f6d3","toSide":"top"},
+		{"id":"588d16022610851f","fromNode":"592d73755e84f6d3","fromSide":"right","toNode":"a45c3baaad292197","toSide":"top"}
+	]
+}
