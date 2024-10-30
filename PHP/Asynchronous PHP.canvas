@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"0152eb72e6a6f93f","type":"file","file":"PHP/AMPHP/AMPHP.md","x":-333,"y":-108,"width":373,"height":168},
+		{"id":"ee2f7ad070a8d6ce","type":"file","file":"PHP/ReactPHP/ReactPHP.md","x":820,"y":-100,"width":400,"height":160},
+		{"id":"cb41fd1a1e5ba633","x":100,"y":460,"width":400,"height":180,"type":"file","file":"PHP/Revolt/Revolt.md"},
+		{"id":"c76a6cd8097b86ab","x":300,"y":960,"width":440,"height":240,"type":"file","file":"PHP/libuv.md"}
+	],
+	"edges":[
+		{"id":"76d8476606d07d5b","fromNode":"0152eb72e6a6f93f","fromSide":"bottom","toNode":"cb41fd1a1e5ba633","toSide":"top","label":"uses as event loop"},
+		{"id":"e0de5acc9ac03515","fromNode":"cb41fd1a1e5ba633","fromSide":"bottom","toNode":"c76a6cd8097b86ab","toSide":"top","label":"has driver on top of"}
+	]
+}

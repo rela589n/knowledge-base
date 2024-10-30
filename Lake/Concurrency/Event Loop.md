@@ -1,4 +1,7 @@
-
+---
+aliases:
+  - Scheduler
+---
 See https://dev.to/nodedoctors/an-animated-guide-to-nodejs-event-loop-3g62
 
 An event loop is basically an algorithm for async processing in sync environments.
