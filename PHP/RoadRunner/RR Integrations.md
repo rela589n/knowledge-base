@@ -1,1 +1,1 @@
-[[Roadrunner Symfony Bundle]]
+[[Roadrunner Bundle]]

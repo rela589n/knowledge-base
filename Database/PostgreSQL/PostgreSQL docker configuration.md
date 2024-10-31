@@ -1,7 +1,8 @@
 ```yaml
 services:  
     postgresql:  
-        image: postgres:17rc1  
+        image: postgres:17.0
+        command: [ "postgres", "-c", "max_connections=200" ]
         healthcheck:  
             test: [ "CMD", "pg_isready", "-d", "project_db", "-U", "${DATABASE_USER:-postgres}" ]  
             timeout: 5s  
