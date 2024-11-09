@@ -1,13 +1,13 @@
-[[Connection timeouts]]
+See [fwdays presentation](https://fwdays.com/event/php-fwdays-2021/review/swoole-double-troubles-in-production):
 
-[[Connection concurrent requests problem]]
+1. [[Connection timeouts]]
+2. [[Connection concurrent requests problem]]
+3. [[Stateless services]]
+4. [[Entity manager leaks]]
+5. [[Swoole and Xdebug|GoodBye Xdebug]]
+6. [[Swoole and Blackfire]]
 
-[[Stateless services]]
+![[Pasted image 20241109215935.png]]
 
-[[Entity manager leaks]]
-
-[[Swoole and Xdebug|GoodBye Xdebug]]
-
-[[Swoole and Blackfire]]
 
 
