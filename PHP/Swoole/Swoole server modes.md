@@ -1,4 +1,4 @@
-[[Swoole]]
+[[Swoole configurations]]
 
 Available server modes:
 1. [[Swoole server process mode|Process]]
