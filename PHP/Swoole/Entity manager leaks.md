@@ -1,4 +1,6 @@
-Entity manager leaks memory:
+Entity manager [leaks memory](https://youtu.be/2HAGlULliyI?si=MKv4nZxX9TrUIiCH&t=1140):
+
+![[Entity manager leaks.png]]
 
 Method in `EntityManager.php`:
 ```php
