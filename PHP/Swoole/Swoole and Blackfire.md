@@ -1,0 +1,1 @@
+See https://github.com/upscalesoftware/swoole-blackfire community package to have the support

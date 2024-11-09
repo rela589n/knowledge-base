@@ -6,4 +6,8 @@
 
 [[Entity manager leaks]]
 
+[[Swoole and Xdebug|GoodBye Xdebug]]
+
+[[Swoole and Blackfire]]
+
 
