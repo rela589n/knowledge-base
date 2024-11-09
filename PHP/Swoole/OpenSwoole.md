@@ -3,5 +3,5 @@ Open Swoole - PHP libaray and extension that provide native [[Cooperative concur
 Some built-in I/O-blocking functions like `file_get_contents`,  `sleep` could easily become non-blocking with [[OpenSwoole]].
 
 [[OpenSwoole Docker installation]]
-[[OpenSwoole Coroutines]]
+[[Swoole Coroutines]]
 
