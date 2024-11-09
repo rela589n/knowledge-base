@@ -1,3 +1,5 @@
+[[Centrifugo]]
+
 ```json
 {
     "token_hmac_secret_key": "36d87dea-5441-443c-b564-93396b3a42d3",
