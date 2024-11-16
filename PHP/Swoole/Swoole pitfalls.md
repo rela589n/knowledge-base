@@ -7,7 +7,7 @@ See [fwdays presentation](https://fwdays.com/event/php-fwdays-2021/review/swoole
 5. [[Swoole and Xdebug|GoodBye Xdebug]]
 6. [[Swoole and Blackfire]]
 
-![[Pasted image 20241109215935.png]]
+![[Swoole useful links.png]]
 
 
 
