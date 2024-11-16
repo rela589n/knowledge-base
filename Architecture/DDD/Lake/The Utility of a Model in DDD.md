@@ -1,4 +1,4 @@
-1. [[Domain Model as a Heart of Software]]
+1. [[Domain Model must be the heart of implementation]]
 2. [[Model as a backbone of Language]].
 3. Model is the **distilled knowledge**, it is the **way of structuring the knowledge** which is most important.
 

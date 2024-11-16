@@ -1,6 +1,6 @@
 1. [[Binding model to implementation]];
 2. Develop the [[Ubiquitous Language|language based on a model]].
-3. Use [[Domain Model as a Heart of Software]];
+3. Use [[Domain Model must be the heart of implementation]];
 4. [[Distilling the model]];
 5. [[Refining the model|Refine and brainstorm]].
 

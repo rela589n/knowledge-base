@@ -4,4 +4,4 @@ The many-to-many may be reduced to unidirectional one-to-many if only one side n
 
 It is good to keep associations unidirectional whenever possible.
 
-
+> For example, `Country - President` relationship should usually be unidirectional `one-to-many`, since in the domain we aren't asked "what country Washington was the president of?" Thus, it's not necessary to bloat Person entity just for the sake of bidirectional relationship.

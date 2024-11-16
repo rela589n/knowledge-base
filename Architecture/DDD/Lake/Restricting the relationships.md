@@ -1,10 +1,10 @@
 Adding restrictions of domain. 
 
-For instance, a one-to-many country-president relationship may be qualified to one-to-one given that in one moment of time there's only one president.
+For instance, a one-to-many `Country - President` relationship could be qualified to `one-to-one` given that in one moment of time there's only one president.
 
 ![[Constrained relationship.png]]
 
-Also, a questionnaire may have many answered sections (1-many), but they are constrained by survey template section, hereby reducing this to one-to-one in scope of survey template section:
+Also, a questionnaire may have many answered sections (`one-to-many`), but they could be constrained by the template section, meaning `one-to-one` relationship in scope of the given section:
 ```php
 public function getAnsweredSection(Section $s): AnsweredSection
 {
