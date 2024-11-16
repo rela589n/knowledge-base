@@ -1,4 +1,4 @@
-Object having its own [[Identity doesn't change|identity]] and continuity.
+Object having its own [[Identity|identity]] and continuity.
 
 > Beware of the requirements that call for matching entities
 by their attributes, since mistaken identity leads to data corruption

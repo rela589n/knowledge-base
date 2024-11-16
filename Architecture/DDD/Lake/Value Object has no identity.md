@@ -1,2 +1,2 @@
-It has no it's own [[Identity doesn't change|identity]] compared to [[Entity]]. There's no point in distinguishing two value objects.
+It has no it's own [[Identity|identity]] compared to [[Entity]]. There's no point in distinguishing two value objects.
 
