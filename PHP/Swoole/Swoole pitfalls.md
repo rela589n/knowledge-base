@@ -1,3 +1,8 @@
+---
+aliases:
+  - Swoole problems
+---
+
 See [fwdays presentation](https://fwdays.com/event/php-fwdays-2021/review/swoole-double-troubles-in-production):
 
 1. [[Connection timeouts]]
