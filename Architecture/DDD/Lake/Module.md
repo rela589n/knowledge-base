@@ -1,7 +1,13 @@
-A separate part of [[Domain Model]], a set of components that have high cohesion.
-If your [[Domain Model|Model]] is telling a story, your [[Module]] is a chapter.
+---
+aliases:
+  - Modularity
+---
+A separate part of [[Domain Model]], a set of concepts that have high cohesion.
 
-There's a limited number of things we could think about at once.
-Primary aim for [[Module|modularity]] is in reduced cognitive load.
+Primary aim for [[Module|modularity]] is in reduced cognitive load, since there's a limited number of things we could think about at once.
 
-[[Folder by type packaging]]
+Modules provide a good separation for the means of communication.
+
+> If your [[Domain Model|Model]] is telling a story, your [[Module]] is a chapter.
+
+See also [[Folder by type packaging]]
