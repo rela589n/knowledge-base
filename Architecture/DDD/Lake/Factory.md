@@ -1,3 +1,10 @@
-Since the car is never assembled and driven at the same time, there's no point in putting these two functions into the same business object.
+Factory is part of [[Domain Model]] that doesn't bear any business logic, but rather encapsulates objects creation logic.
 
-> When you drive the car, you don't need mechanic that assembled the car. When you assemble the car, you don't drive it.
+[[Factory incentive - Car example]]
+
+The requirement of the Factory is that it must create domain objects only in valid state.
+
+- [[Aggregate factory method]]
+- [[Kinship object factory method]]
+- [[Standalone factory]]
+- [[Constructor method]]
