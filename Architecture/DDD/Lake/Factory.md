@@ -2,7 +2,7 @@ Factory is part of [[Domain Model]] that doesn't bear any business logic, but ra
 
 [[Factory incentive - Car example]]
 
-The requirement of the Factory is that it must create domain objects only in valid state.
+The requirement of the Factory is that it must create domain objects only in valid state ([[Factory must keep the invariants]]).
 
 - [[Aggregate factory method]]
 - [[Kinship object factory method]]
