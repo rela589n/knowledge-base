@@ -2,6 +2,8 @@ Factory is part of [[Domain Model]] that doesn't bear any business logic, but ra
 
 [[Factory incentive - Car example]]
 
+Factory knows the internal structure of the object it creates.
+
 The requirement of the Factory is that it must create domain objects only in valid state.
 
 - [[Aggregate factory method]]
