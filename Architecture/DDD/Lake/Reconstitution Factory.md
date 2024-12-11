@@ -1,0 +1,1 @@
+The factory that creates in-memory object from the database representation of that object.
