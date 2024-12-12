@@ -1,4 +1,6 @@
 > covariance is a descending (generic to concrete) variance
+> 
+> return types must be covariant (more specific) with interface
 
 Covariant template `@template-covariant` allows us to pass `Collection<Dog>` into a `Collection<Animal>` type, but it doesn't allow the collection itself to have `add(T)` method.
 

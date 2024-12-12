@@ -1,4 +1,6 @@
 > contravariance is an ascending (concrete to generic) variance
+> 
+> parameter types must be contrvariant (more generic) with interface
 
 It would allow us to pass `Comparator<Animal>` into a parameter that expects `Comparator<Dog>`, which is counter-inheritance direction.
 
