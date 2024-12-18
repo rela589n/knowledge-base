@@ -1,0 +1,1 @@
+Currently, it looks like that `--profile -v` works only when `APP_ENV=dev`.
