@@ -1,4 +1,11 @@
-This listener prevents doctrine from creation of the migration that is trying to drop the constraint.
+These attributes prevent doctrine from creation of the migration that is trying to drop the constraint.
+
+```php
+#[ORM\Index(columns: ['schedule_id'], name: 'vacations_non_overlapping_periods')]
+#[ORM\Index(columns: ['schedule_id'], name: 'idx_143b5305a40bc2d5')]
+```
+
+Another alternative solution would be defining schema listener:
 
 ```php
 final readonly class VacationNonOverlappingPeriodsConstraintSchemaListener
@@ -15,3 +22,4 @@ final readonly class VacationNonOverlappingPeriodsConstraintSchemaListener
     }
 }
 ```
+
