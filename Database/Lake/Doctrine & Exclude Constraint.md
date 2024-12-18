@@ -1,4 +1,4 @@
-This listener prevents generation of migration that is trying to drop the constraint.
+This listener prevents doctrine from creation of the migration that is trying to drop the constraint.
 
 ```php
 final readonly class VacationNonOverlappingPeriodsConstraintSchemaListener
