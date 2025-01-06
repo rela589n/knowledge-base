@@ -7,3 +7,5 @@ For example, `auth_events` exchange could have these bindings:
   `inventory_incoming_events` by `user.deleted` key;
 
 It is possible to have multiple bindings.
+
+See [[Symfony Messenger route to different queues]]
