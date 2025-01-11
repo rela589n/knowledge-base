@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"e6c38e45169e892f","x":340,"y":60,"width":250,"height":60,"type":"text","text":"orm"},
+		{"id":"aca15c8478540f72","x":-47,"y":355,"width":250,"height":60,"type":"text","text":"swoole"},
+		{"id":"0819c9838494a7a6","x":-415,"y":-230,"width":250,"height":60,"type":"text","text":"rabbitmq"},
+		{"id":"7a08ff02f593b9d4","x":-415,"y":30,"width":250,"height":60,"type":"text","text":"bend"},
+		{"id":"95eebf1cfe8064a0","x":-415,"y":-100,"width":250,"height":60,"type":"text","text":"amphp"},
+		{"id":"d0c3c5387378ee3d","x":-415,"y":176,"width":250,"height":60,"type":"text","text":"doctrine bridge"},
+		{"id":"fccbb79c16a3e37e","x":380,"y":-40,"width":250,"height":56,"type":"text","text":"refactor"},
+		{"id":"2c0b61fd2a218605","x":380,"y":-170,"width":250,"height":60,"type":"text","text":"example project"},
+		{"id":"a3eaab1b3e21f093","x":-35,"y":-230,"width":250,"height":60,"type":"text","text":"ddd"},
+		{"id":"bff44e6a22ff441c","x":255,"y":206,"width":250,"height":60,"type":"text","text":"messenger"},
+		{"id":"e1887507b496ea9a","x":-415,"y":325,"width":250,"height":60,"type":"text","text":"temporal"}
+	],
+	"edges":[]
+}
