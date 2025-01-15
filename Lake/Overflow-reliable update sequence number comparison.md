@@ -17,3 +17,4 @@ public function greaterThan(int $number): bool
 
 ![[Modulos.png]]
 
+In this code, `+ self::SIZE` is necessary due to the fact that we'll get negative numbers when subtracting, but we'd like our modulo to be just less than half size (e.g. `0` to `half size`).
