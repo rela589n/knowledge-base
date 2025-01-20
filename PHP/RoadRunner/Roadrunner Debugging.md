@@ -1,1 +1,1 @@
-[[Symfony Var dump server]]
+[[Var dump server]]

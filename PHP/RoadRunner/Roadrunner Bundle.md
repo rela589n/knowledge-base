@@ -1,3 +1,3 @@
-[[RoadRunner]] [[Symfony Bundle]]
+[[RoadRunner]] [[SF Bundle]]
 
 See https://github.com/baldinof/roadrunner-bundle
