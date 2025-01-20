@@ -8,4 +8,4 @@ For example, `auth_events` exchange could have these bindings:
 
 It is possible to have multiple bindings.
 
-See [[Symfony Messenger route to different queues]]
+See [[Symfony Messenger route to different queues (direct exchange)]]

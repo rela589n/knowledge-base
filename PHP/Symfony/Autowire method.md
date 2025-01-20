@@ -3,7 +3,6 @@ aliases:
   - Symfony autowire method
 ---
 
-
 Symfony allows autowiring for controller methods.
 
 It does so by means of `\Symfony\Component\HttpKernel\Controller\ArgumentResolver\ServiceValueResolver` that uses arguments locator one per each controller:
