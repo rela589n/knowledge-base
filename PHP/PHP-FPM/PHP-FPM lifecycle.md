@@ -4,7 +4,7 @@ Configuration: https://www.php.net/manual/en/install.fpm.configuration.php
 
 PHP-fpm could only work along with [[Nginx]], since it could not handle incoming requests by itself.
 
-![[Pasted image 20240914203127.png]]
+![[PHP-FPM model.png]]
 
 See [[PHP-FPM strategies]].
 See [[PHP-FPM configuration]].
