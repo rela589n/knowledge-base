@@ -1,4 +1,4 @@
-[[PHPAT]]
+[[PHPAT architecture]]
 
 ### Api points
 

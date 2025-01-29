@@ -1,4 +1,4 @@
-[[PHPAT]], [[PHP Promote Final]]
+[[PHPAT architecture]], [[PHP Promote Final]]
 
 ```php
 #[TestRule]
