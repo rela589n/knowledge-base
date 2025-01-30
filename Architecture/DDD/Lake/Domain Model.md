@@ -1,3 +1,5 @@
+[[Domain Driven Design|DDD]]
+
 See [[Model (generic)]].
 
 **[[Domain]] Model**  represents some **aspect of reality** or an **idea is of interest**.
