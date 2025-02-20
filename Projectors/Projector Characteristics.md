@@ -1,0 +1,7 @@
+- **Brightness (Lumens)**  aim for **3,500–5,000 lumens** or higher
+- **Resolution**
+- **Contrast Ratio** - difference between the most bright part of the picture and the most dark one
+- **Throw Distance**
+- **Lamp/Laser Life**
+- **Ports and Connectivity** (HDMI, VGA, USB)
+- **Keystone Correction and Lens Shift**
