@@ -8,4 +8,4 @@ The **benefit** is that **reads are performant**, since it's necessary to scan o
 
 The **drawback** is that **writes are slower and complicated**. For **index to be up to date**, it should reflect changes to underlying data. Since it is **stored on multiple separate partitions**, it brings **complexity of distributed transactions**.
 
->> **In practice**, often global secondary indexes **updates are async**. #Dynamo does this way. It is very **prone to the infrastructrue** reliability.
+>> **In practice**, often global secondary indexes **updates are async**. #Dynamo does this way. This is crucially dependent on the underlying **infrastructrue** reliability.
