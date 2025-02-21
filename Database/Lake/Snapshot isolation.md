@@ -1,4 +1,4 @@
-**Snapshot isolation** (**repeatable read**) - each **transaction sees** rows in the sate **committed before the beginning** of the transaction. Hence, it prevents [[Read skews|read skew]]. Also, in PostgreSQL it prevents [[Automatic lost updates prevention|lost updates]].
+**Snapshot isolation** (**repeatable read**) - each **transaction sees** rows in the state they were **committed before the beginning** of the transaction. Hence, it prevents [[Read skews|read skew]]. Also, in PostgreSQL it prevents [[Automatic lost updates prevention|lost updates]].
 
 See [[Implementing Snapshot Isolation]] for internal details.
 
