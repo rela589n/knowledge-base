@@ -1,3 +1,5 @@
 Since [[Value Objects have no identity]], it makes no sense to have bidirectional associations for the value objects. 
 
-If you are tempted to do so, rethink maybe it has identity and could be an [[Entity]].
+Value object should not hold reference to the parent that owns itself.
+
+If you are tempted to do so, rethink maybe it has identity and should really be an [[Entity]].
