@@ -1,4 +1,6 @@
 
+[[Projecting Technologies]]
+
 Projector types:
 - [[Lamp projectors]]
 - [[Laser projectors]]

@@ -1,0 +1,2 @@
+- [[DLP projecting technology|DLP]]
+- [[3LCD projecting technology|3LCD]]
