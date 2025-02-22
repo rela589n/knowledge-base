@@ -2,4 +2,3 @@
 - [[Code is not always self-explanatory]]
 - [[Code is too detailed]]
 - [[Only devs understand the code|Not only developers]] should understand the [[Domain Model]].
-

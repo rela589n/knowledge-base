@@ -1,4 +1,4 @@
-**Heart of software** - the part of the program **that solves** domain-related end user **problems**. 
+**Heart of software** - code of the program **that solves** domain-related end user **problems**. 
 
 Developers **have to steep** themselves **in the domain** to **build knowledge** of the business.
 

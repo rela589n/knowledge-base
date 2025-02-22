@@ -6,6 +6,6 @@ It should be **unambiguous** and **everyoune should stick** to its terms and des
 
 Domain experts should **object to awkward terms**, devs should **object to inconsistencies**.
 
-If it is used **persistently**, then [[Model Refinements disclose weak points|weak points will float up]], 
+If it is used **persistently**, then [[Model Refinements discloses weak points|weak points will float up]], 
 
 [[Model as a backbone of Language]]

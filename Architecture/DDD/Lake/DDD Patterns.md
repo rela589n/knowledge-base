@@ -8,4 +8,6 @@
 
 [[Module]]
 
+[[Factory]]
+
 ![[DDD Pattern map.png]]

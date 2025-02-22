@@ -1,3 +1,4 @@
+[[DDD modeling]]
 ### Problem
 It is a pity when a wall-size model diagram is unusable for implementation and developers make their own ad-hoc design.
 
