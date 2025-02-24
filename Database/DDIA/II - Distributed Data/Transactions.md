@@ -8,7 +8,7 @@ Things that can go wrong:
 - **partially updated data is read**;
 - other **race condition bugs**.
 
-**Transaction** - sequence of **reads and writes** which make up a **logical unit** and should be **committed atomically**. It provides **safety guarantees** so that we can **ignore** some **error scenarios** and **concurrency issues**.
+**Transaction** - sequence of **reads and writes** which make up a **logical unit** and should be **committed [[Atomicity|atomically]]**. It provides **safety guarantees** so that we can **ignore** some **error scenarios** and **concurrency issues**.
 
 Some apps don't need transactions, and for better performance transactional guarantees may be weakened or disabled completely. 
 

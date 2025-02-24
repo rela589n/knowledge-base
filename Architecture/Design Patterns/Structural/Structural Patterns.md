@@ -1,0 +1,6 @@
+- [[Composite]]
+- [[Adapter]]
+- [[Decorator]]
+- [[Proxy]]
+- [[Flyweight]] 
+- [[Bridge]]

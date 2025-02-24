@@ -1,0 +1,1 @@
+In this book word "log" is referred to something more general than application logs. Hence, log is append-only sequence of records. It doesn't have to be human-readable. Logs may be binary (intended  to be read by the other programs). ^a46879

@@ -1,0 +1,1 @@
+[[Bounded Context|Context]] map is a representation of the project's [[Bounded Context|bounded contexts]] relationships between them and their [[Domain Model|models]].

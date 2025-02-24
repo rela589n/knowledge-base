@@ -1,0 +1,5 @@
+- [[Template Method]]
+- [[Strategy]]
+- [[Observer]]
+- [[Chain of Responsibility]]
+- [[Visitor]]

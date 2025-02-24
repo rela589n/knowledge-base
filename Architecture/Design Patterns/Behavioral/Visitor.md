@@ -1,3 +1,8 @@
+Patterns that allows us to traverse [[Composite]] trees in a single class.
+
+Example:
+- dump the whole tree of filters (one class that implements visitor interface)
+
 Visitor pattern allows to avoid creating a [[Factory]] of way too separated algorithms. 
 
 For instance, when we would need to execute some logic which depends on polymorphic classes usually we would create service class per each type of entity as well as create factories which will check original class instance and create&return correlated service class.
