@@ -1,0 +1,1 @@
+Core domain is key [[Subdomain]] that represents the main functionality of the whole system. This is primary area of strategic importance. This is the Domain, that is crucial for success of the organisation. ^b82774
