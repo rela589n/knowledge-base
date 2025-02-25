@@ -1,4 +1,4 @@
-Object having its own [[Identity|identity]] and continuity.
+Object that has its own [[Identity|identity]] and continuity.
 
 > Beware of the requirements that call for matching entities
 by their attributes, since mistaken identity leads to data corruption
@@ -8,3 +8,5 @@ Identity of two entities doesn't necessarily mean that objects have the same pro
 Most entities are implemented as ordinary objects.
 
 [[Modeling Entities]]
+
+[[Entity vs Value-object]]
