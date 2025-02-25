@@ -9,3 +9,5 @@ Each layer represents some aspect of a system:
 - Infrastructure (utilities) - low-level code to support higher levels.
 
 It is crucial for Domain to be isolated from other layers so that volatile business logic may be implemented with minimal effort.
+
+![[DDD Layered Architecture.png]]
