@@ -1,6 +1,6 @@
 Currently the most ready for use paradigm is **object-oriented**:
 - it balances simplicity and complexity;
-- it could be understood by non-technical people ([[Ubiquitous Language]]);
+- it could be understood by non-technical people (facilitating [[Ubiquitous Language]]);
 - there are a lot of people that understand OOP well;
 - most tools provide integrations in object-oriented way.
 

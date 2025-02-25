@@ -5,4 +5,8 @@ Domain modeling is [[Rich model design]]:
 4. [[Distilling the model]];
 5. [[Model refinement|Refine and brainstorm]].
 
+[[Down to earth modeling|Hands-on modeling]]
+
 It is vital to engage both spoken language ([[Model refinement]]) and visual and spacial abilities with [[Documents and Diagrams]].
+
+[[Modeling Entities]]

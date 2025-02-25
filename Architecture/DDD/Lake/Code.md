@@ -1,3 +1,7 @@
+---
+aliases:
+  - Executable Bedrock
+---
 > XP relies exceptionally on code as the source of truth.
 
 Code is the most important product of a software project.

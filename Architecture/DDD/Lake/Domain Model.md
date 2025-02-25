@@ -1,3 +1,7 @@
+---
+aliases:
+  - model
+---
 In **[[Domain Driven Design|DDD]]**, **[[Domain]] [[Model (generic)|Model]]** represents distilled knowledge of some **aspect of reality** or an **idea is of interest**.
 
 It is rigorously organized and structured most relevant **selective abstraction of the knowledge from BA head**. 
