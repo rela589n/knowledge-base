@@ -1,4 +1,4 @@
-Unique (one per table) index that determines how data is physically placed on the disk (sorted by the index order), therefore there could be only one clustered index.
+Clustered index - index that determines how data is physically placed on the disk (sorted in the order of index), therefore there could be only one clustered index.
 
 Usually [[Primary Key]] is used for the [[Clustered Index]], and that's why search by [[Primary Key]] is very efficient (though, inserts/updates might be not so efficient because of the need to reorganize the data).
 
