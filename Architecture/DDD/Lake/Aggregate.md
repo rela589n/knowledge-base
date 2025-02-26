@@ -7,8 +7,10 @@ High contention points should become looser, while important business invariants
 
 ![[Aggregate invariant.png]]
 
-Price of the part could be updated at any stage of the order. Yet, it should not always reflect the existing orders.
+Price of the part could be updated at any stage of the order. 
 
-At least, archived orders should be kept with the purchase price, not with the latest one. 
+Yet, it should not always reflect the existing orders.
+
+At least, archived orders should be kept with the purchase price, not with the latest one.
 
 For active orders we could present customer with the fact that item price is outdated and make him do the adjustments.
