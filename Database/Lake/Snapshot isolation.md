@@ -1,6 +1,6 @@
 **Snapshot isolation** (**repeatable read**) - [[Isolation Levels|Transaction Isolation Level]], that provides a guarantee of seeing the consistent snapshot during the whole lifespan of the transaction. The **transaction sees** rows in the state committed at **the beginning** of the transaction.
 
-It prevents [[Read skews]]. 
+It prevents [[Read skews]].
 In [[PostgreSQL]], it also prevents [[Automatic lost updates prevention|Lost Updates]].
 
 See [[Implementing Snapshot Isolation]] for internal details.
