@@ -1,4 +1,4 @@
-**Lost update** - when one **concurrent transaction clobbers modifications of another** transaction. It happens in **[[read-modify-write]]** cycle.
+**Lost update** - when one **concurrent transaction overwrites the updates of another** transaction. It happens in **[[read-modify-write]]** cycle.
 
 ## Solutions
 

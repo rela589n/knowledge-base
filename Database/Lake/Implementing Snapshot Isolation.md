@@ -1,4 +1,4 @@
-The key principle of snapshot isolation is that **reads never block writes** and **writes never block reads**.
+The key principle of snapshot isolation is that [[Reads never block writes, Writes never block reads]].
 
 Usually [[Snapshot isolation]] is implemented with [[MVCC]].
 

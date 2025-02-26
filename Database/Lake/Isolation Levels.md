@@ -1,6 +1,7 @@
 ---
 aliases:
   - Transaction Isolation Levels
+  - isolation level
 ---
 Race conditions arise when users access the same (or dependent) database rows. 
 
@@ -11,6 +12,6 @@ Race conditions arise when users access the same (or dependent) database rows.
 
 Levels:
 - Read Uncomitted (not used);
-- [[Read Comitted]];
+- [[Read Committed]];
 - [[Snapshot isolation]];
 - [[Serializable]].

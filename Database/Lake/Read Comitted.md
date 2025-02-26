@@ -1,1 +1,0 @@
-**Read comitted** - isolation level that provides **NO [[Prevent dirty reads|dirty reads]]** (hence selects will return **only what was committed**) and **NO [[Prevent dirty writes|dirty writes]]** (writes will overwrite **only comitted data**) guarantees.
