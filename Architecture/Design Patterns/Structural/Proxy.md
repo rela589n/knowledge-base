@@ -1,7 +1,7 @@
 Pattern, that provides client with an substitute object for the original object.
 
 Example:
-- **lazy initialization** (commonly used in doctrine orm and symfony di container)
+- **lazy initialization** (commonly used in doctrine lazy entities and symfony lazy services)
 - **white list** (some feature can only be accessed by some users)
 - **particular days submission policy** (e.g. form could be only submitted from 5 to 25, but not in other days)
 - **caching proxy** (returns stored responses instead of making api/database request)
