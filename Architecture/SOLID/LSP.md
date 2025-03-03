@@ -2,8 +2,9 @@
 aliases:
   - Liskov substitution principle
 ---
-Classes that use objects of base classes should not bother themselves with particular implementations. 
+Classes that use objects of base classes should not bother themselves with particular implementations (there should not be `instanceof` checks). 
 
-In other words, particular implementation must follow the interface it implements without breaking it.
+Also, each particular implementation must follow the interface it implements without breaking it (input parameters must be the same or wider than interface, output parameters (return values) must be the same or narrower than interface). 
 
-There should not be `instanceof` checks.
+Example of violation is when interface declares count to be returned zero or positive, while implementation could return negative values, - therefore violating the interface.
+

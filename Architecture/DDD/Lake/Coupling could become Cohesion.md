@@ -13,4 +13,4 @@ Register/{Http,Service}
 Login/{Http,Service}
 ```
 
-So that eventually `Register` and `Login` are independent of one another.
+So that eventually `Register` and `Login` are independent of one another, and inside of them they have highly-cohesive components.
