@@ -4,3 +4,4 @@
 - [[Proxy]]
 - [[Flyweight]] 
 - [[Bridge]]
+- [[Facade]]
