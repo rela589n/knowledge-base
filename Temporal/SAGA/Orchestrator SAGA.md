@@ -12,4 +12,4 @@ There would be SignVacationFileWorkflow that would call four activities:
 - AcknowledgeToCrmActivity
 - SignatureSuccessfulActivity
 
-In case of any failure (for example, AcknowledgeToCrmActivity fails unrecoverably), SAGA should execute compensation steps (e.g. compensate AcknowledgeSignatureActivity and SignFileActivity), - that would probably revert status and delete signed file.
+In case of any failure (for example, AcknowledgeToCrmActivity fails unrecoverably), SAGA should execute compensation steps (e.g. compensate AcknowledgeSignatureActivity and SignFileActivity), - it would delete the signed file and revert status.

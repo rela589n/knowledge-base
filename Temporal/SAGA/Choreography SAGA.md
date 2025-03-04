@@ -13,8 +13,8 @@ For example, vacation file signature:
 `AcknowledgeToCrm` triggers `AcknowledgedToCrmEvent`
 `AcknowledgedToCrmEvent` is listened by `SignatureSuccessful`
 
-This is very complex to debug.
-This is very complex to handle the errors (as each step could fail independently).
+This is very *complex to debug*.
+This is very *complex to handle the errors* (as each step could fail independently).
 
 In case of bugs, system could end up in an undefined state (somewhere in between of the workflow).
 
