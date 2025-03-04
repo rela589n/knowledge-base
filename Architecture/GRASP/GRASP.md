@@ -1,4 +1,4 @@
-General Responsibility Assignment Software Patterns - patterns that answer the question "Who does what?" (assigning the responsibility to the classes), is related to [[GOF Patterns]].
+General Responsibility Assignment Software Patterns - patterns that answer the question "Who's responsible for what?", and is related to [[GOF Patterns]], being more high-level principles.
 
 Principles:
 - [[Creator]]
