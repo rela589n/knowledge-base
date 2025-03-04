@@ -1,3 +1,7 @@
+---
+aliases:
+  - Linux fg bg
+---
 To list current shell jobs, run `jobs`:
 
 ```shell
@@ -12,7 +16,7 @@ First `[id]` means Job ID.
 Plus `+` means that the job is the most recent.
 Minus `-` means that the job is the previous before the most recent.
 
-You can **suspend** the foreground job with `Ctrl+Z` (it sends `SIGTSTP` to the program).
+You can **suspend** (pause) the foreground job with `Ctrl+Z` (it sends `SIGTSTP` to the program).
 
 `bg` is used to put job into background: `bg %1`.
 `fg` is used to put job into foreground: `fg %2`.
