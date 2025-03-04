@@ -1,0 +1,1 @@
+Having the parameter like this: `@param Collection<covariant Animal>`, we could pass an [[Template Invariance|invariant]]  collection (`Collection<Dog>` or `Collection<Cat>`). And then, if we try to do any modification to the collection (like `add(T)`), it would result in compile-time error (because [[Template Invariance#^9212b1]] would be broken).

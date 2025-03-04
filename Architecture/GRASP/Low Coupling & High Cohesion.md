@@ -1,4 +1,3 @@
 Low [[Coupling]] & High [[Cohesion]]
 
-Implies that code should be separated so that everything is kept very minimal (High [[Cohesion]]), and least intertwined (Low [[Coupling]]).
-
+Large code that has a lot of dependencies should be separated into pieces of small code (High [[Cohesion]]), that are least intertwined (Low [[Coupling]]).

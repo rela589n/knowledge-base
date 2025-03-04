@@ -1,6 +1,7 @@
 ---
 aliases:
   - Dependency inversion principle
+  - Inversion of dependency
 ---
 Your code should depend on abstractions, not on concretions. 
 

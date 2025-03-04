@@ -1,1 +1,1 @@
-Changes in one part of the system does not lead to changes in the other part. This is achieved by proper abstractions and following [[SRP]].
+Changes in one part of the system do not lead to changes in another part. This is achieved by proper [[Cohesion|cohesive]] abstractions and following [[SRP]].
