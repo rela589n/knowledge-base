@@ -3,6 +3,8 @@ aliases:
   - polymorphism
   - polymorphic
 ---
+Different behaviors of the system are hidden behind the common interface.
+
 Swapping out the behavior based on interface implementations ([[Inheritance]]).
 
-Code operates with the common interface. Yet, each particular implementation could be different.
+Code operates with the common interface, but each particular implementation is different.
