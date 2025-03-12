@@ -29,3 +29,14 @@ RUN ARCH=$(uname -m) \
 RUN  ln -sf /etc/php/8.3/mods-available/eusphpei.ini  /etc/php/8.3/cli/conf.d/20-eusphpei.ini \
     && ln -sf /etc/php/8.3/mods-available/eusphpei.ini /etc/php/8.3/fpm/conf.d/20-eusphpei.ini
 ```
+
+Finally, add this to docker-compose volumes:
+
+```yaml
+volumes:
+  - "./docker-configs/dev/eusphpei/osplm.ini:/usr/lib/php/8.2/eusphpei/osplm.ini"
+  # This volume isn't always bound correctly. Check if /data/certificates has correct certs
+  - { type: bind, source: ./docker-configs/dev/configs/eusphpei/certificates/, target: /data/certificates/ }
+```
+
+Certificates folder must have `CACertificates.p7b` file. You could get it from https://iit.com.ua/download/productfiles/CACertificates.p7b.
