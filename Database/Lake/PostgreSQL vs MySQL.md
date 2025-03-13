@@ -9,3 +9,10 @@
 [[PostgreSQL Exclude Constraint]]
 
 [[MySQL]] doesn't have exclude constraints.
+
+##### Table Inheritance
+
+[[PostgreSQL Table Inheritance]]
+
+[[MySQL]] doesn't support table inheritance.
+
