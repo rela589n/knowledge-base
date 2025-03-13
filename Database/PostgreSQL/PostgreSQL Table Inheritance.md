@@ -1,10 +1,16 @@
 [[PostgreSQL]] supports such feature as table inheritance.
 
+> Beware that if your abstract table declares ID, and you insert values only into concrete tables, you won't be able to reference abstract table's id as the foreign key.
+
+> Beware that primary keys, unique constraints, etc. do not propagate to derived tables.
+
 One table inherits columns of another table, and when we insert values into that concrete table, they show up when selected from an abstract table.
 
 This example shows that we could insert values into inherited table, and they will appear in the base table.
 
-Also, updates to abstract table touch the inherited tables as well.
+Also, updates to the abstract table are propagated to the inherited tables as well.
+
+If we delete the concrete table, selects made to the abstract table will stop returning these values.
 
 ```sql
 CREATE TABLE cities
