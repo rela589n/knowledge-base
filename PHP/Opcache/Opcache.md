@@ -1,6 +1,4 @@
-https://www.npopov.com/2021/10/13/How-opcache-works.html
-
-Memory limit for the [[Opcache Shared Memory|shared memory]]:
+Memory limit for the shared memory:
 ```ini
 opcache.memory_consumption = 128M
 ```
