@@ -13,7 +13,12 @@ Size of interned strings buffer:
 opcache.interned_strings_buffer=16
 ```
 
-Whether [[PhpDoc]] comments will be saved in [[Opcache Shared Memory|shared memory]]:
+[[Opcache Preloading|Preloading]] script:
+```ini
+opcache.preload=/app/config/preload.php
+```
+
+Whether [[PhpDoc]] comments should be saved in [[Opcache Shared Memory|shared memory]]:
 ```ini
 opcache.save_comments = 0
 ```
