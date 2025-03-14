@@ -1,16 +1,16 @@
-SSI has small performance penalty compared to snapshot isolation.
+SSI has small performance penalty compared to [[Snapshot isolation]]
 
 #### Pessimistic vs Optimistic concurrency control
 
-**Pessimistic concurrency control** is essentially what [[Two-Phase Locking (2PL)|2PL]] is. If **anything could possibly go wrong**, we'd **wait until situation is safe** again and only then continue execution. Actual serial execution is pessimistic to the extreme - lock is held on entire database.
+**Pessimistic concurrency control** is essentially what [[Two-Phase Locking (2PL)|2PL]] is. If **anything could possibly go wrong**, we'd **wait until situation is safe** again and only then continue execution. Actual serial execution is pessimistic to the extreme - lock is held on the entire database.
 
-**Optimistic concurrency control** - transactions continue operate normally and **hope that everything will turn all right**. If not, some of the transactions are aborted. It operates **badly with high contention rate**, because a lot of may transactions get aborted.
+**Optimistic concurrency control** - transactions continue operate normally and **hope that everything will turn out right**. If not, some of the transactions are aborted. It operates **badly with high contention rate**, because a lot of may transactions get aborted.
 
 **Serializable Snapshot Isolation (SSI)** - optimistic concurrency control method, **based on snapshot isolation level**, which **adds** logic of **serialization anomalies detection** at the transaction commit time, and if there are any, **aborts some transactions**.
 
 #### Decisions based on outdated premise
 
-The transaction queries may have causal dependency (e.g. writes depend on read data).
+The transaction queries may have causal dependency (e.g. writes depend on the read data).
 
 **Outdated Premise** - statement that was true at the beginning of transaction, but no longer true at the commit time.
 
@@ -18,7 +18,7 @@ Cases to **detect** possibly **outdated premises**:
 - **reading stale MVCC objects** (there were uncommitted writes before read);
 - **writes that affect premise** (the write was published after read).
 
-If on commit time there are any outdated premises related to current transaction read queries, it is aborted.
+**If on *commit time* there are any *outdated premises* related to current transaction's read queries, it is aborted.**
 
 #### Detecting stale MVCC reads
 
