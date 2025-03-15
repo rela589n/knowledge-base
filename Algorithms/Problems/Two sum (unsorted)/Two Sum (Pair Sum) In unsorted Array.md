@@ -14,4 +14,4 @@ We could [[Sorting|Sort]] and then apply [[Two pointers]] technique the same ali
 
 ##### Hash Map
 
-We flip the array (e.g. build [[Hash Map]]) in [[O (N)]], and then traverse it once again so that for every `arr[i]` we check if it's complement `target - arr[i]` exists in the [[Hash Map]]. This is [[O (N)]] time and [[O (N)]] space.
+We flip the array (e.g. build [[Hash Map]]) in [[O (N)]], and then traverse it once again so that for every `arr[i]` we check if it's complement `target - arr[i]` exists in the [[Hash Map]] (and this is not the same current item). This is [[O (N)]] time and [[O (N)]] space.
