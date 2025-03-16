@@ -1,3 +1,7 @@
+---
+aliases:
+  - Import Number
+---
 
 Given that max USN is 7.
 
@@ -18,6 +22,7 @@ public function greaterThan(int $number): bool
 }
 ```
 
+See [google sheets](https://docs.google.com/spreadsheets/d/1pIy4Nx5lR-T9e4B8DcDpgrKUYHEfd9hfcnIQaCLMVb4/edit?gid=567874064#gid=567874064)
 ![[Modulos.png]]
 
 In this code, `+ self::SIZE` is necessary due to the fact that we'll get negative numbers when subtracting, but we'd like our modulo to be just less than half size (e.g. `0` to `half size`).
