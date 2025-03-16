@@ -12,6 +12,26 @@ We could use [[Binary Search]] so that we get [[O (N log N)]] - traverse an arra
 ##### Hash Map
 
 We could use [[Hash Map]] the same alike way as in [[Two Sum (Pair Sum) In unsorted Array#^09cf47]], resulting in [[O (N)]] solution.
+
+Solution for unsorted array [two sum problem](https://leetcode.com/problems/two-sum/description/):
+
+```php
+function twoSum($nums, $desiredSum) {
+    $map = array_flip($nums);
+
+    foreach ($nums as $i => $num1) {
+        $complement = $desiredSum - $num1;
+
+        $j = $map[$complement] ?? -1;
+
+        if (~$j && $j !== $i) {
+            return [$i, $j];
+        }
+    }
+
+    return [];
+}
+```
 ##### Two Pointers 
 ^b7d57e
 
@@ -24,10 +44,10 @@ We could use [[Two pointers]] so that we get [[O (N)]].
 
 ![[Two sum.png]]
 
-[[Two pointers]] solution for [two sum](https://leetcode.com/problems/two-sum/):
+[[Two pointers]] solution for [two sum](https://leetcode.com/problems/two-sum/) (unsorted, but sorted):
 
 ```php
-function twoSum(array $nums, int $deriredSum) {
+function twoSum(array $nums, int $desiredSum) {
     $keysMap = array_keys($nums);
 
     array_multisort($nums, $keysMap);
@@ -44,9 +64,9 @@ function twoSum(array $nums, int $deriredSum) {
         // [2, 15] => 17 (if sum is greater than target, then we need to decrease sum,
         // to match the target, therefore shifting r -> [2, 11] => 13)
 
-        if ($sum < $deriredSum) {
+        if ($sum < $desiredSum) {
             ++$i; // increase sum
-        } elseif ($sum > $deriredSum) {
+        } elseif ($sum > $desiredSum) {
             --$j; // decrease sum
         } else {
             return [$keysMap[$i], $keysMap[$j]];
