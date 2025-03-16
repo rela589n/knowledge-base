@@ -23,3 +23,37 @@ We could use [[Two pointers]] so that we get [[O (N)]].
 4. On the other hand, if the sum is greater than the needed sum, we could do nothing else, but to shift the right pointer so that it becomes smaller (shifting the left pointer won't help us, since it only increases the value, as we have the sorted array).
 
 ![[Two sum.png]]
+
+Solution to [two sum](https://leetcode.com/problems/two-sum/):
+
+```php
+function twoSum($nums, $deriredSum) {
+    $keysMap = array_keys($nums);
+
+    array_multisort($nums, $keysMap);
+
+    $i = 0;
+    $j = count($nums) - 1;
+
+    while ($i < $j) {
+        $sum = $nums[$i] + $nums[$j];
+
+        // [2,7,11,15]
+        // [2, 15] => 17 (if sum is less than target, then we need to increase sum,
+        // therefore shifting l -> [7, 15] => 22)
+        // [2, 15] => 17 (if sum is greater than target, then we need to decrease sum,
+        // to match the target, therefore shifting r -> [2, 11] => 13)
+
+        if ($sum < $deriredSum) {
+            ++$i; // increase sum
+        } elseif ($sum > $deriredSum) {
+            --$j; // decrease sum
+        } else {
+            return [$keysMap[$i], $keysMap[$j]];
+        }
+    }
+
+	// if answer was not found
+    return [];
+}
+```
