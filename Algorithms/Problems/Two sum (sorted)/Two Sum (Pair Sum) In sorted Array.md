@@ -24,10 +24,10 @@ We could use [[Two pointers]] so that we get [[O (N)]].
 
 ![[Two sum.png]]
 
-Solution to [two sum](https://leetcode.com/problems/two-sum/):
+[[Two pointers]] solution for [two sum](https://leetcode.com/problems/two-sum/):
 
 ```php
-function twoSum($nums, $deriredSum) {
+function twoSum(array $nums, int $deriredSum) {
     $keysMap = array_keys($nums);
 
     array_multisort($nums, $keysMap);
