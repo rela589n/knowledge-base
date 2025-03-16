@@ -9,6 +9,9 @@ Given that max USN is 7.
 Working approach:
 
 ```php
+public const SIZE = 2 ** 32;    
+public const HALF_SIZE = 2 ** 31;
+
 public function greaterThan(int $number): bool
 {
     return ($this->number - $number + self::SIZE) % self::SIZE < self::HALF_SIZE;
