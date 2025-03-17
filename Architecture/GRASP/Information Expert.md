@@ -1,4 +1,4 @@
-The principle that states that the logic must be implemented in the classes that has data needed to fulfill that logic.
+The principle that states that the logic must be implemented in the conceptually right classes for it (that, that have data needed to fulfill that logic).
 
 > This is similar to an expert in the real world. You (ui) need to build a house (business logic), you ask architect (Expert) to do the job, rather than doing it by yourself.
 
