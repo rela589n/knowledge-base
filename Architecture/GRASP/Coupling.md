@@ -1,5 +1,5 @@
 The extent of connection of conceptually different things together.
 
-The introduction of a common `interface` could reduce coupling so that we don't depend on each concrete implementation, but just on the `interface`.
+The extraction of a common `interface` for multiple implementations could reduce coupling so that we depend only on one `interface` rather than on each concrete implementation. ^d7fee7
 
-[[DIP|Inversion of dependency]] inverts coupling (dependency) direction, thereby reducing coupling on one side, but increasing it on the other.
+[[DIP|Dependency Inversion]] inverts coupling (dependency) direction, thereby reducing coupling on one side, but increasing it on the other.
