@@ -1,4 +1,3 @@
-
 See [problem](https://leetcode.com/problems/3sum-closest/description/).
 
 ```php
