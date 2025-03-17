@@ -1,5 +1,7 @@
 See [problem](https://leetcode.com/problems/3sum-closest/description/).
 
+### [[Sorting]] and [[Two pointers]]
+
 ```php
 function threeSumClosest($nums, $target) {
     sort($nums);
@@ -53,6 +55,11 @@ function threeSumClosest($nums, $target) {
                 break 2;
             }
         }
+
+		while ($first === $nums[$i + 1] && $i < $n - 2) 
+		{
+	        ++$i;
+	    }
     }
 
     return $closestSum;
