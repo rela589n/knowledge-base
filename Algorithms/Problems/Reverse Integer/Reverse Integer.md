@@ -15,6 +15,8 @@ This would produce correct reversed integer.
 
 In order to check that it doesn't overflow range of `[-2 ** 31, 2 ** 31 - 1]`, we should consider res on the previous iteration until it gets to `+- 2 ** 31`.
 
+This solution is [[O (log N)]], since it would take 10 iterations to reverse `2147483647` number, and it depends on how many times we could divide the number by 10.
+
 ### Positive: 
 
   > `2 ** 31 - 1 = 2147483647`
