@@ -43,3 +43,30 @@ function minSubArrayLen($target, $nums) {
     return $minimalLength;
 }
 ```
+
+> Note that this solution doesn't handle negative numbers well.
+
+Another solution, more robust is this:
+
+```php
+// At this point, we assume that $currentSum < $target, and maintain this state in the loop
+while ($r < $n) {
+    $currentSum += $nums[$r++];
+
+    // Once current sum becomes greater than target, we start descreasing the size of subarray by shifting left pointer - 
+    // this allows us to find the array of minimal length that has sum greater than or equal to target
+    while ($currentSum >= $target && $l < $r) {
+        $length = $r - $l;
+
+        if ($length < $minimalLength) {
+            $minimalLength = $length;
+        }
+
+        $currentSum -= $nums[$l];
+
+        ++$l;
+    }
+}
+```
+
+This is likely to handle negative numbers as well.
