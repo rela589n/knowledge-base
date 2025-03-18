@@ -1,5 +1,7 @@
 See [problem](https://leetcode.com/problems/3sum-closest/description/).
 
+Need to find 3sum, closest to given target.
+
 ```php
 function threeSumClosest($nums, $target) {
     sort($nums);
@@ -29,7 +31,7 @@ function threeSumClosest($nums, $target) {
 
             $sum = $first + $second + $third;
 
-            // we must use modulo, since [11, 12] would produce -1, while [11, 11] (more correct answer) - 0, leading to -1 being accepted as the answer
+            // we must use abs, since otherwise [11, 12] would produce -1, while [11, 11] (more correct answer) - 0, leading to -1 being accepted as the answer
             $sumDiff = abs($target - $sum);
 
             // we are finding such $sum that is the least in difference with $target (finding min by sum diff)
