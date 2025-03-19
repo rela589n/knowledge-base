@@ -13,25 +13,8 @@ We could use [[Binary Search]] so that we get [[O (N log N)]] - traverse an arra
 
 We could use [[Hash Map]] the same alike way as in [[Two Sum (Pair Sum) In unsorted Array#^09cf47]], resulting in [[O (N)]] solution.
 
-Solution for unsorted array [two sum problem](https://leetcode.com/problems/two-sum/description/):
+Solution for unsorted array [[Two Sum (Pair Sum) In unsorted Array#^09cf47]]
 
-```php
-function twoSum($nums, $desiredSum) {
-    $map = array_flip($nums);
-
-    foreach ($nums as $i => $num1) {
-        $complement = $desiredSum - $num1;
-
-        $j = $map[$complement] ?? -1;
-
-        if (~$j && $j !== $i) {
-            return [$i, $j];
-        }
-    }
-
-    return [];
-}
-```
 ##### Two Pointers 
 ^b7d57e
 
@@ -59,9 +42,9 @@ function twoSum(array $nums, int $desiredSum) {
         $sum = $nums[$i] + $nums[$j];
 
         // [2,7,11,15]
-        // [2, 15] => 17 (if sum is less than target, then we need to increase sum,
+        // [2, 15] => 17 (if sum is less than target, then we need to increase the sum,
         // therefore shifting l -> [7, 15] => 22)
-        // [2, 15] => 17 (if sum is greater than target, then we need to decrease sum,
+        // [2, 15] => 17 (if sum is greater than target, then we need to decrease the sum,
         // to match the target, therefore shifting r -> [2, 11] => 13)
 
         if ($sum < $desiredSum) {

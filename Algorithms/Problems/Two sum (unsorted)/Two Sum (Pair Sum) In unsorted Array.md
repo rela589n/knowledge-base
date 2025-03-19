@@ -1,4 +1,4 @@
-See [editorial](https://www.geeksforgeeks.org/check-if-pair-with-given-sum-exists-in-array/)
+See [two sum problem](https://leetcode.com/problems/two-sum/description/) , [editorial](https://www.geeksforgeeks.org/check-if-pair-with-given-sum-exists-in-array/)
 
 ##### Brute-force
 
@@ -16,3 +16,21 @@ We could [[Sorting|Sort]] and then apply [[Two pointers]] technique the same ali
 ^09cf47
 
 We flip the array (e.g. build [[Hash Map]]) in [[O (N)]], and then traverse it once again so that for every `arr[i]` we check if it's complement `target - arr[i]` exists in the [[Hash Map]] (and this is not the same current item). This is [[O (N)]] time and [[O (N)]] space.
+
+```php
+function twoSum($nums, $desiredSum) {
+    $map = array_flip($nums);
+
+    foreach ($nums as $i => $num1) {
+        $complement = $desiredSum - $num1;
+
+        $j = $map[$complement] ?? -1;
+
+        if (~$j && $j !== $i) {
+            return [$i, $j];
+        }
+    }
+
+    return [];
+}
+```
