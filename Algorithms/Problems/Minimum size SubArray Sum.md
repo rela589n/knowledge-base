@@ -1,6 +1,10 @@
 See [problem](https://leetcode.com/problems/minimum-size-subarray-sum/description/?envType=problem-list-v2&envId=sliding-window).
 
-Using [[Sliding Window]].
+## Sliding Window
+
+Complexity: [[O (N)]]
+
+This could be solved with [[Variable-size Sliding Window]] :
 
 ```php
 function minSubArrayLen($target, $nums) {
@@ -70,3 +74,37 @@ while ($r < $n) {
 ```
 
 This is likely to handle negative numbers as well.
+
+## Binary Search and Sliding Window 
+
+Complexity: [[O (N log N)]]
+
+This also could be solved using [[Binary Search]] (over array length) and [[Fixed-size Sliding Window]] approach:
+
+```php
+function minSubArrayLen($target, $nums)
+{   
+    $n = count($nums);
+
+    $l = 1;
+    $r = $n;
+
+    $minLen = 0;
+
+    while ($l <= $r) {
+        $m = $l + (($r - $l) >> 1);
+
+        if ($this->getWindowMaxSum($m, $nums) >= $target) {
+            $minLen = $m;
+
+            $r = $m - 1;
+        } else {
+            $l = $m + 1;
+        }
+    }
+
+    return $minLen;
+}
+```
+
+The second `getWindowMaxSum()` function is [[Window Max Sum]].
