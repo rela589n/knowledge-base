@@ -1,3 +1,9 @@
+---
+aliases:
+  - Thundering herd effect, and how just one extra RPS could lay down your system
+---
+![[Thundering buffalo.png]]
+
 Thundering herd effect, or why **max queue size is important**.
 
 Suppose that you have 3 servers that operate at their 100% capacity of 100 req/s:
