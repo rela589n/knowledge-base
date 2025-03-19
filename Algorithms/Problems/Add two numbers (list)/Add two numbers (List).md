@@ -30,23 +30,16 @@ class Solution {
             return null;
         }
 
-        if (null !== $l1) {
-            $d1 = $l1->val;
-        } else {
-            $d1 = 0;
-        }
-        
-        if (null !== $l2) {
-            $d2 = $l2->val;
-        } else {
-            $d2 = 0;
-        }
+        $d1 = $l1?->val ?? 0;
+        $d2 = $l2?->val ?? 0;
 
         $sum = $d1 + $d2 + $extra;
 
         $resultDigit = $sum % 10;
 
-        return new ListNode($resultDigit, $this->doAdd($l1?->next, $l2?->next, intdiv($sum, 10)));
+        $next = $this->doAdd($l1?->next, $l2?->next, intdiv($sum, 10));
+
+        return new ListNode($resultDigit, $next);
     }
 }
 ```
