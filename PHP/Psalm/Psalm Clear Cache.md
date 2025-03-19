@@ -1,4 +1,5 @@
-```php
+
+```shell
 ./vendor/bin/psalm --clear-cache
 ```
 

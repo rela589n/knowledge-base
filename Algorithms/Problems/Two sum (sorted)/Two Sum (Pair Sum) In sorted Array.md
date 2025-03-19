@@ -39,12 +39,12 @@ We could use [[Two pointers]] so that we get [[O (N)]].
 
 1. Have pointer L  as the beginning of the array, pointer R as the end of the array. 
 2. Check the sum. 
-3. If it's less then the needed sum, there's just no other way of increasing it, but to shift the left pointer. (shifting the right pointer won't help us, since it will decrease the value)
-4. On the other hand, if the sum is greater than the needed sum, we could do nothing else, but to shift the right pointer so that it becomes smaller (shifting the left pointer won't help us, since it only increases the value, as we have the sorted array).
+3. If it's less then the needed sum, there's just no other way of increasing it, but to shift the left pointer. (shifting the right pointer won't help us, since it will only decrease the value)
+4. On the other hand, if the sum is greater than the needed sum, we could do nothing else, but to shift the right pointer so that it'll become smaller (shifting the left pointer won't help us, since it only increases the value, because we have sorted array).
 
 ![[Two sum.png]]
 
-[[Two pointers]] solution for [two sum](https://leetcode.com/problems/two-sum/) (unsorted, but sorted):
+[[Two pointers]] solution for [two sum](https://leetcode.com/problems/two-sum/) (unsorted, yet sorted):
 
 ```php
 function twoSum(array $nums, int $desiredSum) {
