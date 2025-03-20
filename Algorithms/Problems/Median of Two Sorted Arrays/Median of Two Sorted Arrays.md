@@ -57,3 +57,38 @@ function findMedianSortedArrays($nums1, $nums2) {
 ```
 
 Actually, we don't need to merge them. We only need to find two elements of the middle.
+
+```php
+function findMedianSortedArrays($nums1, $nums2) {
+    $n1 = count($nums1);
+    $n2 = count($nums2);
+    $n = $n1 + $n2;
+
+    $midN = intdiv($n, 2) + 1;
+
+    $i = 0;
+    $j = 0;
+    $m1 = $m2 = 0;
+
+    for ($k = 0; $k < $midN; ++$k) {
+        $m1 = $m2;
+
+        if ($i < $n1 && $nums1[$i] <= ($nums2[$j] ?? INF)) {
+            $m2 = $nums1[$i++];
+        } elseif ($j < $n2 && $nums2[$j] <= ($nums1[$i] ?? INF)) {
+            $m2 = $nums2[$j++];
+        }
+    }
+
+    if ($n & 1) {
+        // [1,2,3] (3)
+
+        return $m2;
+    }
+
+    // [1,2,3,4] (4)
+    //  0 1 2 3
+
+    return ($m1 + $m2) / 2;
+}
+```
