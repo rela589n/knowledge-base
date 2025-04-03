@@ -1,3 +1,8 @@
+---
+aliases:
+  - Doctrine exclude table from schema
+---
+
 
 ```yaml
 app_your_project.dbal.schema_filter:
