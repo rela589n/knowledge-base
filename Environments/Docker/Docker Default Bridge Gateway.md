@@ -2,9 +2,9 @@
 aliases:
   - 172.17.0.1
   - host.docker.internal
-  - host-gateway
+  - docker host-gateway
 ---
-Host IP (your local machine, on which docker runs) is 172.17.0.1.
+Host IP (your local machine, on which docker runs) is `172.17.0.1`.
 
 Yet, it is recommended to use `host.docker.internal:host-gateway` instead, to work for MacOS and Windows.
 

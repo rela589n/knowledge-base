@@ -18,3 +18,4 @@ CMD [...]
 
 In here  `--create-home` is necessary, since composer is storing cache in the home directory.
 
+See also [[Docker user sudo]]
