@@ -1,4 +1,10 @@
-> covariance is a descending (generic to concrete) variance
+---
+aliases:
+  - covariant
+---
+
+
+> Covariance is a descending (generic to concrete) variance
 > 
 > return types must be covariant (more specific) with the interface ([[LSP]])
 
