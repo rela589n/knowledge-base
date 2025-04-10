@@ -43,5 +43,25 @@
       ],
       "key": "A"
     }
+  ],
+  "file-explorer:new-file": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "Insert"
+    }
+  ],
+  "file-explorer:new-file-in-new-pane": [],
+  "switcher:open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "N"
+    }
   ]
 }
