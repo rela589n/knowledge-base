@@ -4,7 +4,7 @@ The more **correct your intuition** is, the more correct will your ideas will be
 
 If you are good at your intuition, you'll be able to come up with good ideas quickly.
 
-What intuition is really all about is a mapping from problem components to solution ideas.
+What intuition is really all about is a mapping from problem components to the solution ideas.
 ![[Problem Components - Solution Components.png]]
 
 
