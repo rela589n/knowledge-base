@@ -1,3 +1,3 @@
-Design Patterns Head First
+Design Patterns Head First, [playlist by Christopher Okhravi](https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc) 
 DDIA
 DDD (by Evans)

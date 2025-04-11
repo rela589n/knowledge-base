@@ -1,0 +1,30 @@
+{
+	"nodes":[
+		{"id":"2f828deb46ffd4db","type":"file","file":"PHP/PhpStorm/PhpStorm.md","x":-1740,"y":-800,"width":400,"height":240},
+		{"id":"fe322d1ee142e1f1","type":"file","file":"AI/Copilot/Copilot.md","x":-1180,"y":-800,"width":440,"height":240},
+		{"id":"580ac72534b0c5f6","type":"file","file":"Mentoring/How to learn.md","x":-1540,"y":-1440,"width":520,"height":220},
+		{"id":"d5b1b6bfadcc0fdb","type":"file","file":"Environments/Docker/Docker.md","x":-1740,"y":-280,"width":400,"height":280},
+		{"id":"cb765bc699006fab","type":"file","file":"PHP/Composer/Composer.md","x":-1180,"y":-280,"width":440,"height":220},
+		{"id":"59dc8d0071991303","type":"text","text":"**Chat live coding Example**","x":-400,"y":1200,"width":250,"height":100},
+		{"id":"234d00300eadf49e","type":"file","file":"PHP/Symfony/Book/Fast track.md","x":-1920,"y":773,"width":580,"height":220},
+		{"id":"85a15700425fc2d5","type":"file","file":"PHP/Symfony/Symfony.md","x":-1920,"y":353,"width":580,"height":200},
+		{"id":"0f37fcbb0a9be9be","type":"file","file":"PHP/Doctrine ORM/Doctrine ORM.md","x":-1180,"y":353,"width":440,"height":287},
+		{"id":"c7369c3495972b2b","type":"text","text":"**active record vs data mapper**","x":-1163,"y":788,"width":406,"height":95},
+		{"id":"5337a5de91433d57","type":"file","file":"PHP/Quality Tools/Code Style/Code Style.md","x":-540,"y":124,"width":420,"height":156},
+		{"id":"273a073a67eaa770","type":"file","file":"PHP/Quality Tools/Static Analysis/Static Analysis.md","x":160,"y":124,"width":440,"height":200},
+		{"id":"a72e84d121e4fa9d","type":"text","text":"Task: configure [[ECS]] for project & use most strict config with `withPreparedSets()` ","x":-540,"y":380,"width":420,"height":146},
+		{"id":"3affaf2c876c2b90","type":"text","text":"Task: install PhpStan & Rector, use the most strict configuration for `withPreparedSets()`","x":160,"y":380,"width":440,"height":146},
+		{"id":"caa989e51f11f0f3","x":920,"y":124,"width":400,"height":200,"type":"file","file":"PHP/PhpUnit/PhpUnit.md"},
+		{"id":"70658a241da2d31a","type":"file","file":"PHP/Quality Tools/Quality Tools.md","x":160,"y":-280,"width":360,"height":220}
+	],
+	"edges":[
+		{"id":"1e2f64019f63ba41","fromNode":"70658a241da2d31a","fromSide":"bottom","toNode":"5337a5de91433d57","toSide":"top"},
+		{"id":"c8f33395f5f87d13","fromNode":"70658a241da2d31a","fromSide":"bottom","toNode":"273a073a67eaa770","toSide":"top"},
+		{"id":"4bb56ac22f6211da","fromNode":"273a073a67eaa770","fromSide":"bottom","toNode":"3affaf2c876c2b90","toSide":"top"},
+		{"id":"600d6b7abc3c46bf","fromNode":"5337a5de91433d57","fromSide":"bottom","toNode":"a72e84d121e4fa9d","toSide":"top"},
+		{"id":"b1ab6006a1d34f69","fromNode":"2f828deb46ffd4db","fromSide":"right","toNode":"fe322d1ee142e1f1","toSide":"left","toEnd":"none"},
+		{"id":"7cb705259f83af77","fromNode":"85a15700425fc2d5","fromSide":"bottom","toNode":"234d00300eadf49e","toSide":"top"},
+		{"id":"50afd5a0d3c7b93f","fromNode":"0f37fcbb0a9be9be","fromSide":"bottom","toNode":"c7369c3495972b2b","toSide":"top"},
+		{"id":"73fb02b9cdc0f21c","fromNode":"70658a241da2d31a","fromSide":"bottom","toNode":"caa989e51f11f0f3","toSide":"top"}
+	]
+}

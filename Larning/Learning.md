@@ -8,5 +8,5 @@ To really learn something, you have to:
 - and repeat the solutions from day to day so that you really dig into it;
 - try understanding the "why?", - why things work, what is the basis.
 
-> If you taught a kid how to add numbers, and they understood it, it doesn't mean the'd be able to apply it a month after, unless they practice
+> If you taught a kid how to add numbers, and they understood it, if they don't practice it, they won't be able to apply it a month after, unless they practice
 

@@ -1,20 +1,22 @@
-particular file:
+Reference particular file:
 ![[Pasted image 20250410183455.png]]
 
 
 Edit mode - it creates diff that you can apply.
 
 ![[Pasted image 20250410184216.png]]
+
+hen apply it:
 ![[Pasted image 20250410184228.png]]
 
 
-Next changes feature:
+Next suggested changes feature:
 ![[Pasted image 20250410184359.png]]
 
 It suggests on the fly based on what you are doing:
 ![[Pasted image 20250410184451.png]]
 
-MCP
+MCP (model context protocol) - allows your model to access data.
 
 Before mcp:
 ![[Pasted image 20250410184637.png]]
@@ -22,13 +24,13 @@ Before mcp:
 After:
 ![[Pasted image 20250410184714.png]]
 
-
+MCP can also be used to run actions:
 
 ![[Pasted image 20250410184810.png]]
 
 Agent mode:
 
-It can propose to run the test, and then see what happened:
+It can write code, and then propose to run the test, and then see what happened:
 
 ![[Pasted image 20250410185329.png]]
 
