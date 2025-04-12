@@ -1,4 +1,4 @@
 Core concepts:
-- Image
+- Image (Dockerfile)
 - Container
 - Registry

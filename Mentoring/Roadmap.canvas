@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"2f828deb46ffd4db","type":"file","file":"PHP/PhpStorm/PhpStorm.md","x":-1740,"y":-800,"width":400,"height":240},
+		{"id":"2f828deb46ffd4db","type":"file","file":"PHP/PhpStorm/PhpStorm.md","x":-1740,"y":-800,"width":400,"height":100},
 		{"id":"fe322d1ee142e1f1","type":"file","file":"AI/Copilot/Copilot.md","x":-1180,"y":-800,"width":440,"height":240},
 		{"id":"580ac72534b0c5f6","type":"file","file":"Mentoring/How to learn.md","x":-1540,"y":-1440,"width":520,"height":220},
 		{"id":"d5b1b6bfadcc0fdb","type":"file","file":"Environments/Docker/Docker.md","x":-1740,"y":-280,"width":400,"height":280},
@@ -14,8 +14,11 @@
 		{"id":"273a073a67eaa770","type":"file","file":"PHP/Quality Tools/Static Analysis/Static Analysis.md","x":160,"y":124,"width":440,"height":200},
 		{"id":"a72e84d121e4fa9d","type":"text","text":"Task: configure [[ECS]] for project & use most strict config with `withPreparedSets()` ","x":-540,"y":380,"width":420,"height":146},
 		{"id":"3affaf2c876c2b90","type":"text","text":"Task: install PhpStan & Rector, use the most strict configuration for `withPreparedSets()`","x":160,"y":380,"width":440,"height":146},
-		{"id":"caa989e51f11f0f3","x":920,"y":124,"width":400,"height":200,"type":"file","file":"PHP/PhpUnit/PhpUnit.md"},
-		{"id":"70658a241da2d31a","type":"file","file":"PHP/Quality Tools/Quality Tools.md","x":160,"y":-280,"width":360,"height":220}
+		{"id":"caa989e51f11f0f3","type":"file","file":"PHP/PhpUnit/PhpUnit.md","x":920,"y":124,"width":400,"height":200},
+		{"id":"70658a241da2d31a","type":"file","file":"PHP/Quality Tools/Quality Tools.md","x":160,"y":-280,"width":360,"height":220},
+		{"id":"9603d6596f5025f8","type":"text","text":"**Local Installation**","x":-2260,"y":-280,"width":260,"height":60},
+		{"id":"2d10e9947d858479","type":"text","text":"Live templates","x":-1665,"y":-480,"width":250,"height":60},
+		{"id":"38e0659d4340257b","x":-2060,"y":-540,"width":320,"height":160,"type":"file","file":"PHP/PhpStorm/PhpStorm Hotkeys.md"}
 	],
 	"edges":[
 		{"id":"1e2f64019f63ba41","fromNode":"70658a241da2d31a","fromSide":"bottom","toNode":"5337a5de91433d57","toSide":"top"},
@@ -25,6 +28,8 @@
 		{"id":"b1ab6006a1d34f69","fromNode":"2f828deb46ffd4db","fromSide":"right","toNode":"fe322d1ee142e1f1","toSide":"left","toEnd":"none"},
 		{"id":"7cb705259f83af77","fromNode":"85a15700425fc2d5","fromSide":"bottom","toNode":"234d00300eadf49e","toSide":"top"},
 		{"id":"50afd5a0d3c7b93f","fromNode":"0f37fcbb0a9be9be","fromSide":"bottom","toNode":"c7369c3495972b2b","toSide":"top"},
-		{"id":"73fb02b9cdc0f21c","fromNode":"70658a241da2d31a","fromSide":"bottom","toNode":"caa989e51f11f0f3","toSide":"top"}
+		{"id":"73fb02b9cdc0f21c","fromNode":"70658a241da2d31a","fromSide":"bottom","toNode":"caa989e51f11f0f3","toSide":"top"},
+		{"id":"6289e70b07844a98","fromNode":"2f828deb46ffd4db","fromSide":"bottom","toNode":"2d10e9947d858479","toSide":"top"},
+		{"id":"51432905709cf805","fromNode":"2f828deb46ffd4db","fromSide":"bottom","toNode":"38e0659d4340257b","toSide":"top"}
 	]
 }
