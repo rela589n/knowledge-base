@@ -1,4 +1,4 @@
-[Plugin Key Prompter X](https://plugins.jetbrains.com/plugin/9792-key-promoter-x)
+[Plugin Key Promoter X](https://plugins.jetbrains.com/plugin/9792-key-promoter-x)
 
 Use hotkeys:
 `alt+1` - project
@@ -12,12 +12,16 @@ Use hotkeys:
 `shift+enter` - database properties
 
 `ctrl+alt+m` - extract method
+`ctrl+alt+v` - extract variable
+`ctrl+alt+c` - extract const
 `shift+f6` - rename
+`ctrl+f6` - change signature (params)
 `ctrl+shift+u` - change casing
 `alt+r` - [randomness plugin](https://plugins.jetbrains.com/plugin/9836-randomness) 
 `alt+m` - [string manipulation](https://plugins.jetbrains.com/plugin/2162-string-manipulation)
 
 `ctrl+shift+bck` - navigate back
+`ctrl+b` - go to body
 `ctrl+u` - navigate to parent
 `ctrl+alt+b` - navigate to child
 `alt+up` - move to prev method
