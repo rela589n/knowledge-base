@@ -1,4 +1,4 @@
 [[Learning]]
 
-Taking notes
+Taking notes - Obsidian
 
