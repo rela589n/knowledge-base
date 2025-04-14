@@ -6,13 +6,13 @@
 		{"id":"85a15700425fc2d5","type":"file","file":"PHP/Symfony/Symfony.md","x":-1920,"y":353,"width":580,"height":200},
 		{"id":"0f37fcbb0a9be9be","type":"file","file":"PHP/Doctrine ORM/Doctrine ORM.md","x":-1180,"y":353,"width":440,"height":287},
 		{"id":"c7369c3495972b2b","type":"text","text":"**active record vs data mapper**","x":-1163,"y":788,"width":406,"height":95},
-		{"id":"2f828deb46ffd4db","type":"file","file":"PHP/PhpStorm/PhpStorm.md","x":-1740,"y":-880,"width":400,"height":120},
-		{"id":"38e0659d4340257b","type":"file","file":"PHP/PhpStorm/PhpStorm Hotkeys.md","x":-2060,"y":-620,"width":320,"height":160},
+		{"id":"2f828deb46ffd4db","type":"file","file":"PHP/PhpStorm/PhpStorm.md","x":-1740,"y":-880,"width":400,"height":140},
+		{"id":"38e0659d4340257b","type":"file","file":"PHP/PhpStorm/PhpStorm Hotkeys.md","x":-2060,"y":-620,"width":320,"height":180},
 		{"id":"2d10e9947d858479","type":"text","text":"Live templates","x":-1360,"y":-570,"width":250,"height":60},
 		{"id":"05a1dfe98c84967c","type":"text","text":"Material Theme Lite","x":-1665,"y":-586,"width":250,"height":93},
 		{"id":"c1395e27531448c1","type":"text","text":"use manual mode","x":-971,"y":-535,"width":262,"height":50},
 		{"id":"fe322d1ee142e1f1","type":"file","file":"AI/Copilot/Copilot.md","x":-1050,"y":-840,"width":420,"height":160},
-		{"id":"3a80ed40cb279f06","x":-2042,"y":-380,"width":285,"height":60,"type":"text","text":"try them all, save it"},
+		{"id":"3a80ed40cb279f06","type":"text","text":"try them all, save it","x":-2042,"y":-380,"width":285,"height":60},
 		{"id":"cb765bc699006fab","type":"file","file":"PHP/Composer/Composer.md","x":-1180,"y":-170,"width":440,"height":220},
 		{"id":"9603d6596f5025f8","type":"text","text":"**Local Installation**","x":-2260,"y":-170,"width":260,"height":60},
 		{"id":"d5b1b6bfadcc0fdb","type":"file","file":"Environments/Docker/Docker.md","x":-1740,"y":-170,"width":400,"height":280},
@@ -22,8 +22,9 @@
 		{"id":"3affaf2c876c2b90","type":"text","text":"Task: install PhpStan & Rector, use the most strict configuration for `withPreparedSets()`","x":300,"y":597,"width":440,"height":146},
 		{"id":"caa989e51f11f0f3","type":"file","file":"PHP/PhpUnit/PhpUnit.md","x":1060,"y":341,"width":400,"height":200},
 		{"id":"70658a241da2d31a","type":"file","file":"PHP/Quality Tools/Quality Tools.md","x":300,"y":-64,"width":360,"height":220},
-		{"id":"2b2c15b7e8981113","x":-1746,"y":1120,"width":233,"height":72,"type":"text","text":"Read it, if any questions, ask"},
-		{"id":"c97a7ee3fbbf2417","x":1097,"y":621,"width":327,"height":98,"type":"text","text":"Find a value object and cover it with tests"}
+		{"id":"2b2c15b7e8981113","type":"text","text":"Read it, if any questions, ask","x":-1746,"y":1120,"width":233,"height":72},
+		{"id":"c97a7ee3fbbf2417","type":"text","text":"Find a value object and cover it with tests","x":1097,"y":621,"width":327,"height":98},
+		{"id":"c8284cc183bf4dd8","x":-2640,"y":-890,"width":250,"height":50,"type":"text","text":"touch typing\n"}
 	],
 	"edges":[
 		{"id":"1e2f64019f63ba41","fromNode":"70658a241da2d31a","fromSide":"bottom","toNode":"5337a5de91433d57","toSide":"top"},

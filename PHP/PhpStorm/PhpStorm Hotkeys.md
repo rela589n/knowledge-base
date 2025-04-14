@@ -2,6 +2,8 @@
 
 Use hotkeys:
 `alt+1` - project
+`alt+shift+1` - show file in project
+`ctrl+e` - recent edited files
 `ctrl+alt+shift+(lft,rgh,up,dn)` - stretch left, right, up, down
 `alt+insert` - create file
 `cltr+alt+shift+insert` - create scratch file
