@@ -2,6 +2,7 @@
 
 Use hotkeys:
 `alt+1` - project
+`ctrl+alt+shift+(lft,rgh,up,dn)` - stretch left, right, up, down
 `alt+insert` - create file
 `cltr+alt+shift+insert` - create scratch file
 
@@ -11,9 +12,8 @@ Use hotkeys:
 `alt+d` - database
 `shift+enter` - database properties
 
-`ctrl+alt+m` - extract method
-`ctrl+alt+v` - extract variable
-`ctrl+alt+c` - extract const
+`ctrl+alt+(m,v,c)` - extract method, variable, constant
+`ctrl+alt+n` - inline
 `shift+f6` - rename
 `ctrl+f6` - change signature (params)
 `ctrl+shift+u` - change casing
@@ -24,8 +24,7 @@ Use hotkeys:
 `ctrl+b` - go to body
 `ctrl+u` - navigate to parent
 `ctrl+alt+b` - navigate to child
-`alt+up` - move to prev method
-`alt+dn` - move to next method
+`alt+(up,dn)` - move to upper, lower method
 `ctrl+f12` - file structure
 `ctrl+alt+7` - search usages
 
@@ -35,6 +34,9 @@ Use hotkeys:
 `alt+shift+j` - select prev occurence
 `ctrl+ctrl+dn` - add cursor
 `alt+shift+mouse` - put cursors
-
 `f3` - move to next 
 `shift+f3` - move to prev
+
+`ctrl+shitf+a` - actions
+`ctrl+n` - classes
+`ctrl+shift+n` - files
