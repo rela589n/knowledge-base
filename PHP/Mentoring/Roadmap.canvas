@@ -1,8 +1,6 @@
 {
 	"nodes":[
 		{"id":"580ac72534b0c5f6","type":"file","file":"PHP/Mentoring/How to learn.md","x":-1540,"y":-1440,"width":520,"height":220},
-		{"id":"59dc8d0071991303","type":"text","text":"**Chat live coding Example**","x":-400,"y":1200,"width":250,"height":100},
-		{"id":"234d00300eadf49e","type":"file","file":"PHP/Symfony/Book/Fast track.md","x":-1920,"y":773,"width":580,"height":220},
 		{"id":"85a15700425fc2d5","type":"file","file":"PHP/Symfony/Symfony.md","x":-1920,"y":353,"width":580,"height":200},
 		{"id":"0f37fcbb0a9be9be","type":"file","file":"PHP/Doctrine ORM/Doctrine ORM.md","x":-1180,"y":353,"width":440,"height":287},
 		{"id":"c7369c3495972b2b","type":"text","text":"**active record vs data mapper**","x":-1163,"y":788,"width":406,"height":95},
@@ -22,10 +20,14 @@
 		{"id":"3affaf2c876c2b90","type":"text","text":"Task: install PhpStan & Rector, use the most strict configuration for `withPreparedSets()`","x":300,"y":597,"width":440,"height":146},
 		{"id":"caa989e51f11f0f3","type":"file","file":"PHP/PhpUnit/PhpUnit.md","x":1060,"y":341,"width":400,"height":200},
 		{"id":"70658a241da2d31a","type":"file","file":"PHP/Quality Tools/Quality Tools.md","x":300,"y":-64,"width":360,"height":220},
-		{"id":"2b2c15b7e8981113","type":"text","text":"Read it, if any questions, ask","x":-1746,"y":1120,"width":233,"height":72},
 		{"id":"c97a7ee3fbbf2417","type":"text","text":"Find a value object and cover it with tests","x":1097,"y":621,"width":327,"height":98},
 		{"id":"fbcad93282d8433a","type":"file","file":"Lake/Touch Typing/Touch Typing.md","x":-840,"y":-1330,"width":440,"height":135},
-		{"id":"3c7934459029d538","x":-1099,"y":122,"width":250,"height":60,"type":"text","text":"composer.lock"}
+		{"id":"3c7934459029d538","type":"text","text":"composer.lock","x":-1099,"y":122,"width":250,"height":60},
+		{"id":"234d00300eadf49e","type":"file","file":"PHP/Symfony/Book/Fast track.md","x":-2383,"y":726,"width":580,"height":220},
+		{"id":"2b2c15b7e8981113","type":"text","text":"Read it, if any questions, ask","x":-2260,"y":1040,"width":233,"height":72},
+		{"id":"0c47fa54f181d302","type":"file","file":"PHP/Symfony/Nelmio Api Doc/Nelmio Api Doc.md","x":-1838,"y":1035,"width":417,"height":165},
+		{"id":"cbb17bbad1583b1f","type":"file","file":"PHP/Symfony/JWT/Lexik JWT & Refresh.md","x":-1598,"y":1300,"width":435,"height":311},
+		{"id":"59dc8d0071991303","type":"text","text":"**Chat live coding Example**","x":-190,"y":1511,"width":250,"height":100}
 	],
 	"edges":[
 		{"id":"1e2f64019f63ba41","fromNode":"70658a241da2d31a","fromSide":"bottom","toNode":"5337a5de91433d57","toSide":"top"},
@@ -43,6 +45,8 @@
 		{"id":"ccdcf5aef7f2b634","fromNode":"38e0659d4340257b","fromSide":"bottom","toNode":"3a80ed40cb279f06","toSide":"top"},
 		{"id":"0f7d4985f89f0115","fromNode":"234d00300eadf49e","fromSide":"bottom","toNode":"2b2c15b7e8981113","toSide":"top"},
 		{"id":"8fc250a76c08495d","fromNode":"caa989e51f11f0f3","fromSide":"bottom","toNode":"c97a7ee3fbbf2417","toSide":"top"},
-		{"id":"80273800122c0e6c","fromNode":"cb765bc699006fab","fromSide":"bottom","toNode":"3c7934459029d538","toSide":"top"}
+		{"id":"80273800122c0e6c","fromNode":"cb765bc699006fab","fromSide":"bottom","toNode":"3c7934459029d538","toSide":"top"},
+		{"id":"de79f9181eb4bccf","fromNode":"85a15700425fc2d5","fromSide":"bottom","toNode":"0c47fa54f181d302","toSide":"top"},
+		{"id":"196a0e87ce3ed947","fromNode":"85a15700425fc2d5","fromSide":"bottom","toNode":"cbb17bbad1583b1f","toSide":"top"}
 	]
 }
