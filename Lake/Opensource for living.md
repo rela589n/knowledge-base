@@ -10,6 +10,8 @@ Another way is by [[Sponsorship platforms|sponsorship]]. Yet, this model doesn't
 
 I think one could promote sponsorship by requiring at least 1$ of monthly payment for documentation. So, everything is free, but to have the docs to read, you have to pay. Documentation should be licenced. It should be subscription, and not one-off payment, to prevent people from paying just again when they open docs.
 
+Or else, docs could be open as well (somehow copying should be prevented), but available for some time slot. This should not prevent new people from viewing it, but those who already use the lib.
+
 There are also partnerships. Like you can post some of the companies built on top of your project on your website (ads). Video teaching programs that generate income from teaching your framework could kick back some revenue back to you.
 
 The main goal of open-source is not making the money out of it. The goal is to have the ability to keep working on it by the money passively coming to you by from it. You could start a business out of it, but this way you will have to run the business, not to do the actual programming.
