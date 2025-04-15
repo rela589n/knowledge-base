@@ -13,7 +13,7 @@
 		{"id":"3a80ed40cb279f06","type":"text","text":"try them all, save it","x":-2042,"y":-380,"width":285,"height":60},
 		{"id":"cb765bc699006fab","type":"file","file":"PHP/Composer/Composer.md","x":-1180,"y":-170,"width":440,"height":220},
 		{"id":"9603d6596f5025f8","type":"text","text":"**Local Installation**","x":-2260,"y":-170,"width":260,"height":60},
-		{"id":"d5b1b6bfadcc0fdb","type":"file","file":"Environments/Docker/Docker.md","x":-1740,"y":-170,"width":400,"height":280},
+		{"id":"d5b1b6bfadcc0fdb","type":"file","file":"Environments/Docker/Docker.md","x":-1740,"y":-170,"width":360,"height":390},
 		{"id":"5337a5de91433d57","type":"file","file":"PHP/Quality Tools/Code Style/Code Style.md","x":-400,"y":341,"width":420,"height":156},
 		{"id":"a72e84d121e4fa9d","type":"text","text":"Task: configure [[ECS]] for project & use most strict config with `withPreparedSets()` ","x":-400,"y":597,"width":420,"height":146},
 		{"id":"273a073a67eaa770","type":"file","file":"PHP/Quality Tools/Static Analysis/Static Analysis.md","x":300,"y":341,"width":440,"height":200},
