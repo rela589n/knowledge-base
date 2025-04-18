@@ -1,3 +1,9 @@
+---
+aliases:
+  - PhpStorm Shortcuts
+---
+
+
 [Plugin Key Promoter X](https://plugins.jetbrains.com/plugin/9792-key-promoter-x)
 
 Use hotkeys:
@@ -21,6 +27,9 @@ Use hotkeys:
 `ctrl+shift+u` - change casing
 `alt+r` - [randomness plugin](https://plugins.jetbrains.com/plugin/9836-randomness) 
 `alt+m` - [string manipulation](https://plugins.jetbrains.com/plugin/2162-string-manipulation)
+
+`ctrl+alt+t` - surround with
+`cltr+alt+del` - unwrap / remove
 
 `ctrl+shift+bck` - navigate back
 `ctrl+b` - go to body
