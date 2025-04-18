@@ -1,3 +1,5 @@
+For [[Psalm]]:
+
 ```php
 /**
  * @psalm-type UserStruct = array{
