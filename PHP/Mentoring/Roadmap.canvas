@@ -35,11 +35,12 @@
 		{"id":"884885bea87dbad5","type":"text","text":"./vendor/bin/phpunit --generate-configuration","x":1782,"y":923,"width":438,"height":97},
 		{"id":"3a80ed40cb279f06","type":"text","text":"try them all, save it","x":-2160,"y":-380,"width":285,"height":60},
 		{"id":"38e0659d4340257b","type":"file","file":"PHP/PhpStorm/PhpStorm Hotkeys.md","x":-2195,"y":-643,"width":320,"height":180},
-		{"id":"296fb5e63254de59","x":-1820,"y":-598,"width":320,"height":226,"type":"file","file":"PHP/PhpStorm/PhpStorm Plugins.md"},
+		{"id":"296fb5e63254de59","type":"file","file":"PHP/PhpStorm/PhpStorm Plugins.md","x":-1820,"y":-598,"width":320,"height":226},
 		{"id":"05a1dfe98c84967c","type":"text","text":"Material Theme Lite","x":-1430,"y":-443,"width":250,"height":93},
-		{"id":"5d179688fa35b5ba","x":3120,"y":375,"width":250,"height":60,"type":"text","text":"Clean Code"},
-		{"id":"4f0432d7371dbad0","x":2963,"y":613,"width":357,"height":127,"type":"text","text":"Uncle Bob on Youtube: https://www.youtube.com/watch?v=7EmboKQH8lM"},
-		{"id":"b6efc2fbf2754326","x":1393,"y":1082,"width":389,"height":236,"type":"text","text":"**Application tests:**\nhttps://symfony.com/doc/current/testing.html#application-tests\ntask: cover endpoints with application tests"}
+		{"id":"5d179688fa35b5ba","type":"text","text":"Clean Code","x":3120,"y":375,"width":250,"height":60},
+		{"id":"4f0432d7371dbad0","type":"text","text":"Uncle Bob on Youtube: https://www.youtube.com/watch?v=7EmboKQH8lM","x":2963,"y":613,"width":357,"height":127},
+		{"id":"b6efc2fbf2754326","type":"text","text":"**Application tests:**\nhttps://symfony.com/doc/current/testing.html#application-tests\ntask: cover endpoints with application tests","x":1393,"y":1082,"width":389,"height":236},
+		{"id":"cad2e419adeaba40","x":3480,"y":362,"width":500,"height":315,"type":"file","file":"Architecture/DDD/Lake/DDD architecture.md"}
 	],
 	"edges":[
 		{"id":"1e2f64019f63ba41","fromNode":"70658a241da2d31a","fromSide":"bottom","toNode":"5337a5de91433d57","toSide":"top"},
@@ -71,6 +72,7 @@
 		{"id":"4f814170c31d1518","fromNode":"2f828deb46ffd4db","fromSide":"bottom","toNode":"296fb5e63254de59","toSide":"top"},
 		{"id":"aeb793f85f342412","fromNode":"160679ca810ff600","fromSide":"bottom","toNode":"5d179688fa35b5ba","toSide":"top"},
 		{"id":"68663380eca07cbd","fromNode":"5d179688fa35b5ba","fromSide":"bottom","toNode":"4f0432d7371dbad0","toSide":"top"},
-		{"id":"c108a6af66ba27ca","fromNode":"8da010f3d48ac995","fromSide":"bottom","toNode":"b6efc2fbf2754326","toSide":"top"}
+		{"id":"c108a6af66ba27ca","fromNode":"8da010f3d48ac995","fromSide":"bottom","toNode":"b6efc2fbf2754326","toSide":"top"},
+		{"id":"1743df93c74b4f1e","fromNode":"160679ca810ff600","fromSide":"bottom","toNode":"cad2e419adeaba40","toSide":"top"}
 	]
 }
