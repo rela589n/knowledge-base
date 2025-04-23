@@ -59,16 +59,17 @@ It doesn't overflow, since it produces  -2147483648, being at the limit of the t
 This solution combines the initial approach to reverse the integer, and aforementioned checks.
 
 ```php
-function reverse(int $x) {
+function reverse(int $x) 
+{
     $res = 0;
 
-    $min = -2 ** 31; // 2147483647
-    $almostMin = intdiv($min, 10); // 214748364
-    $lastMinDigit = $min % 10; // 7
+    $min = -2 ** 31; // -2147483648
+    $almostMin = intdiv($min, 10); // -214748364
+    $lastMinDigit = $min % 10; // -8
 
-    $max = 2 ** 31 - 1; // -2147483648
-    $almostMax = intdiv($max, 10); // -214748364
-    $lastMaxDigit = $max % 10; // -8
+    $max = 2 ** 31 - 1; // 2147483647
+    $almostMax = intdiv($max, 10); // 214748364
+    $lastMaxDigit = $max % 10; // 7
 
     while ($x) {
         // [res > 214748364]
@@ -95,7 +96,7 @@ function reverse(int $x) {
         // [res = -214748364, x < -8]
         // it would overflow, since remaining $x part will make it smaller than $min
         // (it could be only the last digit that overflows)
-        if ($res === -214748364 and $x < $lastMinDigit) {
+        if ($res === $almostMin and $x < $lastMinDigit) {
             return 0;
         }
 
