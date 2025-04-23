@@ -1,9 +1,8 @@
-
-## Anonymous services
+#### Anonymous services
 
 It is possible to define **anonymous services** via `!service`. This may be used for factory classes, since usually we don't need to have factory as a standalone service.
 
-## Aliases & Binding
+#### Aliases & Binding
 
 Define alias: `App\Util\TransformerInterface: '@App\Util\Rot13Transformer'`
 
