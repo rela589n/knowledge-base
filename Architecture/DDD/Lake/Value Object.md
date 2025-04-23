@@ -9,3 +9,4 @@ These are used to represent descriptive aspect for another objects to form a con
 
 > In some application the same concept may be represented as [[Value Object]], while in others it would be full-fledged [[Entity]], - depending on the question if the [[Identity|identity]] of this concept matters.
 
+[[Value Object example]]
