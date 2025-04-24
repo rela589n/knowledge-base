@@ -8,4 +8,6 @@ Every aggregate entity  must have:
 - a namespace for related infrastructural / ui things (like gateway, repository, presenters, fixtures, http exceptions etc) - these should likely have a separate namespace (Support);
 - the namespace for actions/scenarios;
 
+[[The most important things must be at the top, the less important things - at the bottom]]
+
 See [[DDD Layered Architecture]]
