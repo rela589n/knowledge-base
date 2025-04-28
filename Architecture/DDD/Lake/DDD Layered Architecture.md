@@ -10,4 +10,6 @@ Each layer represents some aspect of a system:
 
 It is crucial for Domain to be isolated from other layers so that volatile business logic may be implemented with minimal effort.
 
+See also [[DDD namespaces structure]]
+
 ![[DDD Layered Architecture.png]]

@@ -1,6 +1,5 @@
 ---
-aliases:
-  - DDD namespaces structure
+aliases: []
 ---
 Every aggregate entity  must have:
 - it's own namespace;

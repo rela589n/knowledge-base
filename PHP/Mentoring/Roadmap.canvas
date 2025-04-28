@@ -13,7 +13,7 @@
 		{"id":"5d179688fa35b5ba","type":"text","text":"Clean Code book","x":3467,"y":239,"width":280,"height":65},
 		{"id":"4f0432d7371dbad0","type":"text","text":"Uncle Bob on Youtube: https://www.youtube.com/watch?v=7EmboKQH8lM","x":3429,"y":438,"width":357,"height":127},
 		{"id":"2bae69bf6a5d5102","type":"file","file":"Architecture/DDD/Lake/DDD Patterns.md","x":2880,"y":120,"width":429,"height":239},
-		{"id":"cad2e419adeaba40","type":"file","file":"Architecture/DDD/Lake/DDD architecture.md","x":2220,"y":81,"width":500,"height":357},
+		{"id":"cad2e419adeaba40","type":"file","file":"Architecture/DDD/Lake/DDD namespaces structure.md","x":2220,"y":81,"width":500,"height":357},
 		{"id":"234d00300eadf49e","type":"file","file":"PHP/Symfony/Book/Fast track.md","x":-2860,"y":663,"width":580,"height":220},
 		{"id":"2b2c15b7e8981113","type":"text","text":"Read it, if any questions, ask","x":-2737,"y":977,"width":233,"height":72},
 		{"id":"70848e8e0819043c","type":"text","text":"[[PhpStorm Plugins|PhpStorm Plugin]]","x":-2200,"y":680,"width":250,"height":93},
