@@ -8,7 +8,6 @@
 		{"id":"caa989e51f11f0f3","type":"file","file":"PHP/PhpUnit/PhpUnit.md","x":1060,"y":341,"width":400,"height":200},
 		{"id":"70658a241da2d31a","type":"file","file":"PHP/Quality Tools/Quality Tools.md","x":300,"y":-64,"width":360,"height":220},
 		{"id":"fbcad93282d8433a","type":"file","file":"Lake/Touch Typing/Touch Typing.md","x":-840,"y":-1330,"width":440,"height":135},
-		{"id":"59dc8d0071991303","type":"text","text":"**Chat live coding Example**","x":-190,"y":1511,"width":250,"height":100},
 		{"id":"5aec572f751feb18","type":"file","file":"Architecture/DDD/Lake/DDD Layered Architecture.md","x":2880,"y":-380,"width":549,"height":220},
 		{"id":"5d179688fa35b5ba","type":"text","text":"Clean Code book","x":3467,"y":239,"width":280,"height":65},
 		{"id":"4f0432d7371dbad0","type":"text","text":"Uncle Bob on Youtube: https://www.youtube.com/watch?v=7EmboKQH8lM","x":3429,"y":438,"width":357,"height":127},
@@ -39,7 +38,7 @@
 		{"id":"a5e9fa39350454d8","type":"text","text":"PHP","x":-273,"y":-1004,"width":250,"height":60},
 		{"id":"5591c59021cbb6e2","type":"text","text":"Garbage Collection\nhttps://www.php.net/manual/en/features.gc.php","x":-411,"y":-836,"width":291,"height":76},
 		{"id":"149eb0bf53d38ea8","type":"file","file":"Architecture/DDD/Lake/Value Object.md","x":2567,"y":620,"width":405,"height":182},
-		{"id":"4e2f8c8c60909ebe","x":2604,"y":905,"width":676,"height":392,"type":"text","text":"![[Value Object example]]"},
+		{"id":"4e2f8c8c60909ebe","type":"text","text":"![[Value Object example]]","x":2604,"y":905,"width":676,"height":392},
 		{"id":"da0d5bbae424f0e6","type":"text","text":"task: add functional tests using WebTestCase for api endpoints","x":816,"y":1322,"width":399,"height":116},
 		{"id":"884885bea87dbad5","type":"text","text":"./vendor/bin/phpunit --generate-configuration","x":1797,"y":1200,"width":438,"height":97},
 		{"id":"c97a7ee3fbbf2417","type":"text","text":"Find a [[Value Object]] and cover it with tests. For example: https://phpunit.de/getting-started/phpunit-12.html","x":2010,"y":1334,"width":420,"height":193},
@@ -48,7 +47,9 @@
 		{"id":"d636ef5d187530cc","type":"text","text":"Versions and Constraints\nhttps://getcomposer.org/doc/articles/versions.md","x":-1156,"y":180,"width":382,"height":114},
 		{"id":"3c7934459029d538","type":"text","text":"composer.lock (why it should be committed)","x":-1083,"y":25,"width":279,"height":118},
 		{"id":"c7369c3495972b2b","type":"text","text":"**active record vs data mapper**","x":-1049,"y":822,"width":406,"height":95},
-		{"id":"bea1a161dad8d76d","type":"text","text":"Embeddable:\nhttps://www.doctrine-project.org/projects/doctrine-orm/en/3.3/tutorials/embeddables.html","x":-1049,"y":980,"width":406,"height":80}
+		{"id":"bea1a161dad8d76d","type":"text","text":"Embeddable:\nhttps://www.doctrine-project.org/projects/doctrine-orm/en/3.3/tutorials/embeddables.html","x":-1049,"y":980,"width":406,"height":80},
+		{"id":"59dc8d0071991303","type":"text","text":"**Chat pair coding Example**","x":-300,"y":1640,"width":250,"height":100},
+		{"id":"ee975497dd94ab21","type":"text","text":"Encrypted string with AES-256-CBC","x":40,"y":1640,"width":250,"height":100}
 	],
 	"edges":[
 		{"id":"1e2f64019f63ba41","fromNode":"70658a241da2d31a","fromSide":"bottom","toNode":"5337a5de91433d57","toSide":"top"},
