@@ -49,7 +49,10 @@
 		{"id":"c7369c3495972b2b","type":"text","text":"**active record vs data mapper**","x":-1049,"y":822,"width":406,"height":95},
 		{"id":"bea1a161dad8d76d","type":"text","text":"Embeddable:\nhttps://www.doctrine-project.org/projects/doctrine-orm/en/3.3/tutorials/embeddables.html","x":-1049,"y":980,"width":406,"height":80},
 		{"id":"59dc8d0071991303","type":"text","text":"**Chat pair coding Example**","x":-300,"y":1640,"width":250,"height":100},
-		{"id":"ee975497dd94ab21","type":"text","text":"Encrypted string with AES-256-CBC","x":40,"y":1640,"width":250,"height":100}
+		{"id":"ee975497dd94ab21","type":"text","text":"Encrypted string with AES-256-CBC","x":40,"y":1640,"width":250,"height":100},
+		{"id":"36174a2c7abe0453","x":4500,"y":620,"width":410,"height":179,"type":"text","text":"Налаштувати запуск тестів на CI. Запуск на кожній вітці, що відкриває МР на develop, і також на самому develop."},
+		{"id":"9257e4a5b03aee28","x":4320,"y":280,"width":480,"height":157,"type":"file","file":"Lake/Github Actions.md"},
+		{"id":"9038b1b2b0775048","type":"file","file":"Lake/CI & CD.md","x":4710,"y":-280,"width":400,"height":179}
 	],
 	"edges":[
 		{"id":"1e2f64019f63ba41","fromNode":"70658a241da2d31a","fromSide":"bottom","toNode":"5337a5de91433d57","toSide":"top"},
@@ -89,6 +92,8 @@
 		{"id":"0e39e24d734881b1","fromNode":"cb765bc699006fab","fromSide":"bottom","toNode":"3c7934459029d538","toSide":"top"},
 		{"id":"d7a93325d68e7ef3","fromNode":"cb765bc699006fab","fromSide":"bottom","toNode":"d636ef5d187530cc","toSide":"top"},
 		{"id":"aae0dfcfc7307f7e","fromNode":"0f37fcbb0a9be9be","fromSide":"bottom","toNode":"c7369c3495972b2b","toSide":"top"},
-		{"id":"cb408b0ee9ad3a01","fromNode":"0f37fcbb0a9be9be","fromSide":"bottom","toNode":"bea1a161dad8d76d","toSide":"top"}
+		{"id":"cb408b0ee9ad3a01","fromNode":"0f37fcbb0a9be9be","fromSide":"bottom","toNode":"bea1a161dad8d76d","toSide":"top"},
+		{"id":"882d00b4ef0310bd","fromNode":"9038b1b2b0775048","fromSide":"bottom","toNode":"9257e4a5b03aee28","toSide":"top"},
+		{"id":"78d9f9565d4e47eb","fromNode":"9257e4a5b03aee28","fromSide":"right","toNode":"36174a2c7abe0453","toSide":"top"}
 	]
 }
