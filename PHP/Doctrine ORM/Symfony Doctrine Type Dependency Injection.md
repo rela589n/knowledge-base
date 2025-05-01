@@ -1,3 +1,4 @@
+
 ```php
 // Doctrine Type
 
@@ -61,10 +62,11 @@ final readonly class YourCustomTypeBootstrapMiddleware implements Middleware
         return $driver;
     }
 }
+```
 
+Also there's a compiler pass to register custom middleware for connection, yet it doesn't seem to be necessary in the latest versions:
 
-// Compiler pass to register custom middleware for connection
-
+```php
 final readonly class YourCustomTypeMiddlewareCompilerPass implements CompilerPassInterface
 {
     public function process(ContainerBuilder $container): void
@@ -93,4 +95,3 @@ final readonly class YourCustomTypeMiddlewareCompilerPass implements CompilerPas
     }
 }
 ```
-
