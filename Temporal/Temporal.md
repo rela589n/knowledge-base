@@ -2,9 +2,9 @@
 
 Helps to solve the problems of distributed systems (e.g. timeouts, queues, delays, distributed transactions).
 
-The key component of temporal is [[Temporal Server]] that has sdk for multiple languages.
+The key component of temporal is [[Server]] that has sdk for multiple languages.
 
 Key concepts:
-- [[Temporal Workflow]]
-- [[Temporal Activity]]
-- [[Temporal Worker]]
+- [[Temporal/Workflow]]
+- [[Activity]]
+- [[Worker]]
