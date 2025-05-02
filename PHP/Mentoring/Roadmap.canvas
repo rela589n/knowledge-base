@@ -50,9 +50,14 @@
 		{"id":"bea1a161dad8d76d","type":"text","text":"Embeddable:\nhttps://www.doctrine-project.org/projects/doctrine-orm/en/3.3/tutorials/embeddables.html","x":-1049,"y":980,"width":406,"height":80},
 		{"id":"59dc8d0071991303","type":"text","text":"**Chat pair coding Example**","x":-300,"y":1640,"width":250,"height":100},
 		{"id":"ee975497dd94ab21","type":"text","text":"Encrypted string with AES-256-CBC","x":40,"y":1640,"width":250,"height":100},
-		{"id":"36174a2c7abe0453","x":4500,"y":620,"width":410,"height":179,"type":"text","text":"Налаштувати запуск тестів на CI. Запуск на кожній вітці, що відкриває МР на develop, і також на самому develop."},
-		{"id":"9257e4a5b03aee28","x":4320,"y":280,"width":480,"height":157,"type":"file","file":"Lake/Github Actions.md"},
-		{"id":"9038b1b2b0775048","type":"file","file":"Lake/CI & CD.md","x":4710,"y":-280,"width":400,"height":179}
+		{"id":"9257e4a5b03aee28","type":"file","file":"Lake/Github Actions.md","x":5440,"y":147,"width":480,"height":157},
+		{"id":"9038b1b2b0775048","type":"file","file":"Lake/CI & CD.md","x":5830,"y":-413,"width":400,"height":179},
+		{"id":"36174a2c7abe0453","type":"text","text":"Налаштувати запуск тестів на CI. Запуск на кожній вітці, що відкриває МР на develop, і також на самому develop.","x":5620,"y":487,"width":410,"height":179},
+		{"id":"83fa0c623706cc1e","x":4360,"y":-270,"width":520,"height":182,"type":"file","file":"Lake/S3 Storage.md"},
+		{"id":"2f2032cddbed87c6","x":4367,"y":75,"width":250,"height":85,"type":"text","text":"[Flysystem Bundle ](https://github.com/thephpleague/flysystem-bundle)"},
+		{"id":"36643cd33b0cb29f","x":4540,"y":229,"width":340,"height":171,"type":"text","text":"task 1: configure local adapter, add endpoint for reading files (signed url)"},
+		{"id":"18883babc24236b8","x":4340,"y":505,"width":250,"height":60,"type":"text","text":"[S3 adapter](https://flysystem.thephpleague.com/docs/adapter/aws-s3-v3/)"},
+		{"id":"e68ea35960d6cbe7","x":4493,"y":624,"width":287,"height":216,"type":"text","text":"task 2: configure [minio](https://hub.docker.com/r/bitnami/minio), configure s3 adapter, use `temporaryUrl()` for url generation"}
 	],
 	"edges":[
 		{"id":"1e2f64019f63ba41","fromNode":"70658a241da2d31a","fromSide":"bottom","toNode":"5337a5de91433d57","toSide":"top"},
@@ -94,6 +99,10 @@
 		{"id":"aae0dfcfc7307f7e","fromNode":"0f37fcbb0a9be9be","fromSide":"bottom","toNode":"c7369c3495972b2b","toSide":"top"},
 		{"id":"cb408b0ee9ad3a01","fromNode":"0f37fcbb0a9be9be","fromSide":"bottom","toNode":"bea1a161dad8d76d","toSide":"top"},
 		{"id":"882d00b4ef0310bd","fromNode":"9038b1b2b0775048","fromSide":"bottom","toNode":"9257e4a5b03aee28","toSide":"top"},
-		{"id":"78d9f9565d4e47eb","fromNode":"9257e4a5b03aee28","fromSide":"right","toNode":"36174a2c7abe0453","toSide":"top"}
+		{"id":"78d9f9565d4e47eb","fromNode":"9257e4a5b03aee28","fromSide":"right","toNode":"36174a2c7abe0453","toSide":"top"},
+		{"id":"58db737cb317c97c","fromNode":"83fa0c623706cc1e","fromSide":"bottom","toNode":"2f2032cddbed87c6","toSide":"top"},
+		{"id":"7b09c8818ad060ea","fromNode":"2f2032cddbed87c6","fromSide":"right","toNode":"36643cd33b0cb29f","toSide":"left"},
+		{"id":"3fb48ef993906fc4","fromNode":"2f2032cddbed87c6","fromSide":"bottom","toNode":"18883babc24236b8","toSide":"top"},
+		{"id":"044adbdf854e4290","fromNode":"18883babc24236b8","fromSide":"right","toNode":"e68ea35960d6cbe7","toSide":"left"}
 	]
 }
