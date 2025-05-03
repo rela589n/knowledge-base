@@ -1,6 +1,7 @@
 ---
 aliases:
   - Infrastructure-driven packaging
+  - Tier-based packaging
 ---
 Compared to Modularity, folder by type introduces problems:
 - every package consists of the components of low [[Cohesion]] (everything is unrelated);

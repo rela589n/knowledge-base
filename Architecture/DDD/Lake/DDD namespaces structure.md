@@ -10,3 +10,5 @@ Every aggregate entity  must have:
 [[The most important things must be at the top, the least important things - at the bottom]]
 
 See [[DDD Layered Architecture]]
+
+See also [[DDD Concepts]], yet do not take into account their [[Folder by type packaging|Tier-based packaging]].
