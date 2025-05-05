@@ -4,4 +4,4 @@ aliases:
 ---
 [[Temporal]] workers are used to execute [[Temporal/Workflow|Workflows]].
 
-It requires [[RoadRunner]]
+Workers require [[RoadRunner]] to run.
