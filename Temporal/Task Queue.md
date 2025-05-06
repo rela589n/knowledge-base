@@ -1,0 +1,1 @@
+[[Temporal]] [[Task]] queues are used to queue incoming [[Task|tasks]] before processing. There's [[Activity Task Queue]] and [[Workflow Task Queue]].
