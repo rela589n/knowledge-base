@@ -9,9 +9,10 @@ For example:
 ```yaml
 	extra_hosts:
 		- "host.docker.internal:host-gateway"
+		- "temporal.addr=host-gateway"
 ```
 
-This will add `host.docker.internal` domain with host gateway ip into hosts file.
+This will add `host.docker.internal`, and `temporal.addr` domains with host gateway ip to the hosts file.
 
 Just like this (172.17.0.1):
 
