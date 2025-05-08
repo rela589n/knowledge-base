@@ -57,7 +57,8 @@
 		{"id":"2f2032cddbed87c6","type":"text","text":"[Flysystem Bundle ](https://github.com/thephpleague/flysystem-bundle)","x":4367,"y":75,"width":250,"height":85},
 		{"id":"18883babc24236b8","type":"text","text":"[S3 adapter](https://flysystem.thephpleague.com/docs/adapter/aws-s3-v3/)","x":4340,"y":505,"width":250,"height":60},
 		{"id":"e68ea35960d6cbe7","type":"text","text":"task 2: configure [minio](https://hub.docker.com/r/bitnami/minio), configure s3 adapter, use `temporaryUrl()` for url generation","x":4493,"y":624,"width":287,"height":216},
-		{"id":"36643cd33b0cb29f","type":"text","text":"task 1: configure local adapter to store files in var/storage/profile, add endpoint for reading files (signed url), use [twig function](https://symfony.com/doc/3.x/templating/twig_extension.html) to print url","x":4560,"y":220,"width":340,"height":251}
+		{"id":"36643cd33b0cb29f","type":"text","text":"task 1: configure local adapter to store files in var/storage/profile, add endpoint for reading files (signed url), use [twig function](https://symfony.com/doc/3.x/templating/twig_extension.html) to print url","x":4560,"y":220,"width":340,"height":251},
+		{"id":"a67dd173b4d05cd8","x":4493,"y":960,"width":500,"height":220,"type":"file","file":"PHP/Minio/Minio flysystem configuration.md"}
 	],
 	"edges":[
 		{"id":"1e2f64019f63ba41","fromNode":"70658a241da2d31a","fromSide":"bottom","toNode":"5337a5de91433d57","toSide":"top"},
@@ -103,6 +104,7 @@
 		{"id":"58db737cb317c97c","fromNode":"83fa0c623706cc1e","fromSide":"bottom","toNode":"2f2032cddbed87c6","toSide":"top"},
 		{"id":"7b09c8818ad060ea","fromNode":"2f2032cddbed87c6","fromSide":"right","toNode":"36643cd33b0cb29f","toSide":"left"},
 		{"id":"3fb48ef993906fc4","fromNode":"2f2032cddbed87c6","fromSide":"bottom","toNode":"18883babc24236b8","toSide":"top"},
-		{"id":"044adbdf854e4290","fromNode":"18883babc24236b8","fromSide":"right","toNode":"e68ea35960d6cbe7","toSide":"left"}
+		{"id":"044adbdf854e4290","fromNode":"18883babc24236b8","fromSide":"right","toNode":"e68ea35960d6cbe7","toSide":"left"},
+		{"id":"1e10b78deca2b5cf","fromNode":"e68ea35960d6cbe7","fromSide":"bottom","toNode":"a67dd173b4d05cd8","toSide":"top"}
 	]
 }
