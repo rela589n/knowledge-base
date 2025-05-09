@@ -23,6 +23,7 @@ class ChristmasTree
 
     private function printStars(int $level): void
     {
+        // 2 is the star difference between levels
         echo str_repeat('*', $level * 2 + 1);
     }
 }
