@@ -15,7 +15,7 @@ We could [[Sorting|Sort]] and then apply [[Two pointers]] technique the same ali
 ##### Hash Map
 ^09cf47
 
-We flip the array (e.g. build [[Hash Map]]) in [[O (N)]], and then traverse it once again so that for every `arr[i]` we check if it's complement `target - arr[i]` exists in the [[Hash Map]] (and this is not the same current item). This is [[O (N)]] time and [[O (N)]] space.
+We flip the array (e.g. build [[Hash Map]]) in [[O (N)]], and then traverse it once again so that for every `arr[i]` we check if it's complement `target - arr[i]` exists in the [[Hash Map]] (plus it must not be the same item). It is [[O (N)]] time and [[O (N)]] space.
 
 ```php
 function twoSum($nums, $desiredSum) {
