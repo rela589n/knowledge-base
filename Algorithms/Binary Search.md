@@ -1,3 +1,6 @@
+Components:
+- [[Sorted Array]]
+
 There are two ways of implementing binary search:
 - iterative
 - recursive
@@ -24,8 +27,8 @@ function binarySearch(array $nums, int $target)
     }
 
     // After the loop $r will be less than $l, and $l will be greater than $r
-    // $l could be from [0 to $n]
-    // $r could be from [-1 to $n - 1]
+    // $l can be from [0 to $n] inclusively
+    // $r can be from [-1 to $n - 1] inclusively
 
     // Table on where pointers end up 
     // for different numbers after the loop:
