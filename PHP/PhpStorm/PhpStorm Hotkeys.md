@@ -2,7 +2,7 @@
 aliases:
   - PhpStorm Shortcuts
 ---
-
+[[PhpStorm]] hotkeys.
 
 [Plugin Key Promoter X](https://plugins.jetbrains.com/plugin/9792-key-promoter-x)
 
