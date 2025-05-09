@@ -8,7 +8,7 @@ Simple [[Brute Force]] solution is [[O (N**2)]] - traverse array two times, find
 ##### Binary Search
 ^f25a50
 
-We could use [[Binary Search]] so that we get [[O (N log N)]] - traverse an array, and inside of it run binary search to check for the second number that will make up the desired sum (check if the complement number = `S - arr[i]` exists).
+We can use [[Binary Search]] so that we'll get [[O (N log N)]] - traverse an array, and on every iteration it run binary search to check for the second number that will make up the desired sum (check if the complement number = `S - arr[i]` exists).
 ##### Hash Map
 
 We could use [[Hash Map]] the same alike way as in [[Two Sum (Pair Sum) In unsorted Array#^09cf47]], resulting in [[O (N)]] solution.
@@ -22,12 +22,12 @@ We could use [[Two pointers]] so that we get [[O (N)]].
 
 1. Have pointer L  as the beginning of the array, pointer R as the end of the array. 
 2. Check the sum. 
-3. If it's less then the needed sum, there's just no other way of increasing it, but to shift the left pointer. (shifting the right pointer won't help us, since it will only decrease the value)
-4. On the other hand, if the sum is greater than the needed sum, we could do nothing else, but to shift the right pointer so that it'll become smaller (shifting the left pointer won't help us, since it only increases the value, because we have sorted array).
+3. If it's less then the needed sum, there's just no other way of increasing it, but to shift the left pointer (thus, increasing the sum). Shifting the right pointer won't help us, since it only decreases the value.
+4. On the other hand, if the sum is greater than the needed sum, we have nothing else to do, but to shift the right pointer so that the sum will become smaller. Shifting the left pointer won't help us, since it only increases the value, as the array is sorted.
 
 ![[Two sum.png]]
 
-[[Two pointers]] solution for [two sum](https://leetcode.com/problems/two-sum/) (unsorted, yet sorted):
+[[Two pointers]] solution for [two sum](https://leetcode.com/problems/two-sum/) (unsorted, then sorted):
 
 ```php
 function twoSum(array $nums, int $desiredSum) {
@@ -48,9 +48,9 @@ function twoSum(array $nums, int $desiredSum) {
         // to match the target, therefore shifting r -> [2, 11] => 13)
 
         if ($sum < $desiredSum) {
-            ++$i; // increase sum
+            ++$i; // increase the sum (next value of i is greater)
         } elseif ($sum > $desiredSum) {
-            --$j; // decrease sum
+            --$j; // decrease the sum (previous value of j is smaller)
         } else {
             return [$keysMap[$i], $keysMap[$j]];
         }

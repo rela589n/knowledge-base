@@ -6,7 +6,7 @@ See [two sum problem](https://leetcode.com/problems/two-sum/description/) , [edi
 
 ##### Sorting and Binary Search
 
-We could [[Sorting|Sort]], and then apply [[Binary Search]] (same way as in [[Two Sum (Pair Sum) In sorted Array#^f25a50]]), - this is [[O (N log N)]].
+We can [[Sorting|Sort]], and then apply [[Binary Search]] (same way as in [[Two Sum (Pair Sum) In sorted Array#^f25a50]]), - this is [[O (N log N)]].
 
 ##### Sorting and Two Pointers
 
