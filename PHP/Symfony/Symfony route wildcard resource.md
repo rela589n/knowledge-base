@@ -6,3 +6,4 @@ api_frontend_auth:
     host: '%api_host%'
     schemes: '%api_scheme%'
 ```
+
