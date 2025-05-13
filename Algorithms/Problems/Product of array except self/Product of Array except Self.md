@@ -75,7 +75,11 @@ function productExceptSelf($nums) {
 }
 ```
 
-Also, there's a solution that doesn't use extra memory to maintain prefix and suffix products. The idea is to initialize result array with 1, and then multiply every item by respective prefix (previous prefix), and then multiply every item by respective suffix (next suffix):
+Also, there's a solution that doesn't use extra memory to maintain prefix and suffix products. It computes prefix and suffix on the fly and multiplies the result by it.
+
+The idea is to initialize result array with 1, and then:
+1. multiply every item by respective previous prefix, 
+2. and then multiply every item by respective next suffix:
 
 ```php
 function productExceptSelf($nums) {
