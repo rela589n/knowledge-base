@@ -1,3 +1,5 @@
+See [problem](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)
+
 ```
 [1]
 [2]
@@ -112,8 +114,30 @@ We'd split them into:
 `arr1L = [1,3], arr1R = [5,7]`
 `arr2L = [2,4], arr2R = [6,8]`
 
+The common size of two split pairs on the left and on the right must be equal.
+
 Therefore, having made this split, it would be possible to take the greatest value (as max of the two last items) of Left sub-arrays, and the smallest value (as a min of the two first items) of the right sub-arrays, and it would be two median items.
 
+```
+N = 8
+
+[1,3,4,| 7]     (partition1Length=3)
+[2,    | 5,6,8] (partition2Length=1)
+```
+
+```
+N = 5
+
+[1,2,| 3]   (partition1Length=2)
+[      4,5] (partition2Length=0)
+```
+
+The following condition must always be kept:
+`partition1Length + partition2Length = N / 2`, since array must be divided exactly into two equal parts (so that we'd find median).
 
 
+1,***3***,4,7
+2,***5***,6,8
 
+1,2
+3,4

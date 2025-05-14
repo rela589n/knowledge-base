@@ -1,3 +1,5 @@
+See [visualization](https://www.cs.usfca.edu/~galles/visualization/Search.html)
+
 Components:
 - [[Sorted Array]]
 - [[O (log N)]]
