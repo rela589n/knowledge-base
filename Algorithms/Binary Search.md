@@ -1,5 +1,6 @@
 Components:
 - [[Sorted Array]]
+- [[O (log N)]]
 
 There are two ways of implementing binary search:
 - iterative
@@ -26,7 +27,7 @@ function binarySearch(array $nums, int $target)
         }
     }
 
-    // After the loop $r will be less than $l, and $l will be greater than $r
+    // After the loop $r is less than $l, and $l is greater than $r
     // $l can be from [0 to $n] inclusively
     // $r can be from [-1 to $n - 1] inclusively
 
