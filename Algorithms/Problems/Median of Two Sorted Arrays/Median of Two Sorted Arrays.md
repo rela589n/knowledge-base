@@ -56,7 +56,7 @@ function findMedianSortedArrays($nums1, $nums2) {
 }
 ```
 
-Actually, we don't need to merge them. We only need to find two elements of the middle.
+Actually, we don't need to actually merge them. We only need to find two elements in the middle. This is [[Two pointers]] approach.
 
 ```php
 function findMedianSortedArrays($nums1, $nums2) {
@@ -92,3 +92,20 @@ function findMedianSortedArrays($nums1, $nums2) {
     return ($m1 + $m2) / 2;
 }
 ```
+
+There's also a [[Binary Search]] approach. We need to split arrays into two halves such that "every item in two left halves is less than or equal to every item in two right halves".
+
+For example:
+`arr1 = [1,3,5,7]`
+`arr2 = [2,4,6,8]`
+
+We'd want to split it into:
+
+`arr1L = [1,3], arr1R = [5,7]`
+`arr2L = [2,4], arr2R = [6,8]`
+
+Therefore, having made this split, it would be possible to take the greatest value (as max of the two last items) of Left sub-arrays, and the smallest value (as a min of the two first items) of the right sub-arrays, and it would be two median items.
+
+
+
+
