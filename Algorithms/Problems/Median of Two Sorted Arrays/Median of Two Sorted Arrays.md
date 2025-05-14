@@ -33,7 +33,8 @@ m = 5
 
 ### Brute-force solution with merge
 
-See [[Merge sorted arrays]]
+See algorithm to [[Merge sorted arrays]]. 
+This solution is [[O (N)]] time and [[O (N)]] space.
 
 ```php
 function findMedianSortedArrays($nums1, $nums2) {
@@ -56,7 +57,11 @@ function findMedianSortedArrays($nums1, $nums2) {
 }
 ```
 
-Actually, we don't need to actually merge them. We only need to find two elements in the middle. This is [[Two pointers]] approach.
+Actually, we don't need to merge them.
+
+Since we only need the two elements in the middle, we can just find them w/o merging the arrays. 
+
+This algorithm uses [[Two pointers]] approach.
 
 ```php
 function findMedianSortedArrays($nums1, $nums2) {
@@ -93,13 +98,16 @@ function findMedianSortedArrays($nums1, $nums2) {
 }
 ```
 
-There's also a [[Binary Search]] approach. We need to split arrays into two halves such that "every item in two left halves is less than or equal to every item in two right halves".
+### [[Binary Search]]-based solution
 
-For example:
+The approach is based on splitting arrays into two halves such that *"every item in two left halves must be less than or equal to every item in the two right halves"*.
+
+For example, there are two arrays:
+
 `arr1 = [1,3,5,7]`
 `arr2 = [2,4,6,8]`
 
-We'd want to split it into:
+We'd split them into:
 
 `arr1L = [1,3], arr1R = [5,7]`
 `arr2L = [2,4], arr2R = [6,8]`
