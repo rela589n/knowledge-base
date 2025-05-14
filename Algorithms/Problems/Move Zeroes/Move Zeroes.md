@@ -38,7 +38,7 @@ function moveZeroes(&$nums) {
 
 ### [[Two pointers]]-based Solution
 
-Keep track of zero-space start offset. If we meet any non-zero value, put it at the place of the first zero item:
+Keep track of zero-space start offset. When we meet any non-zero value, we replace it with zero, and put its value at the place of the first zero item (or same place if there haven't been zeros):
 
 ```php
 function moveZeroes(&$nums) {
