@@ -17,6 +17,8 @@ If the height of the next position is higher than the current, it might (or migh
 
 Therefore, if we iterate through the whole range and will always change the smaller of two pointers, we'd eventually traverse all possible increases of the value.
 
+The solution uses [[Two pointers]] approach, and every time smaller pointer is shifted so that it might eventually result in higher amount.
+
 ```php
 function maxArea($heights) {
 
