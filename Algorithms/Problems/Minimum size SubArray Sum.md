@@ -2,6 +2,9 @@ See [problem](https://leetcode.com/problems/minimum-size-subarray-sum/descriptio
 
 ## Sliding Window
 
+Components:
+- [[Sliding Range]]
+
 Complexity: [[O (N)]]
 
 This could be solved with [[Variable-size Sliding Window]] :
