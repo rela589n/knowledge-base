@@ -61,7 +61,7 @@ function findMedianSortedArrays($nums1, $nums2) {
 
 Actually, we don't need to merge them.
 
-Since we only need the two elements in the middle, we can just find them w/o merging the arrays. 
+Since we only need the two elements in the middle, we can simply find them w/o merging the arrays. 
 
 This algorithm uses [[Two pointers]] approach.
 
@@ -102,21 +102,25 @@ function findMedianSortedArrays($nums1, $nums2) {
 
 ### [[Binary Search]]-based solution
 
-The approach is based on splitting arrays into two halves such that *"every item in two left halves must be less than or equal to every item in the two right halves"*.
+The approach is in splitting arrays into two equal halves such that *"every item in two left halves is less than or equal to every item in the two right halves"*.
 
-For example, there are two arrays:
+For example, for these two arrays:
 
 `arr1 = [1,3,5,7]`
 `arr2 = [2,4,6,8]`
 
 We'd split them into:
 
-`arr1L = [1,3], arr1R = [5,7]`
-`arr2L = [2,4], arr2R = [6,8]`
+`[1,3,| 5,7]`
+`[2,4,| 6,8]`
+
+In this example every item keeps the condition:
+- `arr1Left <= arr2Right`;
+- `arr2Right <= arr1Left`.
 
 The common size of two split pairs on the left and on the right must be equal.
 
-Therefore, having made this split, it would be possible to take the greatest value (as max of the two last items) of Left sub-arrays, and the smallest value (as a min of the two first items) of the right sub-arrays, and it would be two median items.
+Therefore, having made this split, it is possible to take the greatest value (as max of the two last items) of the Left sub-arrays, and the smallest value (as a min of the two first items) of the right sub-arrays, and these would be two median items.
 
 ```
 N = 8
@@ -133,7 +137,7 @@ N = 5
 ```
 
 The following condition must always be kept:
-`partition1Length + partition2Length = N / 2`, since array must be divided exactly into two equal parts (so that we'd find median).
+`partition1Length + partition2Length = N / 2`, since array must be divided exactly into two equal parts (so that we'd be able to find the median).
 
 
 1,***3***,4,7
