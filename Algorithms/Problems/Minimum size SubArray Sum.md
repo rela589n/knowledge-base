@@ -14,37 +14,29 @@ function minSubArrayLen($target, $nums) {
     // we keep increasing the window until we reach target, 
     // then we decrease the window until we stop reaching the target
 
-    $minimalLength = INF;
+	$l = 0;
+	$sum = 0;
+	$minLength = PHP_INT_MAX;
 
-    $l = 0; // l is inclusive
-    $r = 0; // r is exclusive
-    $currentSum = 0;
+	foreach ($nums as $r => $num) {
+		$sum += $num;
 
-    do {
-        while ($currentSum < $target && $r < $n) {
-            $currentSum += $nums[$r];
+		while ($sum >= $target) {
+			$length = $r - $l + 1;
 
-            ++$r;
-        }
+			if ($length < $minLength) {
+				$minLength = $length;
+			}
 
-        while ($currentSum >= $target && $l < $r) {
-            $length = $r - $l;
+			$sum -= $nums[$l++];
+		}
+	}
 
-            if ($length < $minimalLength) {
-                $minimalLength = $length;
-            }
+	if ($minLength === PHP_INT_MAX) {
+		return 0;
+	}
 
-            $currentSum -= $nums[$l];
-
-            ++$l;
-        }
-    } while ($r < $n);
-
-    if ($minimalLength === INF) {
-        return 0;
-    }
-
-    return $minimalLength;
+	return $minLength;
 }
 ```
 
