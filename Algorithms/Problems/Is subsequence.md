@@ -1,3 +1,7 @@
+---
+aliases:
+  - String contains sequence
+---
 See [problem](https://leetcode.com/problems/is-subsequence/description/?envType=study-plan-v2&envId=leetcode-75)
 
 The idea uses [[Two pointers]].
