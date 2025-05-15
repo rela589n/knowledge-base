@@ -18,9 +18,12 @@ function minSubArrayLen($target, $nums) {
 	$sum = 0;
 	$minLength = PHP_INT_MAX;
 
+	// At this point, we accumulate that $sum until it reaches the $target
 	foreach ($nums as $r => $num) {
 		$sum += $num;
 
+	    // Once current sum becomes greater than target, we start descreasing the size of subarray by shifting the left pointer - 
+	    // this allows us to find the array of minimal length that has sum greater than or equal to target
 		while ($sum >= $target) {
 			$length = $r - $l + 1;
 
@@ -42,32 +45,9 @@ function minSubArrayLen($target, $nums) {
 
 > Note that this solution doesn't handle negative numbers well.
 
-Another solution, more robust is this:
+For the solution that handles negative numbers as well, it's needed to use more complex logic.
 
-```php
-// At this point, we assume that $currentSum < $target, and maintain this state in the loop
-while ($r < $n) {
-    $currentSum += $nums[$r++];
-
-    // Once current sum becomes greater than target, we start descreasing the size of subarray by shifting left pointer - 
-    // this allows us to find the array of minimal length that has sum greater than or equal to target
-    while ($currentSum >= $target && $l < $r) {
-        $length = $r - $l;
-
-        if ($length < $minimalLength) {
-            $minimalLength = $length;
-        }
-
-        $currentSum -= $nums[$l];
-
-        ++$l;
-    }
-}
-```
-
-This is likely to handle negative numbers as well.
-
-## Binary Search and Sliding Window 
+## Binary Search and [[Fixed-size Sliding Window]]
 
 Complexity: [[O (N log N)]]
 
