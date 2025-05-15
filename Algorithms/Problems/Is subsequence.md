@@ -1,7 +1,8 @@
 See [problem](https://leetcode.com/problems/is-subsequence/description/?envType=study-plan-v2&envId=leetcode-75)
 
-The idea is to use [[Two pointers]].
-Actually, we just reconstruct needed string from the characters present in the given string. If next character is respective to the expected character of the string, then we shift pointer. Otherwise, we just skip it.
+The idea uses [[Two pointers]].
+
+Basically, we just reconstruct the needed string from the characters present of the given string. If the next character is the next expected character of the string, then we shift the pointer. Otherwise, we just skip it.
 
 ```php
 function isSubsequence($s, $t) {
@@ -34,7 +35,9 @@ function isSubsequence($s, $t) {
 }
 ```
 
-And solution that uses regex (simpler to grasp). Just build a regex from the needle string so that each character is surrounded with `.*?` pattern (match anything zero or more times), and then use this regex to match the string:
+And also there's a solution that uses regex (simpler to grasp).
+
+Just build a regex from the needle string so that each character is surrounded with `.*?` pattern (match anything zero or more times), and then use this regex to match the string:
 
 ```php
 function isSubsequence($s, $t) {
@@ -52,4 +55,4 @@ function isSubsequence($s, $t) {
 }
 ```
 
-> Note: we could've used `.*` (greedy) regex instead of `.*?` (non-greedy), but using non-greedy is better performance-wise.
+> Note: we could've used `.*` (greedy) regex instead of `.*?` (non-greedy), but this is a lot worse than non-greedy performance-wise.
