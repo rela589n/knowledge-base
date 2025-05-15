@@ -41,7 +41,9 @@ function productExceptSelf($nums) {
 Components:
 - [[Wave]]
 
-Another solution, if we are not allowed to use division operator, would be to maintain [[Affix Operation|Prefix Product]] and [[Affix Operation|Suffix Product]] data structures, so tat eventually result could be computed as `res[i] = prefixProduct[i - 1] + suffixProduct[i + 1]`.
+Another solution, if we are not allowed to use division operator, would be to maintain [[Affix Operation|Prefix Product]] and [[Affix Operation|Suffix Product]] data structures, so that eventually result can be computed as `res[i] = prefixProduct[i - 1] * suffixProduct[i + 1]`.
+
+This is a [[O (N)]] time and [[O (N)]] memory solution.
 
 ```php
 function productExceptSelf($nums) {
@@ -75,11 +77,11 @@ function productExceptSelf($nums) {
 }
 ```
 
-Also, there's a solution that doesn't use extra memory to maintain prefix and suffix products. It computes prefix and suffix on the fly and multiplies the result by it.
+Also, there's a solution that doesn't use extra memory to maintain prefix and suffix products. It computes prefix and suffix on the fly and multiplies the result right away.
 
 The idea is to initialize result array with 1, and then:
-1. multiply every item by respective previous prefix, 
-2. and then multiply every item by respective next suffix:
+1. multiply every item by respective prefix, 
+2. and then multiply every item by the respective suffix:
 
 ```php
 function productExceptSelf($nums) {
@@ -88,7 +90,7 @@ function productExceptSelf($nums) {
     $prefix = 1;
 
     foreach($nums as $i => $num) {
-        $results[$i] *= $prefix; // multiply res[i] by previous prefix ([i - 1])
+        $results[$i] *= $prefix; // multiply res[i] by last prefix ([i - 1])
 
         $prefix *= $num;
     }
@@ -96,7 +98,7 @@ function productExceptSelf($nums) {
     $suffix = 1;
 
     for ($i = count($nums) - 1; $i >= 0; --$i) {
-        $results[$i] *= $suffix; // multipy res[i] by next suffix ([i + 1])
+        $results[$i] *= $suffix; // multipy res[i] by last suffix ([i + 1])
 
         $suffix *= $nums[$i];
     }

@@ -1,3 +1,7 @@
+---
+aliases:
+  - Sticking Brick
+---
 Every result item is like the wave that is just not included:
 ![[Wave mid.png]]
 
