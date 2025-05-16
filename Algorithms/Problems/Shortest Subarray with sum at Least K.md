@@ -43,7 +43,7 @@ for ($i = $this->l; $i <= $this->r; ++$i) {
 $shiftIndex = $leastShiftIndex;
 ```
 
-But using [[O (log N)]] and [[O (N log N)]] is much better. It can be done with [[Min Heap]], that keeps least prefix sum at the top.
+But using [[O (log N)]] and [[O (N log N)]] is much better. It can be done with [[Min Heap]], that keeps least [[Affix Operation|Prefix Sum]] at the top.
 
 ```php
 private function shiftLeftPointer(): void
