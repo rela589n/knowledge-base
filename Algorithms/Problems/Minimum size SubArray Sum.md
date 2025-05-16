@@ -1,3 +1,7 @@
+---
+aliases:
+  - Shortest Subarray with sum at Least K (only positive numbers)
+---
 See [problem](https://leetcode.com/problems/minimum-size-subarray-sum/description/?envType=problem-list-v2&envId=sliding-window).
 
 ## Sliding Window
@@ -46,9 +50,9 @@ function minSubArrayLen($target, $nums) {
 }
 ```
 
-> Note that this solution doesn't handle negative numbers well.
+> Note that this solution doesn't handle negative numbers.
 
-For the solution that handles negative numbers as well, it's needed to use more complex logic.
+For the solution that handles negative numbers as well, it's necessary to use more complex logic to determine left pointer shift. See [[Shortest Subarray with sum at Least K|Minimum size SubArray Sum with negative numbers]].
 
 ## Binary Search and [[Fixed-size Sliding Window]]
 
