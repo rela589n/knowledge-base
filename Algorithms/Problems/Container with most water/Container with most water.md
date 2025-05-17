@@ -7,15 +7,15 @@ Components:
 
 If the height of the next position is the same (or lower) as the current, there's no point in moving to that position, since it would only decrease the amount of water (we need to increase).
 
-For example, moving from 1 to 2 would decrease the amount.
+Moving from 1 to 2 would decrease the amount.
 
-If the height of the next position is higher than the current, it might (or might not) increase the amount of water (it depends):
+If the height of the next position is higher than the current, it could (or could not, it depends) increase the amount of water:
 
 - if the opposite position is less than or equal to the current, switch of the current position would only decrease amount of water. For example, switch from 5 to 4 would decrease.
 
-- if the opposite position is greater than the current, change of the current position to the greater one, might increase the value.
+- if the opposite position is greater than the current, change of the current position to the greater one might increase the value.
 
-Therefore, if we iterate through the whole range and will always change the smaller of two pointers, we'd eventually traverse all possible increases of the value.
+Therefore, if we iterate through the whole range and will always change the smaller of two pointers (hoping that it will be greater value), we'd eventually traverse all possible increases of the value.
 
 The solution uses [[Two pointers]] approach, and every time smaller pointer is shifted so that it might eventually result in higher amount.
 

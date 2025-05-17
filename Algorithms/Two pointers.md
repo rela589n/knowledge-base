@@ -1,3 +1,5 @@
+L - beginning, R - end.
+
 Components:
 - [[Sorted Array]]
 
