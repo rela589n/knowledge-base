@@ -60,7 +60,7 @@ Thus, time complexity is [[O (N log M)]], and memory complexity is [[O (N)]].
 
 ### Monotonic Queue
 
-Another thought is that we can use some kind of [[Monotonic data structure]] ([[Dequeue]]), where the greatest values will be inserted.
+Another thought is that we can use some kind of [[Monotonic data structure]] ([[Monotonic Queue]]), where the greatest values will be inserted.
 
 Initial thoughts were that if value is greater, then push it back. 
 

@@ -232,7 +232,7 @@ final class ShortestSubarraySum
 }
 ```
 
-Also, there's a better solution that uses [[Dequeue]]:
+Also, there's a better solution that uses [[Monotonic Queue]]:
 
 ```php
 final readonly class ShortestSubarrayDequeueSum implements ShortestSubarraySum
