@@ -3,7 +3,7 @@ See [problem](https://leetcode.com/problems/daily-temperatures/)
 Components:
 - [[Discardable]]
 
-Solution uses [[Monotonic Queue]] to keep track of the best applicable temperatures for the future:
+Solution uses [[Monotonic Queue|Monotonic Stack]] to keep track of the best applicable temperatures for the future:
 
 ```php
 public function dailyTemperatures(array $temperatures): array
