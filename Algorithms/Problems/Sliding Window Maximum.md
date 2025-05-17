@@ -1,8 +1,14 @@
 See [problem](https://leetcode.com/problems/sliding-window-maximum/)
 
+Components:
+- [[Discardable]]
+
+Related:
+- [[Sliding Window]]
+
 ### Heap Solution
 
-Initial thoughts is that we can use [[Max Heap]] that will store all values, in their order. Every time we need to find out the max value, we get the top of the heap, and if it is in current range, then it's the result. If not - skip it until finding the needed value.
+Initial thoughts is that we can use [[Heap|Max Heap]] that will store all values, in their order. Every time we need to find out the max value, we get the top of the heap, and if it is in current range, then it's the result. If not - skip it until finding the needed value.
 
 ```php
 final readonly class SlidingWindowMaximumHeapSolution
@@ -60,7 +66,7 @@ Thus, time complexity is [[O (N log M)]], and memory complexity is [[O (N)]].
 
 ### Monotonic Queue
 
-Another thought is that we can use some kind of [[Monotonic data structure]] ([[Monotonic Queue]]), where the greatest values will be inserted.
+Another thought is that we can use some kind of [[Monotonic Queue]], where the greatest values will be inserted.
 
 Initial thoughts were that if value is greater, then push it back. 
 
