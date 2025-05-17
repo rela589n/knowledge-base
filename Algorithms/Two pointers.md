@@ -1,4 +1,6 @@
-L - beginning, R - end.
+L = 0, R = n - 1 (then shrink);
+L = R = i (then extend);
+L = 0, R = i
 
 Components:
 - [[Sorted Array]]
