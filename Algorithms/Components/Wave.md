@@ -7,4 +7,4 @@ Every result item is like the wave that is just not included:
 
 ![[Wave hi-mid.png]]
 
-It can be [[Affix Operation]]
+It can be [[Affix Operation]] that leverages previous and next values to compute the current value.

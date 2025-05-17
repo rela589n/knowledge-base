@@ -1,6 +1,6 @@
 See [problem](https://leetcode.com/problems/sort-colors/description/?envType=daily-question&envId=2025-05-17)
 
-Solution uses [[Counting sort]]. It counts all values, and then fills the array with repeated values:
+Solution uses [[Counting sort]]. It counts all values, and then fills the array with generated values:
  
 ```php
 function sortColors(&$nums) {
