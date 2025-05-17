@@ -1,7 +1,12 @@
+---
+aliases:
+  - Weather Problem
+---
 See [problem](https://leetcode.com/problems/daily-temperatures/)
 
 Components:
 - [[Discardable]]
+- [[Delayed Computation]]
 
 Solution uses [[Monotonic Queue|Monotonic Stack]] to keep track of the best applicable temperatures for the future:
 

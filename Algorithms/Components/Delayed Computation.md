@@ -1,0 +1,1 @@
+Sometimes solution for the current item depends on the further items. Like [[Daily Temperatures|Weather Problem]]. In this case, computation of the result for the item can happen later on when all needed details are present. To keep the list of values, use [[Monotonic Queue|Monotonic Stack]].
