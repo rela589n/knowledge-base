@@ -4,6 +4,6 @@ There are variations how it might look like:
 - L = 0, R = i
 
 Components:
-- [[Sorted Array]]
+- [[Sorted Array]] (or even to say, structured array)
 
 See [two pointers editorial](https://www.geeksforgeeks.org/two-pointers-technique/)
