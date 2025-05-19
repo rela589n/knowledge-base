@@ -4,6 +4,8 @@ aliases:
 ---
 [[PhpStorm]] hotkeys.
 
+`See Help -> Keyboard Shortcuts PDF`
+
 [Plugin Key Promoter X](https://plugins.jetbrains.com/plugin/9792-key-promoter-x)
 
 Use hotkeys:
