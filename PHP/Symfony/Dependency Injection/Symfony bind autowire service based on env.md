@@ -1,3 +1,7 @@
+---
+aliases:
+  - Symfony argument based on env parameter
+---
 ```yaml
 services:
     _defaults:
