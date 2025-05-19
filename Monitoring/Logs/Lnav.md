@@ -5,6 +5,11 @@ aliases:
 Use following shortcuts:
 `g` - go to start (`:goto 0`)
 `G` - go to end (`:goto 100%`)
+`h` - scroll left
+`j` - scroll down
+`k` - scroll up
+`l` - scroll right
+[other keys](https://docs.lnav.org/en/latest/hotkeys.html)
 
 also, you can avoid including whole file into lnav, by using `tail`:
 
