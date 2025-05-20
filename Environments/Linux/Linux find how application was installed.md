@@ -1,3 +1,7 @@
+---
+aliases:
+  - Linux installed packages
+---
 ```shell
 snap list
 ```
