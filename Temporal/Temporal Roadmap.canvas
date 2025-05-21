@@ -13,7 +13,8 @@
 		{"id":"8f747c1723e0480d","type":"file","file":"Temporal/Temporal docker-compose configuration.md","x":9,"y":420,"width":460,"height":260},
 		{"id":"7d02d262307a8070","type":"file","file":"Temporal/Tasks/Temporal Booking System.md","x":1060,"y":1420,"width":586,"height":200},
 		{"id":"958a1dba4f6da7eb","type":"file","file":"Temporal/Tasks/Temporal Simple Activity (quote of the day).md","x":1060,"y":1100,"width":586,"height":260},
-		{"id":"49bc3df4afa8c7f1","x":1060,"y":1720,"width":460,"height":160,"type":"file","file":"Temporal/Tutorials.md"}
+		{"id":"49bc3df4afa8c7f1","type":"file","file":"Temporal/Tutorials.md","x":1060,"y":1720,"width":460,"height":160},
+		{"id":"712ee71cb9d66fb2","x":1060,"y":2020,"width":620,"height":220,"type":"file","file":"Temporal/Task Queue.md"}
 	],
 	"edges":[
 		{"id":"30b4b928c9d530b3","fromNode":"732ed0b8f12414ea","fromSide":"bottom","toNode":"f60d6a6dc2bd1e87","toSide":"top"},
