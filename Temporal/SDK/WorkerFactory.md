@@ -11,3 +11,5 @@ Normally, header should be present, since `WorkflowOptions` has it by default, a
 Every Worker has Router.  Whenever Worker processes Request, it delegates it's processing to the Router.
 
 Router matches request by name. Collection of routes is indexed by name. Route name is short class name. Thus, only one route is executed.
+
+> How does temporal worker receive messages?
