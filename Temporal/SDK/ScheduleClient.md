@@ -1,1 +1,1 @@
-Client used to schedule [[Temporal/Workflow|Workflows]]
+Client used to schedule [[Temporal/Workflow|Workflows]] (run 'em according to the schedule)
