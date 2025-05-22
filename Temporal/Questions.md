@@ -1,5 +1,7 @@
 How to run workflow without waiting for it? Is it called scheduling?
 
+How to use [[Activity Timeouts]] wisely?
+
 Для чого використовувати WorkflowInterface, ActivityInterface?
 
 Як дебажити activity, і воркфлови, якщо вони запускаються воркером? Тобто, умовно я можу викликати якийсь `dd()`, щоб глянути щось? Тобто, лише `dc exec backend vendor/bin/var-dump-server`. Pprof (-d option)?
