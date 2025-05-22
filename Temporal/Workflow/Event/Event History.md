@@ -1,1 +1,1 @@
-An append-only log for [[Event|events]].
+Persisted append-only log for [[Event|events]].

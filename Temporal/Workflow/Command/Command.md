@@ -4,3 +4,5 @@ These include:
 - scheduling the [[Activity]];
 - setting the [[Timer]] (e.g. await sleep(30 minutes));
 - completion of the [[Workflow Execution|workflow]] (returning the error or result).
+
+Commands completion result in [[Event|events]].
