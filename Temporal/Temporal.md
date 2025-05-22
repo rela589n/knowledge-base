@@ -5,6 +5,6 @@ Helps to solve the problems of distributed systems (e.g. timeouts, queues, delay
 The key component of temporal is [[Server]] that has sdk for multiple languages.
 
 Key concepts:
-- [[Temporal/Workflow]]
+- [[Temporal/Workflow/Workflow]]
 - [[Activity]]
 - [[Worker]]
