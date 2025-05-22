@@ -1,0 +1,1 @@
+Sometimes one feature requires 3 retries, and other has been confirmed for 5 retries. With [[Temporal]] it's possible to set number of retries per [[Activity]].
