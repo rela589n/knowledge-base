@@ -14,9 +14,10 @@
 		{"id":"7d02d262307a8070","type":"file","file":"Temporal/Tasks/Temporal Booking System.md","x":1060,"y":1420,"width":586,"height":200},
 		{"id":"958a1dba4f6da7eb","type":"file","file":"Temporal/Tasks/Temporal Simple Activity (quote of the day).md","x":1060,"y":1100,"width":586,"height":260},
 		{"id":"49bc3df4afa8c7f1","type":"file","file":"Temporal/Tutorials.md","x":1060,"y":1720,"width":460,"height":160},
-		{"id":"712ee71cb9d66fb2","type":"file","file":"Temporal/Task Queue.md","x":1026,"y":2280,"width":620,"height":220},
-		{"id":"8096d3eeb5ca48ef","x":1026,"y":2040,"width":507,"height":180,"type":"file","file":"Temporal/SDK/ScheduleClient.md"},
-		{"id":"b35a54e38d5e11d0","type":"text","text":"**Namespaces**","x":1026,"y":1940,"width":250,"height":60}
+		{"id":"b35a54e38d5e11d0","type":"text","text":"**Namespaces**","x":1026,"y":1940,"width":250,"height":60},
+		{"id":"8096d3eeb5ca48ef","type":"file","file":"Temporal/SDK/ScheduleClient.md","x":1026,"y":2280,"width":507,"height":180},
+		{"id":"712ee71cb9d66fb2","type":"file","file":"Temporal/Task/Task Queue.md","x":1026,"y":2520,"width":620,"height":220},
+		{"id":"aaea3128b4f0dceb","x":1026,"y":2080,"width":250,"height":60,"type":"text","text":"**Cron Jobs**"}
 	],
 	"edges":[
 		{"id":"30b4b928c9d530b3","fromNode":"732ed0b8f12414ea","fromSide":"bottom","toNode":"f60d6a6dc2bd1e87","toSide":"top"},
