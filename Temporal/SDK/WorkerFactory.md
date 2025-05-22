@@ -1,4 +1,4 @@
-Worker Factory stores an array repository of Workers.
+Worker Factory has an array repository of Workers.
 
 Every worker is unique per [[Task Queue]] name (used as a key in the array).
 
