@@ -10,9 +10,9 @@ Basically, code looks like this:
 ```php
 <?php
 
-$fiveSevenNine = evaluate(fiveEightNine());
+$fiveEightNine = evaluate(fiveEightNine());
 
-var_dump($fiveSevenNine);
+var_dump($fiveEightNine);
 
 function fiveEightNine(): \Generator
 {
