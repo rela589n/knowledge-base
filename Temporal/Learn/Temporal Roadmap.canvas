@@ -21,7 +21,8 @@
 		{"id":"aaea3128b4f0dceb","type":"text","text":"**Cron Jobs**","x":2560,"y":2280,"width":250,"height":60},
 		{"id":"712ee71cb9d66fb2","type":"file","file":"Temporal/Task/Task Queue.md","x":2440,"y":2580,"width":620,"height":220},
 		{"id":"7e22180a56a6e639","type":"file","file":"Temporal/SDK/SDK.md","x":1540,"y":2580,"width":507,"height":220},
-		{"id":"8f747c1723e0480d","type":"file","file":"Temporal/Temporal docker-compose configuration.md","x":1540,"y":2960,"width":507,"height":260}
+		{"id":"8f747c1723e0480d","type":"file","file":"Temporal/Temporal docker-compose configuration.md","x":1540,"y":2960,"width":507,"height":260},
+		{"id":"ee7d7c37f41fb21f","x":1540,"y":3480,"width":507,"height":320,"type":"file","file":"Temporal/Learn/Tasks/Set up UI separately from temporal service.md"}
 	],
 	"edges":[
 		{"id":"30b4b928c9d530b3","fromNode":"732ed0b8f12414ea","fromSide":"bottom","toNode":"f60d6a6dc2bd1e87","toSide":"top"},
