@@ -15,3 +15,5 @@ return [$flightReservationId, $hotelReservationId];
 ```
 
 It also fails if time-out happens.
+
+[[Booking SAGA Flow.png]]
