@@ -1,10 +1,9 @@
 [Documentation](https://docs.temporal.io/encyclopedia/detecting-activity-failures)
 
-**Schedule-To-Start** - how much time is [[Activity Task]] is allowed to be in [[Activity Task Queue|queue]] w/o being taken by any of the workers.
+**Schedule-To-Start** - how long for the [[Activity Task]] is allowed to be [[Activity Task Queue|queued up]] w/o being taken by any of the workers.
 
-**Start-To-Close** (recommended) - single execution;
+**Start-To-Close** (recommended) - timeout for a single execution;
 
-**Schedule-To-Close** = Schedule-To-Start + Start-To-Close.
+**Schedule-To-Close** timeout is the complete timeout that includes activity retries.
 
-**HeartBeat** - for long-running activities, the limit of time within which activity must send before it's considered stuck.
-
+**[[Activity Heartbeat|HeartBeat]] Timeout** - timeout within which activity must respond with ping before it's considered stuck. Used for long-running activities.
