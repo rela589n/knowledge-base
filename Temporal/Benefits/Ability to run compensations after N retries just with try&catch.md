@@ -1,4 +1,4 @@
-If there were already N retries for activity call, exception is thrown, and you can run compensations.
+When there had already been N retries for activity call, the exception is thrown so that you can run compensations.
 
 ```php
 $flightReservationId = yield $this->bookFlight($id);
@@ -13,3 +13,5 @@ try {
 
 return [$flightReservationId, $hotelReservationId];
 ```
+
+It also fails if time-out happens.

@@ -1,5 +1,7 @@
 How to run workflow without waiting for it? Is it called scheduling?
 
+What happens if the workflow throws an exception?
+
 How to use [[Activity Timeouts]] wisely?
 
 Для чого використовувати WorkflowInterface, ActivityInterface?

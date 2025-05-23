@@ -1,3 +1,3 @@
 [[Temporal/Workflow/Workflow|Workflow]] Definition is the code that defines the [[Temporal/Workflow/Workflow|Workflow]].
 
-It must follow deterministic constraints to ensure consistent replay.
+[[Temporal/Workflow/Workflow Definition|Workflow Definition]]  must be deterministic to ensure consistent replay.
