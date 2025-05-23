@@ -4,4 +4,4 @@ Temporal doesn't recommend to setting the timeouts for [[Temporal/Workflow/Workf
 
 **Run Timeout** - mostly used for [[Cron Job|Cron Jobs]].
 
-**Task Timeout** - timeout for one particular [[Workflow Task]] to execute before it's sent to another [[Worker]]. Default is 10 seconds.
+[[Workflow Task Timeout]]
