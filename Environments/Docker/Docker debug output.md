@@ -1,3 +1,7 @@
+---
+aliases:
+  - Docker build debug
+---
 If you run build as flag:
 ```shell
 docker compose up -d --build

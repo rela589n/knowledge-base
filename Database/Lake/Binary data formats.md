@@ -1,4 +1,8 @@
-For internal use, when there are terrabytes of data, it is really reasonable to stick with the most compact format. 
+---
+aliases:
+  - binary data format
+---
+For internal use, when there are terabytes of data, it is really reasonable to stick with the most compact format. 
 
 Binary protocols require schema for it's data (code generation is available).
 
