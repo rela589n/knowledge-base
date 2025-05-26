@@ -15,7 +15,7 @@ How versioning works:
 
 Temporal uses `-1` as a starting version for already running workflows.
 
-If the workflow hasn't yet executed the next command, a max supported version will be used
+If the workflow hasn't yet executed the newly added version call (and thus not any of the next commands), maximum supported version will be used
 
 If Workflow::getVersion() is added after the code has already executed the next activity, then "-1" is used, and the default (previous) version is executed.
 
