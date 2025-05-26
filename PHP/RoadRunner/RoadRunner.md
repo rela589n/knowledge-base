@@ -6,5 +6,5 @@ Is the application server and process manager (manages [[RR Worker|workers]]). I
 
 - [[RR is written in GO|Written in GO]]
 - [[RR keeps workers alive between requests]]
-- [[RR Single entry point|Uses single entry point]] 
+- [[Roadrunner Server|Uses single entry point - server]]
 - [[RR Integrations|Has framework integrations]]

@@ -1,6 +1,10 @@
-[[RR Single entry point]]
+---
+aliases:
+  - RoadRunner entry point
+---
+[[RoadRunner]] defines single server that runs a php file for every and all types of incoming requests.
 
-The server is capable of nothing by itself w/o [[RR plugins]] .
+The server is capable of nothing by itself w/o [[RR plugins]].
 
 ```yaml
 version: '3'  
@@ -24,4 +28,3 @@ http:
 This makes RR server available via HTTP. Note that `server.php` must be capable of HTTP requests processing. 
 
 See https://github.com/rela589n/roadrunner-http as an implementation example.
-
