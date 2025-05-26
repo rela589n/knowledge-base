@@ -2,6 +2,6 @@
 aliases:
   - Task Queues
 ---
-[[Temporal]] [[Task]] queues are used to queue incoming [[Task|tasks]] before processing. There's an [[Activity Task Queue]] and [[Workflow Task Queue]].
+[[Temporal]] [[Task]] queues queue up the incoming [[Task|tasks]] before processing. There are [[Activity Task Queue]] and [[Workflow Task Queue]].
 
-How does Temporal know which task queue to use? You specify it in `WorkflowOptions` and `ActivityOptions` when launching the workflow.
+Temporal knows which task queue to use by you specifying it in `WorkflowOptions` and `ActivityOptions` when launching the workflow.
