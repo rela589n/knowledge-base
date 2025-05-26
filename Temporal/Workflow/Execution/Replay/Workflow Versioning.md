@@ -1,6 +1,26 @@
-We can't just add changes to [[Temporal/Workflow/Workflow Definition|Workflow Definition]] and assume that everything will just run fine. The problem is with [[Workflow Replay]].
+---
+aliases:
+  - Workflow Patching
+---
+Refs: [sdk documentation](https://docs.temporal.io/develop/php/versioning#php-sdk-patching-api)
 
-We don't version the whole [[Temporal/Workflow/Workflow Definition|Workflow Definition]], we version changes instead.
+We can't just make changes to [[Temporal/Workflow/Workflow Definition|Workflow Definition]] and hope that everything will work just fine. The problem is with [[Workflow Replay]] consistency.
 
-To have it, you must enable ElasticSearch.
+We don't version the whole [[Temporal/Workflow/Workflow Definition|Workflow Definition]], instead we **version the changes**.
+
+How versioning works:
+
+1. If the existing workflow has already passed to the next step, this change will be ignored.
+2. If it hasn't passed to the step, it will be applied.
+
+Temporal uses `-1` as a starting version for already running workflows.
+
+Changes to the timers (except 0-related changes) do not have to be versioned (already scheduled timer will be the one).
+### Querying for versions
+
+To **query** for already running workflow versions, you must enable ElasticSearch.
 ![[Query Workflow versions.png]]
+
+### Testing
+
+To **test** that old version of the workflow will continue to work, you may get [[Event History]] json, and use [[WorkflowReplayer]] to run it in the tests.

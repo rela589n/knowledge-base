@@ -2,4 +2,4 @@
 
 **Changes to code** can introduce [[Event History]] problems (if we add some step in between, or change the order, when there's running [[Workflow Execution]]), which is solved with [[Workflow Versioning]].
 
-
+In case of inconsistent [[Event History]], Temporal will retry the workflow again and again until you finally do something about it.
