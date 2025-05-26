@@ -15,6 +15,10 @@ How versioning works:
 
 Temporal uses `-1` as a starting version for already running workflows.
 
+If the workflow hasn't yet executed the next command, a max supported version will be used
+
+If Workflow::getVersion() is added after the code has already executed the next activity, then "-1" is used, and the default (previous) version is executed.
+
 Changes to the timers (except 0-related changes) do not have to be versioned (already scheduled timer will be the one).
 ### Querying for versions
 
