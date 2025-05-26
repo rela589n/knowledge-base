@@ -2,7 +2,7 @@
 aliases: RR RPC
 ---
 
-[[RoadRunner]] uses [[Goridge protocol]], that allows us to communicate between GO and PHP.
+[[RoadRunner]] uses [[Goridge]], that allows us to communicate between GO and PHP.
 
 RPC endpoint is defined this way:
 
