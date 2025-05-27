@@ -2,6 +2,8 @@ Write a console command to start a workflow that will log Fibbonacci numbers up 
 
 Use a separate console command to shift the limit for the running workflow.
 
-What will happen if you shift limit to the value, that is less than current iteration? - [[Workflow Replay]] will fail. Adjust shiftLimit method to take this into account.
+Monitor logs to see that everything works.
 
-Monitor logs to check that everything works.
+Find a solution to stuck workflow on the last iteration (93). If you just use update method, this won't help, since activity is failing over and over again before the workflow applies update event. 
+
+You should apply [[Update]] and [[Reset]] from [[Temporal UI|UI]].
