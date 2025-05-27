@@ -6,4 +6,4 @@ Monitor logs to see that everything works.
 
 Find a solution to stuck workflow on the last iteration (93). If you just use update method, this won't help, since activity is failing over and over again before the workflow applies update event. 
 
-You should apply [[Update]] and [[Reset]] from [[Temporal UI|UI]].
+You should apply [[Update]] and [[Reset]] from [[Temporal UI|UI]].;
