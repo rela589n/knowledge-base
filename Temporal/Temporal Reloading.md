@@ -1,1 +1,1 @@
-[[PhpStorm File Watcher]], [[CLI|RR CLI]] for the rescue.
+[[PhpStorm File Watcher]] and [[CLI|RR CLI]] for the rescue.
