@@ -13,13 +13,15 @@ How versioning works:
 1. If the existing workflow has already passed to the next step, this change will be ignored.
 2. If it hasn't passed to the step, it will be applied.
 
-Temporal uses `-1` as a starting version for already running workflows.
+During the [[Workflow Replay|replay]] temporal uses `-1`  as a starting version for already executed code. 
+IOW, if `Workflow::getVersion()` is added after the code has already executed the further part, then "-1" is returned.
 
-If the workflow hasn't yet executed the newly added version call (and thus not any of the next commands), maximum supported version will be used
+If the workflow hasn't yet executed the newly added version call (and thus not any of the next commands), maximum supported version will be used.
 
-If Workflow::getVersion() is added after the code has already executed the next activity, then "-1" is used, and the default (previous) version is executed.
+> `Workflow::getVersion()` returns the same version for multiple calls if given id is the same. Beware of this, if using it in the loops.
 
-Changes to the timers (except 0-related changes) do not have to be versioned (already scheduled timer will be the one).
+Timer-value changes (except 0-related changes) do not trigger [[Workflow Replay|replay]] problems, and therefore do not have to be versioned (already scheduled timer will be the one).
+
 ### Querying for versions
 
 To **query** for already running workflow versions, you must enable ElasticSearch.
