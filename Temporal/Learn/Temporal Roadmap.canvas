@@ -23,9 +23,9 @@
 		{"id":"ee7d7c37f41fb21f","type":"file","file":"Temporal/Learn/Tasks/Set up UI separately from temporal service.md","x":1540,"y":3800,"width":507,"height":320},
 		{"id":"b35a54e38d5e11d0","type":"text","text":"**Namespaces**","x":840,"y":2640,"width":250,"height":60},
 		{"id":"0d03288d48555c58","type":"file","file":"Temporal/Workflow/Schedule/Workflow Schedule.md","x":2560,"y":3320,"width":414,"height":270},
-		{"id":"07dc5a0deb698e82","type":"file","file":"Temporal/Learn/Tasks/Fibbonacci.md","x":1540,"y":2720,"width":586,"height":320},
-		{"id":"6da5d1bd0e739f54","x":2560,"y":2840,"width":414,"height":300,"type":"file","file":"Temporal/Workflow/Messages/Workflow Messages.md"},
-		{"id":"aee1325feb0e6258","type":"file","file":"Temporal/Learn/Tasks/Temporal Versioned Hello World.md","x":1540,"y":2210,"width":586,"height":230}
+		{"id":"6da5d1bd0e739f54","type":"file","file":"Temporal/Workflow/Messages/Workflow Messages.md","x":2560,"y":2840,"width":414,"height":300},
+		{"id":"aee1325feb0e6258","type":"file","file":"Temporal/Learn/Tasks/Temporal Versioned Hello World.md","x":1540,"y":2170,"width":586,"height":230},
+		{"id":"07dc5a0deb698e82","type":"file","file":"Temporal/Learn/Tasks/Fibonacci.md","x":1540,"y":2680,"width":586,"height":320}
 	],
 	"edges":[
 		{"id":"30b4b928c9d530b3","fromNode":"732ed0b8f12414ea","fromSide":"bottom","toNode":"f60d6a6dc2bd1e87","toSide":"top"},
