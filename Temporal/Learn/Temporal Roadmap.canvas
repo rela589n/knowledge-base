@@ -19,13 +19,13 @@
 		{"id":"7e22180a56a6e639","type":"file","file":"Temporal/SDK/SDK.md","x":93,"y":200,"width":507,"height":220},
 		{"id":"4d88996fa2d917d0","type":"file","file":"Temporal/Workflow/Execution/Replay/Workflow Versioning.md","x":2560,"y":2400,"width":414,"height":240},
 		{"id":"712ee71cb9d66fb2","type":"file","file":"Temporal/Worker/Task/Task Queue.md","x":2560,"y":1980,"width":414,"height":220},
-		{"id":"aee1325feb0e6258","type":"file","file":"Temporal/Learn/Tasks/Temporal Versioned Hello World.md","x":1540,"y":2245,"width":586,"height":230},
 		{"id":"8f747c1723e0480d","type":"file","file":"Temporal/Temporal docker-compose configuration.md","x":1540,"y":3280,"width":507,"height":260},
 		{"id":"ee7d7c37f41fb21f","type":"file","file":"Temporal/Learn/Tasks/Set up UI separately from temporal service.md","x":1540,"y":3800,"width":507,"height":320},
 		{"id":"b35a54e38d5e11d0","type":"text","text":"**Namespaces**","x":840,"y":2640,"width":250,"height":60},
 		{"id":"0d03288d48555c58","type":"file","file":"Temporal/Workflow/Schedule/Workflow Schedule.md","x":2560,"y":3320,"width":414,"height":270},
-		{"id":"31fb7741b6cd49b0","type":"file","file":"Temporal/Workflow/Messages/Signal.md","x":2560,"y":2800,"width":414,"height":320},
-		{"id":"07dc5a0deb698e82","x":1540,"y":2720,"width":586,"height":320,"type":"file","file":"Temporal/Learn/Tasks/Fibbonacci.md"}
+		{"id":"07dc5a0deb698e82","type":"file","file":"Temporal/Learn/Tasks/Fibbonacci.md","x":1540,"y":2720,"width":586,"height":320},
+		{"id":"6da5d1bd0e739f54","x":2560,"y":2840,"width":414,"height":300,"type":"file","file":"Temporal/Workflow/Messages/Workflow Messages.md"},
+		{"id":"aee1325feb0e6258","type":"file","file":"Temporal/Learn/Tasks/Temporal Versioned Hello World.md","x":1540,"y":2210,"width":586,"height":230}
 	],
 	"edges":[
 		{"id":"30b4b928c9d530b3","fromNode":"732ed0b8f12414ea","fromSide":"bottom","toNode":"f60d6a6dc2bd1e87","toSide":"top"},
@@ -46,6 +46,7 @@
 		{"id":"5999038a8d22eda4","fromNode":"7d02d262307a8070","fromSide":"right","toNode":"712ee71cb9d66fb2","toSide":"left"},
 		{"id":"db05c3ea2fe5f868","fromNode":"aee1325feb0e6258","fromSide":"right","toNode":"4d88996fa2d917d0","toSide":"left"},
 		{"id":"9ebfafcf28d723e4","fromNode":"7d02d262307a8070","fromSide":"bottom","toNode":"aee1325feb0e6258","toSide":"top"},
-		{"id":"2c9ef0e161da37ba","fromNode":"07dc5a0deb698e82","fromSide":"right","toNode":"31fb7741b6cd49b0","toSide":"left"}
+		{"id":"8b30f1de75251e15","fromNode":"07dc5a0deb698e82","fromSide":"right","toNode":"6da5d1bd0e739f54","toSide":"left"},
+		{"id":"7ab7ba3e65ba2eff","fromNode":"aee1325feb0e6258","fromSide":"bottom","toNode":"07dc5a0deb698e82","toSide":"top"}
 	]
 }
