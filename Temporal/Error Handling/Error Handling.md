@@ -12,3 +12,7 @@ Types of failures:
 [[Activities are Re-Executed]]
 
 [[Temporal Failures in the code]]
+
+[[Workflow Task Failure]]
+
+[[Workflow Execution Failure]]

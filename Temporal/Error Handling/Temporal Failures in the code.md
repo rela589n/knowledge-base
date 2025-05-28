@@ -7,7 +7,7 @@ The previous exception of `ActivityFailure` represents the cause of the failure:
 - `CanceledFailure` - if [[Activity Cancellation|activity was cancelled]];
 - `ApplicationFailure` - the [[Activity|activity]] has thrown (this is [[Application Failure]]).
 
-Throwing `ApplicationFailure` from the [[Workflow Execution|workflow]] causes it to fail. That's the only exception you should throw manually.
+Throwing `ApplicationFailure` from the [[Workflow Execution|workflow]] causes it to [[Workflow Execution Failure|fail]]. That's the only exception you should throw manually.
 
 Other failures:
 - `TerminatedFailure` - when [[Workflow Termination|terminated]];
