@@ -1,3 +1,3 @@
-You can cancel the [[Activity]] that [[Activity Heartbeat|heartbeats]].
+You can cancel the [[Activity]], if it [[Activity Heartbeat|heartbeats]].
 
-From [[Activity]]'s point of view, `Activity::heartbeat($i)` method throws an exception (one of the descendants of `ActivityCompletionException`).
+From [[Activity]]'s point of view, exception (one of the descendants of `ActivityCompletionException`) is thrown when it tries to `Activity::heartbeat($i)`.
