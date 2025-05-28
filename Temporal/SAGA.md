@@ -1,3 +1,7 @@
+---
+aliases:
+  - compensations
+---
 [[SAGA pattern]]
 
 [[Server]] internally manages state of the workflows.
