@@ -8,4 +8,4 @@ aliases:
 
 It progresses through a series of Commands and Events, recorded in the [[Event History]], used in [[Workflow Replay]].
 
-![[Workflow Execution.png]]
+![[Workflow Execution Interaction.png]]

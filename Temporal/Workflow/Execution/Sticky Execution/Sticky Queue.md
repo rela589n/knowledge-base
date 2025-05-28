@@ -1,0 +1,1 @@
+[[Task Queue]], created for one particular [[Worker]], used for [[Sticky Workflow Execution]]. If [[Worker]] fails to read the item from that queue shortly after scheduled, it's redirected to the original [[Task Queue]], so that any [[Worker]] would be able to pick it up.

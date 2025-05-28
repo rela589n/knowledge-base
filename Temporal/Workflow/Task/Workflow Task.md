@@ -1,3 +1,4 @@
-One [[Task]] to advance the progress of a [[Temporal/Workflow/Workflow|Workflow]].
+**[[Workflow Execution|Workflow]] [[Task]]** is a single step to advance the progress of a [[Workflow Execution]].
+
 It has a [[Workflow Task Timeout|timeout]].
 
