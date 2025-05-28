@@ -7,8 +7,6 @@ Types of failures:
 - [[Intermittent Failure]]
 - [[Permanent Failure]]
 
-[[Activity|Activities]] should be [[Idempotence|idempotent]], because they are retried.
+[[Error Propagation]]
 
-[[Temporal]] propagates error throw from the code written in one language up to be handled in another language.
-
-![[Multilingual error propagation.png]]
+[[Activity Error Handling]]

@@ -1,0 +1,4 @@
+[[Idempotence]]
+
+circuit breaker
+
