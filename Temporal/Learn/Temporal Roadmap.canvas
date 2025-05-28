@@ -19,13 +19,15 @@
 		{"id":"7e22180a56a6e639","type":"file","file":"Temporal/SDK/SDK.md","x":93,"y":200,"width":507,"height":220},
 		{"id":"4d88996fa2d917d0","type":"file","file":"Temporal/Workflow/Execution/Replay/Workflow Versioning.md","x":2560,"y":2400,"width":414,"height":240},
 		{"id":"712ee71cb9d66fb2","type":"file","file":"Temporal/Worker/Task/Task Queue.md","x":2560,"y":1980,"width":414,"height":220},
-		{"id":"8f747c1723e0480d","type":"file","file":"Temporal/Temporal docker-compose configuration.md","x":1540,"y":3280,"width":507,"height":260},
-		{"id":"ee7d7c37f41fb21f","type":"file","file":"Temporal/Learn/Tasks/Set up UI separately from temporal service.md","x":1540,"y":3800,"width":507,"height":320},
 		{"id":"b35a54e38d5e11d0","type":"text","text":"**Namespaces**","x":840,"y":2640,"width":250,"height":60},
-		{"id":"0d03288d48555c58","type":"file","file":"Temporal/Workflow/Schedule/Workflow Schedule.md","x":2560,"y":3320,"width":414,"height":270},
 		{"id":"6da5d1bd0e739f54","type":"file","file":"Temporal/Workflow/Messages/Workflow Messages.md","x":2560,"y":2840,"width":414,"height":300},
 		{"id":"aee1325feb0e6258","type":"file","file":"Temporal/Learn/Tasks/Temporal Versioned Hello World.md","x":1540,"y":2170,"width":586,"height":230},
-		{"id":"07dc5a0deb698e82","type":"file","file":"Temporal/Learn/Tasks/Fibonacci.md","x":1540,"y":2680,"width":586,"height":320}
+		{"id":"07dc5a0deb698e82","type":"file","file":"Temporal/Learn/Tasks/Fibonacci.md","x":1540,"y":2680,"width":586,"height":320},
+		{"id":"0d03288d48555c58","type":"file","file":"Temporal/Workflow/Schedule/Workflow Schedule.md","x":2560,"y":3705,"width":414,"height":270},
+		{"id":"7d5d1c46df870183","x":1540,"y":3190,"width":586,"height":400,"type":"file","file":"Temporal/Error Handling/Error Handling.md"},
+		{"id":"ee7d7c37f41fb21f","type":"file","file":"Temporal/Learn/Tasks/Set up UI separately from temporal service.md","x":1579,"y":4514,"width":507,"height":320},
+		{"id":"8f747c1723e0480d","type":"file","file":"Temporal/Temporal docker-compose configuration.md","x":1580,"y":4154,"width":507,"height":260},
+		{"id":"19439fbec6a8e189","x":1540,"y":3840,"width":250,"height":60,"type":"text","text":"Go over SDK"}
 	],
 	"edges":[
 		{"id":"30b4b928c9d530b3","fromNode":"732ed0b8f12414ea","fromSide":"bottom","toNode":"f60d6a6dc2bd1e87","toSide":"top"},

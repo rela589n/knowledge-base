@@ -1,5 +1,6 @@
-**[[Activity]] Heartbeat**  is a ping that is sent to [[Server|Temporal Service]] in order to understand that activity is still alive.
+**[[Activity]] Heartbeat**  is a ping that is sent to [[Server|Temporal Service]] so that it can understand that the [[Activity]] is still alive.
 
-HeartBeat can include payload, so that if current [[Worker Process]] fails, a new [[Worker]] may take over the computation wherever stopped. 
+Heartbeat can include payload, so that if current [[Worker Process]] fails, a new [[Worker]] may take over the computation from the last saved place. 
 
-[[Samples]] have an example.
+[[Samples]] have an example of [[Activity Heartbeat]].
+

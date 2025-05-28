@@ -1,4 +1,3 @@
-It will fail until the cause is resolved.
-These can't be resolved with retries.
+It will fail until the cause is resolved (retries won't help).
 They require manual intervention.
 [[Application Failure|Application Failures]] are usually permanent.
