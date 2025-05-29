@@ -6,7 +6,8 @@ There are two steps required:
 
 Signature can fail due to multiple causes:
 - missing private key
-- incorrect password
+- missing private key certificate
+- incorrect credentials
 
 Confirmation can fail:
 - 500 ([[Permanent Failure]])
