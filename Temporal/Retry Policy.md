@@ -7,4 +7,4 @@ See [How Temporal Handles Failures](https://docs.temporal.io/encyclopedia/event-
 
 Default [[Activity]] max interval is 100 seconds.
 
-
+[[Workflow Retry Options]]

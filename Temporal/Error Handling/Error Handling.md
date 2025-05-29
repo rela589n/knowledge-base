@@ -16,3 +16,7 @@ Types of failures:
 [[Workflow Task Failure]]
 
 [[Workflow Execution Failure]]
+
+[[Activity Execution Failure]]
+
+[[Retry Policy]]

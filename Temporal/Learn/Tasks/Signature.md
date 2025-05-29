@@ -6,7 +6,7 @@ There are two steps required:
 
 Signature can fail due to multiple causes:
 - missing private key
-- missing private key certificate
+- expired private key certificate (return date of expiration)
 - incorrect credentials
 
 Confirmation can fail:

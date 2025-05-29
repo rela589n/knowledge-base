@@ -23,14 +23,14 @@
 		{"id":"6da5d1bd0e739f54","type":"file","file":"Temporal/Workflow/Messages/Workflow Messages.md","x":2560,"y":2840,"width":414,"height":300},
 		{"id":"aee1325feb0e6258","type":"file","file":"Temporal/Learn/Tasks/Temporal Versioned Hello World.md","x":1540,"y":2170,"width":586,"height":230},
 		{"id":"07dc5a0deb698e82","type":"file","file":"Temporal/Learn/Tasks/Fibonacci.md","x":1540,"y":2680,"width":586,"height":320},
-		{"id":"ee7d7c37f41fb21f","type":"file","file":"Temporal/Learn/Tasks/Set up UI separately from temporal service.md","x":1539,"y":5124,"width":507,"height":320},
-		{"id":"8f747c1723e0480d","type":"file","file":"Temporal/Temporal docker-compose configuration.md","x":1540,"y":4764,"width":507,"height":260},
-		{"id":"19439fbec6a8e189","type":"text","text":"Go over SDK","x":1500,"y":4450,"width":250,"height":60},
 		{"id":"371c04ae479ea6ff","type":"file","file":"Temporal/Learn/Tasks/Interrupt the Workflow.md","x":1540,"y":3240,"width":586,"height":280},
 		{"id":"94208533126008ef","type":"file","file":"Temporal/Workflow/Execution/Interrupt/Interrupting the Workflow.md","x":2560,"y":3320,"width":414,"height":320},
-		{"id":"6b6a02ccc0b0d27f","x":1540,"y":3800,"width":586,"height":400,"type":"file","file":"Temporal/Learn/Tasks/Signature.md"},
-		{"id":"0d03288d48555c58","type":"file","file":"Temporal/Workflow/Schedule/Workflow Schedule.md","x":2520,"y":4450,"width":414,"height":270},
-		{"id":"7d5d1c46df870183","type":"file","file":"Temporal/Error Handling/Error Handling.md","x":2560,"y":3935,"width":414,"height":360}
+		{"id":"6b6a02ccc0b0d27f","type":"file","file":"Temporal/Learn/Tasks/Signature.md","x":1541,"y":4280,"width":586,"height":400},
+		{"id":"19439fbec6a8e189","type":"text","text":"Go over SDK","x":1501,"y":4930,"width":250,"height":60},
+		{"id":"8f747c1723e0480d","type":"file","file":"Temporal/Temporal docker-compose configuration.md","x":1541,"y":5244,"width":507,"height":260},
+		{"id":"ee7d7c37f41fb21f","type":"file","file":"Temporal/Learn/Tasks/Set up UI separately from temporal service.md","x":1540,"y":5604,"width":507,"height":320},
+		{"id":"0d03288d48555c58","type":"file","file":"Temporal/Workflow/Schedule/Workflow Schedule.md","x":2521,"y":4930,"width":414,"height":270},
+		{"id":"7d5d1c46df870183","type":"file","file":"Temporal/Error Handling/Error Handling.md","x":2561,"y":4415,"width":414,"height":360}
 	],
 	"edges":[
 		{"id":"30b4b928c9d530b3","fromNode":"732ed0b8f12414ea","fromSide":"bottom","toNode":"f60d6a6dc2bd1e87","toSide":"top"},
