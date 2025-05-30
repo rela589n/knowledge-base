@@ -13,5 +13,5 @@ And due to the second attempt being failed, third one will be launched (unless s
 
 In any case, these three attempts could've been avoided had [[Schedule-To-Close]] timeout been used.
 
-Anyway, having an orchestrator is a big privilege, since we could set bigger timeout for http requests, and if one will succeed even after activity was timed-out, it'll be recorded in the due time so that next retry will succeed (in case it happens before sending repetitive request).
+Anyway, having an orchestrator is a big privilege, since we could set bigger timeout for http requests, and if one will succeed shortly after activity was timed-out, it'll be recorded in the database so that next retry will succeed (in case it happens before sending repetitive request).
 
