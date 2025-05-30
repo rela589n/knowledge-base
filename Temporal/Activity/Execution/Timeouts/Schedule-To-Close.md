@@ -6,3 +6,4 @@ Beware of the situation when [[Activity Task]] may be Scheduled for some time be
 
 Also, be aware that [[Retry Policy|retries]] could terminate prematurely if the timeout is already elapsed.
 
+![[Activity Timeouts.png]]
