@@ -7,16 +7,19 @@ Types of failures:
 - [[Intermittent Failure]]
 - [[Permanent Failure]]
 
-[[Errors are Propagated]]
+In Temporal [[Errors are Propagated]]
 
 [[Activities are Re-Executed]]
 
 [[Temporal Failures in the code]]
 
-[[Workflow Task Failure]]
-
-[[Workflow Execution Failure]]
+Workflow failures:
+- [[Workflow Task Failure]]
+- [[Workflow Execution Failure]]
 
 [[Activity Execution Failure]]
+
+Timeouts:
+- [[Activity Timeouts]]
 
 [[Retry Policy]]
