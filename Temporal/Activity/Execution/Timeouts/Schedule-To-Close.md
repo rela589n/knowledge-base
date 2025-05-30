@@ -2,8 +2,8 @@
 
 This timeout **prevents [[Activity]] from executing indefinitely**. This timeout is much better than [[Retry Policy]], since it's rare that retries could fix the situation.
 
-Beware of the situation when [[Activity Task]] may be Scheduled for some time before actually being taken into work (timer is already ticking).
+Be careful not to set shorter value than [[Activity]] might need, since it may be [[Activity Task Queue|queued up]] for some time before actually being taken into work, and timer is already ticking. To limit this, use [[Schedule-To-Start]] timeout.
 
-Also, be aware that [[Retry Policy|retries]] could terminate prematurely if the timeout is already elapsed.
+Also, be aware that [[Retry Policy|retries]] could be terminated prematurely if the timeout has already elapsed.
 
 ![[Activity Timeouts.png]]
