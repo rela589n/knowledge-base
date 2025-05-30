@@ -15,4 +15,5 @@ Timeouts:
 
 > In almost all cases it's better to configure [[Schedule-To-Close]] timeout than [[Retry Policy]], as it's seldom that next retry has more chance for success.
 
+
 **[[Activity Heartbeat|HeartBeat]] Timeout** - timeout within which activity must respond with ping before it's considered stuck. Used for long-running activities.

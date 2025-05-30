@@ -1,5 +1,8 @@
 {
   "accentColor": "",
   "baseFontSize": 23,
-  "theme": "moonstone"
+  "theme": "moonstone",
+  "enabledCssSnippets": [
+    "images-alignment"
+  ]
 }
