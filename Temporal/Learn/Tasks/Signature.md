@@ -13,3 +13,5 @@ Confirmation can fail:
 - 500 ([[Permanent Failure]])
 - timeout ([[Transient Failure|Temporary Failure]])
 - response error ([[Permanent Failure]])
+
+Try to play around with [[Activity Compatibility]] - extract string parameters right in the mid of running workflow and check what happens.
