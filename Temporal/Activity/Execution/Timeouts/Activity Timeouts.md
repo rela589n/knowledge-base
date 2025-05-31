@@ -18,5 +18,4 @@ Timeouts:
 
 To handle [[Rate Limiting]], you can configure backoff coefficient respectively. Usually having it will by itself mean that you won't have [[Schedule-To-Close]] timeout, so you'd use [[Schedule-To-Start]] and [[Start-To-Close]] timeouts, and [[Retry Policy]].
 
-**[[Activity Heartbeat|HeartBeat]] Timeout** - timeout within which activity must respond with ping before it's considered stuck. Used for long-running activities.
-
+[[Activity Heartbeat Timeout]]
