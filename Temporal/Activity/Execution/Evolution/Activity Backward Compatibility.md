@@ -47,4 +47,5 @@ public function sign(
   }
 ```
 
-Thank God [[Workflow Replay]] doesn't fail even though acutal activity was executed with different set of parameters than in the new version.
+Thank God [[Workflow Replay]] doesn't fail even though new acutal activity invocation technically has a different set of parameters than was the case with the previous version.
+
