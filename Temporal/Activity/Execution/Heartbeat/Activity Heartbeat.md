@@ -4,6 +4,6 @@
 
 Heartbeat can include payload, so that in case [[Worker Process]] fails, a new [[Worker]] will take the computation over from the last saved place. 
 
-Besides other, if the [[Activity]] was [[Activity Timeouts|Timed-out]] or [[Activity Cancellation|Cancelled]],  heartbeat will fail with exception.
+Besides other, if the [[Activity]] was [[Activity Timeouts|Timed-out]] or [[Activity Cancellation|Cancelled]],  heartbeat will fail with exception (even though [[Activity Heartbeat Timeout|Heartbeat Timeout]] is not specified).
 
 [[Samples]] have an example of [[Activity Heartbeat]].
