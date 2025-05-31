@@ -8,4 +8,4 @@ aliases:
 
 **Changes to code** can introduce Non-Deterministic Errors ([[Event History]] problems) - if we add some step in between, or change the order, when there's running [[Workflow Execution]]. This is solved with [[Workflow Versioning]].
 
-In case of inconsistent [[Event History]], Temporal will retry the workflow again and again until you finally do something about it.
+In case of inconsistent [[Event History]], Temporal will retry the workflow again and again until you finally do something about it. Even if [[Workflow Cancellation|Workflow is Cancelled]], you won't be able to run [[SAGA|compensations]] if history is inconsistent.
