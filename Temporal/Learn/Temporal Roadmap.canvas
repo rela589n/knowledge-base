@@ -30,7 +30,8 @@
 		{"id":"8f747c1723e0480d","type":"file","file":"Temporal/Temporal docker-compose configuration.md","x":1541,"y":5244,"width":507,"height":260},
 		{"id":"ee7d7c37f41fb21f","type":"file","file":"Temporal/Learn/Tasks/Set up UI separately from temporal service.md","x":1540,"y":5604,"width":507,"height":320},
 		{"id":"0d03288d48555c58","type":"file","file":"Temporal/Workflow/Schedule/Workflow Schedule.md","x":2521,"y":4930,"width":414,"height":270},
-		{"id":"7d5d1c46df870183","type":"file","file":"Temporal/Error Handling/Error Handling.md","x":2561,"y":4415,"width":414,"height":360}
+		{"id":"7d5d1c46df870183","type":"file","file":"Temporal/Error Handling/Error Handling.md","x":2561,"y":4415,"width":414,"height":360},
+		{"id":"e8faf2089ac1f522","x":1539,"y":3760,"width":587,"height":280,"type":"file","file":"Temporal/Learn/Tasks/Monotonic sequence.md"}
 	],
 	"edges":[
 		{"id":"30b4b928c9d530b3","fromNode":"732ed0b8f12414ea","fromSide":"bottom","toNode":"f60d6a6dc2bd1e87","toSide":"top"},
