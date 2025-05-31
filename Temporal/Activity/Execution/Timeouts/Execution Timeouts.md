@@ -4,7 +4,9 @@ Execution [[Activity Timeouts]]:
 
 After elapsing the [[Execution Timeouts|Execution Timeout]], the [[Activity]] is considered **Cancelled**. Any [[Activity Heartbeat]] attempt will throw `ActivityCanceledException`.
 
-When using these timeouts, it's necessary to make sure that compensation logic covers rollback for the scenarios **when timed-out activity still succeeds**. Also, your activity should beware of the fact that compensation could've already been executed (and thus it must not attempt to succeed).
+When using these timeouts, it's necessary to make sure that compensation logic covers rollback for the scenarios **when timed-out activity still succeeds**. 
+
+Also, your [[Activity]] should be aware of the fact that **compensation logic could've already been executed** (and thus it must not attempt to succeed). [[Optimistic Locking]] should be used (version is read at the beginning of a transaction, and it'll fail if it has changed throughout the execution) - thus timed-out activity that knows nothing about being canceled must not corrupt the state of the application.
 
 Beware that using [[Start-To-Close]] timeout in conjunction with [[Retry Policy]] for [[Activity|Activities]] that interact with **third-party [[Microservices|services]]** could result in **multiple requests** (two first being parallel) being sent to them if they take longer time to complete:
 - one is sent from the [[Activity Task]] that eventually times-out (yet, after all this will succeed)
