@@ -4,7 +4,7 @@ Execution [[Activity Timeouts]]:
 
 After elapsing the [[Execution Timeouts|Execution Timeout]], the [[Activity]] is considered **Cancelled**. Any [[Activity Heartbeat]] attempt will throw `ActivityCanceledException`.
 
-When using these timeouts, it's necessary to make sure that compensation logic covers rollback for the scenarios **when timed-out activity still succeeds**. Also, your activity should beware of the fact that compensation could've already been executed.
+When using these timeouts, it's necessary to make sure that compensation logic covers rollback for the scenarios **when timed-out activity still succeeds**. Also, your activity should beware of the fact that compensation could've already been executed (and thus it must not attempt to succeed).
 
 Beware that using [[Start-To-Close]] timeout in conjunction with [[Retry Policy]] for [[Activity|Activities]] that interact with **third-party [[Microservices|services]]** could result in **multiple requests** (two first being parallel) being sent to them if they take longer time to complete:
 - one is sent from the [[Activity Task]] that eventually times-out (yet, after all this will succeed)
