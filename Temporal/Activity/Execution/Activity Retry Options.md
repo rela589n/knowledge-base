@@ -4,3 +4,5 @@ Defaults options for [[Activity]]:
 - backoff: 2;
 
 You can call the same [[Activity]] with different [[Retry Policy|Retry Options]]
+
+Also, it's possible to specify `#[MethodRetry]` options for particular [[Activity]] method.

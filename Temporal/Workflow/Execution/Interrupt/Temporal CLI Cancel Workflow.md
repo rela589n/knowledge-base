@@ -12,3 +12,4 @@ temporal workflow cancel \
   --query 'ExecutionStatus = "Running" AND WorkflowType="YourWorkflow"' \
   --reason "Testing"
 ```
+

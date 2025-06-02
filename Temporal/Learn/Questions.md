@@ -1,10 +1,14 @@
-How to run workflow without waiting for it? Is it called scheduling?
+How often is Workflow Task re-scheduled in case of [[Workflow Task Failure]]?
+
+What happens if compensation takes longer, than specified activity timeout? Will it fail?
+
+How to run workflow without waiting for it? Is it called scheduling? - Just use WorkflowClient::run() method instead of calling workflow object.
 
 What happens if the workflow throws an exception?
 
 How to use [[Activity Timeouts]] wisely?
 
-Для чого використовувати WorkflowInterface, ActivityInterface?
+Для чого використовувати WorkflowInterface, ActivityInterface? 
 
 Як дебажити activity, і воркфлови, якщо вони запускаються воркером? Тобто, умовно я можу викликати якийсь `dd()`, щоб глянути щось? Тобто, лише `dc exec backend vendor/bin/var-dump-server`. Pprof (-d option)?
 
