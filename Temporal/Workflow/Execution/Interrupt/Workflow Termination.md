@@ -3,6 +3,7 @@ aliases:
   - Terminate a Workflow
   - Kill a Workflow
 ---
-[[Temporal/Workflow/Workflow|Workflow]] Termination is a forceful stop of a [[Workflow Execution]].
-No [[SAGA|compensations]] are executed, and therefore [[Workflow Cancellation]] should be preferred.
+[[Temporal/Workflow/Workflow|Workflow]] Termination is a forceful stop of a [[Workflow Execution]]
+All running  [[Activity Cancellation|Activities are "Canceled"]] (fail on [[Activity Heartbeat|Heartbeat]]).
+No [[SAGA|compensations]] are executed, and Thus [[Workflow Cancellation]] is preferred way.
 

@@ -20,3 +20,5 @@ Timeouts:
 - [[Activity Timeouts]]
 
 [[Retry Policy]]
+
+[[Interrupting the Workflow]]
