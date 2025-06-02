@@ -34,7 +34,8 @@
 		{"id":"4d88996fa2d917d0","type":"file","file":"Temporal/Workflow/Execution/Replay/Workflow Versioning.md","x":2560,"y":2330,"width":414,"height":240},
 		{"id":"ca25f7e4b569a866","type":"file","file":"Temporal/Workflow/Execution/Replay/Workflow Replay.md","x":2560,"y":2650,"width":414,"height":240},
 		{"id":"aee1325feb0e6258","type":"file","file":"Temporal/Learn/Tasks/Temporal Versioned Hello World.md","x":1540,"y":2100,"width":586,"height":230},
-		{"id":"de4d67e4aa2771d5","x":1848,"y":6120,"width":400,"height":280,"type":"file","file":"Temporal/Workflow/Execution/Workflow Locks.md"}
+		{"id":"de4d67e4aa2771d5","type":"file","file":"Temporal/Workflow/Execution/Workflow Locks.md","x":1848,"y":6120,"width":400,"height":280},
+		{"id":"8dabc13d3330c084","x":1501,"y":6520,"width":400,"height":400,"type":"file","file":"Temporal/Workflow/Execution/Continue-As-New.md"}
 	],
 	"edges":[
 		{"id":"30b4b928c9d530b3","fromNode":"732ed0b8f12414ea","fromSide":"bottom","toNode":"f60d6a6dc2bd1e87","toSide":"top"},
