@@ -22,7 +22,6 @@
 		{"id":"19439fbec6a8e189","type":"text","text":"Go over SDK","x":1501,"y":4930,"width":250,"height":60},
 		{"id":"8f747c1723e0480d","type":"file","file":"Temporal/Temporal docker-compose configuration.md","x":1541,"y":5244,"width":507,"height":260},
 		{"id":"ee7d7c37f41fb21f","type":"file","file":"Temporal/Learn/Tasks/Set up UI separately from temporal service.md","x":1540,"y":5604,"width":507,"height":320},
-		{"id":"0d03288d48555c58","type":"file","file":"Temporal/Workflow/Schedule/Workflow Schedule.md","x":2521,"y":4930,"width":414,"height":270},
 		{"id":"371c04ae479ea6ff","type":"file","file":"Temporal/Learn/Tasks/Interrupt the Workflow.md","x":1540,"y":3460,"width":586,"height":280},
 		{"id":"6da5d1bd0e739f54","type":"file","file":"Temporal/Workflow/Messages/Workflow Messages.md","x":2560,"y":3060,"width":414,"height":300},
 		{"id":"94208533126008ef","type":"file","file":"Temporal/Workflow/Execution/Interrupt/Interrupting the Workflow.md","x":2560,"y":3540,"width":414,"height":320},
@@ -35,7 +34,9 @@
 		{"id":"8dabc13d3330c084","type":"file","file":"Temporal/Workflow/Execution/Continue-As-New.md","x":1501,"y":6520,"width":400,"height":400},
 		{"id":"6b6a02ccc0b0d27f","type":"file","file":"Temporal/Learn/Tasks/Signature.md","x":1540,"y":4000,"width":586,"height":400},
 		{"id":"7d5d1c46df870183","type":"file","file":"Temporal/Error Handling/Error Handling.md","x":2560,"y":4135,"width":414,"height":360},
-		{"id":"e8faf2089ac1f522","type":"file","file":"Temporal/Learn/Tasks/Intertwined sequence.md","x":1039,"y":4520,"width":587,"height":280}
+		{"id":"e8faf2089ac1f522","type":"file","file":"Temporal/Learn/Tasks/Intertwined sequence.md","x":1541,"y":4560,"width":585,"height":280},
+		{"id":"0d03288d48555c58","type":"file","file":"Temporal/Workflow/Schedule/Workflow Schedule.md","x":2440,"y":5374,"width":414,"height":270},
+		{"id":"4c4b7c75ec64e76c","type":"file","file":"Temporal/Workflow/Workflow Async Operations.md","x":2560,"y":4700,"width":414,"height":260}
 	],
 	"edges":[
 		{"id":"30b4b928c9d530b3","fromNode":"732ed0b8f12414ea","fromSide":"bottom","toNode":"f60d6a6dc2bd1e87","toSide":"top"},
@@ -63,6 +64,8 @@
 		{"id":"fbbfe6b971d1a792","fromNode":"a2d629652a8db7dc","fromSide":"right","toNode":"ca25f7e4b569a866","toSide":"left"},
 		{"id":"87f370d187938aac","fromNode":"a2d629652a8db7dc","fromSide":"bottom","toNode":"07dc5a0deb698e82","toSide":"top"},
 		{"id":"9474ab6ac7ad6d99","fromNode":"aee1325feb0e6258","fromSide":"bottom","toNode":"a2d629652a8db7dc","toSide":"top"},
-		{"id":"853b156161404cf5","fromNode":"371c04ae479ea6ff","fromSide":"bottom","toNode":"6b6a02ccc0b0d27f","toSide":"top"}
+		{"id":"853b156161404cf5","fromNode":"371c04ae479ea6ff","fromSide":"bottom","toNode":"6b6a02ccc0b0d27f","toSide":"top"},
+		{"id":"b836aa0d2b073b11","fromNode":"e8faf2089ac1f522","fromSide":"right","toNode":"4c4b7c75ec64e76c","toSide":"left"},
+		{"id":"419b7bf8c391a6cf","fromNode":"6b6a02ccc0b0d27f","fromSide":"bottom","toNode":"e8faf2089ac1f522","toSide":"top"}
 	]
 }

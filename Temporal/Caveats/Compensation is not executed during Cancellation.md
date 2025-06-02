@@ -1,4 +1,4 @@
-With this code, compensation will not be executed:
+With this code, [[SAGA|compensation]] will not be executed during [[Workflow Cancellation]]:
 
 ```php
 try {
@@ -10,4 +10,4 @@ try {
 }
 ```
 
-Well, actually it will work in case of activity failure, but not in case of [[Workflow Cancellation]].
+This works in case of activity failure, but not in case of [[Workflow Cancellation]]. To solve it, use detached [[Workflow Async Operations]], or `Saga` object.
