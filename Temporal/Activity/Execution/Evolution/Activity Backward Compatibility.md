@@ -13,7 +13,7 @@ And you changed it to:
 yield $this->signActivity->process($command);
 ```
 
-After the [[Workflow Execution]] had passed this line, there's no way to revert. [[Event History]] will have `[$id, $password]` as payload.
+After the [[Workflow Execution]] had passed this line, there's no way to revert written [[Event History]]. It will have `[$id, $password]` as payload.
 
 Thus, if your want to create compatible change for parameters of method signature:
 
@@ -27,7 +27,7 @@ Into this:
 public function sign(SignDocumentCommand $command): string
 ```
 
-You can't just blindly do it, since it will cause [[Activity Execution Failure]] due to incompatible arguments.
+You can't just blindly do it, because it will cause [[Activity Execution Failure]] due to incompatible arguments.
 
 What you do need to do, is to ensure compatibility by yourself:
 
