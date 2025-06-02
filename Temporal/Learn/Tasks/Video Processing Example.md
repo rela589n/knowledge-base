@@ -6,5 +6,6 @@ Use [[Workflow Dependency Injection|Workflow Constructor argument]] to use dynam
 
 Try to [[Workflow Cancellation|Cancel a Workflow]] and [[Workflow Termination|Kill a Workflow]].
 Find out [[Compensation is not executed during Cancellation]] problem, solve it.
-Make `cancel()` sleep for time, longer than [[Activity Heartbeat Timeout|Heartbeat Timeout]]. 
+
+Make `cancel()` sleep for time, longer than [[Activity Heartbeat Timeout|Heartbeat Timeout]] - it will result in timed-out compensation, and it'll be executed again.  It's just an ordinary [[Activity]] that is scheduled.
 
