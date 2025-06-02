@@ -29,11 +29,12 @@
 		{"id":"371c04ae479ea6ff","type":"file","file":"Temporal/Learn/Tasks/Interrupt the Workflow.md","x":1540,"y":3460,"width":586,"height":280},
 		{"id":"6da5d1bd0e739f54","type":"file","file":"Temporal/Workflow/Messages/Workflow Messages.md","x":2560,"y":3060,"width":414,"height":300},
 		{"id":"94208533126008ef","type":"file","file":"Temporal/Workflow/Execution/Interrupt/Interrupting the Workflow.md","x":2560,"y":3540,"width":414,"height":320},
-		{"id":"a2d629652a8db7dc","x":1540,"y":2520,"width":586,"height":260,"type":"file","file":"Temporal/Learn/Tasks/Pairwise - Twice.md"},
+		{"id":"a2d629652a8db7dc","type":"file","file":"Temporal/Learn/Tasks/Pairwise - Twice.md","x":1540,"y":2520,"width":586,"height":260},
 		{"id":"07dc5a0deb698e82","type":"file","file":"Temporal/Learn/Tasks/Fibonacci.md","x":1540,"y":2960,"width":586,"height":320},
 		{"id":"4d88996fa2d917d0","type":"file","file":"Temporal/Workflow/Execution/Replay/Workflow Versioning.md","x":2560,"y":2330,"width":414,"height":240},
-		{"id":"ca25f7e4b569a866","x":2560,"y":2650,"width":414,"height":240,"type":"file","file":"Temporal/Workflow/Execution/Replay/Workflow Replay.md"},
-		{"id":"aee1325feb0e6258","type":"file","file":"Temporal/Learn/Tasks/Temporal Versioned Hello World.md","x":1540,"y":2100,"width":586,"height":230}
+		{"id":"ca25f7e4b569a866","type":"file","file":"Temporal/Workflow/Execution/Replay/Workflow Replay.md","x":2560,"y":2650,"width":414,"height":240},
+		{"id":"aee1325feb0e6258","type":"file","file":"Temporal/Learn/Tasks/Temporal Versioned Hello World.md","x":1540,"y":2100,"width":586,"height":230},
+		{"id":"de4d67e4aa2771d5","x":1848,"y":6120,"width":400,"height":280,"type":"file","file":"Temporal/Workflow/Execution/Workflow Locks.md"}
 	],
 	"edges":[
 		{"id":"30b4b928c9d530b3","fromNode":"732ed0b8f12414ea","fromSide":"bottom","toNode":"f60d6a6dc2bd1e87","toSide":"top"},
