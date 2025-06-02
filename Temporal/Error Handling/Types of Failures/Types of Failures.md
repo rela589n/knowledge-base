@@ -1,0 +1,3 @@
+- [[Transient Failure]]
+- [[Intermittent Failure]]
+- [[Permanent Failure]]

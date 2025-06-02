@@ -2,14 +2,11 @@ Categories of failures:
 - [[Application Failure]]
 - [[Platform Failure]]
 
-Types of failures:
-- [[Transient Failure]]
-- [[Intermittent Failure]]
-- [[Permanent Failure]]
+[[Types of Failures]]
 
 In Temporal [[Errors are Propagated]]
 
-[[Activities are Re-Executed]]
+[[Activities Idempotence]]
 
 [[Temporal Failures in the code]]
 
