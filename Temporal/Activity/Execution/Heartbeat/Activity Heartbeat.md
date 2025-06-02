@@ -6,4 +6,6 @@ Heartbeat can include payload, so that in case [[Worker Process]] fails, a new [
 
 Besides other, if the [[Activity]] was [[Activity Timeouts|Timed-out]] or [[Activity Cancellation|Cancelled]],  heartbeat will fail with exception (even though [[Activity Heartbeat Timeout|Heartbeat Timeout]] is not specified).
 
+Heartbeat messages are throttled when [[Worker]] knows that the heartbeat isn't required to prevent [[Activity Heartbeat Timeout|Heartbeat Timeout]]. Yet, in case of an [[Activity Execution Failure]], the last Heartbeat is reported to the [[Server|Service]] so that next [[Worker]] will have last progress information.
+
 [[Samples]] have an example of [[Activity Heartbeat]].
