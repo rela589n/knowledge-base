@@ -12,7 +12,7 @@ It's mandatory to configure either [[Schedule-To-Close]] or [[Start-To-Close]] t
 
 Timeouts:
 - [[Schedule-To-Start]]
-- [[Execution Timeouts]]
+- [[Activity Execution Timeouts]]
 
 > In almost all cases it's better to configure [[Schedule-To-Close]] timeout than [[Retry Policy]], since usually it's unlikely that next retry has more chance for success.
 
