@@ -17,4 +17,4 @@ You define [[Retry Policy]] based on [[Types of Failures]].
 
 Do not set max attempts to 1 just because your [[Activities Idempotence|Activity isn't idempotent]]. Network crash before http request will cause complete [[Workflow Execution Failure]].
 
-You can specify non-retryable errors in the call time.
+You can specify non-retryable errors during the call time.
