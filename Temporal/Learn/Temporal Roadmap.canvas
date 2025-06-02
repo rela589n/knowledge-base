@@ -19,9 +19,6 @@
 		{"id":"7e22180a56a6e639","type":"file","file":"Temporal/SDK/SDK.md","x":93,"y":200,"width":507,"height":220},
 		{"id":"712ee71cb9d66fb2","type":"file","file":"Temporal/Worker/Task/Task Queue.md","x":2560,"y":1980,"width":414,"height":220},
 		{"id":"b35a54e38d5e11d0","type":"text","text":"**Namespaces**","x":840,"y":2640,"width":250,"height":60},
-		{"id":"19439fbec6a8e189","type":"text","text":"Go over SDK","x":1501,"y":4930,"width":250,"height":60},
-		{"id":"8f747c1723e0480d","type":"file","file":"Temporal/Temporal docker-compose configuration.md","x":1541,"y":5244,"width":507,"height":260},
-		{"id":"ee7d7c37f41fb21f","type":"file","file":"Temporal/Learn/Tasks/Set up UI separately from temporal service.md","x":1540,"y":5604,"width":507,"height":320},
 		{"id":"371c04ae479ea6ff","type":"file","file":"Temporal/Learn/Tasks/Interrupt the Workflow.md","x":1540,"y":3460,"width":586,"height":280},
 		{"id":"6da5d1bd0e739f54","type":"file","file":"Temporal/Workflow/Messages/Workflow Messages.md","x":2560,"y":3060,"width":414,"height":300},
 		{"id":"94208533126008ef","type":"file","file":"Temporal/Workflow/Execution/Interrupt/Interrupting the Workflow.md","x":2560,"y":3540,"width":414,"height":320},
@@ -30,13 +27,19 @@
 		{"id":"4d88996fa2d917d0","type":"file","file":"Temporal/Workflow/Execution/Replay/Workflow Versioning.md","x":2560,"y":2330,"width":414,"height":240},
 		{"id":"ca25f7e4b569a866","type":"file","file":"Temporal/Workflow/Execution/Replay/Workflow Replay.md","x":2560,"y":2650,"width":414,"height":240},
 		{"id":"aee1325feb0e6258","type":"file","file":"Temporal/Learn/Tasks/Temporal Versioned Hello World.md","x":1540,"y":2100,"width":586,"height":230},
-		{"id":"de4d67e4aa2771d5","type":"file","file":"Temporal/Workflow/Execution/Workflow Locks.md","x":1848,"y":6120,"width":400,"height":280},
 		{"id":"8dabc13d3330c084","type":"file","file":"Temporal/Workflow/Execution/Continue-As-New.md","x":1501,"y":6520,"width":400,"height":400},
-		{"id":"6b6a02ccc0b0d27f","type":"file","file":"Temporal/Learn/Tasks/Signature.md","x":1540,"y":4000,"width":586,"height":400},
-		{"id":"7d5d1c46df870183","type":"file","file":"Temporal/Error Handling/Error Handling.md","x":2560,"y":4135,"width":414,"height":360},
-		{"id":"e8faf2089ac1f522","type":"file","file":"Temporal/Learn/Tasks/Intertwined sequence.md","x":1541,"y":4560,"width":585,"height":280},
-		{"id":"0d03288d48555c58","type":"file","file":"Temporal/Workflow/Schedule/Workflow Schedule.md","x":2440,"y":5374,"width":414,"height":270},
-		{"id":"4c4b7c75ec64e76c","type":"file","file":"Temporal/Workflow/Workflow Async Operations.md","x":2560,"y":4700,"width":414,"height":260}
+		{"id":"6b6a02ccc0b0d27f","type":"file","file":"Temporal/Learn/Tasks/Signature.md","x":1540,"y":4000,"width":586,"height":280},
+		{"id":"7d5d1c46df870183","type":"file","file":"Temporal/Error Handling/Error Handling.md","x":2560,"y":4135,"width":414,"height":265},
+		{"id":"0d03288d48555c58","type":"file","file":"Temporal/Workflow/Schedule/Workflow Schedule.md","x":2390,"y":5764,"width":414,"height":270},
+		{"id":"de4d67e4aa2771d5","type":"file","file":"Temporal/Workflow/Execution/Workflow Locks.md","x":2317,"y":6470,"width":400,"height":280},
+		{"id":"8f747c1723e0480d","type":"file","file":"Temporal/Temporal docker-compose configuration.md","x":1491,"y":5634,"width":507,"height":260},
+		{"id":"ee7d7c37f41fb21f","type":"file","file":"Temporal/Learn/Tasks/Set up UI separately from temporal service.md","x":1490,"y":5994,"width":507,"height":320},
+		{"id":"19439fbec6a8e189","type":"text","text":"Go over SDK","x":1160,"y":5380,"width":250,"height":60},
+		{"id":"e8faf2089ac1f522","type":"file","file":"Temporal/Learn/Tasks/Intertwined sequence.md","x":1541,"y":5040,"width":585,"height":280},
+		{"id":"2d837168e076cb4e","x":2560,"y":4520,"width":414,"height":240,"type":"file","file":"Temporal/Activity/Execution/Heartbeat/Activity Heartbeat.md"},
+		{"id":"4c4b7c75ec64e76c","type":"file","file":"Temporal/Workflow/Workflow Async Operations.md","x":2560,"y":5320,"width":414,"height":260},
+		{"id":"3860b3bec1780905","x":2560,"y":4880,"width":414,"height":300,"type":"file","file":"Temporal/Workflow/Execution/Interrupt/Workflow Cancellation.md"},
+		{"id":"cac9706cd3bc4d1c","x":1541,"y":4500,"width":586,"height":280,"type":"file","file":"Temporal/Learn/Tasks/Video Processing Example.md"}
 	],
 	"edges":[
 		{"id":"30b4b928c9d530b3","fromNode":"732ed0b8f12414ea","fromSide":"bottom","toNode":"f60d6a6dc2bd1e87","toSide":"top"},
@@ -66,6 +69,10 @@
 		{"id":"9474ab6ac7ad6d99","fromNode":"aee1325feb0e6258","fromSide":"bottom","toNode":"a2d629652a8db7dc","toSide":"top"},
 		{"id":"853b156161404cf5","fromNode":"371c04ae479ea6ff","fromSide":"bottom","toNode":"6b6a02ccc0b0d27f","toSide":"top"},
 		{"id":"b836aa0d2b073b11","fromNode":"e8faf2089ac1f522","fromSide":"right","toNode":"4c4b7c75ec64e76c","toSide":"left"},
-		{"id":"419b7bf8c391a6cf","fromNode":"6b6a02ccc0b0d27f","fromSide":"bottom","toNode":"e8faf2089ac1f522","toSide":"top"}
+		{"id":"64075af4c696a3a5","fromNode":"cac9706cd3bc4d1c","fromSide":"right","toNode":"2d837168e076cb4e","toSide":"left"},
+		{"id":"fde1b28f0f236a2a","fromNode":"cac9706cd3bc4d1c","fromSide":"right","toNode":"7d5d1c46df870183","toSide":"left"},
+		{"id":"1b13ca190d2472cc","fromNode":"6b6a02ccc0b0d27f","fromSide":"bottom","toNode":"cac9706cd3bc4d1c","toSide":"top"},
+		{"id":"2106e44c078336a2","fromNode":"cac9706cd3bc4d1c","fromSide":"right","toNode":"3860b3bec1780905","toSide":"left"},
+		{"id":"a0900aa989fd96be","fromNode":"cac9706cd3bc4d1c","fromSide":"bottom","toNode":"e8faf2089ac1f522","toSide":"top"}
 	]
 }
