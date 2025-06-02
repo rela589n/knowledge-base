@@ -6,3 +6,4 @@ aliases:
 
 When you cancel the workflow, an `CanceledFailure` exception is thrown, so that if [[Temporal/Workflow/Workflow|Workflow]] defines [[SAGA|compensations]], they'll be executed. Also, [[Activity Cancellation]] is executed if possible.
 
+[[Temporal CLI Cancel Workflow]]
