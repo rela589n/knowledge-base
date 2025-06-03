@@ -6,9 +6,9 @@ For example:
 $p = Workflow::async(fn () => $this->activity->call($params));
 ```
 
-Even though this code will work just fine in therms of "working", but it will cause great problems if such workflow will have to be [[Workflow Cancellation|Cancelled]]. In current circumstances it never throws.
+Even though this code will work just fine in therms of "working", but it will cause great problems if such workflow will have to be [[Workflow Cancellation|Cancelled]]. Currently it never throws during cancellation 🫤.
 
-Therefore, ***always* use `yield`**:
+Therefore, just keep this in mind, and ***always* use `yield`** 🙂:
 
 ```php
 $p = Workflow::async(fn () => yield $this->activity->call($params));
