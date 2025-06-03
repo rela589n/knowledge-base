@@ -14,4 +14,6 @@ Yet in the long run if http request has timed-out, it's possible that compensati
 
 But if the delay is caused by high load on the upstream, it's likely that the compensation will also time-out `¯\_(ツ)_/¯`.
 
-There's nothing better we can do about it, except to ensure that [[Start-To-Close]] timeout incorporates http timeout so that it'll fail just in case of unavailable upstream. Also, if we want to make sure that current [[Activity]] hasn't timed-out yet,
+There's nothing better we can do about it, except to ensure that [[Start-To-Close]] timeout incorporates http timeout so that it'll fail just in case of unavailable upstream. Also, we can make sure that current [[Verify that Activity hasn't Timed-out yet|Activity hasn't Timed-out just yet]] after http request.
+
+Another way to design the system is to make it more [[Activities Idempotence and Granularity|granular]]. Http request will fail independently of your database, and you won't have to think about two actions in one [[Activity]], and then about two clean-up actions in one [[Activity]] [[SAGA|compensation]] code.

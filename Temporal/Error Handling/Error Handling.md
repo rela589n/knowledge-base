@@ -6,7 +6,7 @@ Categories of failures:
 
 In Temporal [[Errors are Propagated]]
 
-[[Activities Idempotence]]
+[[Activities Idempotence and Granularity]]
 
 [[Temporal Failures in the code]]
 

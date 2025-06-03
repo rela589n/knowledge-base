@@ -15,7 +15,7 @@ You define [[Retry Policy]] based on [[Types of Failures]].
 
 > When every api request charged, it makes sense not to do much retrying.
 
-Do not set max attempts to 1 just because your [[Activities Idempotence|Activity isn't idempotent]]. Network crash before http request will cause complete [[Workflow Execution Failure]].
+Do not set max attempts to 1 just because your [[Activities Idempotence and Granularity|Activity isn't idempotent]]. Network crash before http request will cause complete [[Workflow Execution Failure]].
 
 You can specify non-retryable errors during the call time (`withNonRetryableExceptions`). Yet, beware that it doesn't include classes hierarchy, and works only on FQCN basis. 
 
