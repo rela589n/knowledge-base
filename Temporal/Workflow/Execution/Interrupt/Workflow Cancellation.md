@@ -16,4 +16,6 @@ Only after [[Workflow Execution]] has thrown `CanceledFailure` will [[Temporal S
 
 Due to this, know that during Cancellation [[Compensation is executed before Activity actually Completes]]. Since [[Activity]] has some particular [[Activity Heartbeat Timeout|Heartbeat Timeout]], and it heartbeats within that interval, scheduled workflow [[SAGA|compensations]] are likely to be executed before [[Activity]] completes with [[Activity Heartbeat#^e33915|heartbeat failure]].
 
+Beware that [[Workflow Async Operations]] must use `yield` every 
+
 [[Temporal CLI Cancel Workflow]]
