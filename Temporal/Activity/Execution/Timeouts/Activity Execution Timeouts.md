@@ -6,6 +6,8 @@ Execution [[Activity Timeouts]]:
 - [[Schedule-To-Close]]
 - [[Start-To-Close]]
 
+> Most of the time [[Start-To-Close]] timeout is more predictable than [[Schedule-To-Close]].
+
 After elapsing the [[Activity Execution Timeouts|Execution Timeout]], the [[Activity]] is considered **Cancelled**. Any [[Activity Heartbeat]] attempt will throw `ActivityCanceledException`.
 
 When using these timeouts, it's necessary to make sure that compensation logic covers rollback for the scenarios **when timed-out activity still succeeds**. 

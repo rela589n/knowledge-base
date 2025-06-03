@@ -1,6 +1,6 @@
 ---
 aliases:
-  - Cancel a Workflow
+  - Cancel the Workflow
 ---
 [[Temporal/Workflow/Workflow|Workflow]] Cancellation is a graceful shutdown (anticipates cleanup) of [[Workflow Execution]].
 

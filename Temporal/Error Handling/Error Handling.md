@@ -16,9 +16,10 @@ Workflow failures:
 
 [[Activity Execution Failure]]
 
-Timeouts:
+Preventing indefinite execution:
 - [[Activity Timeouts]]
-
-[[Retry Policy]]
+- [[Retry Policy]]
 
 [[Interrupting the Workflow]]
+
+[[SAGA]]

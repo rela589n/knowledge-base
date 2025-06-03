@@ -1,7 +1,7 @@
 ---
 aliases:
-  - Terminate a Workflow
-  - Kill a Workflow
+  - Terminate the Workflow
+  - Kill the Workflow
 ---
 [[Workflow Execution|Workflow]] Termination is a forceful stop of a [[Workflow Execution]]
 All running  [[Activity Cancellation|Activities are marked for Cancellation]] (will fail on [[Activity Heartbeat|Heartbeat]]).
