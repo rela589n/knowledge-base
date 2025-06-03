@@ -22,6 +22,10 @@ Beware that using [[Start-To-Close]] timeout in conjunction with [[Retry Policy]
 
 And due to the fact that second attempt has failed, third one will be launched (unless it failed with unretriable error, which would lead to the situation that task is completed, but activity failed), which'd result in the third attempt being sent to them, which will hopefully succeed due to [[Idempotence]].
 
+To fix this, make sure to design the system in such way that [[Start-To-Close]] timeout incorporates http timeout, so that [[Activity|Activities]] would have no chance of being timed-out, and still alive. 
+
+And then, make sure to increase [[Activity Retry Options#^0cd43f|initial delay]] so that previous request will have chance to complete on the upstream side before the next request is sent. In any case it's better than sending the request right away.
+
 In any case, these three attempts could've been avoided if [[Schedule-To-Close]] timeout had been used.
 
 Anyhow, having an orchestrator is still a privilege, since we can set bigger timeout for http requests, and if one will succeed shortly after activity was timed-out, and new task won't be taken yet, successful result will be recorded in the database, and the next retry will succeed.

@@ -1,5 +1,5 @@
 Defaults options for [[Activity]]:
-- initial interval: _1 second_;
+- initial interval: _1 second_; ^0cd43f
 - max interval is _100 times initial interval_ (e.g. 100s);
 - backoff: 2;
 
