@@ -1,0 +1,1 @@
+It's possible to verify that [[Activity]] hasn't [[Activity Execution Timeouts|Timed-out]] yet by using [[Activity Heartbeat|Heartbeat]]. You can just add `Activity::heartbeat();` wherever you need, and it'll guarantee that it's still up-to-date.
