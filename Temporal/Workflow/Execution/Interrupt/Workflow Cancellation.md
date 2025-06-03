@@ -18,16 +18,6 @@ Due to this, know that during Cancellation there can be a problem that [[Compens
 
 It is possible to set [[Activity cancellationType|cancellationType]]=wait in order to wait until the next [[Activity Heartbeat|Heartbeat]] is reported to the [[Activity]] so that it'll accept the cancellation and thus  [[Temporal/Workflow/Workflow|Workflow's]] `catch` block will be executed in the next [[Workflow Task]] only after [[Activity]] has processed the cancellation (or after the [[Activity Heartbeat Timeout|Heartbeat has Timed-out]], - due to crash or any other cause). ^7f674b
 
-What happens if activity dies, and `cancellationType=wait`? heartbeat timeout kicks in
-
-Is it thrown on timers when activity's `cancellationType=wait`? yes
-
-When [[Workflow Execution]] is cancelled, It depends on `cancellationType` [[Activity Options]].
-
-
-Only after [[Workflow Execution]] has thrown `CanceledFailure` will [[Temporal Server|Temporal Service]] cause [[Activity Heartbeat]]s to fail (as if [[Activity Cancellation]]).
-
-
 Also, beware of [[CanceledFailure exception is never thrown when using Workflow Async operations]] problem, and use `yield` everywhere you can 🙂.
 
 [[Temporal CLI Cancel Workflow]]
