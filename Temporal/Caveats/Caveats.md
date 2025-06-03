@@ -1,5 +1,5 @@
 
-[[Compensation is executed before Activity is Completed]]
+[[Compensation is executed before Activity actually Completes]]
 
 ### Method names
 

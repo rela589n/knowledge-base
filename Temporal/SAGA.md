@@ -4,7 +4,7 @@ aliases:
 ---
 [[SAGA pattern]]
 
-[[Server]] internally manages state of the workflows.
+[[Temporal Server]] internally manages state of the workflows.
 It could be the case that workflow started execution on one worker (that eventually crased), continued on another worker, and finished on the third one.
 
 Each activity class is decorated to provide retry logic in case if requested service is temporarily down.

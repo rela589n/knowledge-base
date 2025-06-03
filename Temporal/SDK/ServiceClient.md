@@ -1,1 +1,1 @@
-Client for [[Server|Temporal Service]]
+Client for [[Temporal Server|Temporal Service]]

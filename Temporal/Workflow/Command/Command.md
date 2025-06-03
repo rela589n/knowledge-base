@@ -1,4 +1,4 @@
-[[Temporal/Workflow/Workflow|Workflow]] Commands interact with [[Server|Temporal Service]].
+[[Temporal/Workflow/Workflow|Workflow]] Commands interact with [[Temporal Server|Temporal Service]].
 
 These include:
 - scheduling the [[Activity]];
