@@ -10,4 +10,4 @@ try {
 }
 ```
 
-This works in case of activity failure, but not in case of [[Workflow Cancellation]]. To solve it, use detached [[Workflow Async Operations]], or `Saga` object.
+This works in case of activity failure, but not in case of [[Workflow Cancellation]]. To solve it, use detached [[Workflow Async Operations]], or `Saga::compensate()`.
