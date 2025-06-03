@@ -40,7 +40,7 @@
 		{"id":"8f747c1723e0480d","type":"file","file":"Temporal/Temporal docker-compose configuration.md","x":1531,"y":6520,"width":507,"height":260},
 		{"id":"8dabc13d3330c084","type":"file","file":"Temporal/Workflow/Execution/Continue-As-New.md","x":1541,"y":7406,"width":400,"height":400},
 		{"id":"ee7d7c37f41fb21f","type":"file","file":"Temporal/Learn/Tasks/Set up UI separately from temporal service.md","x":1530,"y":6880,"width":507,"height":320},
-		{"id":"88259991c6bab18d","x":1480,"y":5580,"width":400,"height":400,"type":"file","file":"Temporal/Activity/Activity wait for Cancellation to complete.md"},
+		{"id":"88259991c6bab18d","x":1480,"y":5580,"width":400,"height":400,"type":"file","file":"Temporal/Activity/Cancellation/Activity wait for Cancellation to complete.md"},
 		{"id":"34d8c42e1f62f22e","x":1521,"y":6131,"width":439,"height":149,"type":"text","text":"try to use it with scenario like http request specified at [[Start-To-Close]] timeout"}
 	],
 	"edges":[
