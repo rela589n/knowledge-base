@@ -1,3 +1,7 @@
+---
+aliases:
+  - Execution Timeout
+---
 Execution [[Activity Timeouts]]:
 - [[Schedule-To-Close]]
 - [[Start-To-Close]]

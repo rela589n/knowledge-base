@@ -8,4 +8,4 @@ The main idea of [[Activity Heartbeat Timeout|Heartbeat Timeout]] is to prevent 
 
 > You can try running `docker container kill` to kill the container, and find that [[Activity Heartbeat Timeout|Heartbeat Timeout]] is reported in [[Temporal UI|UI]].
 
-Note that code in `catch` block that covers clean-up in case of [[Activity Cancellation]] is subject to [[Activity Heartbeat Timeout|Heartbeat Timeout]] as well. If it'll not manage to complete in time, [[Activity]] will end with `"activity Heartbeat timeout"` error.
+Note that code in `catch` block that covers clean-up in case of [[Activity Cancellation]] is subject to [[Activity Heartbeat Timeout|Heartbeat Timeout]] as well. If it does not complete in the expected time, [[Activity]] will end with `"activity Heartbeat timeout"` error.
