@@ -2,6 +2,7 @@
 aliases:
   - Running Workflow
   - Workflow
+  - Execution
 ---
 [[Temporal/Workflow/Workflow|Workflow]] Execution is an instance of a [[Temporal/Workflow/Workflow Definition|Workflow Definition]] being executed (stateful, durable, reliable function execution).
 

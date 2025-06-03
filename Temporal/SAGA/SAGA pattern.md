@@ -12,3 +12,4 @@ SAGA guarantees that either all transactions complete successfully, or series of
 
 ![[Booking SAGA Flow.png]]
 
+Sometimes it can be that calling side regards Action as failed, but the Action itself thinks to have succeeded (or at least could have polluted the state during failure). In this case, it makes sense to include [[SAGA]] compensations before the respective Actions are executed so that such "partial success" Actions will be rolled back.
