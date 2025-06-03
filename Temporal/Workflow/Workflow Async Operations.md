@@ -16,6 +16,8 @@ aliases:
 }
 ```
 
+^c4a0d6
+
 `Workflow::async()` should always `yield` inside (see the [[CanceledFailure exception is never thrown when using Workflow Async operations|reason]]):
 
 ```php
