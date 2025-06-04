@@ -1,0 +1,1 @@
+It could be that your interface isn't included for the service container. Make sure to import it as a service as well

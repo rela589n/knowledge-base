@@ -1,3 +1,5 @@
+How long completed/failed workflow executions are persisted? Are they deleted afterwards?
+
 How often is Workflow Task re-scheduled in case of [[Workflow Task Failure]]?
 
 What happens if compensation takes longer, than specified activity timeout? Will it fail?

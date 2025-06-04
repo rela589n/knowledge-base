@@ -39,11 +39,12 @@
 		{"id":"ee7d7c37f41fb21f","type":"file","file":"Temporal/Learn/Tasks/Set up UI separately from temporal service.md","x":1530,"y":6880,"width":507,"height":320},
 		{"id":"88259991c6bab18d","type":"file","file":"Temporal/Activity/Cancellation/Activity wait for Cancellation to complete.md","x":3360,"y":4980,"width":400,"height":240},
 		{"id":"f7786d699bdc3050","type":"file","file":"Temporal/Activity/Execution/Timeouts/Activity Execution Timeouts.md","x":3240,"y":4200,"width":500,"height":300},
-		{"id":"0d03288d48555c58","type":"file","file":"Temporal/Workflow/Schedule/Workflow Schedule.md","x":1577,"y":5680,"width":414,"height":270},
 		{"id":"19439fbec6a8e189","type":"text","text":"Go over SDK doc","x":840,"y":5638,"width":250,"height":60},
 		{"id":"11650f99023372b9","type":"text","text":"Read the docs","x":840,"y":5765,"width":250,"height":50},
 		{"id":"de4d67e4aa2771d5","type":"file","file":"Temporal/Workflow/Execution/Workflow Locks.md","x":2540,"y":6740,"width":400,"height":280},
-		{"id":"483c7e88b4c57c31","x":1680,"y":6140,"width":400,"height":250,"type":"file","file":"Temporal/Learn/Tasks/Customer Subscription Workflow.md"}
+		{"id":"483c7e88b4c57c31","type":"file","file":"Temporal/Learn/Tasks/Customer Subscription Workflow.md","x":1680,"y":6140,"width":400,"height":250},
+		{"id":"0d03288d48555c58","type":"file","file":"Temporal/Workflow/Schedule/Workflow Schedule.md","x":2560,"y":5750,"width":414,"height":270},
+		{"id":"69e74a897774293d","x":1541,"y":5550,"width":585,"height":290,"type":"file","file":"Temporal/Learn/Tasks/Detached Files Cleanup.md"}
 	],
 	"edges":[
 		{"id":"30b4b928c9d530b3","fromNode":"732ed0b8f12414ea","fromSide":"bottom","toNode":"f60d6a6dc2bd1e87","toSide":"top"},
@@ -79,6 +80,8 @@
 		{"id":"2106e44c078336a2","fromNode":"cac9706cd3bc4d1c","fromSide":"right","toNode":"3860b3bec1780905","toSide":"left"},
 		{"id":"a0900aa989fd96be","fromNode":"cac9706cd3bc4d1c","fromSide":"bottom","toNode":"e8faf2089ac1f522","toSide":"top"},
 		{"id":"4d28ec0534772213","fromNode":"3860b3bec1780905","fromSide":"right","toNode":"88259991c6bab18d","toSide":"left"},
-		{"id":"62eccb5fa97bdb31","fromNode":"7d5d1c46df870183","fromSide":"right","toNode":"f7786d699bdc3050","toSide":"left"}
+		{"id":"62eccb5fa97bdb31","fromNode":"7d5d1c46df870183","fromSide":"right","toNode":"f7786d699bdc3050","toSide":"left"},
+		{"id":"329dc946733e537a","fromNode":"69e74a897774293d","fromSide":"right","toNode":"0d03288d48555c58","toSide":"left"},
+		{"id":"5602271337c94c55","fromNode":"e8faf2089ac1f522","fromSide":"bottom","toNode":"69e74a897774293d","toSide":"top"}
 	]
 }
