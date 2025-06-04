@@ -1,4 +1,4 @@
-How long completed/failed workflow executions are persisted? Are they deleted afterwards?
+How long completed/failed workflow executions are persisted? Are they deleted afterwards? ([[Temporal Retention Period]])
 
 How often is Workflow Task re-scheduled in case of [[Workflow Task Failure]]?
 
