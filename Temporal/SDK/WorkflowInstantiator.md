@@ -1,1 +1,1 @@
-Class, that creates instance of [[Temporal/Workflow/Workflow|Workflow]].
+Class, that creates [[WorkflowInstance]].
