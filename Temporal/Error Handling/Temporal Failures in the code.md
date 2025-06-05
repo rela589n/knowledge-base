@@ -2,7 +2,7 @@
 aliases:
   - Temporal Failure
 ---
-[[SDK]] provides base `TemporalFailure` exception class. It is serialized into [[Protobuf]] message and transmitted over network.
+[[Temporal SDK]] provides base `TemporalFailure` exception class. It is serialized into [[Protobuf]] message and transmitted over network.
 
 [[Activity]]-originated exceptions, raised in the [[Temporal/Workflow/Workflow|Workflow]] are represented as `ActivityFailure`.
 

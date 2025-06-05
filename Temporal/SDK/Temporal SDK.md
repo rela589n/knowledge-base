@@ -1,3 +1,7 @@
+---
+aliases:
+  - SDK
+---
 See [documentation](https://docs.temporal.io/develop/php/)
 
 [[Temporal]] SDK consists of two main parts:
