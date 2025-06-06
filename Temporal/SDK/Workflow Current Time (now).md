@@ -1,1 +1,3 @@
 [[Temporal]] recommends using `Workflow::now()` to get the current time, as it returns the same time during [[Workflow Replay|Replay]], eliminating the problems of [[Workflow Replay|Side effects]]. Also, in case of [[Workflow Task Failure]], on the next run will be the current date.
+
+Yet, it could take some time for worker to parse the request, get everything ready for your workflow, and replay the workflow history to restore current state. Thus, sometimes it's better to use `Workflow::sideEffect` with current date, if it's important.
