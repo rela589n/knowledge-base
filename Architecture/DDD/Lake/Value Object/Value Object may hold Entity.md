@@ -8,4 +8,4 @@ For instance a `RespondentFilter` could hold references to `City`, `Position`, `
 When using Doctrine ORM the only way to map such objects to the database is by marking them as entities ([[Long face.png]]).
 
 In this example, Delivery Specification is a [[Value Object]] that references Location entity.
-![[Value Object holding Entity.png]]
+![[Cargo Shipping System.png]]

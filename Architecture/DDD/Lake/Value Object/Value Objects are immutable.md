@@ -1,4 +1,4 @@
-[[Value Object]]] is inherently [[Immutability|immutable]], making them interchangeable.
+[[Value Object|Value Objects]] are inherently [[Immutability|immutable]], making them interchangeable.
 
 For example,  two people could have the same name, yet they are still two different persons. Nonetheless, their name is the same, hence reference to the same object could be used.
 

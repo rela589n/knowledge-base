@@ -1,4 +1,4 @@
-This is the [[Aggregate Boundary|limited]] cluster of objects with one object being the [[Aggregate Root|root]], and multiple subordinate objects, allowing us to maintain [[Invariant|business invariants]] during the changes.
+This is the [[Aggregate Boundary|limited]] cluster of objects with one object being the [[Aggregate Root|root]], and multiple subordinate objects, allowing us to maintain [[Invariant|business invariants]] during the changes:
 
 - When we commit any transaction, all the [[Invariant|invariants]] of the [[Aggregate]] must be satisfied ([[Aggregate Root]] is responsible for that)
 - When we delete aggregate, we must delete everything within [[Aggregate Boundary]]
