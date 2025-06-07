@@ -37,7 +37,7 @@
 		{"id":"05a1dfe98c84967c","type":"text","text":"Material Theme Lite","x":-1453,"y":-523,"width":250,"height":93},
 		{"id":"a5e9fa39350454d8","type":"text","text":"PHP","x":-273,"y":-1004,"width":250,"height":60},
 		{"id":"5591c59021cbb6e2","type":"text","text":"Garbage Collection\nhttps://www.php.net/manual/en/features.gc.php","x":-411,"y":-836,"width":291,"height":76},
-		{"id":"149eb0bf53d38ea8","type":"file","file":"Architecture/DDD/Lake/Value Object.md","x":2567,"y":620,"width":405,"height":182},
+		{"id":"149eb0bf53d38ea8","type":"file","file":"Architecture/DDD/Lake/Value Object/Value Object.md","x":2567,"y":620,"width":405,"height":182},
 		{"id":"4e2f8c8c60909ebe","type":"text","text":"![[Value Object example]]","x":2604,"y":905,"width":676,"height":392},
 		{"id":"da0d5bbae424f0e6","type":"text","text":"task: add functional tests using WebTestCase for api endpoints","x":816,"y":1322,"width":399,"height":116},
 		{"id":"884885bea87dbad5","type":"text","text":"./vendor/bin/phpunit --generate-configuration","x":1797,"y":1200,"width":438,"height":97},
