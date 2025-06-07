@@ -12,6 +12,6 @@ aliases:
 
 It is built via **lots of _communication_ regarding scenarios in the model** between domain experts and devs. [[Good models lie deep]].
 
-[[What model refinements give us]].
+[[Why model refinements are important]].
 
 **[[Diagrams]]** are useful for **communication** and **brainstorming**.
