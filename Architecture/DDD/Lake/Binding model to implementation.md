@@ -5,3 +5,4 @@ When there's some **business concept** (e.g. bus in the example of the book), it
 When the [[Code|code]] changes, the underlying [[Domain Model|model]] must change as well, and vice versa - changing the model must change the code.
 
 [[Down to earth modeling]] is to be used by architects.
+[[Domain must be Isolated]]

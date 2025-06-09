@@ -17,5 +17,4 @@ Key points:
 - [[Why Separation is Important]]
 - [[Smart UI and DDD are mutually exclusive|You can't write both DDD and Not DDD]]
 - [[DDD modeling|Model-driven Design]]
-
-See [[DDD Layered Architecture]]
+- [[Domain must be Isolated]]
