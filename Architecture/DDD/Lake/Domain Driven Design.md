@@ -10,13 +10,10 @@ Domain Driven Design is **responsibility-driven design**.
 
 DDD is about most optimal solution for given circumstances without derailing.
 
-[[Smart UI and DDD are mutually exclusive]]
+Key points:
+- [[DDD Communication|Communication]]
+- [[Why Separation is Important]]
+- [[Smart UI and DDD are mutually exclusive|You can't write both DDD and Not DDD]]
+- [[DDD modeling|Model-driven Design]]
 
-[[Why Separation is Important]].
-
-[[DDD Communication]]
-
-See [[DDD Layered Architecture]].
-See [[DDD modeling]]
-
-
+See [[DDD Layered Architecture]]

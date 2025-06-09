@@ -1,3 +1,7 @@
+---
+aliases:
+  - Layered Architecture
+---
 Every element of the layer depends either on the elements of this same layer or on the layers beneath.
 
 Upward communication - only indirect.

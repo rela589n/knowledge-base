@@ -1,0 +1,3 @@
+If team has never applied the concepts of [[DDD Layered Architecture|Layered Architecture]], the project will have failed because **learning curve is too expensive**.
+
+After all when applying the strategy of [[Domain Driven Design]], team will face problems to overcome with the architecture itself. Even if they happen to surmount these difficulties, the built system has just simple features. It's just not worth it for simple projects.
