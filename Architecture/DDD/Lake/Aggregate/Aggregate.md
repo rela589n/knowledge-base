@@ -2,7 +2,7 @@ Aggregate is a [[Aggregate Boundary|Bounded]] **cluster of objects** with one of
 
 - When **we run the transaction**, all the [[Invariant|Invariants]] of the [[Aggregate]] must be kept ([[Aggregate Root]] is responsible for that)
 - When we **delete [[Aggregate]]**, we delete everything within [[Aggregate Boundary]];
-- When we **clone [[Aggregate]]**, we clone everything within [[Aggregate Boundary]].
+- When we **clone [[Aggregate]]** (see [[Prototype]]), we should clone only within [[Aggregate Boundary]].
 
 High contention points should become looser, while important business invariants should become tighter.
 
