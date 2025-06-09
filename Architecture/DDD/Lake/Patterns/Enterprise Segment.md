@@ -1,0 +1,1 @@
+**Enterprise Segment** is concept that primarily concerns **business categorization** for a particular purpose (say taxes, booking allocation, etc). When there's some operation that relates to types/kinds/categories of the [[Aggregate Root]], it's called to be related to some [[Enterprise Segment]].
