@@ -10,6 +10,8 @@ Domain Driven Design is **responsibility-driven design**.
 
 DDD is about most optimal solution for given circumstances without derailing.
 
+In DDD, [[Model refinement]], [[DDD modeling|Model-driven Design]], and implementation must go hand-in-hand in an iterative development process (NO [[Waterfall method]]).
+
 Key points:
 - [[DDD Communication|Communication]]
 - [[Why Separation is Important]]
