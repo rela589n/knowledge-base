@@ -1,7 +1,8 @@
 Aggregate is a [[Aggregate Boundary|Bounded]] **cluster of objects** with one of them being the [[Aggregate Root|Root]], and multiple subordinate objects ([[Entity|Entities]] and [[Value Object|Value Objects]]), allowing us to maintain [[Invariant|business invariants]] during the changes:
 
-- When we commit any transaction, all the [[Invariant|invariants]] of the [[Aggregate]] must be satisfied ([[Aggregate Root]] is responsible for that)
-- When we delete aggregate, we must delete everything within [[Aggregate Boundary]]
+- When we run any transaction, all the [[Invariant|Invariants]] of the [[Aggregate]] must be kept ([[Aggregate Root]] is responsible for that)
+- When we **delete [[Aggregate]]**, we delete everything within [[Aggregate Boundary]];
+- When we **clone [[Aggregate]]**, we clone everything within [[Aggregate Boundary]].
 
 High contention points should become looser, while important business invariants should become tighter.
 

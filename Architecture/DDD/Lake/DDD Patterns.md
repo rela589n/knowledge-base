@@ -24,4 +24,6 @@ Tactical - patterns used in solution space. These are more technical, as they ar
 
 [[Specification]]
 
+[[Prototype]]
+
 ![[DDD Pattern map.png]]
