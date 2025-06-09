@@ -6,7 +6,7 @@ aliases:
 
 [[DDD modeling]] is all about model **refinements**.
 
-**Knowledge crunching** - process of **refining the [[Domain Model|model]]** so that it will both make sense to business experts and developers.
+**Knowledge crunching** is the process of **refining the [[Domain Model|model]]** so that it will make sense both to business experts and to developers.
 
 [[Model Refinements discloses weak points]].
 

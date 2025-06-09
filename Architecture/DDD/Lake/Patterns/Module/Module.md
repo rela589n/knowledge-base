@@ -4,10 +4,10 @@ aliases:
 ---
 A separate part of [[Domain Model]], a set of concepts with high [[Cohesion|cohesion]].
 
-Primary aim for [[Module|modularity]] is reduced cognitive load, since there's a limited number of things we could think about at once.
+Primary aim for [[Module|Modularity]] is reduced cognitive load, since there's a limited number of things we could think about at once.
 
 Module must tell the [[Cohesion|cohesive]] story of the system.
-Usually as the basis of the module could be some aggregate.
+Usually the basis of the module is some [[Aggregate]].
 
 Every module must be possible to be understood with minimum number of references to other modules.
 
