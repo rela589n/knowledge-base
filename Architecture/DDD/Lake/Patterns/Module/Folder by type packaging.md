@@ -14,4 +14,4 @@ Partitioning should be based on meaning of the objects rather than their types. 
 
 See DDD Book (MODULES in the Shipping Model).
 
-
+![[Folder-by-type-driven-packaging.png]]
