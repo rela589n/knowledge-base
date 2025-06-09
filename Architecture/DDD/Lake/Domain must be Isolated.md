@@ -1,7 +1,9 @@
+First of all, [[Domain Model]]'s [[Code]] must be separated from anything else.
+
 [[DDD Layered Architecture]] is applied to isolate the [[Domain Model]] from anything else.
 
-[[Architectural Frameworks]] must be used wisely.
+Beware of [[Architectural Frameworks]], and use them wisely.
 
 [[Smart UI and DDD are mutually exclusive]], you have to choose one.
 
-[[Transaction Script]] results in [[Anemic model]].
+[[Transaction Script]] results in an [[Anemic model]].

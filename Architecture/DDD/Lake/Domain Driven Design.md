@@ -14,7 +14,7 @@ In DDD, [[Model refinement]], [[DDD modeling|Model-driven Design]], Implementati
 
 Key points:
 - [[DDD Communication|Communication]]
-- [[Why Separation is Important]]
+- [[Conceptual Separation is Important]]
 - [[Smart UI and DDD are mutually exclusive|You can't write both DDD and Not DDD]]
 - [[DDD modeling|Model-driven Design]]
 - [[Domain must be Isolated]]
