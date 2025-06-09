@@ -1,6 +1,7 @@
 ---
 aliases:
   - One Team - One Language
+  - Language
 ---
 The **Ubiquitous Language** is the **intersection** between dev's language and domain experts language. It is extended mostly by business terms (rather than dev terms).
 

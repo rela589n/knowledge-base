@@ -3,4 +3,4 @@ Subdomain is a broader concept than [[Bounded Context]] and may hold multiple [[
 Subdomains:
 - [[Core Domain]] (central)
 - Supporting Subdomain (needed, but not central)
-- Generic Subdomain (auxiliary, could be either outsourced or purchased)
+- Generic Subdomain (auxiliary, can be either outsourced or purchased)

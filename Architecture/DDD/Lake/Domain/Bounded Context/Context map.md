@@ -19,10 +19,11 @@ Touch points between [[Bounded Context|bounded contexts]] are called contracts.
 
 **Conformist** - ?
 
-**Anti-corruption Layer** - intermediary (translation) layer between two models.
+[[Anti-Corruption Layer]]
 
-**Open-host service** - host [[Bounded Context|bounded context]] exposes public API that could be used by other [[Bounded Context|bounded contexts]].
+[[Open-host service]]
 
 **Published language** - ?
 
 **Separate ways** - [[Bounded Context|bounded contexts]] are completely independent and have nothing shared.
+
