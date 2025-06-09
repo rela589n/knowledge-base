@@ -2,11 +2,11 @@ SSI has small performance penalty compared to [[Snapshot isolation]]
 
 #### Pessimistic vs Optimistic concurrency control
 
-**Pessimistic concurrency control** is essentially what [[Two-Phase Locking (2PL)|2PL]] is. If **anything could possibly go wrong**, we'd **wait until situation is safe** again and only then continue execution. Actual serial execution is pessimistic to the extreme - lock is held on the entire database.
+[[Pessimistic concurrency control]]
 
-**Optimistic concurrency control** - transactions continue operate normally and **hope that everything will turn out right**. If not, some of the transactions are aborted. It operates **badly with high contention rate**, because a lot of may transactions get aborted.
+[[Optimistic concurrency control]]
 
-**Serializable Snapshot Isolation (SSI)** - optimistic concurrency control method, **based on snapshot isolation level**, which **adds** logic of **serialization anomalies detection** at the transaction commit time, and if there are any, **aborts some transactions**.
+**Serializable Snapshot Isolation (SSI)** - [[Optimistic concurrency control]] method, **based on snapshot isolation level**, which **adds** logic of **serialization anomalies detection** at the transaction commit time, and if there are any, **aborts some transactions**.
 
 #### Decisions based on outdated premise
 

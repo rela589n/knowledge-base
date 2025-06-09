@@ -1,16 +1,22 @@
-Aggregate is a [[Aggregate Boundary|Bounded]] **cluster of objects** with one of them being the [[Aggregate Root|Root]], and multiple subordinate objects ([[Entity|Entities]] and [[Value Object|Value Objects]]), allowing us to maintain [[Invariant|business invariants]] during the changes:
+Aggregate is a **cluster of related objects**, which make up a logical unit, that allows us to **maintain [[Invariant|business invariants]]** inside of the [[Transactions]]. 
 
-- When **we run the transaction**, all the [[Invariant|Invariants]] of the [[Aggregate]] must be kept ([[Aggregate Root]] is responsible for that)
+One of them is the [[Aggregate Root|Root]], and others are subordinate objects ([[Entity|Entities]] and [[Value Object|Value Objects]]).
+
+Aggregates are limited within a [[Aggregate Boundary|Boundary]].
+
+- When **we run the [[Transition]]** that touches any object within [[Aggregate Boundary]], all the **[[Invariant|Invariants]] of the [[Aggregate]] must be kept** ([[Aggregate Root]] is responsible for that)
 - When we **delete [[Aggregate]]**, we delete everything within [[Aggregate Boundary]];
 - When we **clone [[Aggregate]]** (see [[Prototype]]), we should clone only within [[Aggregate Boundary]].
 
-High contention points should become looser, while important business invariants should become tighter.
+[[Invariant|Invariants]] that span multiple [[Aggregate|Aggregates]] aren't expected to be met all the time.
+
+High [[Contention]] points should become looser, and important business [[Invariant|Invariants]] should become tighter.
+
+For example, price of the part could be updated at any stage of the order. Yet, it should not always reflect the existing orders.
 
 ![[Aggregate invariant.png]]
 
-Price of the part could be updated at any stage of the order. 
 
-Yet, it should not always reflect the existing orders.
 
 At least, archived orders should be kept with the purchase price, not with the latest one.
 

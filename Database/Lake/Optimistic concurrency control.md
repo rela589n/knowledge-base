@@ -1,0 +1,1 @@
+**Optimistic concurrency control** - transactions continue operate normally in **hope that everything will turn out right**. If not, some of those transactions is aborted. It operates **badly with high [[Contention]] rate**, because many transactions get aborted.
