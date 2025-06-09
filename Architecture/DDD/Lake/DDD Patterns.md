@@ -8,7 +8,7 @@ Tactical - patterns used in solution space. These are more technical, as they ar
 
 [[Value Object]]
 
-[[Associations]]
+[[Association]]
 
 [[Aggregate]]
 

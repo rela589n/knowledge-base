@@ -2,7 +2,7 @@
 aliases:
   - Heartbeat
 ---
-**[[Activity]] Heartbeat**  is a ping that is sent to [[Temporal Server|Temporal Service]] so that it can understand that the [[Activity]] is still alive and refresh [[Activity Heartbeat Timeout|Heartbeat Timeout]].
+**[[Activity]] Heartbeat**  is a ping that is sent to [[Temporal/Temporal Server|Temporal Service]] so that it can understand that the [[Activity]] is still alive and refresh [[Activity Heartbeat Timeout|Heartbeat Timeout]].
 
 > Every [[Activity]] that doesn't complete immediately should heartbeat and set [[Activity Heartbeat Timeout|Heartbeat Timeout]].
 

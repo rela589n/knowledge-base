@@ -16,7 +16,7 @@ Throwing `ApplicationFailure` from the [[Workflow Execution|workflow]] causes it
 Other failures:
 - `TerminatedFailure` - when [[Workflow Termination|Workflow was Terminated]];
 - `CanceledFailure` - when [[Workflow Cancellation|Workflow was Cancelled]]
-- `ServerFailure` - exception related to [[Temporal Server|Temporal Service]] problems;
+- `ServerFailure` - exception related to [[Temporal/Temporal Server|Temporal Service]] problems;
 - `ChildWorkflowFailure`
 
 Before throwing an exception, temporal runs [[Failure Converter]].
