@@ -9,7 +9,7 @@ Problem is due to the complexity, and lack of [[Domain|Business]] knowledge in t
 
 If [[Technical Debt]] is resolved in time:
 
-![[Model Breakthrough#^294d54|Breakthrough]]
+![[Model Breakthrough from the Book#^99314f]]
 
 ![[Tech Debt Case Study]]
 

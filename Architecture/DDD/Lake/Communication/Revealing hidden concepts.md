@@ -1,0 +1,1 @@
+Revealing hidden concepts is understanding the concepts of the [[Domain|Business]] that were not known before, and were only implicitly present.
