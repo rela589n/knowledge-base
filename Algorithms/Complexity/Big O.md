@@ -1,6 +1,6 @@
 ---
 aliases:
-  - Big O
+  - Algorithm Complexity
 ---
 Complexities:
 - [[O (1)]]
@@ -10,3 +10,5 @@ Complexities:
 - [[O (N**2)]]
 
 ![[Algorithm complexity chart.png]]
+
+![[Big O notation chart.png]]
