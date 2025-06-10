@@ -1,6 +1,7 @@
 ---
 aliases:
   - Knowledge crunching
+  - Refinement
 ---
 [[Waterfall method sucks!]]
 
