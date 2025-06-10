@@ -26,3 +26,8 @@ To set a stage for a [[Model Breakthrough|Breakthrough]], concentrate on [[Model
 As the result of [[Model Breakthrough|Breakthrough]], new features are developed smoothly, requirements are clear, and [[Ubiquitous Language|Everybody understands each other]], and problems of [[Technical Debt]] are averted.
 
 The initial [[Model Breakthrough|Breakthrough]] results in the chain of other [[Domain Model|Model]] improvements, and in another [[Model Breakthrough|Breakthroughs]].
+
+> Our pace of development was accelerating at a stage where most projects are beginning to bog down in the mass and complexity of what has already been built.
+
+^294d54
+

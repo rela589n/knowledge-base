@@ -7,4 +7,9 @@ Problem is due to the complexity, and lack of [[Domain|Business]] knowledge in t
 
 ![[Tech Debt Time Complexity Chart.png]] ^a11b5e
 
+If [[Technical Debt]] is resolved in time:
+
+![[Model Breakthrough#^294d54|Breakthrough]]
+
 ![[Tech Debt Case Study]]
+
