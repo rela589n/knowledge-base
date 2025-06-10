@@ -5,5 +5,5 @@ The small refactoring has little effect, but the refactorings add up, and some o
 
 The Breakthrough comes as a corollary of understanding the concepts of the [[Domain|Business]] that were not known before.
 
-> Example from the book: Share Pies both apply to Facility and Loan, but they are Loan Pie's changed during drawdowns.
+> Example from the book: Share Pies both apply to Facility and Loan, but Loan's Pie's changed during drawdowns.
 
