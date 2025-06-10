@@ -3,10 +3,12 @@ aliases:
   - One Team - One Language
   - Language
 ---
-The **Ubiquitous Language** is the **intersection** between dev's language and domain experts language. It is extended mostly by business terms (rather than dev terms).
+**Ubiquitous Language** is the [[Domain Model|Model]] language that is made up of concepts that pervade [[Model refinement|Speech]], [[Documents and Diagrams]], and even [[Code]].
+
+This is the **intersection** between dev's language and domain experts' language. This is mostly **constituted by business terms** rather than dev terms.
 
 [[Building Ubiquitous Language]]
 
-**Ubiquitous Language** includes **names for domain classes** and most prominent **methods**, **names of patterns** which are commonly applied by the team, **terms used to discuss the rules**.  
+Technically, [[Ubiquitous Language]] is expressed in **domain classes names**, most prominent **method names**, most applied **pattern names**, and other **terms used to discuss the rules**.
 
 Everyone sticks to the same terms, team can **communicate without the [[Problems of translation layer]]**.
