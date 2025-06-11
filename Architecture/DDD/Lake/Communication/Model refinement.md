@@ -3,6 +3,7 @@ aliases:
   - Knowledge crunching
   - Refinement
   - Communication
+  - Model brainstorming
 ---
 [[Waterfall method sucks!]]
 

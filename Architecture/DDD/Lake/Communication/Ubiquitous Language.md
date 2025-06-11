@@ -3,6 +3,7 @@ aliases:
   - One Team - One Language
   - Language
   - Single Language
+  - Business Knowledge
 ---
 **Ubiquitous Language** is the [[Domain Model|Model]] language that is made up of concepts that pervade [[Model refinement|Speech]], [[Documents and Diagrams]], and even [[Code]].
 

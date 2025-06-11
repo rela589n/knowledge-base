@@ -7,7 +7,8 @@ Do [[Model refinement|Knowledge crunching]]:
 - Ask questions to the [[Domain]] experts, find contradictions.
 - Focus on vague points of the [[Domain Model|Model]].
 
-> You absolutely necessary for you to have a business expert, or at least somebody to answer your questions and to reveal a good [[Domain Model|Model]].
+> You absolutely necessary for you to have a business expert, or at least somebody to answer your questions and to reveal a good [[Domain Model|Model]]. Otherwise you'd need to learn the [[Domain|Business]] by yourself and on your own using other resources.
+
 
 Finally, apply learned knowledge in [[Domain Model|Model]] and [[Code]] by [[Refactoring]] it.
 
