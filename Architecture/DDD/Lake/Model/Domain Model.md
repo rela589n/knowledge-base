@@ -1,6 +1,7 @@
 ---
 aliases:
   - Model
+  - Design
 ---
 In **[[Domain Driven Design|DDD]]**, **[[Model (generic)|Model]] of the [[Domain]]** represents distilled knowledge of some **aspect of reality** or an **idea is of interest**.
 

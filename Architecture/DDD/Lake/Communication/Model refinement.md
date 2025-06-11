@@ -2,12 +2,13 @@
 aliases:
   - Knowledge crunching
   - Refinement
+  - Communication
 ---
 [[Waterfall method sucks!]]
 
 [[DDD modeling]] is all about model **refinements**.
 
-**Knowledge crunching** is the process of **refining the [[Domain Model|model]]** so that it will make sense both to business experts and to developers.
+**Model refinement** is **refining the [[Domain Model|Model]]** so that it makes sense [[Single Model|both]] to business experts and to developers.
 
 [[Model Refinements discloses weak points]].
 
