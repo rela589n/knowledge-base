@@ -3,10 +3,17 @@ developed-by: Evans, Fowler
 ---
 > Some [[Domain|Business]] rules (those including lots of conditions) could not find their place in any [[Entity]] or [[Value Object]]. They deserve a designated [[Specification]] object.
 
-**Specification** is a [[Predicate]]-like object that encapsulates the algorithms of verifying whether the object satisfies this specification criteria. 
+**Specification** is a [[Predicate]]-like object that encapsulates the algorithms of verifying whether the object satisfies the criteria. It defines **"what it means to be `<adjective>`"**, and it can evaluate it for candidate.
 
-[[Specification]] allows the client to specify "what" he wants without him being concerned about "how". 
- 
-The actual [[Specification]] object usually exposes a method as `isSatisfied(candidate)` to check on the real object.
+[[Specification]] is suitable for these use-cases:
+- Test if object fulfills some need / suitable for smth;
+- Select particular object from collection / storage;
+- Create new object to fit some need.
 
-[[Doctrine Criteria]] is an example of specification.
+> If [[Specification]] needs some external things to check the condition, [[Factory]] could be used to create it.
+
+[[Specification]] allows the client to specify "what" he wants without him being concerned about "how".
+
+**Examples** of [[Specification]]:
+- [[Doctrine Criteria]];
+- Filters (method `apply()`).
