@@ -2,7 +2,7 @@
 aliases:
   - Model-driven Design
 ---
-[[Domain Driven Design|DDD]] emphasizes on use of a [[Single Model]].
+[[Domain-Driven Design|DDD]] emphasizes on use of a [[Single Model]].
 
 Domain modeling is [[Rich Model Design]]:
 1. [[Binding Model to implementation]];

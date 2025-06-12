@@ -1,4 +1,4 @@
-[[Domain Driven Design|DDD]]
+[[Domain-Driven Design|DDD]]
 
 **Initial Prototype** is the **simplest thing that could possibly work**.
 
