@@ -1,3 +1,7 @@
+---
+aliases:
+  - Constraint Method
+---
 Implicit (bad):
 
 ```java
