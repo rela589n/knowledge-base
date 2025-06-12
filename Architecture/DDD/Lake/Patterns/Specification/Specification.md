@@ -8,6 +8,8 @@ origin: Applying and Implementing SPECIFICATION
 
 **Specification** is a [[Predicate]]-like object that **defines a Criteria**, and encapsulates the algorithms of verifying whether the object satisfies that Criteria. More generally, it defines **"what it means to be `<adjective>`"**, and it can evaluate it for candidate.
 
+[[Specification]] allows the client to **specify "what" he wants** (in terms of [[Ubiquitous Language|Language]]) not being concerned with "how".
+
 [[Specification]] is suitable for these use-cases:
 - [[Specification for Validation|Validation]];
 - [[Specification for Selection|Selection]];
@@ -16,8 +18,6 @@ origin: Applying and Implementing SPECIFICATION
 The main aim of the [[Specification]] is the **conceptual unity** of the three.
 
 > If [[Specification]] needs some external things to check the condition, [[Factory]] could be used to create it.
-
-[[Specification]] allows the client to **specify "what" he wants** (in terms of [[Ubiquitous Language|Language]]) without him being concerned about "how".
 
 **Examples** of [[Specification]]:
 - [[Doctrine Criteria]];

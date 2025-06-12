@@ -1,6 +1,7 @@
 ---
 aliases:
   - Linux installed packages
+  - flatpak list
 ---
 ```shell
 snap list
