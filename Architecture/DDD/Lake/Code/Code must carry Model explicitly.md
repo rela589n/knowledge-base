@@ -1,6 +1,6 @@
-[[Code]] could express the [[Invariant]] implicitly (without naming it), or explicitly.
+[[Code]] should express the [[Invariant|Invariants]] explicitly (naming the [[Invariant]], being obvious to [[Domain Model|Model]], one that we can [[Ubiquitous Language|Talk]] about) rather than implicitly (without naming it).
 
-Implicit:
+Implicit (bad):
 
 ```java
 class Bucket {
@@ -17,7 +17,7 @@ class Bucket {
 }
 ```
 
-Explicit:
+Explicit (good) - you can say "Bucket's contents is constrained to capacity":
 
 ```java
 class Bucket {
