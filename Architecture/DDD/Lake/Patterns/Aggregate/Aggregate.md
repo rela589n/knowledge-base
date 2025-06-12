@@ -8,3 +8,5 @@ Aggregates are limited within a [[Aggregate Boundary|Boundary]].
 - When we **delete [[Aggregate]]**, we delete everything within [[Aggregate Boundary]];
 - When we **clone [[Aggregate]]** (see [[Prototype]]), we should clone only within [[Aggregate Boundary]].
 - [[Aggregate resolves the Contention points]]
+
+[[One to Many relationship access is controlled with the Aggregate]]
