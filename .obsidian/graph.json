@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "path:Temporal  ",
+  "search": "path:Architecture",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 20,
   "linkStrength": 0.78125,
   "linkDistance": 30,
-  "scale": 0.7747073522007769,
+  "scale": 0.09713875840924649,
   "close": false
 }

@@ -1,5 +1,3 @@
-[[Code]] should express the [[Invariant|Invariants]] explicitly (naming the [[Invariant]], being obvious to [[Domain Model|Model]], one that we can [[Ubiquitous Language|Talk]] about) rather than implicitly (without naming it).
-
 Implicit (bad):
 
 ```java

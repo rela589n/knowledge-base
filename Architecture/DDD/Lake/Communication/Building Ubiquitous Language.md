@@ -12,4 +12,4 @@ It includes [[Revealing hidden concepts]].
 
 If it is used **persistently**, then [[Model Refinements discloses weak points|weak points will float up]], 
 
-[[Model as a backbone of Language]]
+[[Model is a backbone of the Language]]
