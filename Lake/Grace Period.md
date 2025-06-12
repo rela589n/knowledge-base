@@ -1,0 +1,1 @@
+Designated time frame beyond the deadline, within which the action could be completed without any penalties.

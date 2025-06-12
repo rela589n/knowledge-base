@@ -1,4 +1,4 @@
-Used when there are multiple algorithms of doing some specific task used polymorphically in different scenarios, and particular algorithm is specified at runtime.
+Used when there are **multiple algorithms** of doing some specific task **used polymorphically** in different scenarios, and particular **algorithm is selected at runtime**.
 
 Example:
 - id generation strategy
