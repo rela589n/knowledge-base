@@ -1,4 +1,4 @@
-In PostgreSQL it's possible to create it:
+In [[PostgreSQL]] it's possible to create it:
 
 ```sql
 ALTER TABLE files

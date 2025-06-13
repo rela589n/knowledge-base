@@ -16,7 +16,7 @@
                      Filter: ((nspname <> 'pg_catalog'::name) AND (nspname <> 'information_schema'::name))
 ```
 
-PostgreSQL stores **stats about the data**. It knows how many distinct values, how many rows there are, which are the most common values, etc.
+[[PostgreSQL]] stores **stats about the data**. It knows how many distinct values, how many rows there are, which are the most common values, etc.
 
 **Cost** - is the relative metric to measure **time and resources usage**. Cost of fetching single page sequentially is equal to `1.0`.
 
@@ -29,7 +29,7 @@ Planner up to some point **examines all possible plans** to run the query.
 
 ## Examine different plans
 
-Just for a testing, we can `SET enable_<option>=false;` in order to see what other plan postgresql can choose.
+Just for a testing, we can `SET enable_<option>=false;` in order to see what other plan [[PostgreSQL]] can choose.
 
 `set enable_indexscan = false;` will disable index scan;
 `set enable_bitmapscan = false;` will disable bitmap scan.

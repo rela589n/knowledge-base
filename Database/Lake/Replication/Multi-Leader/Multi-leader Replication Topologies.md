@@ -1,5 +1,5 @@
 Topologies:
-- **circular** (MySQL default);
+- **circular** ([[MySQL]] default);
 - **star** - can be generalized to a tree;
 - **al-to-all**;
 

@@ -5,9 +5,9 @@ Each datacenter may have one leader, and multiple followers. Leaders will synchr
 - **tolerance of network problems** - temporary network interruption does not prevent writes from being processed.
 
 Multi-leader tools:
-- Tungsten Replicator (MySQL);
-- BDR (PostgreSQL);
-- GoldenGate (Oracle).
+- Tungsten Replicator ([[MySQL]]);
+- BDR ([[PostgreSQL]]);
+- GoldenGate ([[Oracle]]).
 
 The **main downside** is that multiple leader nodes **may update the same data** - the **write conflicts** must be resolved.
 

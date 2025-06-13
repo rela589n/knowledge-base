@@ -1,4 +1,4 @@
-The **dedicated log** for replication is used.  Used in MySql.
+The **dedicated log** for replication is used.  Used in [[MySQL]].
 
 Log describes enough row-based data to reproduce events:
 - for deletion, primary key is written;

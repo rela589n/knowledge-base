@@ -2,7 +2,7 @@
 aliases:
   - Convert time to time zone postgresql
 ---
-It's possible to convert time to the needed time zone:
+In [[PostgreSQL]] it's possible to convert time to the needed time zone:
 
 ```sql
 SELECT send_at,
