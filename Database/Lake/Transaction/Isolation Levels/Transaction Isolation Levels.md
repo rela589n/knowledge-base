@@ -1,7 +1,7 @@
 ---
 aliases:
   - Transaction Isolation Levels
-  - isolation level
+  - Isolation Level
 ---
 Race conditions arise when users access the same (or dependent) database rows. 
 

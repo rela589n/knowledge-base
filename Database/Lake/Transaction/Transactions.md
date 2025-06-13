@@ -68,7 +68,7 @@ Pitfalls of retried transactions:
 
 ^2864e8
 
-See [[Isolation Levels]]
+See [[Transaction Isolation Levels]]
 
 ### Preventing Lost Updates
 
