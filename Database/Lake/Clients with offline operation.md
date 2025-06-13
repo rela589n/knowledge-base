@@ -2,4 +2,4 @@ The client application may have the requirement of offline operation. Then every
 
 > As the rich history of broken calendar sync shows, multi-leader replication is a hard thing to get right.
 
-CouchDB is designed to make multi-leader configuration easier.
+[[CouchDB]] is designed to make multi-leader configuration easier.

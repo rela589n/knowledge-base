@@ -1,5 +1,5 @@
-In #Cassandra this is the only conflict resolution method.
-In #Riak this is optional method.
+In [[Cassandra]] this is the only conflict resolution method.
+In [[Riak]] this is optional method.
 
 **Last write wins** (**LWW**) - each write is **associated with the timestamp**. On conflict, writes with more **recent timestamp wins**. 
 

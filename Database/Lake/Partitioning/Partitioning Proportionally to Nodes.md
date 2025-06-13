@@ -1,4 +1,4 @@
-This approach is used in: #Cassandra , #Ketama
+This approach is used in: [[Cassandra]] , [[Ketama]]
 
 With both [[Dynamic partitioning]] and having [[Fixed number of Partitions]], the **number of nodes** and **number of partitions** are independent.
 

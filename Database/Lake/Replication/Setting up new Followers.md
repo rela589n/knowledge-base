@@ -1,3 +1,7 @@
+---
+aliases:
+  - Setting up new Replica
+---
 Setting up new follower should be done without downtime.
 
 1. Take consistent data **snapshot from leader**;

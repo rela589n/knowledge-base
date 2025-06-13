@@ -1,4 +1,4 @@
-This approach is used in: #HBase, #RethinkDB, #MongoDB 
+This approach is used in: [[HBase]], [[RethinkDB]], [[MongoDB]]
 
 Applicable for both [[Partitioning by Key Range|key-range partitioning]] and [[Partitioning by Hash of Key|hash-partitioning]].
 

@@ -1,4 +1,4 @@
-#VoltDB , #Redis, #Datomic, #H-Store
+[[VoltDB]] , [[Redis]], #Datomic, #H-Store
 
 Reasons to rethink actual serial execution:
 - RAM is cheap, some **DBs keep everything in memory**;
@@ -17,7 +17,7 @@ Another approach is to use **stored procedure** and make the **DB aware of all s
 - **maintenance is harder** - hard to debug, tricky to test, need to deploy, harder to maintain in VCS, monitoring and metrics collection is not possible;
 - **instance performance** - multiple app instances may connect to the single database. While app scaling is relatively simpler, DB scaling is much more harder. Therefore, **poorly written** code in **procedure** leads to **worse outcome** compared to the same poor app code.
 
-Though, **some DBs** now **use general-purpose languages** (VoltDB uses Java and Groovy, Datomic uses Java and Clojure, Redis uses Lua).
+Though, **some DBs** now **use general-purpose languages** (VoltDB uses Java and Groovy, Datomic uses Java and Clojure, [[Redis]] uses Lua).
 
 #### Partitioning
 

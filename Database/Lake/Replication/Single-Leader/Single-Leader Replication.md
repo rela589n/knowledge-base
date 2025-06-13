@@ -4,9 +4,9 @@ Most common way to end up with same data on all replicas is **leader-based  repl
 3. **writes** are served only **by leader**, whereas **reads** may be served either **by leader or followers**.
 
 Support:
-- relational: PostgreSQL, Oracle, MySQL, SQL Server;
-- non-relational: MongoDB, RethinkDB, Espresso;
-- message-brokers: Kafka, RabbitMQ - for highly-available queues.
+- relational: [[PostgreSQL]], [[Oracle]], [[MySQL]], [[SQL Server]];
+- non-relational: [[MongoDB]], [[RethinkDB]], [[Espresso]];
+- message-brokers: [[Kafka]], [[RabbitMQ]] - for highly-available queues.
 
 More:
 - [[Setting up new Followers]] with no downtime;

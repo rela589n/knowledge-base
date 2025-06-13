@@ -8,7 +8,7 @@ Reasons to replicate data:
 - **increase read throughput** - scale out number of nodes to serve read queries.
 
 Approaches to *replicate changes*:
-- **[[Single-leader replication|single-leader]]**;
+- **[[Single-Leader Replication|single-leader]]**;
 - **[[Multi-Leader Replication|multi-leader]]**;
 - **[[Leaderless Replication|leaderless]]**.
 

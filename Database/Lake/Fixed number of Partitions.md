@@ -1,4 +1,4 @@
-This approach is used in: #Riak , #ElasticSearch , #Voldemort , #CouchBase
+This approach is used in: [[Riak]] , [[ElasticSearch]] , [[Voldemort]], [[CouchBase]]
 
 **By the hash of key** we decide **which partition** to forward the request to, **not which node**. 
 

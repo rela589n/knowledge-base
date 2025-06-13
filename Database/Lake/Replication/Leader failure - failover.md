@@ -7,7 +7,7 @@ Automatic failover:
 
 Pitfalls:
 - If a **new leader did not receive all updates** from the old one and old comes back - it's data updates may **conflict with existing data**. In this case, usually such **data is discarded**, which violates durability;
-- **Discarding** writes is **especially dangerous** if there are some **other correlated with DB system**. Say, redis may store incremental IDs, which were discarded because of failover and new same ID are written later on - this may lead to **information disclosure**.
+- **Discarding** writes is **especially dangerous** if there are some **other correlated with DB system**. Say, [[Redis]] may store incremental IDs, which were discarded because of failover and new same ID are written later on - this may lead to **information disclosure**.
 - In some fault scenarios, **[[Split Brain]] is possible**.
 - With too **short [[Network Timeouts|timeout]]** to detect dead leader, there could be **unnecessary failovers**. Making it **too long** means **longer recovery** in case where leader fails.
 

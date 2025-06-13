@@ -1,4 +1,4 @@
-**Two-phase locking** (**2PL**) - approach to provide serializability, which **protects from all kinds of race conditions** including lost updates and write skew. It no longer follow **reads never block writes** and **writes never block reads**. 
+**Two-phase locking** (**2PL**) - approach to provide [[Serializable|Serializability]], which **protects from all kinds of race conditions** including lost updates and write skew. It no longer follow **reads never block writes** and **writes never block reads**. 
 
 Instead reads block writes and vice versa:
 - if transaction **A has read object**, and transaction **B wants to write it**, B will have to **wait for A to finish** (no unexpected changes to read objects);
@@ -6,7 +6,7 @@ Instead reads block writes and vice versa:
 
 #### Implementation of 2PL
 
-Used by MySQL, SQL Server, DB2
+Used by [[MySQL]], [[SQL Server]], [[DB2]]
 
 **Shared lock** - does not prevent other transactions from taking this lock on the same rows, but does **prevent taking exclusive lock**.
 **Exclusive lock** - **prevents any other transaction from locking** with either Shared or Exclusive lock on the same rows.
