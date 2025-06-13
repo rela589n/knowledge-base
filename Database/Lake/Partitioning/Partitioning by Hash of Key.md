@@ -12,7 +12,7 @@ Partitioning is **done by range of hashes** of keys **rather than keys** themsel
 
 As far as **data is scattered** across the partitions, it is **not possible** to run effecient **range queries**, which are possible when partitioning by key:
 - [[MongoDB]] sends range query **to all partitions**;
-- [[Voldemort]], [[Riak]], [[Couchbase]] **do not support**;
+- [[Voldemort]], [[Riak]], [[CouchBase]] **do not support**;
 - **[[Cassandra]]** does the compromise using **concatenated index**. 
 
 ## Elegant one-to-many

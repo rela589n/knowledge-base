@@ -1,4 +1,4 @@
-**Spanner** - distributed database with [[Snapshot isolation]] transactions.
+**Spanner** - distributed database with [[Snapshot Isolation]] transactions.
 
 For snapshot isolation transactions, it uses [[Google TrueTime]] api. If two ranges `[A1, B1]`, `[A2, B2]` do not overlap, then either is greater than another, meaning happened before. Only if intervals overlap we don't know what happened before.
 

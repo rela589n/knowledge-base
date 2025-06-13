@@ -4,7 +4,7 @@ aliases:
 ---
 **Non-repeatable read** (**Read skew**) - situation when **during single transaction** at the end of the transaction some queried records were already changed (if the **same record was to be queried once again, it would come up in a different state**). 
 
-This is prevented in [[Snapshot isolation]] level.
+This is prevented in [[Snapshot Isolation]] level.
 
 It could be even more subtle when two **rows are bound one to another**, and we read **first before the change**, and **second after the change**. 
 

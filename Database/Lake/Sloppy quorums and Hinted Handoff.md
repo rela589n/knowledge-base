@@ -1,4 +1,4 @@
-#Dynamo, [[Riak]], [[Cassandra]], #Voldemort
+[[DynamoDB]], [[Riak]], [[Cassandra]], [[Voldemort]]
 
 If the client faces network interruption, a lot of alive nodes may look like dead to him. Though, for other clients they are still alive.
 
@@ -10,7 +10,7 @@ If the client faces network interruption, a lot of alive nodes may look like dea
 
 ## Multi-datacenter operation
 
-[[Cassandra]] and #Voldemort provide next model for **multi-datacenter replication**:
+[[Cassandra]] and [[Voldemort]] provide next model for **multi-datacenter replication**:
 
 The `N` is selected among nodes in all datacenters. In configuration we select **how many nodes to wait for each datacenter**.
 

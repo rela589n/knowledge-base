@@ -1,4 +1,4 @@
-![[Transactions - Poor Performance?]]
+[[Transactions - Poor Performance?]]
 
 Things that can go wrong:
 - **database crashes** at the mid of write operation;

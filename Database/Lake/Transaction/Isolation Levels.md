@@ -13,5 +13,5 @@ Race conditions arise when users access the same (or dependent) database rows.
 Levels:
 - Read Uncomitted (not used);
 - [[Read Committed]];
-- [[Snapshot isolation]];
+- [[Snapshot Isolation]];
 - [[Serializable]].

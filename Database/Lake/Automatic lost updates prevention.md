@@ -1,4 +1,4 @@
-[[PostgreSQL]], [[Oracle]], [[SQL Server]] support automatic [[Lost Updates]] detection  when running in **[[Snapshot isolation]]** level. 
+[[PostgreSQL]], [[Oracle]], [[SQL Server]] support automatic [[Lost Updates]] detection  when running in **[[Snapshot Isolation]]** level. 
 
 > [[MySQL]] doesn't detect lost updates automatically.
 

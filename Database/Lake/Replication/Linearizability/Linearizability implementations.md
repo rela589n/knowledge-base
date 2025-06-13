@@ -1,0 +1,1 @@
+Implementations [[Two-Phase Locking (2PL)]] and [[Actual Serial Execution]] are typically [[Linearizability|Linearizable]], though not [[Serializable Snapshot Isolation (SSI)]] since the whole concept of snapshot is that it does not include writes outside of current snapshot.

@@ -1,4 +1,4 @@
-[[MVCC]] **Consistent [[Snapshot isolation|snapshot]]** is built following way:
+[[MVCC]] **Consistent [[Snapshot Isolation|snapshot]]** is built following way:
 - writes of **not committed transactions are ignored** (list of active transactions is built beforehand at the beginning of the current transaction);
 - writes made by **rolled back transactions are ignored**;
 - writes made by **transactions with greater txid are ignored** - these started after current one;
