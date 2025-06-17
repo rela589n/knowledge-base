@@ -4,7 +4,7 @@
 
 Reasons to replicate data:
 - **reduce [[Network Latency|latency]]** for users by keeping servers geographically close to them;
-- **increase availability** - continue operate even if some parts have failed;
+- **increase availability** - continue operate even if some parts fail;
 - **increase read throughput** - scale out number of nodes to serve read queries.
 
 Approaches to *replicate changes*:

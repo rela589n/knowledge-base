@@ -1,4 +1,4 @@
 ![[Supple Design Patterns.png]]
 
-- [[Everything Must Be Explicit]]
-- 
+- [[Intention-Revealing Interfaces]]
+- [[Side-Effect-Free Functions]]
