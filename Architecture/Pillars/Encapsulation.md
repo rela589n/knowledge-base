@@ -2,4 +2,4 @@ Fundamental concept of the object is to **encapsulate data with the logic** that
 
 Encapsulation is the usage of [[Information Expert]], where everything private to the class remains private, and the logic is exposed via public api.
 
-Encapsulation is related to [[Everything Must Be Explicit|Intention-Revealing Interfaces]], so that you **don't have to read the internals** to use the code.
+Encapsulation is related to [[Everything Must Be Explicit#^3ddb73|Intention-Revealing Interfaces]], so that you **don't have to read the internals** to use the code.
