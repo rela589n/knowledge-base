@@ -8,7 +8,7 @@ It should be **unambiguous** and **everyoune should stick** to its terms and des
 
 Domain experts should **object to awkward terms**, devs should **object to inconsistencies**.
 
-It includes [[Revealing hidden concepts]].
+It includes [[Making implicit concepts explicit]].
 
 If it is used **persistently**, then [[Model Refinements discloses weak points|weak points will float up]], 
 

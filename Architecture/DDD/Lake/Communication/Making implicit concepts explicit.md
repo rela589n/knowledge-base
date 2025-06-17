@@ -1,3 +1,7 @@
+---
+aliases:
+  - Revealing concepts explicitly
+---
 **Revealing hidden concepts** is understanding previously implicit the concepts of the [[Domain|Business]] that you didn't understand/know before, and using them in the [[Domain Model|Model]]. This is the driving force of the [[Model Breakthrough|Breakthroughs]].
 
 If you find some used term that is absent from the [[Domain Model|Design]], it might improve it.

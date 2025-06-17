@@ -1,1 +1,0 @@
-![[Supple Design Patterns.png]]
