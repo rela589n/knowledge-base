@@ -7,4 +7,4 @@ aliases:
 
 Use [[CQS|Command-Query Separation]], make sure to [[Refactoring|Refactor]] mingled things into separate [[Command|Commands]] and [[Query|Queries]].
 
-[[Value Object|Value Objects]] expose [[Side-Effect-Free Functions]]. Consider using them when writing [[Query|Queries]].
+[[Value Object|Value Objects]] expose [[Side-Effect-Free Functions]]. They are easy to test, easy to use, easy to be combined. Consider leveraging them when writing [[Query|Queries]].
