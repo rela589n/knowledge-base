@@ -1,3 +1,7 @@
+---
+aliases:
+  - Model is bound to Implementation
+---
 > Tightly coupling the [[Code]] to the [[Domain Model|Model]] adds meaning to both from both sides ([[Code]] is obvious, and [[Domain Model|Model]] is relevant).
 
 When there's some **business concept** (e.g. bus in the example of the book), it **must be present in the [[Code]]** as an **explicit substance** rather than an implicit ghost, existence of which may only be inferred between the lines.

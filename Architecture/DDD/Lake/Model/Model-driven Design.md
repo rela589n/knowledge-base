@@ -5,7 +5,7 @@ aliases:
 [[Domain-Driven Design|DDD]] emphasizes on use of a [[Single Model]].
 
 Domain modeling is [[Rich Model Design]]:
-1. [[Binding Model to implementation]];
+1. [[Model that corresponds to Implementation]];
 2. Develop the [[Model is a backbone of the Language|common language]].
 3. Use [[Domain Model must be the heart of the code|Domain Model as the heart of implementation]];
 4. [[Model is to be distilled]];
