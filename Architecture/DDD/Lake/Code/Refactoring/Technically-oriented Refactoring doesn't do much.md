@@ -1,0 +1,1 @@
+[[Refactoring]] must be [[Domain Model|Model]]-oriented, because technical stuff that doesn't reveal the [[Domain Model|Model]] won't start revealing it. Like in that example when refactored files operation code, but it didn't improve the [[Understanding]].

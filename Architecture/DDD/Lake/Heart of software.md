@@ -2,6 +2,6 @@
 
 Developers **have to steep** themselves **in the domain** to **build knowledge** of the business.
 
-**Leaders** within a team, who **understand the centrality of the domain** can **put the project [[Getting Back on Course|back on course]]**, when development of an appropriate model gets lost.
+**Leaders** within a team, who **[[Understanding|Understand]] the centrality of the [[Domain]]** can **put the project [[Getting Back on Course|back on course]]**, when development of an appropriate model gets lost.
 
-Developer **with model designing skills** is much **more valuable** even in the domain that is new to him.
+Developer **with model designing skills** is much **more valuable** in the team even if the [[Domain]] might be new to him.

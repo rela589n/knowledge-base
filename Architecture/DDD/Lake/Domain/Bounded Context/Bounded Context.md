@@ -1,5 +1,6 @@
 ---
-aliases: []
+aliases:
+  - Bounded Contexts
 ---
 Bounded Context demarcates [[Domain Model|Domain Models]] that make different subsystems.
 

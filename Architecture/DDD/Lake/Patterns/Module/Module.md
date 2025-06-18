@@ -1,6 +1,7 @@
 ---
 aliases:
   - Modularity
+  - Modules
 ---
 Module is a selection of objects based on their [[Domain Model|Domain Meaning]]; Module groups set of concepts with [[Low Coupling & High Cohesion|High Cohesion]].
 

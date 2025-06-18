@@ -7,4 +7,6 @@ In [[Domain-Driven Design|DDD]] Refactoring is the way to reorganize the [[Code]
 
 > The gospel of [[Refactoring]] is that you always go in **small steps**, and always keep everything working.
 
+[[Technically-oriented Refactoring doesn't do much]]
+
 [[Model Breakthrough]]

@@ -1,3 +1,7 @@
+---
+aliases:
+  - Aggregates
+---
 Aggregate is a **cluster of related objects**, which make up a logical unit, that allows us to **maintain [[Invariant|business invariants]]** inside of the [[Transactions]]. 
 
 One of them is the [[Aggregate Root|Root]], and others are subordinate objects ([[Entity|Entities]] and [[Value Object|Value Objects]]).

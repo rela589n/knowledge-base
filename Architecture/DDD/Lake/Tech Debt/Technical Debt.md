@@ -1,3 +1,7 @@
+---
+aliases:
+  - Complexity
+---
 Technical Debt is the amount of work that is needed to be done in the future due to the shortcomings done already.
 
 The further we go, the greater is the technical debt.

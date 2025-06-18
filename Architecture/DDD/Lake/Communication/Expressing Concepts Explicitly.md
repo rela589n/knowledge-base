@@ -13,7 +13,7 @@ If you find some used term that is absent from the [[Domain Model|Design]], it m
 
 Do [[Model refinement|Knowledge crunching]]:
 - Listen to the [[Ubiquitous Language]] (most frequent terms you do not understand, nor find in the [[Domain Model|Model]]);
-- Ask questions to the [[Domain]] experts, find contradictions.
+- Ask questions to the [[Domain Experts]], find contradictions.
 - Focus on vague points of the [[Domain Model|Model]].
 
 > You absolutely necessary for you to have a business expert, or at least somebody to answer your questions and to reveal a good [[Domain Model|Model]]. Otherwise you'd need to learn the [[Domain|Business]] by yourself and on your own using other resources.
