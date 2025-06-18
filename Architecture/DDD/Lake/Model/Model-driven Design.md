@@ -9,8 +9,8 @@ Domain modeling is [[Rich Model Design]]:
 2. Develop the [[Model is a backbone of the Language|common language]].
 3. Use [[Domain Model must be the heart of the code|Domain Model as the heart of implementation]];
 4. [[Model is to be distilled]];
-5. [[Model refinement|Refine and brainstorm]].
+5. [[Model Refinement|Refine and brainstorm]].
 
-It is vital to engage both spoken language ([[Model refinement]]) and visual and spacial abilities with [[Documents and Diagrams]] to reach [[Good Models lie deep|Good Model]].
+It is vital to engage both spoken language ([[Model Refinement]]) and visual and spacial abilities with [[Documents and Diagrams]] to reach [[Good Models lie deep|Good Model]].
 
 [[Modeling Entities]]

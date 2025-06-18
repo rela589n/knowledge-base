@@ -1,4 +1,4 @@
-[[Domain Model]] must be [[Model refinement|refined]] to be understood more correctly.
+[[Domain Model]] must be [[Model Refinement|refined]] to be understood more correctly.
 
 Terms that [[Domain|Business]] knows nothing about are crutches. They signify the lack of [[Understanding|Model Understanding]], and in case of [[Model Breakthrough]] they are removed.
 

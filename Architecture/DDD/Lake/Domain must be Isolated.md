@@ -6,4 +6,4 @@ Beware of [[Architectural Frameworks]], and use them wisely.
 
 [[Smart UI and DDD are mutually exclusive]], you have to choose one.
 
-[[Transaction Script]] results in an [[Anemic model]].
+[[Procedural Code|Transaction Script]] results in an [[Anemic model]].

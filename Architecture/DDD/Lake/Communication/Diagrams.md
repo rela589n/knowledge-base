@@ -1,4 +1,4 @@
-Are useful during [[Model refinement|model refinements]]. 
+Are useful during [[Model Refinement|model refinements]]. 
 
 Diagram **is not a [[Domain Model|model]]** itself, it just **means for** model **explanation**. It helps to focus discussion on some aspect of the model.
 

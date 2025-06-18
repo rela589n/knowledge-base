@@ -11,7 +11,7 @@ aliases:
 
 If you find some used term that is absent from the [[Domain Model|Design]], it might improve it.
 
-Do [[Model refinement|Knowledge crunching]]:
+Do [[Model Refinement|Knowledge crunching]]:
 - Listen to the [[Ubiquitous Language]] (most frequent terms you do not understand, nor find in the [[Domain Model|Model]]);
 - Ask questions to the [[Domain Experts]], find contradictions.
 - Focus on vague points of the [[Domain Model|Model]].

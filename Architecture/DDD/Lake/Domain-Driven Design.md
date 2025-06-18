@@ -15,9 +15,9 @@ DDD is responsibility-driven design ([[Model that corresponds to Implementation]
 
 DDD accelerates the learning curve, because [[Model that corresponds to Implementation|Model is bound to Implementation]].
 
-Encountering a change that isn't localized and requires a substantial change to the [[Domain Model|Model]] is a message: our [[Understanding]] needs [[Model refinement|Refinement]]. It presents an opportunity to [[Good Models lie deep|Deeper the Model]] and bring a [[Model Breakthrough|Breakthrough]].
+Encountering a change that isn't localized and requires a substantial change to the [[Domain Model|Model]] is a message: our [[Understanding]] needs [[Model Refinement|Refinement]]. It presents an opportunity to [[Good Models lie deep|Deeper the Model]] and bring a [[Model Breakthrough|Breakthrough]].
 
-In DDD, [[Model refinement]], [[Model-driven Design|Model-driven Design]], [[Code|Implementation]] and [[Refactoring|Refactoring toward deeper insight]] must go hand-in-hand in an iterative development process (NO [[Waterfall method]]).
+In DDD, [[Model Refinement]], [[Model-driven Design|Model-driven Design]], [[Code|Implementation]] and [[Refactoring|Refactoring toward deeper insight]] must go hand-in-hand in an iterative development process (NO [[Waterfall method]]).
 
 Key points:
 - [[DDD Communication|Communication]]
