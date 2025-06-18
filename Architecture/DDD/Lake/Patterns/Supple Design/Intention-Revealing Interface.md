@@ -1,5 +1,6 @@
 ---
-aliases: []
+aliases:
+  - Intention-Revealing Interfaces
 ---
 Intention-Revealing Interfaces [[Expressing Concepts Explicitly|Express Concepts Explicitly]].
 

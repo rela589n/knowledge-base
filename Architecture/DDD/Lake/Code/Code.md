@@ -1,6 +1,7 @@
 ---
 aliases:
   - Executable Bedrock
+  - Implementation
 ---
 > XP relies exceptionally on code as the source of truth.
 
