@@ -2,7 +2,7 @@ Rich [[Model-driven Design|Model Design]] is the design that goes beyond just "f
 
 [[Good Models lie deep]].
 
-[[When you're making crunches, it's the problem of the Model]]
+[[When you're making crutches, it's the problem of the Model]]
 
 It happens that **[[Domain|Business]] rules are inconsistent**. [[Domain Experts]] **reconcile the contradictions** and **fill the gaps**, though for software to do it, it is necessary to have full [[Understanding]] of the [[Domain|Business]], which is possible by close collaboration with [[Domain Experts|Business Experts]] during **[[Model refinement]]** sessions.
 
