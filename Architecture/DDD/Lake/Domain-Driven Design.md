@@ -12,7 +12,7 @@ DDD is about most optimal solution for given circumstances without derailing.
 
 DDD accelerates the learning curve, because [[Binding Model to implementation|Model is bound to the Implementation]].
 
-In DDD, [[Model refinement]], [[Model-driven Design|Model-driven Design]], [[Code|Implementation]] and [[Refactoring]] must go hand-in-hand in an iterative development process (NO [[Waterfall method]]).
+In DDD, [[Model refinement]], [[Model-driven Design|Model-driven Design]], [[Code|Implementation]] and [[Refactoring|Refactoring toward deeper insight]] must go hand-in-hand in an iterative development process (NO [[Waterfall method]]).
 
 Key points:
 - [[DDD Communication|Communication]]
