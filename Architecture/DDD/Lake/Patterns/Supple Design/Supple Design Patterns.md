@@ -1,4 +1,4 @@
 ![[Supple Design Patterns.png]]
 
-- [[Intention-Revealing Interfaces]]
+- [[Intention-Revealing Interface]]
 - [[Side-Effect-Free Functions]]
