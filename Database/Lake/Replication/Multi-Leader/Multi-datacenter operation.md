@@ -12,3 +12,6 @@ Multi-leader tools:
 The **main downside** is that multiple leader nodes **may update the same data** - the **write conflicts** must be resolved.
 
 > Auto-incrementing keys, triggers, integrity constraints are problematic with multi-leader replication, therefore this kind of replication **should be avoided if possible**.
+
+User selects deployment region:
+![[Deployment Region.png]]

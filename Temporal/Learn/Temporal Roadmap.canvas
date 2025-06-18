@@ -42,7 +42,6 @@
 		{"id":"483c7e88b4c57c31","type":"file","file":"Temporal/Learn/Tasks/Customer Subscription Workflow.md","x":1541,"y":6060,"width":585,"height":250},
 		{"id":"ee7d7c37f41fb21f","type":"file","file":"Temporal/Learn/Tasks/Set up UI separately from temporal service.md","x":1541,"y":7200,"width":507,"height":320},
 		{"id":"8f747c1723e0480d","type":"file","file":"Temporal/SDK/Temporal docker-compose configuration.md","x":1541,"y":6560,"width":585,"height":260},
-		{"id":"d0f86672aa97a2a2","type":"file","file":"Web Sockets/Centrifugo/Centrifugo.md","x":520,"y":6360,"width":400,"height":400},
 		{"id":"19439fbec6a8e189","type":"text","text":"Go over SDK doc","x":795,"y":7318,"width":250,"height":60},
 		{"id":"11650f99023372b9","type":"text","text":"Read the docs","x":795,"y":7445,"width":250,"height":50},
 		{"id":"b35a54e38d5e11d0","type":"text","text":"**Namespaces**","x":795,"y":7170,"width":250,"height":60}

@@ -10,6 +10,6 @@ In order to reclaim this space for usage by database/operating system, `VACUUM` 
 
 Plain `VACUUM` - reclaims the space, and makes it available for use within the same table (doesn't give space away to OS). It doesn't require exclusive lock, thus reads and writes may continue to work.
 
-`VACUUM FULL` - rewrites the full content of the table into the new file, allowing OS to reuse freed up space. It requires ACCESS EXCLUSIVE lock on the table, being processed.
+`VACUUM FULL` - rewrites the full content of the table into the new file, allowing OS to reuse freed up space. It requires ACCESS EXCLUSIVE lock on the table being processed.
 
 See also [[PostgreSQL ANALYSE|ANALYSE]]
