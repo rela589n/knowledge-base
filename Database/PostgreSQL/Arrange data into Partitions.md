@@ -14,17 +14,19 @@ FROM users
 It uses [[Window function]] over the whole window, ordered by id.
 It might've been not ordered, but ordering it creates a consistent range of values, not just random one.
 
-To get the first and last ids of each partition, use
+To get the first and last ids of each partition, use query:
 
 ```sql
 SELECT DISTINCT partition,
-                first_value(id) over p,
-                last_value(id) over p
+                first_value(id) OVER p,
+                last_value(id) OVER p
 FROM (SELECT id,
              ntile(2048) OVER (ORDER BY id) partition
       FROM users) parts
 WINDOW p AS (PARTITION BY partition)
 ORDER BY partition;
 ```
+
+^fae1e5
 
 It uses [[WINDOW clause]]
