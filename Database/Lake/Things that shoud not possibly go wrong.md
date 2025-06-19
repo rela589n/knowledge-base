@@ -2,4 +2,4 @@ The major difference between a thing that might go wrong and a thing that **poss
 
 Assuming that anything that **could possibly go wrong will go wrong** is a reasonable assumption, which allows us to **prevent issues before they happen**. ^76f1bd
 
-In distributed systems **suspicion, pessimism, paranoia pay off**. We should **consider all faulty scenarios**, even unlikely ones. We need to **build reliable system from unreliable components**. ^a30368
+In distributed systems **suspicion, pessimism, paranoia pay off**. We should **consider all faulty scenarios**, even unlikely ones. We are faced with the task to **build reliable system from unreliable components**. ^a30368

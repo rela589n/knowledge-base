@@ -16,7 +16,7 @@ create index idx_36d54c77a76ed395
     on user_events (user_id);
 ```
 
-> Note that [[Primary Key]] is composite, because it's not possible otherwise.
+> Note that [[Primary Key]] is composite, because it's required to be so with [[Partitioning]] ([[Partitioning and Secondary Indexes]]).
 
 Then, use script to [[Arrange data into Partitions#^d64a99|define partition boundaries]], and create [[Partition]] tables:
 

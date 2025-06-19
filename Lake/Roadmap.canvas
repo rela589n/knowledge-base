@@ -4,7 +4,7 @@
 		{"id":"30ce573f913b9bc3","type":"text","text":"Create a [[Clustered Index]] for UserEvent table and analyse what happens then and how search by User does search on the low level","x":380,"y":36,"width":499,"height":164},
 		{"id":"7f896bb1c519a03f","type":"file","file":"Web Sockets/Centrifugo/Centrifugo.md","x":-440,"y":1320,"width":400,"height":400},
 		{"id":"ca4ce8e4d98388cb","type":"file","file":"Temporal/Temporal.md","x":-440,"y":1980,"width":400,"height":400},
-		{"id":"7148352a4726bd33","type":"file","file":"Database/Lake/Partitioning/Partitioning.md","x":-240,"y":640,"width":400,"height":400},
+		{"id":"7148352a4726bd33","type":"file","file":"Database/Lake/Distributed/Partitioning/Partitioning.md","x":-240,"y":640,"width":400,"height":400},
 		{"id":"56a4b066e432691b","x":980,"y":360,"width":460,"height":368,"type":"file","file":"Database/Lake/Index/Clustered/Clustered Index Multiple tables Example.md"},
 		{"id":"c13950c7bfaf1461","x":380,"y":360,"width":442,"height":303,"type":"file","file":"Database/Lake/Index/Clustered/Clustered Index Example.md"}
 	],

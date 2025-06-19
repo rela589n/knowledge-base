@@ -1,7 +1,7 @@
 ---
 aliases:
   - 2pc
-  - distributed commit
+  - Distributed Commit
 repo: https://github.com/rela589n/two-phase-commit/tree/main
 ---
 Uses transaction manager (coordinator) to control the overall transaction flow.
