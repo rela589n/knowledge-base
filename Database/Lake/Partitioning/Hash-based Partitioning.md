@@ -1,6 +1,10 @@
+---
+aliases:
+  - Partitioning by Hash of Key
+---
 Easier **to avoid [[Skewed partitioning|skews]]** and [[Hot spot|hot spots]].
 
-Partitioning is **done by range of hashes** of keys **rather than keys** themselves (as in [[Partitioning by Key Range]]). The **hash ranges** can be **evenly spaced** as far as data is evenly distributed by the **hash function**.
+Partitioning is **done by range of hashes** of keys **rather than keys** themselves (as in [[Range Partitioning]]). The **hash ranges** can be **evenly spaced** as far as data is evenly distributed by the **hash function**.
 
 ## Hash functions
 
@@ -10,8 +14,8 @@ Partitioning is **done by range of hashes** of keys **rather than keys** themsel
 
 ## No range queries
 
-As far as **data is scattered** across the partitions, it is **not possible** to run effecient **range queries**, which are possible when partitioning by key:
-- [[MongoDB]] sends range query **to all partitions**;
+As far as **data is scattered** across the partitions, it is **not possible** to run effecient **range queries**, which are possible when [[Range Partitioning|Partitioning by Key]]:
+- [[MongoDB]] sends range query **to all partitions** ([[Scatter-gather]]);
 - [[Voldemort]], [[Riak]], [[CouchBase]] **do not support**;
 - **[[Cassandra]]** does the compromise using **concatenated index**. 
 
