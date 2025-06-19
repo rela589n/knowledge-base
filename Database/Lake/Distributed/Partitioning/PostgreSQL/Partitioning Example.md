@@ -188,8 +188,25 @@ With this query some Index scans are never executed.
 
 It's possible to create [[Foreign Key]] toward the partitioned table:
 
+```sql
+CREATE TABLE user_event_details
+(
+    event_id uuid NOT NULL,
+    user_id  uuid NOT NULL,
+    details  jsonb,
+    CONSTRAINT fk_user_events
+        FOREIGN KEY (user_id, event_id)
+            REFERENCES user_events (user_id, id)
+            ON DELETE CASCADE,
+    PRIMARY KEY (event_id)
+);
 
+INSERT INTO user_event_details (event_id, user_id, details)
+SELECT id, user_id, '{}'::JSONB AS details
+FROM user_events TABLESAMPLE bernoulli(1)
+LIMIT 10;
+```
+
+It fully controls that values in `user_event_details` will have the corresponding values in Partitioned `user_events` table.
 
 See also [[pg_partman]] for automatic management of partitions.
-
-
