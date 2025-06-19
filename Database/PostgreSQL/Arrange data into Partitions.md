@@ -18,8 +18,8 @@ To get the first and last ids of each partition, use query:
 
 ```sql
 SELECT DISTINCT partition,
-                first_value(id) OVER p,
-                last_value(id) OVER p
+                first_value(id) OVER p AS start_id,
+                last_value(id) OVER p AS end_id
 FROM (SELECT id,
              ntile(2048) OVER (ORDER BY id) partition
       FROM users) parts
