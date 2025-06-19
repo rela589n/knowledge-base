@@ -3,6 +3,6 @@ aliases:
   - Database Index
 ---
 Index types:
-- [[BTree index]]
+- [[BTree]]
 - [[GIST Index]]
 - [[GIN index]]

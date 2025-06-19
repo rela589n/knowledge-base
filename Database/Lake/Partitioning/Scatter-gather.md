@@ -1,0 +1,1 @@
+**Scatter-gather** - [[Secondary Index]] read approach which anticipates **querying all [[Partition|Partitions]] for [[Secondary Index]]** to get the list of used documents. It is subject to **[[Tail Latency Amplification]]**.
