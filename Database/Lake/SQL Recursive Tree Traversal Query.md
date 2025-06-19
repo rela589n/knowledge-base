@@ -1,3 +1,7 @@
+---
+aliases:
+  - SQL Recursive Join
+---
 Following query implements [[Preorder Tree Traversal]] for sections tree.
 
 1. At first, top sections are selected.

@@ -30,3 +30,25 @@ ORDER BY partition;
 ^fae1e5
 
 It uses [[WINDOW clause]]
+
+If you need to make sure that next partition starts from the first, use this query:
+
+```sql
+SELECT DISTINCT ON (partition) partition,
+       lag(id, 1) OVER () AS start_id,
+       last_value(id) OVER p  AS end_id
+FROM (SELECT id,
+             ntile(2048) OVER (ORDER BY id) partition
+      FROM users) parts
+WINDOW p AS (PARTITION BY partition)
+ORDER BY partition;
+```
+
+> `lag(id, 1) OVER () AS start_id,`
+
+This part operates on the whole window of the result set, always producing the id from the last row.
+
+> last_value(id) OVER p  AS end_id
+
+It operates on the actual users partition, and gets the last id of this partition.
+
