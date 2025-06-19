@@ -178,4 +178,18 @@ Execution Time: 1.410 ms
 
 If you really need to search by ID, consider either changing the order of [[Primary Key]], or adding [[Secondary Index]].
 
-See also [[pg_partman]]
+```sql
+EXPLAIN ANALYZE
+SELECT * FROM user_events ORDER BY user_id
+LIMIT 10;
+```
+
+With this query some Index scans are never executed.
+
+It's possible to create [[Foreign Key]] toward the partitioned table:
+
+
+
+See also [[pg_partman]] for automatic management of partitions.
+
+
