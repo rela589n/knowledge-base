@@ -25,7 +25,7 @@ There are cost configurations:
 - `random_page_cost=4.0`;
 - `cpu_tuple_cost=0.01`.
 
-Planner up to some point **examines all possible plans** to run the query.
+Planner **examines all possible plans** to run the query (up to some point) and then runs optimal.
 
 ## Examine different plans
 

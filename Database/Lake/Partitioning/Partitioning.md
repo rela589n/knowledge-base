@@ -1,7 +1,11 @@
+---
+aliases:
+  - Sharding
+---
 **Sharding** - breaking the data into **partitions**.
 **Partition** - the same as **shard**, **region**, **tablet**, **vnode**, **vbucket**. Each partition is a small database on it's own, which holds some subset of records.
 
-Main reason for partitioning is **[[Scalability|scalability]]**.
+Main reason for partitioning is **[[Scalability]]**.
 
 See [[Partitioning and Replication]].
 See [[Partitioning Split Approaches]].

@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"23ad63d035670776","type":"file","file":"Database/Lake/Index/Clustered Index.md","x":-240,"y":0,"width":400,"height":400},
+		{"id":"23ad63d035670776","type":"file","file":"Database/Lake/Index/Clustered/Clustered Index.md","x":-240,"y":0,"width":400,"height":400},
 		{"id":"30ce573f913b9bc3","type":"text","text":"Create a [[Clustered Index]] for UserEvent table and analyse what happens then and how search by User does search on the low level","x":380,"y":36,"width":499,"height":164},
 		{"id":"7f896bb1c519a03f","type":"file","file":"Web Sockets/Centrifugo/Centrifugo.md","x":-440,"y":1320,"width":400,"height":400},
 		{"id":"ca4ce8e4d98388cb","type":"file","file":"Temporal/Temporal.md","x":-440,"y":1980,"width":400,"height":400},

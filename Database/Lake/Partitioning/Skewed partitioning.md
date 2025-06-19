@@ -1,1 +1,1 @@
-**Skewed partitioning**  - when some partitions **have more data or queries** than others.
+**Skewed [[Partitioning]]**  - when some partitions **have more data or queries** than others.

@@ -1,4 +1,4 @@
-**Secondary Index** - index, which does not necessarily have to be unique.
+**Secondary Index** - index, stored outside of the main table space, which does not necessarily have to be unique. 
 
 Both [[BTree index|BTree]] and LSM-trees indexes may be used.
 
