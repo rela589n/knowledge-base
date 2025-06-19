@@ -44,6 +44,8 @@ WINDOW p AS (PARTITION BY partition)
 ORDER BY partition;
 ```
 
+^d64a99
+
 > `lag(id, 1) OVER () AS start_id,`
 
 This part operates on the whole window of the result set, always producing the id from the last row.
@@ -51,4 +53,3 @@ This part operates on the whole window of the result set, always producing the i
 > last_value(id) OVER p  AS end_id
 
 It operates on the actual users partition, and gets the last id of this partition.
-
