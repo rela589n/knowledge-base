@@ -2,15 +2,22 @@
 	"nodes":[
 		{"id":"23ad63d035670776","type":"file","file":"Database/Lake/Index/Clustered/Clustered Index.md","x":-240,"y":0,"width":400,"height":400},
 		{"id":"30ce573f913b9bc3","type":"text","text":"Create a [[Clustered Index]] for UserEvent table and analyse what happens then and how search by User does search on the low level","x":380,"y":36,"width":499,"height":164},
-		{"id":"7f896bb1c519a03f","type":"file","file":"Web Sockets/Centrifugo/Centrifugo.md","x":-440,"y":1320,"width":400,"height":400},
-		{"id":"ca4ce8e4d98388cb","type":"file","file":"Temporal/Temporal.md","x":-440,"y":1980,"width":400,"height":400},
-		{"id":"7148352a4726bd33","type":"file","file":"Database/Lake/Distributed/Partitioning/Partitioning.md","x":-240,"y":640,"width":400,"height":400},
-		{"id":"56a4b066e432691b","x":980,"y":360,"width":460,"height":368,"type":"file","file":"Database/Lake/Index/Clustered/Clustered Index Multiple tables Example.md"},
-		{"id":"c13950c7bfaf1461","x":380,"y":360,"width":442,"height":303,"type":"file","file":"Database/Lake/Index/Clustered/Clustered Index Example.md"}
+		{"id":"4805f6d6deb4cbd5","x":428,"y":829,"width":412,"height":131,"type":"text","text":"Use [[PostgreSQL]] native utilities for [[Partitioning]]. Note the differece."},
+		{"id":"7148352a4726bd33","type":"file","file":"Database/Lake/Distributed/Partitioning/Partitioning.md","x":-240,"y":695,"width":400,"height":400},
+		{"id":"be0a150446d7d9ba","x":428,"y":1120,"width":442,"height":400,"type":"file","file":"Database/Lake/Distributed/Partitioning/PostgreSQL/Partitioning Example.md"},
+		{"id":"c13950c7bfaf1461","type":"file","file":"Database/Lake/Index/Clustered/Clustered Index Example.md","x":428,"y":337,"width":442,"height":303},
+		{"id":"56a4b066e432691b","type":"file","file":"Database/Lake/Index/Clustered/Clustered Index Multiple tables Example.md","x":1140,"y":420,"width":460,"height":368},
+		{"id":"7f896bb1c519a03f","type":"file","file":"Web Sockets/Centrifugo/Centrifugo.md","x":-720,"y":1960,"width":400,"height":400},
+		{"id":"ca4ce8e4d98388cb","type":"file","file":"Temporal/Temporal.md","x":-720,"y":2620,"width":400,"height":400},
+		{"id":"44f0719aea269be2","x":-240,"y":1520,"width":400,"height":400,"type":"file","file":"Database/Lake/Composite Index.md"},
+		{"id":"72a26c04c574430a","x":447,"y":1680,"width":333,"height":140,"type":"text","text":"Why is it better to order columns by [[Cardinality|Selectivity]]?"}
 	],
 	"edges":[
 		{"id":"494e70b039ed9da7","fromNode":"23ad63d035670776","fromSide":"right","toNode":"30ce573f913b9bc3","toSide":"left"},
 		{"id":"19affa841bb06efe","fromNode":"30ce573f913b9bc3","fromSide":"bottom","toNode":"c13950c7bfaf1461","toSide":"top"},
-		{"id":"b63758c3cdd2a011","fromNode":"c13950c7bfaf1461","fromSide":"right","toNode":"56a4b066e432691b","toSide":"left"}
+		{"id":"b63758c3cdd2a011","fromNode":"c13950c7bfaf1461","fromSide":"right","toNode":"56a4b066e432691b","toSide":"left"},
+		{"id":"d8089f4a8c39af05","fromNode":"7148352a4726bd33","fromSide":"right","toNode":"4805f6d6deb4cbd5","toSide":"left"},
+		{"id":"7b79460a8c0dc0c7","fromNode":"4805f6d6deb4cbd5","fromSide":"bottom","toNode":"be0a150446d7d9ba","toSide":"top"},
+		{"id":"076aefdf06f3df21","fromNode":"44f0719aea269be2","fromSide":"right","toNode":"72a26c04c574430a","toSide":"left"}
 	]
 }

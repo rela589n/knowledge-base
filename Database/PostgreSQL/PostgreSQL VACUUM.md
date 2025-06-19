@@ -6,7 +6,7 @@ Since [[PostgreSQL]] uses [[MVCC]] model for concurrency control, updated/delete
 
 In order to reclaim this space for usage by database/operating system, `VACUUM` operation could be used.
 
-> [[PostgreSQL]] runs `VACUUM` automatically, when `autovacuum` feature is enabled.
+> [[PostgreSQL]] runs `VACUUM` automatically, when `autovacuum` feature is enabled. Default interval is 1 minute.
 
 Plain `VACUUM` - reclaims the space, and makes it available for use within the same table (doesn't give space away to OS). It doesn't require exclusive lock, thus reads and writes may continue to work.
 

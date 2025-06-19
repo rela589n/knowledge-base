@@ -5,7 +5,7 @@ aliases:
 
 This is a relatively easy way to keep the denormalized fields up-to-date.
 
-Consider this example, where `category_materialized_path` field from `category` table is added to  `product` table:
+Consider this example, where `category_materialized_path` field from `category` table is added to the  `product` table:
 
 ```php
 $productTable = $schema->getTable('product');

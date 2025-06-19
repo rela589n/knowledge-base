@@ -1,6 +1,5 @@
 ---
 aliases:
-  - Sharding
   - Database Split
 ---
 **Partitioning** is breaking data into the **[[Partition|Partitions]]**.
@@ -8,7 +7,7 @@ aliases:
 Main reason for partitioning is **[[Scalability]]**.
 
 See [[Partitioning Split Approaches]]
-See [[Partitioning Strategies for Rebalancing]]
+See [[Partitions Rebalancing]]
 See [[Partitioning and Secondary Indexes]]
 See [[Partitioning and Replication]]
 See [[Skewed Partitioning|Relieving Skewed Workloads]]

@@ -1,3 +1,8 @@
+---
+aliases:
+  - Partition Split
+  - Rebalancing
+---
 **Rebalancing** - migrating data and moving load from one node to another.
 
 Necessary when:
@@ -10,7 +15,10 @@ Necessary when:
 - **during the rebalancing** system has to **accept reads and writes**;
 - **after rebalancing** the **load should be fairly shared** between nodes.
 
-It can be [[Automatic vs Manual Rebalancing]]
+In spite of [[Partitions Rebalancing#^fa9a1b|Rebalancing Requirements]] , there are multiple strategies to manage nodes and partitions:
+- [[Evil of Hash mod N]];
+- [[Fixed number of Partitions]];
+- [[Dynamic partitioning]];
+- [[Partitioning Proportionally to Nodes]].
 
-See [[Partitioning Strategies for Rebalancing]].
-
+Rebalancing can be [[Automatic vs Manual Rebalancing]].
