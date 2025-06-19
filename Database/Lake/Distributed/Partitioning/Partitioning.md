@@ -1,15 +1,16 @@
 ---
 aliases:
   - Sharding
+  - Database Split
 ---
-**Sharding** - breaking the data into **[[Partition|Partitions]]**.
+**Partitioning** is breaking data into the **[[Partition|Partitions]]**.
 
 Main reason for partitioning is **[[Scalability]]**.
 
-See [[Partitioning and Replication]].
-See [[Partitioning Split Approaches]].
-See [[Relieving Skewed Workloads]].
-See [[Partitioning and Secondary Indexes]].
-See [[Partitioning Strategies for Rebalancing]].
-See [[Partitions Request Routing]].
-See [[Parallel Query Execution]].
+See [[Partitioning Split Approaches]]
+See [[Partitioning Strategies for Rebalancing]]
+See [[Partitioning and Secondary Indexes]]
+See [[Partitioning and Replication]]
+See [[Skewed Partitioning|Relieving Skewed Workloads]]
+See [[Partitions Request Routing]]
+See [[Partitioning benefits for Parallel Query Execution]]
