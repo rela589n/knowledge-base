@@ -2,7 +2,7 @@
 aliases:
   - Partitioning by Hash of Key
 ---
-Easier **to avoid [[Skewed partitioning|skews]]** and [[Hot spot|hot spots]].
+Easier **to avoid [[Skewed Partitioning|skews]]** and [[Hot spot|hot spots]].
 
 Partitioning is **done by range of hashes** of keys **rather than keys** themselves (as in [[Range Partitioning]]). The **hash ranges** can be **evenly spaced** as far as data is evenly distributed by the **hash function**.
 

@@ -1,1 +1,0 @@
-**Skewed [[Partitioning]]**  - when some partitions **have more data or queries** than others.
