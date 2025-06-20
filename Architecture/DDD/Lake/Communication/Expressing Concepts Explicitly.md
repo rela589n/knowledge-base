@@ -2,6 +2,7 @@
 aliases:
   - Revealing concepts explicitly
   - Making implicit concepts explicit
+  - Implicit Concepts
 ---
 > Not just [[Code]] that calculates something and returns the result, but [[Code]] that expresses and reveals the [[Domain Model|Model]].
 > 
