@@ -1,3 +1,7 @@
+---
+aliases:
+  - Value Objects
+---
 Objects, representing "what they are" rather "who they are". 
 
 These are used to represent descriptive aspect for another objects to form a conceptual whole. 

@@ -5,5 +5,5 @@
 - [[Assertion|Assertions]]
 - [[Conceptual Boundary|Conceptual Boundaries]]
 - [[Conceptual Overload|Standalone Class]]
-- [[Closure of Operations]]
+- [[Closed Operation|Closure of Operations]]
 
