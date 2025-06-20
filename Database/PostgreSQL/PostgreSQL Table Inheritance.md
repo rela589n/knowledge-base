@@ -1,3 +1,7 @@
+---
+aliases:
+  - Table Inheritance
+---
 [[PostgreSQL]] supports such feature as table inheritance.
 
 > Beware that if your abstract table declares ID, and you insert values only into concrete tables, you won't be able to reference abstract table's id as the foreign key (nothing there).
