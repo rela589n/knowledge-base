@@ -16,7 +16,7 @@ create index idx_36d54c77a76ed395
     on user_events (user_id);
 ```
 
-> Note that [[Primary Key]] is composite, because it's required to be so with [[Partitioning]] ([[Partitioning and Secondary Indexes]]).
+> Note that [[Primary Key]] is composite, because [[Range Partitioning|Range Key]] it's required to be part of it. ([[Partitioning and Secondary Indexes]]).
 
 Then, use script to [[Arrange data into Partitions#^d64a99|define partition boundaries]], and create [[Partition]] tables:
 
@@ -106,6 +106,8 @@ JIT:
 Execution Time: 2406.799 ms
 ```
 
+Thus, [[Scatter-gather]] is used.
+
 ```sql
 EXPLAIN ANALYZE
 SELECT *
@@ -125,7 +127,7 @@ Planning Time: 0.604 ms
 Execution Time: 0.980 ms
 ```
 
-Note that simple search by id won't work quite well:
+Note that simple search by id won't work quite well as before:
 
 ```sql
 EXPLAIN ANALYZE
@@ -134,7 +136,7 @@ FROM user_events
 WHERE id = '6deacbfa-2976-4ca7-853c-1152804eb542';
 ```
 
-It uses [[Scatter-gather]]:
+It uses [[Scatter-gather]] and [[Sequence Scan]]:
 ```
 Gather  (cost=1000.00..355967.94 rows=2048 width=52) (actual time=1844.305..1862.651 rows=1 loops=1)
   Workers Planned: 2
@@ -157,9 +159,9 @@ JIT:
 Execution Time: 1907.626 ms
 ```
 
-It's run in parallel because data's partitioned by `user_id`, and it's required to know which partition to send the request to. Besides that, it's [[Sequence Scan]] that is used.
+It's run in parallel because data's partitioned by `user_id`, and it's required to know which partition to send the request to.
 
-Thus, it works fine only when `user_id` is part of the filter:
+Thus, it only works fine when `user_id` is part of the filter:
 
 ```sql
 EXPLAIN ANALYZE
@@ -179,14 +181,50 @@ Execution Time: 1.410 ms
 If you really need to search by ID, consider either changing the order of [[Primary Key]], or adding [[Secondary Index]].
 
 ```sql
-EXPLAIN ANALYZE
-SELECT * FROM user_events ORDER BY user_id
+EXPLAIN ANALYZE  
+SELECT * FROM user_events ORDER BY user_id DESC  
 LIMIT 10;
 ```
 
-With this query some Index scans are never executed.
+It also uses [[Scatter-gather]], but with this query some Index scans are never executed (due to runtime [[Partition Pruning]]), since limit is reached at the first one.
 
-It's possible to create [[Foreign Key]] toward the partitioned table:
+```
+Limit  (cost=583.09..583.74 rows=10 width=52) (actual time=2.536..2.975 rows=10 loops=1)
+  ->  Append  (cost=583.09..1301750.29 rows=20000010 width=52) (actual time=2.483..2.920 rows=10 loops=1)
+        ->  Index Scan Backward using user_events_p2048_user_id_idx on user_events_p2048 user_events_2048  (cost=0.29..613.40 rows=10211 width=52) (actual time=2.482..2.745 rows=10 loops=1)
+        ->  Index Scan Backward using user_events_p2047_user_id_idx on user_events_p2047 user_events_2047  (cost=0.28..475.29 rows=7937 width=52) (never executed)
+        ->  Index Scan Backward using user_events_p2046_user_id_idx on user_events_p2046 user_events_2046  (cost=0.28..478.50 rows=8063 width=52) (never executed)
+...
+Planning Time: 152.462 ms
+Execution Time: 3.911 ms
+```
+
+Range queries are subject to [[Partition Pruning]]:
+
+```sql
+EXPLAIN ANALYZE
+SELECT count(*)
+FROM user_events
+WHERE user_id >= '007d7b7d-397c-426c-8fdd-26d114d78f64'
+  AND user_id <= '00810a88-c2e7-43a2-bc7f-5060e2581bf1';
+```
+
+Thus, only needed [[Partition|Partitions]] are checked for it:
+
+```
+Aggregate  (cost=131.46..131.47 rows=1 width=8) (actual time=0.706..0.707 rows=1 loops=1)
+  ->  Append  (cost=0.29..121.75 rows=3887 width=0) (actual time=0.035..0.543 rows=3887 loops=1)
+        ->  Index Only Scan using user_events_p0003_user_id_idx on user_events_p0003 user_events_1  (cost=0.29..50.92 rows=1932 width=0) (actual time=0.034..0.223 rows=1932 loops=1)
+              Index Cond: ((user_id >= '007d7b7d-397c-426c-8fdd-26d114d78f64'::uuid) AND (user_id <= '00810a88-c2e7-43a2-bc7f-5060e2581bf1'::uuid))
+              Heap Fetches: 0
+        ->  Index Only Scan using user_events_p0004_user_id_idx on user_events_p0004 user_events_2  (cost=0.29..51.38 rows=1955 width=0) (actual time=0.009..0.125 rows=1955 loops=1)
+              Index Cond: ((user_id >= '007d7b7d-397c-426c-8fdd-26d114d78f64'::uuid) AND (user_id <= '00810a88-c2e7-43a2-bc7f-5060e2581bf1'::uuid))
+              Heap Fetches: 0
+Planning Time: 0.173 ms
+Execution Time: 0.732 ms
+```
+
+It's possible to create [[Foreign Key]] to a partitioned table:
 
 ```sql
 CREATE TABLE user_event_details
@@ -207,6 +245,6 @@ FROM user_events TABLESAMPLE bernoulli(1)
 LIMIT 10;
 ```
 
-It fully controls that values in `user_event_details` will have the corresponding values in Partitioned `user_events` table.
+It fully ensures that values in `user_event_details` will have the corresponding values in Partitioned `user_events` table.
 
 See also [[pg_partman]] for automatic management of partitions.

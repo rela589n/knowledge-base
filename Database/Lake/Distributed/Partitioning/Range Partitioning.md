@@ -1,6 +1,7 @@
 ---
 aliases:
   - Key-Range Partitioning
+  - Partitioning by Key Range
 ---
 Each [[Partition]] holds values for a **range of keys**. 
 

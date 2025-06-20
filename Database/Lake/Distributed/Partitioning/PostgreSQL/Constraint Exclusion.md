@@ -1,0 +1,2 @@
+It's possible to define table `CHECK` constraints, and these will be used in addition to [[Partition Pruning]] and in case of [[PostgreSQL Table Inheritance|Table Inheritance]] partitioning. It works only during plan time, and elides tables that needn't to be scanned.
+
