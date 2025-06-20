@@ -4,4 +4,3 @@
 - [[Side-Effect-Free Functions]]
 - [[Assertion|Assertions]]
 - [[Conceptual Boundary|Conceptual Boundaries]]
-
