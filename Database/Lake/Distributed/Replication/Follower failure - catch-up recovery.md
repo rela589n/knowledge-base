@@ -1,0 +1,1 @@
+If network interrupted, or follower node was restarted, it has to **catch up leader changes**. Follower knows last transaction which it executed from log. On recovery it connects to the leader and **asks for all changes** happened in the meantime since the follower has disconnected.
