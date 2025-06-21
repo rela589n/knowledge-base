@@ -1,8 +1,8 @@
 ---
 aliases:
   - Doctrine exclude table from schema
+  - Doctrine schema filter service
 ---
-
 
 ```yaml
 app_your_project.dbal.schema_filter:
@@ -10,5 +10,4 @@ app_your_project.dbal.schema_filter:
     arguments: [ '#^(?!(your_table_id_seq)$).*#' ]
     tags:
         - { name: doctrine.dbal.schema_filter }
-
 ```
