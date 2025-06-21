@@ -40,5 +40,4 @@ final readonly class DoctrineMigrationsTemplateCompilerPass implements CompilerP
         return null;
     }
 }
-
 ```

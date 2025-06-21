@@ -16,3 +16,4 @@ your_feature_routes:
   resource: '@AppYourBundle/Resources/config/routes.yaml'
 ```
 
+[[Symfony routing wildcard resource]]

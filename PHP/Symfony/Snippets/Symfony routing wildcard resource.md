@@ -1,3 +1,7 @@
+---
+aliases:
+  - Symfony route wildcard resource
+---
 ```yaml
 api_frontend_auth:
     resource: '../../../**/{*FrontendApiPoint.php}'

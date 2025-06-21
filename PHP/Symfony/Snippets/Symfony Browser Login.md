@@ -1,6 +1,7 @@
 ---
 aliases:
   - KernelBrowser
+  - Symfony Test Login
 ---
 
 ```php
