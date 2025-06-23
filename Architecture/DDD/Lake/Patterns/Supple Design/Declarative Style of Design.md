@@ -1,1 +1,3 @@
-Usage of [[Specification]], [[Predicate]] combinations.
+Usage of [[Specification]], [[Predicate]] combinations, [[Specification Subsumption]].
+
+

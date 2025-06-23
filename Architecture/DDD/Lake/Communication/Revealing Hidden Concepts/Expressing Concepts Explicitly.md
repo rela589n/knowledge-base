@@ -11,6 +11,8 @@ aliases:
 
 **Revealing hidden concepts** is understanding previously implicit the concepts of the [[Domain|Business]] that you didn't understand/know before, and using them in the [[Domain Model|Model]]. This is the driving force of the [[Model Breakthrough|Breakthroughs]].
 
+![[Revealing hidden concepts.png|400]]
+
 If you find some used term that is absent from the [[Domain Model|Design]], it might improve it.
 
 Do [[Model Refinement|Knowledge crunching]]:

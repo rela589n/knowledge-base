@@ -8,3 +8,4 @@
 - [[Closed Operation|Closure of Operations]]
 - [[Distilling the Model]]
 - [[Declarative Style of Design]]
+- [[Draw on Established Formalisms]]
