@@ -10,15 +10,15 @@ origin: Applying and Implementing SPECIFICATION
 
 [[Specification]] allows the client to **specify "what" he wants** (in terms of [[Ubiquitous Language|Language]]) not being concerned with "how".
 
-[[Specification]] is suitable for these use-cases:
+[[Specification]] is suitable for these **use-cases** and the main aim of it is the **[[Domain Concept|Conceptual]] unity** of the three:
 - [[Specification for Validation|Validation]];
 - [[Specification for Selection|Selection]];
 - [[Specification for Building to order|Building to order]].
-
-The main aim of the [[Specification]] is the **conceptual unity** of the three.
 
 > If [[Specification]] needs some external things to check the condition, [[Factory]] could be used to create it.
 
 **Examples** of [[Specification]]:
 - [[Doctrine Criteria]];
 - Filters (method `apply()`).
+
+[[Specification Subsumption]]

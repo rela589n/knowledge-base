@@ -6,4 +6,5 @@
 - [[Conceptual Boundary|Conceptual Boundaries]]
 - [[Conceptual Overload|Standalone Class]]
 - [[Closed Operation|Closure of Operations]]
-
+- [[Distilling the Model]]
+- [[Declarative Style of Design]]

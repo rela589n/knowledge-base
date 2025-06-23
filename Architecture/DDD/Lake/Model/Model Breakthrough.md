@@ -2,7 +2,7 @@
 aliases:
   - Breakthrough
 ---
-**Model Breakthrough** is a drastic **enlightenment about the [[Domain Model]]** that clears out all complexity, obscurity, and vagueness, and **brings out clarity**. 
+**Model Breakthrough** is a drastic **elucidation about the [[Domain Model]]** that clears out all complexity, obscurity, and vagueness, and **brings out clarity**. 
 
 It can only come as we [[Understanding|Understand]] the [[Domain Model|Model]] during the [[Model Refinement|Refinements]], [[Expressing Concepts Explicitly|Reveal the hidden concepts]], and apply [[Refactoring]].
 
