@@ -2,7 +2,6 @@
 so that if `A` is `true`, then `B` is also expected to be `true`
 
 
-
 ![[Implication.png]]
 
 ```php
@@ -38,18 +37,21 @@ If `A` is `true`, then it's result of `B` - because since `A` is satisfied, it m
 
 ```php
 /**
- * For every one that asketh receiveth. (You can't get false anywise but by failing to ask)
+ * For every one that asketh receiveth.
+ * Note that you can't have $receive() forwent anywise but by failing to ask.
  *
  * @param Closure $ask
- * @param Closure(): true $receive
+ * @param Closure($ask): true $receive
  */
 function everyOneThatAskethReceiveth(Closure $ask, Closure $receive): bool
 {
     if (!$ask()) {
-        // You haven't asked. What are you waiting for then?
+        // Ask failed. What for are you waiting then?
         return true;
     }
 
-    return $receive();
+    // Receive what you've asked for
+    return $receive($ask);
 }
 ```
+
