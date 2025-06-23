@@ -1,14 +1,28 @@
 [[Predicate]] `A -> B` means that `A` implies `B`, 
-so that if `A` is `true`, then `B` is also `true`. 
+so that if `A` is `true`, then `B` is also expected to be `true`
+
+
 
 ![[Implication.png]]
 
 ```php
 function implication(bool $a, bool $b): bool
 {
-    return ($a === true) <= ($b === true);
-    // or 
-    // return !$a || $b;
+    return !$a || $b;
+}
+
+function implication(bool $a, bool $b): bool
+{
+    if (!$a) {
+        return true;
+    }
+
+    return $b;
+}
+
+function implication(bool $a, bool $b): bool
+{
+    return $a <= $b;
 }
 ```
 
@@ -22,4 +36,20 @@ If `A` is `false`, then it's always `true`, because `A` would have implied `B` i
 
 If `A` is `true`, then it's result of `B` - because since `A` is satisfied, it must imply that `B` has been satisfied as well.
 
+```php
+/**
+ * For every one that asketh receiveth. (You can't get false anywise but by failing to ask)
+ *
+ * @param Closure $ask
+ * @param Closure(): true $receive
+ */
+function everyOneThatAskethReceiveth(Closure $ask, Closure $receive): bool
+{
+    if (!$ask()) {
+        // You haven't asked. What are you waiting for then?
+        return true;
+    }
 
+    return $receive();
+}
+```
