@@ -1,3 +1,8 @@
+---
+aliases:
+  - Supple Design Patterns
+---
+
 ![[Supple Design Patterns.png]]
 
 - [[Intention-Revealing Interface|Intention-Revealing Interfaces]]

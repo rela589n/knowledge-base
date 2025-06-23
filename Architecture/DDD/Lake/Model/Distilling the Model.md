@@ -5,3 +5,6 @@ We should **drop the excessive things** which are not important to the implement
 Each class must be understood with minimum references to the other classes. Every [[Association]] must represent something fundamental to the meaning of the object.
 
 [[Low Coupling & High Cohesion|Low Coupling]] is fundamental. Each [[Module]], each class must be as self-contained as possible. There must be least references to other [[Module|Modules]] and classes.
+
+[[Supple Design]] allows to distill the [[Domain Model|Model]] by moving some parts to more respective places (like [[Draw on Established Formalisms|Drawing on Established Formalisms]] when you [[Extracting a hidden concept]] into [[Value Object]]).
+

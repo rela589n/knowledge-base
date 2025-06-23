@@ -15,6 +15,6 @@ Domain modeling is [[Rich Model Design]]:
 
 It is vital to engage both spoken language ([[Model Refinement]]) and visual and spacial abilities with [[Documents and Diagrams]] to reach [[Good Models lie deep|Good Model]].
 
-[[Supple Design Patterns]]
+[[Supple Design]]
 
 [[Modeling Entities]]
