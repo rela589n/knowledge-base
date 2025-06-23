@@ -1,6 +1,4 @@
-[[Predicate]] implication is the same thing as [[Specification Subsumption]], if we consider [[Specification]] as a [[Predicate]].
-
-`A -> B` means that `A` implies `B`, 
+[[Predicate]] `A -> B` means that `A` implies `B`, 
 so that if `A` is `true`, then `B` is also `true`. 
 
 ![[Implication.png]]
