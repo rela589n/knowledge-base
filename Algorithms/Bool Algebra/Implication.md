@@ -43,7 +43,7 @@ If `A` is `true`, then it's result of `B` - because since `A` is satisfied, it m
  * @param Closure $ask
  * @param Closure($ask): true $receive
  */
-function everyOneThatAskethReceiveth(Closure $ask, Closure $receive): bool
+function everyOneThatAskethReceiveth(Closure $ask, Closure $receive): true
 {
     if (!$ask()) {
         // Ask failed. What for are you waiting then?
