@@ -17,4 +17,6 @@ It is vital to engage both spoken language ([[Model Refinement]]) and visual and
 
 [[Supple Design]]
 
+[[Analysis Patterns]]
+
 [[Modeling Entities]]
