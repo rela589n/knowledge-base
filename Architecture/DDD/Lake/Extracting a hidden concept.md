@@ -4,4 +4,6 @@ When it's necessary to **implement some business rule** into some activity, it i
 
 When **implemented with good model and design**, it is possible to show tech artifacts or even code, and **domain expert will understand it** (with guidance).
 
-> **Policy** - another name for design pattern **strategy**.
+> **Policy** - another name for design pattern [[Strategy]].
+
+[[Expressing Concepts Explicitly|Revealing concepts explicitly]]

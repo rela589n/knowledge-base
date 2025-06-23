@@ -1,1 +1,1 @@
-Draw.io tool may be used for [[Diagrams|diagrams]] construction.
+Draw.io tool may be used for [[Diagram|diagrams]] construction.

@@ -1,6 +1,10 @@
+---
+aliases:
+  - Diagrams
+---
 Are useful during [[Model Refinement|model refinements]]. 
 
-Diagram **is not a [[Domain Model|model]]** itself, it just **means for** model **explanation**. It helps to focus discussion on some aspect of the model.
+Diagram **is not a [[Domain Model|Model]]** itself, it just **means for the [[Domain Model|Model]] explanation**. It helps to focus discussion on some aspect of the model.
 
 It makes no sense to have full object model diagram, as it would be too complex, hence not suitable for discussion. It's better to have **multiple smaller diagrams** instead of one big.
 
@@ -9,4 +13,3 @@ It makes no sense to have full object model diagram, as it would be too complex,
 - [[Class diagram|class diagrams]].
 
 [[Diagram Tools]]
-

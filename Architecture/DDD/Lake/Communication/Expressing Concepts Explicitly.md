@@ -3,6 +3,7 @@ aliases:
   - Revealing concepts explicitly
   - Making implicit concepts explicit
   - Implicit Concepts
+  - Revealing hidden concepts
 ---
 > Not just [[Code]] that calculates something and returns the result, but [[Code]] that expresses and reveals the [[Domain Model|Model]].
 > 
@@ -17,7 +18,7 @@ Do [[Model Refinement|Knowledge crunching]]:
 - Ask questions to the [[Domain Experts]], find contradictions.
 - Focus on vague points of the [[Domain Model|Model]].
 
-> You absolutely necessary for you to have a business expert, or at least somebody to answer your questions and to reveal a good [[Domain Model|Model]]. Otherwise you'd need to learn the [[Domain|Business]] by yourself and on your own using other resources.
+> You absolutely necessary for you to have a [[Domain Experts|Business Expert]], or at least somebody to answer your questions and to reveal a good [[Domain Model|Model]]. Otherwise you'd need to learn the [[Domain|Business]] by yourself and on your own using other resources.
 
 Finally, apply learned knowledge in [[Domain Model|Model]] and [[Code]] by [[Refactoring]] it.
 

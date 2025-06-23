@@ -1,6 +1,6 @@
-First of all, [[Domain Model]]'s [[Code]] must be separated from anything else.
+First of all, [[Domain Model]]'s [[Code]] must be separated from the rest of the [[Code]].
 
-[[DDD Layered Architecture]] is applied to isolate the [[Domain Model]] from anything else.
+Apply  [[DDD Layered Architecture]] to isolate the [[Domain Model]] from anything else.
 
 Beware of [[Architectural Frameworks]], and use them wisely.
 
