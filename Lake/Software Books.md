@@ -3,6 +3,6 @@ Design Patterns Head First,
 DDIA
 DDD (by Evans)
 
-Evans recommends Analysis Patterns: Reusable Object Models by Fowler (see [[Analysis Patterns]])
+Evans recommends Analysis Patterns: Reusable Object Models by Fowler (see [[Analysis Patterns]]) ^955c69
 
 
