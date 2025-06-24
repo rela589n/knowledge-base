@@ -2,7 +2,7 @@
 aliases:
   - Policy
 ---
-**Strategy** [[Encapsulation|Encapsulates]] the varying part of the process. 
+**Strategy** [[Encapsulation|Encapsulates]] the **varying part of the process**. 
 Used when there are **multiple algorithms** (family of algorithms) that are **used [[Polymorphism|Polymorphically]]** , and **selected at runtime**.
 
 > Each [[Strategy]] represents one **way of doing the action**.
