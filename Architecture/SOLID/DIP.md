@@ -4,6 +4,8 @@ aliases:
   - Inversion of dependency
   - Dependency Inversion
 ---
-Your code should depend on abstractions, not on concretions. 
+**Dependency Inversion** anticipates that your [[Code]] should depend on abstractions, not on concretions. 
 
-At some point we could need to change/extend the implementation, and it'd be easier if we depend on the abstract class/interface.
+If at some point we could need to change/extend the implementation (e.g. add [[Decorator]], [[Proxy]]), it'd be easier given that we depend on the abstract class/interface. 
+
+[[DIP|Dependency Inversion]] inverts [[Coupling]] (dependency) direction, reducing the [[Coupling]] on one side, but increasing it on the other. ^46641c

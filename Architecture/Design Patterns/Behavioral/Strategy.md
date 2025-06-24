@@ -13,4 +13,6 @@ Example:
 - payment method (credit card, btc card, cash on delivery)
 - question activation strategy
 
-Not using Strategy would increase complexity in the client code, because it'd be responsible of all that each particular Strategy does as well as for the process control.
+Introducing [[Strategy]] by extracting common `interface` for multiple implementations **reduces conceptual [[Coupling]]**, since we can depend only on one `interface` rather than on each concrete implementation. ^d7fee7
+
+Not using Strategy would increase complexity in the client code, because it'd be responsible of all that each particular previously substitutable Strategy does as well as for the process control.
