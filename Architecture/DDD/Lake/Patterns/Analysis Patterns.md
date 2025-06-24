@@ -4,4 +4,6 @@ Analysis Patterns are [[Model-driven Design|Modeling]] patterns. They feed [[Int
 
 See [[Software Books#^955c69]]
 
-The main thing is aligning the [[Domain Model|Model]] with [[Domain|Business]] by [[Model Refinement|Refinement]].
+The main thing is aligning the [[Domain Model|Model]] with [[Domain|Business]] by [[Model Refinement|Refinement]], and usage of [[Supple Design|Supple Design Patterns]].
+
+[[Posting Rule|Posting Rules]] provide way to untangle dependencies.
