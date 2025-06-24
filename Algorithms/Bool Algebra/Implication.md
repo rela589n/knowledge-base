@@ -36,22 +36,26 @@ If `A` is `false`, then it's always `true`, because `A` would have implied `B` i
 If `A` is `true`, then it's result of `B` - because since `A` is satisfied, it must imply that `B` has been satisfied as well.
 
 ```php
-/**
- * For every one that asketh receiveth.
- * Note that you can't have $receive() forwent anywise but by failing to ask.
- *
- * @param Closure $ask
- * @param Closure($ask): true $receive
- */
-function everyOneThatAskethReceiveth(Closure $ask, Closure $receive): true
+/** @template T of mixed */
+class Implication
 {
-    if (!$ask()) {
-        // Ask failed. What for are you waiting then?
-        return true;
+    public function __construct(
+        /** @var Closure(T $c): bool */
+        private Closure $a,
+        /** @var Closure(T $c): bool */
+        private Closure $b,
+    ) {
     }
 
-    // Receive what you've asked for
-    return $receive($ask);
+    /** @param T $c */
+    public function __invoke(mixed $c): bool
+    {
+        if (!($this->a)($c)) {
+            return true;
+        }
+
+        return ($this->b)($c);
+    }
 }
 ```
 

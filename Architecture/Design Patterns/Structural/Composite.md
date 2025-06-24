@@ -1,4 +1,4 @@
-**Composite** (aka **Object Tree**) is the design pattern, which allows to compose objects into tree structures and work with them via same interface as with individual objects.
+**Composite** (aka **Object Tree**) is the [[GOF Design Patterns|Design Pattern]], which allows to **compose objects into tree** structures and work with them via **the same interface** as with individual objects.
 
 > It lets to run a recursive algorithm over a tree.
 

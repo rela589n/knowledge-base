@@ -1,4 +1,4 @@
-**General Responsibility Assignment Software Patterns** - patterns that answer the question "What object is responsible for what?", and is related to [[GOF Patterns]], being more high-level principles.
+**General Responsibility Assignment Software Patterns** - patterns that answer the question "What object is responsible for what?", and is related to [[GOF Design Patterns]], being more high-level principles.
 
 Principles:
 - [[Creator]]
