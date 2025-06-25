@@ -7,7 +7,7 @@ origin: Applying and Implementing SPECIFICATION
 > Some [[Domain|Business]] rules (those including lots of conditions) could not find their place in any [[Entity]] or [[Value Object]]. They deserve a designated [[Specification]] object.
 
 **Specification** is a [[Predicate]]-like object that **defines a Criteria**, and encapsulates the algorithms of verifying whether the object satisfies that Criteria. More generally, it defines **"what it means to be `<adjective>`"**, and it can evaluate it for candidate.
-
+container
 [[Specification]] allows the client to **specify "what" he wants** (in terms of [[Ubiquitous Language|Language]]) not being concerned with "how".
 
 [[Specification]] is suitable for these **use-cases** and the main aim of it is the **[[Domain Concept|Conceptual]] unity** of the three:

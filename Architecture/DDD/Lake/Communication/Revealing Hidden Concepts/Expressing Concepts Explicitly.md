@@ -29,3 +29,5 @@ Finally, apply learned knowledge in [[Domain Model|Model]] and [[Code]] by [[Ref
 It brings change into the quality of the discussions, improves understanding flow, gets everyone on the same line.
 
 It's good to have your camera on, so that they'll understand when you're confused, and when not.
+
+Duplicate: [[Extracting a hidden concept]]
