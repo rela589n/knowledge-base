@@ -10,8 +10,9 @@
 		{"id":"44f0719aea269be2","type":"file","file":"Database/Lake/Composite Index.md","x":-240,"y":1520,"width":400,"height":400},
 		{"id":"72a26c04c574430a","type":"text","text":"Why is it better to order columns by [[Cardinality|Selectivity]]?","x":447,"y":1680,"width":333,"height":140},
 		{"id":"4805f6d6deb4cbd5","type":"text","text":"Use [[PostgreSQL]] native utilities for [[Partitioning]]. Note the differece.","x":559,"y":895,"width":412,"height":131},
-		{"id":"ee64959a3f7d6af4","x":1208,"y":895,"width":392,"height":150,"type":"text","text":"Try using [[Partitioning]] as means for [[PostgreSQL Table Inheritance|Table Inheritance]]"},
-		{"id":"be0a150446d7d9ba","type":"file","file":"Database/Lake/Distributed/Partitioning/PostgreSQL/Partitioning Example.md","x":544,"y":1200,"width":442,"height":400}
+		{"id":"ee64959a3f7d6af4","type":"text","text":"Try using [[Partitioning]] as means for [[PostgreSQL Table Inheritance|Table Inheritance]]","x":1208,"y":895,"width":392,"height":150},
+		{"id":"be0a150446d7d9ba","type":"file","file":"Database/Lake/Distributed/Partitioning/PostgreSQL/Partitioning Example.md","x":544,"y":1200,"width":442,"height":400},
+		{"id":"c15235d82aa764f8","x":-134,"y":2362,"width":250,"height":60,"type":"text","text":"Single-Tenancy"}
 	],
 	"edges":[
 		{"id":"494e70b039ed9da7","fromNode":"23ad63d035670776","fromSide":"right","toNode":"30ce573f913b9bc3","toSide":"left"},

@@ -25,6 +25,10 @@ Tactical - patterns used in solution space. These are more technical, as they ar
 
 [[Specification]]
 
+[[Strategy]]
+
+[[Composite]]
+
 [[Prototype]]
 
 [[Enterprise Segment]]

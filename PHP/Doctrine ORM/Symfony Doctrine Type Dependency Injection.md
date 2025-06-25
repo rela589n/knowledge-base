@@ -64,7 +64,7 @@ final readonly class YourCustomTypeBootstrapMiddleware implements Middleware
 }
 ```
 
-Also there's a compiler pass to register custom middleware for connection, yet it doesn't seem to be necessary in the latest versions:
+Also there's a compiler pass to register custom middleware for connection (yet it <u>doesn't seem to be necessary</u> in the latest versions):
 
 ```php
 final readonly class YourCustomTypeMiddlewareCompilerPass implements CompilerPassInterface

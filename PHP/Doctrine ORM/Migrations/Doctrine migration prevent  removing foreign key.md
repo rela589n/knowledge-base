@@ -1,3 +1,4 @@
+
 ```php
 #[AsDoctrineListener(event: ToolEvents::postGenerateSchema)]
 final readonly class QuestionForeignKeyListener
