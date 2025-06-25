@@ -1,6 +1,8 @@
-Fundamental concept of the object is to **encapsulate data with the logic** that operates on that data so that developer doesn't need to know about the internals.
+Object is a concept with the behavior it governs.
 
-On a large scale, each object should be single, complete concept, the "Whole Value", whereas internals are [[Abstraction|Abstracted]].
+Object **encapsulates the data with the logic** that operates on that there's no need to know about the internals.
+
+On a large scale, each object is a **single, complete concept**, the "Whole Value", while internals are [[Abstraction|Abstracted]].
 
 Encapsulation is similar to [[Information Expert]], where everything private to the class remains private, and the logic is exposed via public api.
 
