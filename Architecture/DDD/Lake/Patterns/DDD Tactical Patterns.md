@@ -29,4 +29,7 @@ Tactical - patterns used in solution space. These are more technical, as they ar
 
 [[Enterprise Segment]]
 
+
 ![[DDD Pattern map.png]]
+
+When relating [[GOF Design Patterns]], it's important to emphasize first on the [[Domain Model]] meaning rather than technical implementation. First of all, it must represent some [[Domain Concept]].

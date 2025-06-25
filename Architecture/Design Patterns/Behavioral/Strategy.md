@@ -2,10 +2,9 @@
 aliases:
   - Policy
 ---
-**Strategy** [[Encapsulation|Encapsulates]] the **varying part of the process**. 
-Used when there are **multiple algorithms** (family of algorithms) that are **used [[Polymorphism|Polymorphically]]** , and **selected at runtime**.
+**Strategy** [[Encapsulation|Encapsulates]] the **family of algorithms** that are **used [[Polymorphism|Interchangeably]]** , and **selected at runtime**.
 
-> Each [[Strategy]] represents one **way of doing the action**.
+[[Strategy]] is used to build a **varying part of the process**, and each [[Strategy]] represents one **way of doing the action**.
 
 ![[Strategy.png]]
 
@@ -18,4 +17,8 @@ Example:
 Introducing [[Strategy]] by extracting common `interface` for multiple implementations **reduces conceptual [[Coupling]]**, since we can depend only on one `interface` rather than on each concrete implementation. ^d7fee7
 
 Not using [[Strategy]] would increase complexity for the client code, since it'd be responsible for all that each particular otherwise [[Polymorphism|Substitutable]] Strategy would've represented as well as for the process control itself.
+
+> Client code could provide strategy as a parameter rather than using different instance of strategy to call the method.
+
+
 
