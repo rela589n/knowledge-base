@@ -17,4 +17,5 @@ Example:
 
 Introducing [[Strategy]] by extracting common `interface` for multiple implementations **reduces conceptual [[Coupling]]**, since we can depend only on one `interface` rather than on each concrete implementation. ^d7fee7
 
-Not using Strategy would increase complexity in the client code, because it'd be responsible of all that each particular previously substitutable Strategy does as well as for the process control.
+Not using [[Strategy]] would increase complexity for the client code, since it'd be responsible for all that each particular otherwise [[Polymorphism|Substitutable]] Strategy would've represented as well as for the process control itself.
+

@@ -1,7 +1,7 @@
 ---
 aliases:
-  - polymorphism
-  - polymorphic
+  - Polymorphic
+  - Substitutable
 ---
 **Polymorphism** provides **substitutability**, so that different behaviors of the system are hidden behind the **common interface**.
 
