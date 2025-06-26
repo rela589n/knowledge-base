@@ -1,6 +1,7 @@
 ---
 aliases:
   - Database Index
+  - Index
 ---
 Index types:
 - [[BTree]]

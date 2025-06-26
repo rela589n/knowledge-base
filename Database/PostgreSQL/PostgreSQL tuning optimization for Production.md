@@ -1,3 +1,3 @@
-Pg Tune
+For tables, use [[fillfactor]]
 
-[[fillfactor]]
+For configs, use Pg Tune
