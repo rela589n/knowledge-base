@@ -5,7 +5,7 @@ These attributes prevent doctrine from creation of the migration that is trying 
 #[ORM\Index(columns: ['schedule_id'], name: 'idx_143b5305a40bc2d5')]
 ```
 
-Another alternative solution would be defining schema listener:
+Alternative solution would be to define schema listener:
 
 ```php
 final readonly class VacationNonOverlappingPeriodsConstraintSchemaListener

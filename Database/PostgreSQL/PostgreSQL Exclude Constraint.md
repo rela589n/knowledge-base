@@ -5,4 +5,4 @@ ALTER TABLE vacations
 DEFERRABLE INITIALLY DEFERRED
 ```
 
-see [[Doctrine Migrations & Exclude Constraint]]
+See [[Doctrine Migrations & Exclude Constraint]]
