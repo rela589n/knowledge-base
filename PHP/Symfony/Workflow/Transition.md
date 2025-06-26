@@ -4,4 +4,4 @@ Usually, transactions follow [[ACID]] properties to guarantee correct behavior i
 
 > Transactions not necessarily have to have ACID properties
 
-[[Transaction Isolation Levels]]
+[[Transaction Isolation Level]]

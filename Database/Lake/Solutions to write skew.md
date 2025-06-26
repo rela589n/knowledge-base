@@ -1,4 +1,4 @@
-Solutions to [[Write Skews]]:
+Solutions to [[Write Skew]]:
 - **Automatic** write skew prevention requires **[[Serializable]]**;
 - **DB constraints** that enforce consistency (e.g. [[PostgreSQL]] Exclude checks);
 - **[[Explicit locking]]** on the rows the transaction depend on;

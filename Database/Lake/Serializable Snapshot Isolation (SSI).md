@@ -26,7 +26,7 @@ When transaction **reads object** from the MVCC table, it may find out that **so
 
 #### Detecting writes that affect prior reads
 
-When transaction **reads the data**, this information is **tracked in index** entries similarly to [[Transactions#Index-range locks|Index-range locks]], hence we can know which data is read by which transaction.
+When transaction **reads the data**, this information is **tracked in index** entries similarly to [[Transaction#Index-range locks|Index-range locks]], hence we can know which data is read by which transaction.
 
 When transaction **writes the data**, it looks at the indexes to **check which transactions have read matching rows**. Then, current transaction **notifies** transactions **about new outdated premise**.
 

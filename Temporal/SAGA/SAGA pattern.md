@@ -2,7 +2,7 @@ There are two ways implementing saga:
 - [[Choreography SAGA]]
 - [[Orchestrator SAGA]]
 
-SAGA provides **transaction management for microservices**, or any place where single [[Transactions|DB Transaction]] can't be used.
+SAGA provides **transaction management for microservices**, or any place where single [[Transaction|DB Transaction]] can't be used.
 
 SAGA consists of multiple steps, each is a local transaction (transaction performed by particular microservice), usually executed in order.
 

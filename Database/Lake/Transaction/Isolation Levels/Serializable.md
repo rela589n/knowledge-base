@@ -2,7 +2,7 @@
 aliases:
   - Serializability
 ---
-**Serializable** isolation level guarantees that even though **transactions may run in parallel**, the final **result** would be **as if they ran serially**. Serializability **protects against [[Write Skews]]**.
+**Serializable** isolation level guarantees that even though **transactions may run in parallel**, the final **result** would be **as if they ran serially**. Serializability **protects against [[Write Skew]]**.
 
 **Techniques to implement** serializability:
 - literally execute transactions **[[Actual Serial Execution|serially]]**;

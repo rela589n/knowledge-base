@@ -1,3 +1,7 @@
+---
+aliases:
+  - Transactions
+---
 [[Transactions - Poor Performance?]]
 
 Things that can go wrong:
@@ -68,15 +72,15 @@ Pitfalls of retried transactions:
 
 ^2864e8
 
-See [[Transaction Isolation Levels]]
+See [[Transaction Isolation Level]]
 
 ### Preventing Lost Updates
 
-[[Lost Updates]]
+[[Lost Update]]
 
 ### Write Skew and Phantoms
 
-[[Write Skews]]
+[[Write Skew]]
 
 ## Summary
 
