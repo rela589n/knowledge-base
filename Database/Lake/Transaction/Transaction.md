@@ -2,19 +2,19 @@
 aliases:
   - Transactions
 ---
-[[Transactions - Poor Performance?]]
+**Transaction** - sequence of **reads and writes** which make up a **logical unit** and should be **committed [[Atomicity|atomically]]**. It provides **safety guarantees** so that we can **ignore** some **error scenarios** and **concurrency issues**.
 
 Things that can go wrong:
-- **database crashes** at the mid of write operation;
-- **application crashes** at the mid of writes;
-- **network interrupts** between app and db or between db nodes;
+- **database crash** in the mid of write operation;
+- **application crash** in the mid of writes;
+- **network interrupts** between app and db or db nodes;
 - **clients overwrite changes** of each other;
 - **partially updated data is read**;
 - other **race condition bugs**.
 
-**Transaction** - sequence of **reads and writes** which make up a **logical unit** and should be **committed [[Atomicity|atomically]]**. It provides **safety guarantees** so that we can **ignore** some **error scenarios** and **concurrency issues**.
+[[Transactions - Poor Performance?]]
 
-Some apps don't need transactions, and for better performance transactional guarantees may be weakened or disabled completely. 
+Some apps might not need transactions, and for better performance transactional guarantees may be weakened or disabled completely. 
 
 ## The Slippery Concept of a Transaction
 
@@ -28,7 +28,7 @@ See [[ACID]].
 
 **Multi-object transactions** - transactions, which **modify multiple objects** (rows, records, documents). They are especially necessary **if data must be kept in sync** (say, denormalized counter for some query).
 
-The **violation of an isolation** is when on the **halfway of the transaction**, some **other client reads just written data**. **Reading of not committed writes** is known as [[Dirty Reads|dirty read]].
+The **violation of an isolation** is when on the **halfway of the transaction**, some **other client reads just written data**. **Reading of not committed writes** is known as [[Dirty Read|dirty read]].
 
 To group statements, `START TRANSACTION` and `COMMIT` commands are used. It's possible that **client sent commit** operation, but **TCP connection was interrupted** at this time. Client **can't know** whether transaction was **committed or not**.
 
@@ -88,15 +88,10 @@ Transactions are the **abstraction**, which allows us to **pretend that some fau
 
 **Without transactions** process, power, disk, network, concurrency **issues lead to inconsistencies** in the DB. For instance, keeping up to date denormalized data.
 
-Concurency control **isolation levels**:
-- **read committed**;
-- **snapshot isolation**;
-- **serializable**.
-
 Race conditions, which different isolation levels prevent:
-- **dirty reads** - transaction A reads uncommitted changes of B. Prevented in **read commited**.
-- **dirty writes** - transaction A overwrites not commited changes of transaction B. Always prevented.
-- **read skew** (**nonrepeatable read**) - transaction sees **different parts of the database** in **different points of time**. This is prevented in **snapshot isolation** with **MVCC**.
+- [[Dirty Read|Dirty Reads]];
+- [[Dirty Write|Dirty Writes]] (always prevented);
+- [[Read Skew]] (**nonrepeatable read**) - transaction sees **different parts of the database** in **different points of time**. This is prevented in **snapshot isolation** with **MVCC**.
 - **lost updates** - two transactions use **read-modify-write** cycle leading to changes of one to be overwritten. Some DBs detect lost updates in **snapshot isolation**, while for others **explicit lock** to be used.
 - **write skew** - transaction **reads something** (premise), **makes decision** based on it and **performs write**, which leads to **oudated premise** of another transaction. Only **snapshot isolation** prevents it.
 - **phantom reads** - **transaction searches rows** matching the condition. **Another** transaction **performs the write**, which **affects the result set** of search. **Snapshot isolation** prevents it by means of **index-range locks** which may not be as fine-grained as necessary.

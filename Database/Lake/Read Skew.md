@@ -1,6 +1,7 @@
 ---
 aliases:
   - Non-Repeatable Read
+  - Read Skews
 ---
 **Non-repeatable read** (**Read skew**) - situation when **during single transaction** at the end of the transaction some queried records were already changed (if the **same record was to be queried once again, it would come up in a different state**). 
 

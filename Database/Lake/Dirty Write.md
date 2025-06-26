@@ -2,7 +2,7 @@
 aliases:
   - Dirty Writes
 ---
-**Dirty write** - when the **concurrent [[Transaction]] overwrites just written record** (it wasn't committed). [[Read Committed]] isolation level prevents this. 
+**Dirty write** - when **concurrent [[Transaction]] overwrites uncommitted changes of another [[Transaction]]** (just written). [[Read Committed]] prevents this. 
 
 Reasons to prevent dirty writes:
 - if transaction issues multiple updates (for example, buying the car updates `buyer_id` and invoice `recipient_id`), then at the end of two concurrent transactions, some updates would be succeeded from transaction 1, and some - from transaction 2 (e.g. [[Dirty Write - Car example.png|owner is set to Alice, while invoice is created for Bob]]), leading to the corrupted state;
