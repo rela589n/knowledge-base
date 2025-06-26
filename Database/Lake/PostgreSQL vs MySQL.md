@@ -16,15 +16,15 @@ Physically, that's a difference - [[PostgreSQL]] always inserts data to the end 
 
 [[MySQL]] doesn't have exclude constraints.
 
-##### Deferred Check
+##### Deferred Constraints
 
-[[PostgreSQL]] supports [[Deferrable Constraint]]
+[[PostgreSQL]] supports [[Deferrable Constraint|Deferrable Constraints]]
 
-[[MySQL]] don't.
+[[MySQL]] doesn't.
 
 ##### Table Inheritance
 
-[[PostgreSQL Table Inheritance]]
+[[PostgreSQL Table Inheritance]] (very, very limited)
 
 [[MySQL]] doesn't support table inheritance.
 
