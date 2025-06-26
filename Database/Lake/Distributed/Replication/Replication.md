@@ -1,10 +1,7 @@
 ---
-aliases:
-  - Replica
+aliases: []
 ---
-**Replication** - keeping the same **data on multiple machines**, that are connected via a [[Async networks|network]].
-
-**Replica** - each node that stores copy of data.
+**Replication** - keeping the same **data on multiple machines** ([[Replica|Replicas]]), that are connected via a [[Async networks|network]].
 
 Reasons to replicate data:
 - **reduce [[Network Latency|latency]]** for users by keeping servers geographically close to them;
@@ -16,6 +13,6 @@ Approaches to *replicate changes*:
 - **[[Multi-Leader Replication|multi-leader]]**;
 - **[[Leaderless Replication|leaderless]]**.
 
-There are multiple [[Implementation of Replication Logs|ways to replicate changes]].
+There are multiple [[Replication Strategies|ways to replicate changes]].
 Replication may be [[Sync VS Async Replication|synchronous or asynchronous]].
 Async replication means solving [[Problems with Replication lag|problems with replication lag]].

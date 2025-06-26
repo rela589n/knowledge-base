@@ -31,7 +31,7 @@ To group statements, `START TRANSACTION` and `COMMIT` commands are used. It's po
 #### Single-Object Writes
 
 **Single-object writes** may face **issues the mid of large content upload**:
-- the **network is interrupted** or **power fails** - not to store partially inserted/replaced value (**_Atomicity_**). It is implemented using **[[Write-ahead log (WAL) shipping|WAL]]**;
+- the **network is interrupted** or **power fails** - not to store partially inserted/replaced value (**_Atomicity_**). It is implemented using **[[Write-ahead Log-based Replication|WAL]]**;
 - **another client** tries to **read** the **same record** - not to show spliced up record (**_Isolation_**). It is implemented using **locks on objects** - only one thread has an access;
 
 > How does it work with transactions? If we modify content in current transation and in the mid of upload server interrupts. How does other clients not see corrupted data? 

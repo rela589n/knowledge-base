@@ -1,1 +1,5 @@
+---
+aliases:
+  - Primary Index
+---
 

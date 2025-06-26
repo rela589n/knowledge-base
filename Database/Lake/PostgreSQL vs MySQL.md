@@ -31,8 +31,13 @@ When row is updated:
 
 [[MySQL]] doesn't support table inheritance.
 
+##### Vacuum approaches
+
+[[PostgreSQL VACUUM]] runs full table scan to find deleted rows.
+
+[[MySQL]] uses [[Rollback Segment]], so the data is already at hand.
 ##### Replication
 
-[[PostgreSQL]] uses [[Write-ahead log (WAL) shipping]]
+[[PostgreSQL]] uses [[Write-ahead Log-based Replication]]
 
 [[MySQL]] uses ?

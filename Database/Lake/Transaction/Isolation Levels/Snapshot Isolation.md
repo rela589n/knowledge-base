@@ -9,4 +9,4 @@ See [[Implementing Snapshot Isolation]] for internal details.
 
 ## Snapshot isolation and naming confusion
 
-**[[Snapshot Isolation|Snapshot Isolation]]** is called **serializable** in Oracle and **Repeatable Read** in [[PostgreSQL]] and [[MySQL]]. In IBM DB2 **Repeatable Read** refers to **[[Serializable|serializability]]**.
+**[[Snapshot Isolation|Snapshot Isolation]]** is called **serializable** in [[Oracle]] and **Repeatable Read** in [[PostgreSQL]] and [[MySQL]]. In IBM DB2 **Repeatable Read** refers to **[[Serializable|serializability]]**.

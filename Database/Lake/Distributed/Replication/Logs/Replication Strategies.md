@@ -1,5 +1,10 @@
+---
+aliases:
+  - Implementation of Replication Logs
+  - Replication Strategy
+---
 [[Replication]] can be implemented as:
 - [[Statement-based Replication]];
-- [[Write-ahead log (WAL) shipping]];
+- [[Write-ahead Log-based Replication]];
 - [[Logical (row-based) log Replication]];
 - [[Trigger-based Replication]].
