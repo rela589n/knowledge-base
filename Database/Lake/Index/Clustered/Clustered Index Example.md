@@ -12,7 +12,6 @@ SELECT uuid_generate_v4()                                  as id,
        '$2y$10$' || encode(gen_random_bytes(22), 'base64') as password_hash,
        encode(gen_random_bytes(32), 'hex')                 as secret_key
 FROM generate_series(1, 10000);
-
 ```
 
 Generate events:
@@ -28,6 +27,9 @@ FROM (SELECT array_agg(id) as ids, count(id) as length FROM users) user_ids,
      generate_series(1, 20000000) as gen  
 ;
 ```
+
+> Note that it's around 2000 events per each user.
+> Also note that order of events is random (they're not sorted by user id after insert).
 
 Run [[PostgreSQL VACUUM|VACUUM]]
 

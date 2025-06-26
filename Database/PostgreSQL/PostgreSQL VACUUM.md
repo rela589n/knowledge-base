@@ -2,7 +2,7 @@
 aliases:
   - VACUUM
 ---
-Since [[PostgreSQL]] uses [[MVCC]] model for concurrency control, updated/deleted rows are still kept under their unused versions.
+Since [[PostgreSQL]] uses [[MVCC]] model for concurrency control, updated/deleted rows (tuples) are still kept under their unused versions.
 
 In order to reclaim this space for usage by database/operating system, `VACUUM` operation could be used.
 

@@ -4,7 +4,8 @@
 
 Clustered Index can be created **for multiple columns**, yet it should be used wisely, since in that case search by [[Primary Key]] will become ineffective (and would require [[Secondary Index]] for the [[Primary Key]]).
 
-Clustered Index can be used for [[Aggregate]] subordinate entities. If [[Entity]] A has outright ownership over [[Entity]] B, it's reasonable that for [[Entity]] B it isn't so important to find by ID, but finding by parent [[Entity]] A is important, since it's owner. Example: User and UserEvent.
+Clustered Index can be used for [[Aggregate]] subordinate entities. If [[Entity]] A has full ownership over [[Entity]] B, it's reasonable that subsidiary [[Entity]] B isn't needed to be found by ID, but only by parent [[Entity]], since it's owner. 
+Example: User and UserEvent ([[Clustered Index Example]]).
 
 In [[MySQL]] data is clustered index by [[Primary Key]]. Every [[Secondary Index]] has the [[Primary Key]] rather than pointer to the location in heap file. ^5263c5
 

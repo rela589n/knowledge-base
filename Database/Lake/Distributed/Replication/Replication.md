@@ -1,3 +1,7 @@
+---
+aliases:
+  - Replica
+---
 **Replication** - keeping the same **data on multiple machines**, that are connected via a [[Async networks|network]].
 
 **Replica** - each node that stores copy of data.
