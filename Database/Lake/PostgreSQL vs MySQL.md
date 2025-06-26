@@ -38,6 +38,6 @@ When row is updated:
 [[MySQL]] uses [[Rollback Segment]], so the data is already at hand.
 ##### Replication
 
-[[PostgreSQL]] uses [[Write-ahead Log-based Replication]]
+[[PostgreSQL]] uses [[Write-ahead Log (WAL)-based Replication]]
 
 [[MySQL]] uses ?

@@ -6,6 +6,6 @@ aliases:
 ---
 [[Replication]] can be implemented as:
 - [[Statement-based Replication]];
-- [[Write-ahead Log-based Replication]];
+- [[Write-ahead Log (WAL)-based Replication]];
 - [[Logical (row-based) log Replication]];
 - [[Trigger-based Replication]].
