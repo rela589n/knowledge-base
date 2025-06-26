@@ -8,12 +8,19 @@ aliases:
 
 ![[Clustered Index#^5263c5]]
 
-Physically, that's a difference - [[PostgreSQL]] inserts data right away to the end page, while [[MySQL]] must keep up [[Clustered Index]].
+Physically, that's a difference - [[PostgreSQL]] always inserts data to the end [[Page]], while [[MySQL]] keeps up [[Clustered Index]].
+
 ##### Exclude Constraints
 
 [[PostgreSQL Exclude Constraint]]
 
 [[MySQL]] doesn't have exclude constraints.
+
+##### Deferred Check
+
+[[PostgreSQL]] supports [[Deferrable Constraint]]
+
+[[MySQL]] don't.
 
 ##### Table Inheritance
 

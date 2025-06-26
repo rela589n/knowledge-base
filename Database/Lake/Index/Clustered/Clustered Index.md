@@ -7,7 +7,7 @@ Clustered Index can be created **for multiple columns**, yet it should be used w
 Clustered Index can be used for [[Aggregate]] subordinate entities. If [[Entity]] A has full ownership over [[Entity]] B, it's reasonable that subsidiary [[Entity]] B isn't needed to be found by ID, but only by parent [[Entity]], since it's owner. 
 Example: User and UserEvent ([[Clustered Index Example]]).
 
-In [[MySQL]] data is clustered index by [[Primary Key]]. Every [[Secondary Index]] has the [[Primary Key]] rather than pointer to the location in heap file. ^5263c5
+In [[MySQL]] [[Clustered Index]] is always created over [[Primary Key]]. Every [[Secondary Index]] stores [[Primary Key]] (rather than [[Table Heap|Heap File]] pointer) to define the location. ^5263c5
 
 [[PostgreSQL]] does **not** cluster anything automatically. For [[Primary Key]] it creates a unique [[BTree]] so that it can be searched, and [[Secondary Index|Secondary Indexes]] also point to the location on disk. To **cluster the table** (reorganize the order), there's dedicated `CLUSTER` table command that can be used. ^950260
 

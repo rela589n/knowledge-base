@@ -1,4 +1,4 @@
-This will create partial unique deferred constraint (using [[PostgreSQL Exclude Constraint|EXCLUDE]]):
+In [[PostgreSQL]] this will create partial unique [[Deferrable Constraint]] (using [[PostgreSQL Exclude Constraint|EXCLUDE]]):
 
 ```sql
 ALTER TABLE table_name
