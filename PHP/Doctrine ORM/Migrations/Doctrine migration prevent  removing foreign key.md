@@ -1,3 +1,4 @@
+[[Foreign Key]]
 
 ```php
 #[AsDoctrineListener(event: ToolEvents::postGenerateSchema)]

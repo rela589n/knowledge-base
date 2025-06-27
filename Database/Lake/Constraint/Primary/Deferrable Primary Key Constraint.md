@@ -4,11 +4,11 @@ In [[PostgreSQL]] it's possible to create it:
 ALTER TABLE files
     DROP CONSTRAINT files_pkey;  
   
-ALTER TABLE files  
+ALTER TABLE files
     ADD PRIMARY KEY (id) DEFERRABLE INITIALLY DEFERRED;
 ```
 
-But later on it won't be possible to have a foreign key to this table.
+But it won't be possible to have a [[Foreign Key]] to this table.
 
 This will fail:
 ```sql

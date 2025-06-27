@@ -3,7 +3,7 @@ aliases:
   - Regex negative lookbehind
 ---
 
-Everything that does not end with `Test` or `ApiPoint`:
+Everything that does not end with `Test` or `ApiPoint` using [[Regex negative lookahead|Lookahed]]:
 ```
 ^(?!.*(Test|ApiPoint)$).*
 ```
