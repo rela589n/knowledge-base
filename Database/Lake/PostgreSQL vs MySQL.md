@@ -24,6 +24,10 @@ When row is updated:
 [[PostgreSQL]] supports [[Deferrable Constraint|Deferrable Constraints]]
 
 [[MySQL]] doesn't.
+##### Sequences
+
+In [[PostgreSQL]] sequence is a separate thing.  
+In [[MySQL]] it seems to be only AUTO_INCREMENT, and it's not clear if it's possible to use it as a separate thing.
 
 ##### Table Inheritance
 
@@ -38,6 +42,6 @@ When row is updated:
 [[MySQL]] uses [[Rollback Segment]], so the data is already at hand.
 ##### Replication
 
-[[PostgreSQL]] uses [[Write-ahead Log (WAL)-based Replication]]
+[[PostgreSQL]] uses [[Write-ahead Log (WAL)-based Replication]] by default (yet, alternatives are possible)
 
-[[MySQL]] uses ?
+[[MySQL]] uses [[Logical (row-based) log Replication]]
