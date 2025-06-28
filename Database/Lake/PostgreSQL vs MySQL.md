@@ -24,24 +24,35 @@ When row is updated:
 [[PostgreSQL]] supports [[Deferrable Constraint|Deferrable Constraints]]
 
 [[MySQL]] doesn't.
+
 ##### Sequences
 
-In [[PostgreSQL]] sequence is a separate thing.  
-In [[MySQL]] it seems to be only AUTO_INCREMENT, and it's not clear if it's possible to use it as a separate thing.
+In [[PostgreSQL]] sequence is a separate thing that can be used as is.
+
+In [[MySQL]] it seems to be only AUTO_INCREMENT, and it's not designed to use it as a separate thing.
+
+##### Replication
+
+[[PostgreSQL]] uses [[Write-ahead Log (WAL)-based Replication]] by default (yet, alternatives are possible)
+
+[[MySQL]] uses [[Logical (row-based) log Replication]]
+
+##### Connections
+
+[[PostgreSQL]] uses **Process per Connection** (must use IPC).
+
+[[MySQL]] uses **Thread per Connection** (more lightweight).
+
+Thus, [[MySQL]] can handle more concurrent connections (up to 10k in case of Uber), while for [[PostgreSQL]] it's necessary to keep connection pools.
+
+##### Vacuum approaches
+
+[[PostgreSQL VACUUM]] runs full table scan to find deleted rows.
+
+[[MySQL]] uses separate [[Rollback Segment]], where the data is already at hand.
 
 ##### Table Inheritance
 
 [[PostgreSQL Table Inheritance]] (very, very limited)
 
 [[MySQL]] doesn't support table inheritance.
-
-##### Vacuum approaches
-
-[[PostgreSQL VACUUM]] runs full table scan to find deleted rows.
-
-[[MySQL]] uses [[Rollback Segment]], so the data is already at hand.
-##### Replication
-
-[[PostgreSQL]] uses [[Write-ahead Log (WAL)-based Replication]] by default (yet, alternatives are possible)
-
-[[MySQL]] uses [[Logical (row-based) log Replication]]
