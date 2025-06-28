@@ -4,3 +4,5 @@ Insert few thousand aggregates, and few million inner entities.
 Analyse performance of inner queries, and compare it to ordinary approach with just two tables.
 That's actually interesting story about Composition. It would be cool if it worked better because only one particular predetermined table is needed to be scanned, not the whole table over all aggregates.
 Partitioned data is goodly stored on disk (no random access, everything is in place)
+
+Check how hash indexes work.
