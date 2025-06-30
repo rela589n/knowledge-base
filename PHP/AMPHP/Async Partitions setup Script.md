@@ -1,3 +1,7 @@
+---
+aliases:
+  - Async Script With Many Connections
+---
 This script sets up [[PostgreSQL Partitioning|PostgreSQL Partitions]] running on 256 parallel connections:
 
 ```php

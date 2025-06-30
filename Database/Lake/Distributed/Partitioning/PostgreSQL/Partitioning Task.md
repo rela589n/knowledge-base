@@ -11,11 +11,15 @@ Partitioned data is goodly stored on disk (no random access, everything is in pl
 
 Check how hash indexes work.
 
+> **TLDR**
+> 
+> Use Partitions only if you have up to few thousand of them.
+
 ## Test - Level 1
 
 This test is performed with the following setup:
 - users table: 10_000 records;
-- accounts table: 3_000_000 records;
+- accounts table (partitioned by user id): 3_000_000 records;
 
 Each user has his own accounts table (e.g. totally there are 10k tables).
 
@@ -89,11 +93,9 @@ create table accounting_accounts
     partition by LIST (user_id);
 ```
 
-Create Partitions:
+Create Partitions using [[Async Partitions setup Script]]
 
-
-
-Insert data:
+Insert partitions data:
 
 ```sql
 INSERT INTO accounting_accounts (id, sequence_id, user_id, number, created_at, updated_at)  
@@ -189,6 +191,8 @@ Thus, `3.85ms` vs `21.87ms` - the same result.
 
 **Partitioned is five times faster**.
 
+Yet, keep in mind table size overhead.
+
 ### Test 2
 
 Create Non-Partitioned Table (around 20 mins):
@@ -238,29 +242,8 @@ create table accounting_account_transactions
     partition by LIST (account_id);
 ```
 
-Setup Partitions:
+Setup Partitions with [[Async Partitions setup Script]]
 
-```sql
-DO
-$$
-    DECLARE
-        stmt TEXT;
-    BEGIN
-        FOR stmt IN (WITH boundaries AS (SELECT sequence_id, id from accounting_account_transactions_not_partitioned)
-                     SELECT format(
-                                    'CREATE TABLE IF NOT EXISTS accounting_account_transactions_p%s PARTITION OF accounting_account_transactions FOR VALUES IN (%L);',
-                                    sequence_id,
-                                    id
-                            ) AS statement
-                     FROM boundaries
-                     ORDER BY sequence_id)
-            LOOP
-                EXECUTE stmt;
-                RAISE NOTICE 'Executed: %', stmt;
-            END LOOP;
-    END
-$$
-```
+Fill Partitioned Table.
 
-Fill Partitioned Table:
 
