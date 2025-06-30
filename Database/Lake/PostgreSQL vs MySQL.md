@@ -45,6 +45,12 @@ In [[MySQL]] it seems to be only AUTO_INCREMENT, and it's not designed to use it
 
 Thus, [[MySQL]] can handle more concurrent connections (up to 10k in case of Uber), while for [[PostgreSQL]] it's necessary to keep connection [pools](https://wiki.postgresql.org/wiki/Number_Of_Database_Connections?uclick_id=c4efc6bf-8b8a-4e96-9cfa-df99c2ae86dd).
 
+##### Schema changes
+
+In [[PostgreSQL]] Schema changes are [[Transition|Transactional]];
+
+In [[MySQL]] probably they aren't.
+
 ##### Vacuum approaches
 
 [[PostgreSQL VACUUM]] runs full table scan to find deleted rows.
