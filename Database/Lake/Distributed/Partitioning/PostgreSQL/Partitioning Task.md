@@ -189,7 +189,7 @@ Execution Time: 21.729 ms
 
 Thus, `3.85ms` vs `21.87ms` - the same result. 
 
-**Partitioned is five times faster**.
+> **Partitioned approach is five times faster**.
 
 Yet, keep in mind table size overhead.
 
@@ -217,10 +217,8 @@ SELECT uuid_generate_v4()                                as id,
 FROM (SELECT array_agg(id) as ids, count(id) as length FROM accounting_accounts_not_partitioned) account_ids,
      generate_series(1, 30000000) as gen -- 30 million records
 
-CREATE SEQUENCE IF NOT EXISTS accounting_account_transactions_sequence_id_seq;
-
 ALTER TABLE accounting_account_transactions_not_partitioned
-    ADD COLUMN sequence_id BIGINT DEFAULT nextval('accounting_account_transactions_sequence_id_seq') NOT NULL;
+    ADD COLUMN sequence_id BIGSERIAL NOT NULL;
 
 ALTER TABLE accounting_account_transactions_not_partitioned
     ADD CONSTRAINT accounting_account_transactions_sequence_id_unique UNIQUE (sequence_id);
