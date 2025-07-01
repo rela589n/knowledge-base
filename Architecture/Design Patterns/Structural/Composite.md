@@ -1,6 +1,6 @@
 **Composite** (aka **Object Tree**) is the [[GOF Design Patterns|Design Pattern]], which allows to **compose objects into tree** structures and work with them uniformly via **the same interface** as with individual objects, allowing to compose **[[Recursion|Recursive]] data structures**.
 
-> It lets to run a recursive algorithm over a tree.
+> It lets to **run a recursive algorithm** over a tree.
 
 Example: admin panel that provides tree of filters that could be applied: department, city, and group filters that combine them with boolean logic.
 

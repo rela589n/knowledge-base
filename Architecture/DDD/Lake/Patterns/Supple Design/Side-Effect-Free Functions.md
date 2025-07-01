@@ -7,4 +7,4 @@ aliases:
 
 > Use [[CQS|Command-Query Separation]], and make sure to [[Refactoring|Refactor]] mingled things into separate [[Command|Commands]] and [[Query|Queries]].
 
-Complex logic and calculations should be exposed as [[Value Object|Value Objects]] that implement [[Side-Effect-Free Functions]]. They are easy to test, easy to use, easy to be combined. Consider leveraging them to answer [[Query|Queries]].
+**Complex logic and calculations** should be exposed as [[Value Object|Value Objects]] that implement [[Side-Effect-Free Functions]]. They are easy to test, easy to use, and easy combine. Consider leveraging them to answer [[Query|Queries]].

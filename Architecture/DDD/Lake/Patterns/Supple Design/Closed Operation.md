@@ -4,7 +4,7 @@ aliases:
 ---
 **Closed Operation** is the operation whose result type is the same as the input type. 
 
-If operation's result is defined by the state of implementer (e.g. implementer's state is an argument of operation), then return type should be the same type as implementer.
+If operation's result is defined by the state of implementer (e.g. implementer's state is the argument of an operation), then return type should be the same type as the implementer.
 
 It's like in mathematics where two real numbers add up only to a new real number, not to something else.
 

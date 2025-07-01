@@ -3,7 +3,9 @@ aliases:
   - Conceptual Contour
   - Conceptual Boundaries
 ---
-[[Low Coupling & High Cohesion]] relates to [[Domain]] concepts as much as to [[Code]].
+[[Domain Concept|Conceptual]] Boundaries define the scope of the [[Domain Concept|Concept]].
+
+[[Low Coupling & High Cohesion]] relates to [[Domain Concept|Domain Concepts]] as much as to [[Code]].
 
 Don't split the implementation if there's no [[Conceptual Boundary]] there. Half of uranium atom isn't uranium.
 
