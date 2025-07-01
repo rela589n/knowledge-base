@@ -11,14 +11,15 @@ aliases:
 
 **Revealing hidden concepts** is understanding previously implicit the concepts of the [[Domain|Business]] that you didn't understand/know before, and using them in the [[Domain Model|Model]]. This is the driving force of the [[Model Breakthrough|Breakthroughs]].
 
+> **Talk:** 
 > By the way, you used the word accruals a few times. Could you clarify what it means?
 
 ![[Revealing hidden concepts.png|400]]
 
-If you find some used term that is absent from the [[Domain Model|Design]], it might improve it.
+If you find some used [[Domain Concept|Term]] that is absent from the [[Domain Model|Design]], it might improve it.
 
 Do [[Model Refinement|Knowledge crunching]]:
-- Listen to the [[Ubiquitous Language]] (most frequent terms you do not understand, nor find in the [[Domain Model|Model]]);
+- Listen to the [[Ubiquitous Language]] (most frequent [[Domain Concept|Terms]] you do not understand, nor find in the [[Domain Model|Model]]);
 - Ask questions to the [[Domain Experts]], find contradictions.
 - Focus on vague points of the [[Domain Model|Model]].
 

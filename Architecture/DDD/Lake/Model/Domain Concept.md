@@ -1,8 +1,9 @@
 ---
 aliases:
-  - Concepts
+  - Concept
   - Business Concept
-  - Domain Concepts
+  - Domain Concept
   - Conceptual
+  - Term
 ---
 [[Domain]] Concept is some term from the [[Ubiquitous Language]].
