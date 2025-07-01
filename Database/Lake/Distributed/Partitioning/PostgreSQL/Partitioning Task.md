@@ -240,7 +240,7 @@ create table accounting_account_transactions
     partition by LIST (account_id);
 ```
 
-Setup Partitions with [[Async Partitions setup Script]]
+Setup Partitions with [[Async Partitions setup Script]] (did not succeed because there're too many partitions to create)
 
 Fill Partitioned Table.
 

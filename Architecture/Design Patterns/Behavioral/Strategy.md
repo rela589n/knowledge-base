@@ -18,7 +18,8 @@ Introducing [[Strategy]] by extracting common `interface` for multiple implement
 
 Not using [[Strategy]] would increase complexity for the client code, since it'd be responsible for all that each particular otherwise [[Polymorphism|Substitutable]] Strategy would've represented as well as for the process control itself.
 
-> Client code could provide strategy as a parameter rather than using different instance of strategy to call the method.
+> Client code could provide strategy as a parameter rather than calling method on the strategy by themselves.
+
 
 
 
