@@ -1,6 +1,7 @@
 ---
 aliases:
   - Closure of Operations
+  - Closed Operations
 ---
 **Closed Operation** is the operation whose result type is the same as the input type. 
 
