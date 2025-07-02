@@ -8,9 +8,9 @@
 
 **Initial point** is that you realize that [[Code]] is **not fitting well**, hard to [[Comprehension|Understand]], or doesn't express the [[Domain Model|Model]] clearly (disconnected from [[Model Refinement|Communication]]). 
 
-##### What attitude should the team have?
+##### What the team should focus on?
 
-[[Model Refinement|Communication]] with other devs who [[Comprehension|Understand]] problem [[Domain]] (or are good modelers) and [[Domain Expert|Business Experts]] trying to find useful [[Domain Model|Model]] that would make sense to [[Domain Expert|Business Experts]].
+[[Model Refinement|Communicate]] with other devs who [[Comprehension|Understand]] problem [[Domain]] (or are good modelers) and [[Domain Expert|Business Experts]] trying to find useful [[Domain Model|Model]] that would make sense to [[Domain Expert|Business Experts]].
 
 Make it productive:
 - **Self-determined** team - few people arrange together to solve the problem and disband;
