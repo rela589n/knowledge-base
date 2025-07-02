@@ -7,7 +7,7 @@ aliases:
 ---
 [[Why Model Refinements are important]]
 
-**Model Refinement** is **refining the [[Domain Model|Model]]** so that it [[Understanding|Makes Sense]] [[Single Model|Both]] to [[Domain Experts|Business Experts]] and to Developers.
+**Model Refinement** is **refining the [[Domain Model|Model]]**  for [[Rich Model Design]] so that it [[Understanding|Makes Sense]] [[Single Model|Both]] to [[Domain Experts|Business Experts]] and to Developers.
 
 [[Model Refinements discloses weak points]].
 
