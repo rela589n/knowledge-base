@@ -52,7 +52,7 @@ Yet, on the other hand **there is <u>higher cost</u> of not doing it**:
 
 Development is not such a predictable process, that change vs no change costs can be accurately calculated.
 
-**[[Refactoring]] must be considered as part of the process**, not as something that devs just brag about.
+**[[Refactoring]] must be considered as part of the process**, part of the ongoing exploration of the [[Domain]], not just something that devs brag about.
 
 [[Technical Debt]] is not a laughing matter.
 
