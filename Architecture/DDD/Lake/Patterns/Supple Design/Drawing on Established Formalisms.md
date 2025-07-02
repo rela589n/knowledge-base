@@ -12,4 +12,6 @@ Usage of familiar formalism makes your **[[Domain Model|Model]] easy to [[Compre
 
 > For example, Shares Math highly utilized mathematical rigor to express Share Pie manipulations. 
 
-[[Extracting a hidden concept|Extract a hidden concept]] into a [[Value Object]], and utilize Math [[Drawing on Established Formalisms|Formalism]] to express [[Domain|Business]] rules.
+[[Predicate]] is another example of established formalism.
+
+[[Extracting a hidden concept|Extract a hidden concept]] into a [[Value Object]], and utilize [[Drawing on Established Formalisms|Common Formalism]] to express [[Domain|Business]] rules.

@@ -19,11 +19,11 @@ Make it productive:
 
 A full-blown [[Model Refinement|Brainstorming]] session is dynamic, unstructured, and in-credibly productive.
 
-##### What to use as basis?
+##### Source to use as Basis
 
 [[Model Refinement|Brainstorming]] is extremely useful for finding ideas from any source.
 
-You can use **ideas from books, web**, [[Analysis Patterns]], any other source of [[Ubiquitous Language|Domain Knowledge]] as **source to feed** [[Model Refinement|Brainstorming]] session and crunch the [[Ubiquitous Language|Knowledge]] more effectively.
+You can start with **ideas from books, web**, [[Analysis Patterns]], any other source of [[Ubiquitous Language|Domain Knowledge]] as **feed [[Model Refinement|Brainstorming]] session** and crunch the [[Ubiquitous Language|Knowledge]] more effectively.
 
-When the things begin to illuminate, you can employ [[GOF Design Patterns|Design Patterns]] if they fit [[Domain Model|Model]], and express [[Comprehension|Meaning]].
+When the things begin to fit together, you can employ [[GOF Design Patterns|Design Patterns]] if they fit [[Domain Model|Model]] and express [[Comprehension|Meaning]].
 
