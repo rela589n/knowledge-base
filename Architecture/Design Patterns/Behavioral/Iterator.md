@@ -1,4 +1,4 @@
-We could implement custom class that implements PHP's interfaces to make object that represents iterable collection of something.
+We can implement custom class that implements PHP's iterator interfaces to make an object that represents iterable collection of something.
 
 Example:
 - doctrine orm's query toIterate() method
