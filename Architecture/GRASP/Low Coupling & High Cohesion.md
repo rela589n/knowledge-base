@@ -2,6 +2,7 @@
 aliases:
   - Low Coupling
   - High Cohesion
+  - Dependencies
 ---
 Low [[Coupling]] & High [[Cohesion]]
 

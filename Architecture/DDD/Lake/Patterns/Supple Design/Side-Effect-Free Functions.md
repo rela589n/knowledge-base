@@ -3,7 +3,7 @@ aliases:
   - Side-Effect-Free
   - Pure Functions
 ---
-[[Side-Effect]]-Free Functions safely express complex logic in the [[Code]]. These are the [[Query|Queries]] that don't produce any unanticipated consequences, and do not depend on any implicit sources, and thereby **always produce the same result**, and are **easily unit-tested**.
+**[[Side-Effect]]-Free Functions** are [[Query|Queries]] that **don't produce any unanticipated consequences**, and do not depend on any implicit sources, and thereby **always produce the same result**, and are **easily unit-tested**. They safely express complex logic in the [[Code]].
 
 > Use [[CQS|Command-Query Separation]], and make sure to [[Refactoring|Refactor]] mingled things into separate [[Command|Commands]] and [[Query|Queries]].
 
