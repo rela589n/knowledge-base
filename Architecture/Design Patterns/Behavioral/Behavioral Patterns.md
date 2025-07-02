@@ -1,5 +1,6 @@
-- [[Template Method]]
+- [[Template Method]] (don't like)
 - [[Strategy]]
 - [[Observer]]
 - [[Chain of Responsibility]]
+- [[Iterator]]
 - [[Visitor]]

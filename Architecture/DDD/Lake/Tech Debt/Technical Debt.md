@@ -11,6 +11,8 @@ Problem is due to the complexity, and lack of [[Domain|Business]] knowledge in t
 
 ![[Tech Debt Time Complexity Chart.png]] ^a11b5e
 
+> Imagine building a building. It's like 10-floor facility that's already built, but it's skewed. The higher we build, the more problematic it becomes.
+
 If [[Technical Debt]] is resolved in time, it's a great pay-off:
 
 ![[Model Breakthrough from the Book#^99314f]]
