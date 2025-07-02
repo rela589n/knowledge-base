@@ -25,5 +25,6 @@ A full-blown [[Model Refinement|Brainstorming]] session is dynamic, unstructured
 
 You can start with **ideas from books, web**, [[Analysis Patterns]], any other source of [[Ubiquitous Language|Domain Knowledge]] as **feed [[Model Refinement|Brainstorming]] session** and crunch the [[Ubiquitous Language|Knowledge]] more effectively.
 
-When the things begin to fit together, you can employ [[GOF Design Patterns|Design Patterns]] if they fit [[Domain Model|Model]] and express [[Comprehension|Meaning]].
+When the things begin to fit together, you can employ [[GOF Design Patterns|Design Patterns]] if they fit the [[Domain Model|Model]] and express the [[Comprehension|Meaning]].
 
+Likewise, you can [[Drawing on Established Formalisms|Draw on Established Formalisms]].
