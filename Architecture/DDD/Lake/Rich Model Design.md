@@ -4,7 +4,7 @@ It has the actual **[[Domain|Business]] rules**, consolidates **[[Domain]] activ
 
 [[Good Models lie deep]].
 
-[[When you're making crutches, it's the problem of the Model]]
+[[When you're Making Crutches, it's the problem of the Model]]
 
 It happens that **[[Domain|Business]] rules are inconsistent**. [[Domain Expert]] **reconcile the contradictions** and **fill the gaps**, though for software to do it, it is necessary to have full [[Comprehension|Comprehension]] of the [[Domain|Business]], which is only possible by close collaboration with [[Domain Expert|Business Experts]] during **[[Model Refinement]]** sessions.
 

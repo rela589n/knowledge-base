@@ -11,6 +11,6 @@ aliases:
 
 [[Model Refinements discloses weak points]].
 
-It is built via **lots of _communication_ regarding scenarios in the model** between [[Domain Expert]] and devs. [[Good Models lie deep]].
+It is built via **lots of _communication_ regarding scenarios in the [[Domain Model|Model]]** between [[Domain Expert|Domain Experts]] and Devs. [[Good Models lie deep]].
 
 **[[Design Documents and Diagrams]]** are useful for **communication** and **brainstorming**.

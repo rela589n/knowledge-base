@@ -1,3 +1,7 @@
+---
+aliases:
+  - Refactoring toward Breakthrough
+---
 **[[Refactoring]] Toward Deeper Insight** contributes to [[Model Breakthrough]]. It says that **the right way to improve the [[Domain Model|Model]] is by [[Comprehension|Understanding]] it**.
 
 1. Live in the [[Domain]];
@@ -6,7 +10,10 @@
 
 ##### How it all comes about?
 
-**Initial point** is that you realize that [[Code]] is **not fitting well**, hard to [[Comprehension|Understand]], or doesn't express the [[Domain Model|Model]] clearly (disconnected from [[Model Refinement|Communication]]). 
+**Initial point** is that you realize that [[Code]] is:
+- **not fitting well** for new features;
+- **hard to [[Comprehension|Understand]]** (thus hard to work with);
+- doesn't clearly express the [[Domain Model|Model]] (disconnected from [[Model Refinement|Communication]], there are [[Expressing Concepts Explicitly|Implicit Concepts]]).
 
 ##### What the team should focus on?
 
@@ -19,7 +26,7 @@ Make it productive:
 
 A full-blown [[Model Refinement|Brainstorming]] session is dynamic, unstructured, and in-credibly productive.
 
-##### Source to use as Basis
+##### What Source to start with
 
 [[Model Refinement|Brainstorming]] is extremely useful for finding ideas from any source.
 
@@ -28,3 +35,28 @@ You can start with **ideas from books, web**, [[Analysis Patterns]], any other s
 When the things begin to fit together, you can employ [[GOF Design Patterns|Design Patterns]] if they fit the [[Domain Model|Model]] and express the [[Comprehension|Meaning]].
 
 Likewise, you can [[Drawing on Established Formalisms|Draw on Established Formalisms]].
+
+##### If you wait it, you don't do it
+
+If you wait until it's justified, you've waited too long.
+
+**Continuous [[Refactoring]]** is the Best Practice. It keeps [[Technical Debt]] low.
+
+Why teams are cautious about it:
+- risks of change;
+- cost of it.
+
+Yet, on the other hand **there is <u>higher cost</u> of not doing it**:
+- risk of keeping an incomprehensible design;
+- cost of [[When you're Making Crutches, it's the problem of the Model|Working Around]] it.
+
+Development is not such a predictable process, that change vs no change costs can be accurately calculated.
+
+**[[Refactoring]] must be considered as part of the process**, not as something that devs just brag about.
+
+[[Technical Debt]] is not a laughing matter.
+
+##### Refactor
+
+[[Refactoring|Refactor]] constantly, But don't do it the day before release.
+Make sure [[Domain Expert|Domain Experts]] [[Comprehension|Understand]] your suggested [[Domain Model|Model]]. They are primary people for validation.
