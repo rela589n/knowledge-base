@@ -2,7 +2,7 @@
 aliases:
   - Deeper the Model
 ---
-Useful **[[Domain Model|Models]]** usually **lie below the surface**. Some **parts of the [[Domain Model|Model]]** that seemed important at the outset **may be discarded** once we [[Understanding|Understand]] the [[Domain]].
+Useful **[[Domain Model|Models]]** usually **lie below the surface**. Some **parts of the [[Domain Model|Model]]** that seemed important at the outset **may be discarded** once we [[Comprehension|Understand]] the [[Domain]].
 
 **Good models are built** via [[Model Refinement]], which is exploration of the domain, and [[Refactoring]] that results in a [[Model Breakthrough|Breakthrough]].
 

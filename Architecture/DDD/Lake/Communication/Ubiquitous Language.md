@@ -7,10 +7,11 @@ aliases:
   - Talk
   - Model Language
   - Business Terms
+  - Domain Knowledge
 ---
 **Ubiquitous Language** is the [[Domain Model|Model]] language that is made up of concepts that pervade [[Model Refinement|Speech]], [[Documents and Diagrams]], and even [[Code]].
 
-This is the **intersection** between dev's language and [[Domain Experts]]' language. This is mostly **constituted by [[Domain|Business]] terms** rather than dev terms.
+This is the **intersection** between dev's language and [[Domain Expert]]' language. This is mostly **constituted by [[Domain|Business]] terms** rather than dev terms.
 
 [[Building Ubiquitous Language]]
 

@@ -1,7 +1,7 @@
 ---
 aliases:
   - DDD Tactical Patterns
-  - Model expressed in software
+  - Model faceted in software
 ---
 Tactical - patterns used in solution space. These are more technical, as they are more related to code.
 

@@ -18,4 +18,6 @@ Use planning. Just a list of things to do. Don't get confused about what to do n
 
 You can associate some things with studying (like music). When you always listen particular music while you're studying, whey you turn it on, you're automatically switched to this mode.
 
+When reading the book, you should really ask yourself questions: What do I expect from this chapter? What do I want to learn? What I want to do with this?
+
 

@@ -19,7 +19,7 @@ Productivity of the developers compared to initial (the initial release's produc
 The initial payroll was only few hundred thousand dollars, but it kept growing on each release until it finally reached 20 million.
 ![[Monthly development payroll by release.png]]
 
-> Due to the [[Technical Debt#^a11b5e|Complexity]], the team could not perform as many tasks as they used to, so new devs were hired, but it couldn't be solved with just new staff because people do not [[Understanding|Understand]] what's going on in the [[Code]]. 
+> Due to the [[Technical Debt#^a11b5e|Complexity]], the team could not perform as many tasks as they used to, so new devs were hired, but it couldn't be solved with just new staff because people do not [[Comprehension|Understand]] what's going on in the [[Code]]. 
 > 
 > From high-level perspective, it might seem that higher-level devs (they cost more) could understand it, but that's not true. 
 > 

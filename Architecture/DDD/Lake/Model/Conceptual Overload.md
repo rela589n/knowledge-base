@@ -2,7 +2,7 @@
 aliases:
   - Standalone Class
 ---
-Every [[Association]], every dependency contributes to conceptual load. To **[[Understanding|Understand]] the class** it's needed to [[Understanding|Understand]] the **relationship with its dependencies**.
+Every [[Association]], every dependency contributes to conceptual load. To **[[Comprehension|Understand]] the class** it's needed to [[Comprehension|Understand]] the **relationship with its dependencies**.
 
 The bigger is the **number of things we have to keep in mind** to understand the [[Domain Concept|Concept]], the more overloaded it becomes.
 

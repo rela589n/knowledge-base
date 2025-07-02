@@ -20,10 +20,10 @@ If you find some used [[Domain Concept|Term]] that is absent from the [[Domain M
 
 Do [[Model Refinement|Knowledge crunching]]:
 - Listen to the [[Ubiquitous Language]] (most frequent [[Domain Concept|Terms]] you do not understand, nor find in the [[Domain Model|Model]]);
-- Ask questions to the [[Domain Experts]], find contradictions.
+- Ask questions to the [[Domain Expert]], find contradictions.
 - Focus on vague points of the [[Domain Model|Model]].
 
-> You absolutely necessary for you to have a [[Domain Experts|Business Expert]], or at least somebody to answer your questions and to reveal a good [[Domain Model|Model]]. Otherwise you'd need to learn the [[Domain|Business]] by yourself and on your own using other resources.
+> You absolutely necessary for you to have a [[Domain Expert|Business Expert]], or at least somebody to answer your questions and to reveal a good [[Domain Model|Model]]. Otherwise you'd need to learn the [[Domain|Business]] by yourself and on your own using other resources.
 
 Finally, apply learned knowledge in [[Domain Model|Model]] and [[Code]] by [[Refactoring]] it.
 

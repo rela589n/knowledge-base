@@ -1,12 +1,13 @@
 ---
 aliases:
   - Model is bound to Implementation
+  - Model expressed in software
 ---
-> Tightly coupling the [[Code]] to the [[Domain Model|Model]] adds meaning to both and from both sides ([[Code]] is obvious, and [[Domain Model|Model]] is relevant).
+**[[Domain Concept|Business Concepts]]** (e.g. bus in the example of the book), **must be represented in the [[Code]]** as an **explicit substances** rather than an implicit ghosts, existence of which may only be inferred between the lines.
 
-When there's some **[[Domain Concept|Business Concept]]** (e.g. bus in the example of the book), it **must be presented in the [[Code]]** as an **explicit substance** rather than an implicit ghost, existence of which may only be inferred between the lines.
+Tightly coupling the [[Code]] to the [[Domain Model|Model]] adds [[Comprehension|Meaning]] to both and from both perspectives ([[Code]] is obvious, and [[Domain Model|Model]] is relevant).
 
-When the [[Domain Model|Model]] changes, the [[Code]] expressing it must change as well, and vice versa.
+When the [[Domain Model|Model]] changes, the [[Code]] expressing it must change, and vice versa.
 
 Architects should stick with [[Down to earth modeling]].
 

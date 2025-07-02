@@ -6,7 +6,7 @@ It has the actual **[[Domain|Business]] rules**, consolidates **[[Domain]] activ
 
 [[When you're making crutches, it's the problem of the Model]]
 
-It happens that **[[Domain|Business]] rules are inconsistent**. [[Domain Experts]] **reconcile the contradictions** and **fill the gaps**, though for software to do it, it is necessary to have full [[Understanding|Comprehension]] of the [[Domain|Business]], which is only possible by close collaboration with [[Domain Experts|Business Experts]] during **[[Model Refinement]]** sessions.
+It happens that **[[Domain|Business]] rules are inconsistent**. [[Domain Expert]] **reconcile the contradictions** and **fill the gaps**, though for software to do it, it is necessary to have full [[Comprehension|Comprehension]] of the [[Domain|Business]], which is only possible by close collaboration with [[Domain Expert|Business Experts]] during **[[Model Refinement]]** sessions.
 
 **Good [[Domain Model|Design]] is built by trial and error**. There's just no other way. You experiment with knowledge in [[Model Refinement|Refinement Discussions]], dig down [[Domain Concept|Concepts]], use them in the [[Domain Model|Model]], continually improving it.
 
