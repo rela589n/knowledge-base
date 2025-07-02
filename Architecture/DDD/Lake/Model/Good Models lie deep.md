@@ -8,3 +8,6 @@ Useful **[[Domain Model|Models]]** usually **lie below the surface**. Some **par
 **Good [[Domain Model|Models]] are built** via [[Model Refinement]], which is exploration of the [[Domain]], and [[Refactoring]] that results in a [[Model Breakthrough|Breakthrough]].
 
 Having a **good [[Domain Model|Model]]** makes it possible for project easily to **emerge to the new powerful features** as corollaries of old ones.
+
+[[Domain Expert|Domain Experts]] must [[Comprehension|Understand]] your suggested [[Domain Model|Model]]. 
+They are the primary source of validation.
