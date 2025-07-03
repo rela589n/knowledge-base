@@ -30,7 +30,7 @@ A full-blown [[Model Refinement|Brainstorming]] session is dynamic, unstructured
 
 [[Model Refinement|Brainstorming]] is extremely useful for finding ideas from any source.
 
-You can start with **ideas from books, web**, [[Analysis Patterns]], any other source of [[Ubiquitous Language|Domain Knowledge]] as **feed [[Model Refinement|Brainstorming]] session** and crunch the [[Ubiquitous Language|Knowledge]] more effectively.
+You can start with **ideas from books, web**, [[Analysis Patterns]], any source of [[Ubiquitous Language|Domain Knowledge]] and **feed the [[Model Refinement|Brainstorming]] session** with it and crunch the [[Ubiquitous Language|Knowledge]] more effectively.
 
 When the things begin to fit together, you can employ [[GOF Design Patterns|Design Patterns]] if they fit the [[Domain Model|Model]] and express the [[Comprehension|Meaning]].
 
@@ -42,21 +42,21 @@ If you wait until it's justified, you've waited too long.
 
 **Continuous [[Refactoring]]** is the Best Practice. It keeps [[Technical Debt]] low.
 
-Why teams are cautious about it:
+Teams are cautious about it:
 - risks of change;
-- cost of it.
+- cost of change.
 
 Yet, on the other hand **there is <u>higher cost</u> of not doing it**:
 - risk of keeping an incomprehensible design;
 - cost of [[When you're Making Crutches, it's the problem of the Model|Working Around]] it.
 
-Development is not such a predictable process, that change vs no change costs can be accurately calculated.
+Development is not such a predictable process that change vs no change can be accurately calculated.
 
-**[[Refactoring]] must be considered as part of the process**, part of the ongoing exploration of the [[Domain]], not just something that devs brag about.
+**[[Refactoring]] must be considered as part of the process**, part of the ongoing exploration of the [[Domain]], not as something that devs brag about.
 
 [[Technical Debt]] is not a laughing matter.
 
 ##### Refactor
 
-[[Refactoring|Refactor]] constantly, But don't do it the day before release.
+[[Refactoring|Refactor]] constantly, yet don't do it the day before release.
 Make sure [[Domain Expert|Domain Experts]] [[Comprehension|Understand]] your suggested [[Domain Model|Model]]. They are primary people for validation.
