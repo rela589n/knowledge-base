@@ -58,5 +58,9 @@ Development is not such a predictable process that change vs no change can be ac
 
 ##### Refactor
 
-[[Refactoring|Refactor]] constantly, yet don't do it the day before release.
-Make sure [[Domain Expert|Domain Experts]] [[Comprehension|Understand]] your suggested [[Domain Model|Model]]. They are primary people for validation.
+[[Refactoring|Refactor]] constantly, seek for opportunities to [[Supple Design|Make the Design Suppler]].
+
+But don't do it the day before release.
+
+Make sure [[Domain Expert|Domain Experts]] [[Comprehension|Understand]] your suggested [[Domain Model|Model]]. They are the primary people for validation.
+

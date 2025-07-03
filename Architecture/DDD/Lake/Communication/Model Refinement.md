@@ -4,13 +4,20 @@ aliases:
   - Refinement
   - Communication
   - Brainstorming
+  - Refine and Brainstorm
 ---
-[[Why Model Refinements are important]]
+**[[Domain Model|Model]] Refinement** is exploration of the [[Domain]] aimed at building [[Rich Model Design|Rich Model]] that [[Comprehension|Makes Sense]] [[Single Model|Both]] to [[Domain Expert|Business Experts]] and to Developers.
 
-**Model Refinement** is **refining the [[Domain Model|Model]]**  for [[Rich Model Design]] so that it [[Comprehension|Makes Sense]] [[Single Model|Both]] to [[Domain Expert|Business Experts]] and to Developers.
+[[Model Refinement|Refinements]] are all about **Communication**:
+- [[Why Model Refinements are important]];
+- [[Ubiquitous Language|One Team - One Language]];
+- [[Documents and Diagrams]];
+- [[Explanatory Model]].
 
-[[Model Refinements discloses weak points]].
+[[Good Models lie deep]].
 
-It is built via **lots of _communication_ regarding scenarios in the [[Domain Model|Model]]** between [[Domain Expert|Domain Experts]] and Devs. [[Good Models lie deep]].
+It is built via **lots of _communication_ regarding scenarios in the [[Domain Model|Model]]** between [[Domain Expert|Domain Experts]] and Devs. 
 
-**[[Design Documents and Diagrams]]** are useful for **communication** and **brainstorming**.
+It is vital to engage **both spoken language** and **visual and spacial capabilities** with [[Documents and Diagrams]] to reach [[Good Models lie deep|Good Model]].
+
+**[[Design Documents and Diagrams]]** are useful tool for **communication** and **brainstorming**.

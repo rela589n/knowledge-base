@@ -20,7 +20,7 @@ Encountering a change that isn't localized and requires a substantial change to 
 In DDD, [[Model Refinement]], [[Model-driven Design|Model-driven Design]], [[Code|Implementation]] and [[Refactoring Toward Deeper Insight]] must go hand-in-hand in an iterative development process (NO [[Waterfall method]]).
 
 Key points:
-- [[DDD Communication|Communication]]
+- [[Model Refinement|Communication]]
 - [[Conceptual Separation is Important]]
 - [[Domain-Driven Design is about simplicity, not over-engeeniring]]
 - [[Smart UI and DDD are mutually exclusive|You can't both write DDD and Not DDD]]

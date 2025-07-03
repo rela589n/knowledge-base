@@ -1,6 +1,10 @@
-Rich [[Model-driven Design|Model Design]] goes beyond just "find the nouns". When you hear the word, you **have a lead**, which you follow in the conversation with the goal of carving out useful [[Domain Concept]]. 
+---
+aliases:
+  - Rich Model
+---
+**Rich [[Domain Model|Model]]** has the actual **[[Domain|Business]] rules**, consolidates **[[Domain]] activities** and reflects the insight of the [[Domain]].
 
-It has the actual **[[Domain|Business]] rules**, consolidates **[[Domain]] activities** and reflects the insight of the [[Domain]].
+Rich [[Model-driven Design|Model Design]] goes beyond just "find the nouns". When you **hear the word**, you **create a lead**, which you follow in the conversation with the goal of carving out useful [[Domain Concept]].
 
 [[Good Models lie deep]].
 
