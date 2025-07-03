@@ -10,7 +10,7 @@ It should be **unambiguous** and **everyone should stick** to its terms and desc
 
 It includes [[Expressing Concepts Explicitly]].
 
-If it is used **persistently**, then [[Model Refinements discloses weak points|weak points will float up]], 
+If it is used **persistently**, then [[Model Refinements discloses weak Model points|weak points will float up]], 
 
 [[Domain Model]] should become the **backbone of the [[Ubiquitous Language|Language]]** used by all team members.
 

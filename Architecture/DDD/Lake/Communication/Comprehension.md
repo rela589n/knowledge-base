@@ -5,5 +5,7 @@ aliases:
   - Makes Sense
   - Understanding
   - Meaning
+  - Comprehend
+  - Insight
 ---
-Comprehension is understanding the intended meaning of the [[Domain Model|Model]] through [[Ubiquitous Language]].
+Clear understanding of the intended meaning of the [[Domain Model|Model]] through [[Ubiquitous Language]].
