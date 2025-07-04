@@ -2,7 +2,7 @@
 aliases:
   - Supple Design Patterns
 ---
-**Supple Design** is expressive, adaptable, flexible Design that **communicates its intent**.
+**Supple Design** is expressive, adaptable, flexible, [[Model-driven Design]] that **communicates its intent**.
 
 **Software** is for users just as for developers who need to support it. Clarity of [[Comprehension|Understanding]] is crucial.
 
