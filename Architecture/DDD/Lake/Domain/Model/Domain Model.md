@@ -7,9 +7,7 @@ In **[[Domain-Driven Design|DDD]]**, **[[Model (generic)|Model]] of the [[Domain
 
 It is rigorously organized and structured most relevant **selective abstraction of the knowledge from BA head**. 
 
-The most fundamental requirement of [[Domain Model|Model]] is that it **be internally consistent** (no contradictions). *Unification* - [[Invariant|Invariants]] are kept, terms are unambiguous, rules do not contradict.
-
-> Total unification of the [[Domain Model]] in a large system isn't feasible or cost-effective.
+The most fundamental requirement of [[Domain Model|Model]] is that it **be internally consistent** (no contradictions). *Unification* - [[Invariant|Invariants]] are kept, terms are unambiguous, rules do not contradict. ^3cfe8a
 
 It is not just a diagram. It is the idea that diagram conveys.
 
