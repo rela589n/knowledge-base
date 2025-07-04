@@ -2,7 +2,7 @@
 aliases:
   - Subdomains
 ---
-Subdomain is a broader concept than [[Bounded Context]] and may hold multiple [[Bounded Context|bounded contexts]], yet in ideal world, it's 1-1 relationship.
+**Subdomain** is a broader concept than [[Bounded Context]] and may hold **multiple [[Bounded Context|Bounded Contexts]]**, though in ideal world, it's 1-1 relationship.
 
 Subdomains:
 - [[Core Domain]] (central)

@@ -1,9 +1,9 @@
-Strategic - high-level analysis of the problem space without technical details.
+**Strategic Patterns** provide **high-level analysis** of the problem space with **no technical details**.
 
-[[Bounded Context]] - at first we define functional scopes
+[[Bounded Context]] - at first we define functional scopes.
 
 ![[Core Domain#^b82774]]
 
-[[Context map]] - then we define the relationship between core [[Bounded Context|bounded contexts]] and their models. Shared Kernel, Customer/Supplier
+[[Context Map]] - define the relationship between core [[Bounded Context|Bounded Contexts]] and their [[Domain Model|Models]]. Shared Kernel, Customer/Supplier.
 
-[[Ubiquitous Language]] - one that we build with [[Domain Expert]] and is to be used by all team members.
+[[Ubiquitous Language]] - one that we build with [[Domain Expert|Domain Experts]]; to be used by all team members.

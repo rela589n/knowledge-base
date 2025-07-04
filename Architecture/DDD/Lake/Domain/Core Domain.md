@@ -1,1 +1,1 @@
-Core [[Domain]] is key [[Subdomain]] that represents the main functionality of the whole system. This is primary area of strategic importance. This is the [[Domain]], that is crucial for success of the organisation. ^b82774
+**Core [[Domain]]** is key [[Subdomain]] that represents the **main functionality** of the whole system. This is primary area of strategic importance. This [[Domain]] is **crucial to the success** of the organisation. ^b82774
