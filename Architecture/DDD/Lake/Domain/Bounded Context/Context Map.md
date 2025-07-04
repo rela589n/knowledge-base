@@ -8,9 +8,7 @@ aliases:
 
 ##### Types of Context Mapping:
 
-**Customer/Supplier** - one (upstream) [[Bounded Context]] **provides subset of the [[Domain Model|Domain Model]] to another** (downstream) [[Bounded Context]].
-
-![[Customer-Supplier.png]]
+[[Customer-Supplier|Customer/Supplier]]
 
 **Cooperation** - either **Partnership** or **Shared Kernel**. When teams are closely-collaborated.
 

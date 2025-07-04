@@ -1,6 +1,7 @@
 ---
 aliases:
   - Bounded Contexts
+  - Context
 ---
 Bounded Context demarcates [[Domain Model|Domain Models]] that make different subsystems.
 
