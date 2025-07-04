@@ -58,9 +58,12 @@ Development is not such a predictable process that change vs no change can be ac
 
 ##### Refactor
 
-[[Refactoring|Refactor]] constantly, seek for opportunities to [[Supple Design|Make the Design Suppler]].
+[[Refactoring|Refactor]] constantly, seek for opportunities for a [[Supple Design]] and [[Expressing Concepts Explicitly|Make the implicit concepts explicit]].
 
 But don't do it the day before release.
 
 Make sure [[Domain Expert|Domain Experts]] [[Comprehension|Understand]] your suggested [[Domain Model|Model]]. They are the primary people for validation.
 
+##### This Model Stinks - Opportunity Point
+
+Once in a while it may come about that **current [[Domain Model|Model]] looks poor**, and not as it first looked like. This means you've reached **new level of [[Comprehension|Understanding]]**, and [[Model Breakthrough|Breakthrough]] can produce far better [[Domain Model|Model]].
