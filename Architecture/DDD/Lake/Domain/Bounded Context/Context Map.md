@@ -2,7 +2,7 @@
 aliases:
   - Context Mapping
 ---
-**[[Bounded Context|Context]] Map** is a representation of the project's [[Bounded Context|Bounded Contexts]] signifying **relationships** between them and their [[Domain Model|Models]] for cross-team collaboration.
+**[[Bounded Context|Context]] Map** is a global view the project's [[Bounded Context|Bounded Contexts]] and **relationships between them**. Useful for cross-team collaboration.
 
 **Contracts** are **touch points** between [[Bounded Context|Bounded Contexts]].
 
