@@ -3,8 +3,8 @@ aliases:
   - Bounded Contexts
   - Context
 ---
-Bounded Context demarcates [[Domain Model|Domain Models]] that make different subsystems.
+**Bounded Context** is a demarcation of [[Domain Model|Domain Models]] that make different subsystems.
 
-Bounded context is usually separated by the team / department that drive some part of the system, and has it's own [[Ubiquitous Language]].
+It is usually **delimited by distinctive subsystems** having its own [[Ubiquitous Language]], and often developed by different teams / departments.
 
 [[Context Map]]
