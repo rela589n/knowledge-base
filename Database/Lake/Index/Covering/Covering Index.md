@@ -1,8 +1,8 @@
 ---
 docs: https://www.postgresql.org/docs/current/indexes-index-only-scans.html
 ---
-Index, that can answer query without the need for [[Table Heap|Heap]] access. 
+**Covering [[Database Index|Index]]** can **answer queries without [[Table Heap|Heap]] access**.
 
-It can be used only when all the requested query columns are stored in the index.
+It can be used only when **all requested columns are stored in the [[Database Index|Index]]**.
 
 It uses [[Table Visibility Map]] to avoid [[MVCC Visibility rules|MVCC Visibility Checks]] that require [[Table Heap|Heap]] access.
