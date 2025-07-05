@@ -25,6 +25,12 @@ When row is updated:
 
 [[MySQL]] doesn't.
 
+##### Indexes
+
+In [[PostgreSQL]] there are [[GIN Index]], [[GIST Index]], [[BRIN Index]] besides standard [[BTree]].
+
+In [[MySQL]] it seems that only [[BTree]] is available.
+
 ##### Sequences
 
 In [[PostgreSQL]] sequence is a separate thing that can be used as is.

@@ -1,3 +1,5 @@
+[[GIST Index]]
+
 ```sql
 ALTER TABLE vacations 
     ADD CONSTRAINT vacations_non_overlapping_periods 
