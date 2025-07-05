@@ -11,7 +11,7 @@ CREATE TABLE user_login_events PARTITION OF user_events
     FOR VALUES IN ('id1', 'id2');
 ```
 
-> ⚠️ You can't use [[Generated Column]] as Partition Key.
+> ⚠️ You can't use [[Generated Column]] as Key of Partition.
 
 [[Foreign Key]] toward the Partitioned table creates [[Inherited Constraint]] for every partition:
 
