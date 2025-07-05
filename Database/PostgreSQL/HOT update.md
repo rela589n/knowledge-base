@@ -4,4 +4,4 @@ aliases:
 ---
 https://www.postgresql.org/docs/current/storage-hot.html
 
-HOT update can be used only if update doesn't touch any [[Database Indexes|Indexes]].
+HOT update can be used only if update doesn't touch any [[Database Index|Indexes]].

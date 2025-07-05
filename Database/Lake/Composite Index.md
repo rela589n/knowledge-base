@@ -1,8 +1,10 @@
 ---
 aliases:
-  - Multicolumn Index
+  - Multi-column Index
 ---
 Best practice for **ordering columns** in composite index **is by [[Cardinality|Selectivity]]**, since less index [[Page|Pages]] will be needed to be scanned.
+
+The most common type is **concatenated index**. Columns are concatenated to make a single key. Index, consisting of (firstname+lastname) may be used to find records either by firstname or by both firstname and lastname.
 
 The **part of index to be scanned** is determined by the **leftmost columns** that use **equality operator** (+ **first following column**'s condition).
 

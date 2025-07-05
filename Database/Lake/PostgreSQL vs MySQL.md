@@ -11,7 +11,7 @@ aliases:
 Physically, that's a difference - [[PostgreSQL]] always inserts data to the end [[Page]], while [[MySQL]] keeps up [[Clustered Index]].
 
 When row is updated:
-- [[MySQL]] rewrites it in place (old is backed up in [[Rollback Segment]]), and only needed [[Database Indexes|Indexes]] are updated (if there was indexable field update). 
+- [[MySQL]] rewrites it in place (old is backed up in [[Rollback Segment]]), and only needed [[Database Index|Indexes]] are updated (if there was indexable field update). 
 - [[PostgreSQL]] writes new [[MVCC]] version, and it needs to update [[Table Heap|Heap File]] pointers for all the indexes (if [[HOT update]] wasn't used).
 ##### Exclude Constraints
 

@@ -10,7 +10,7 @@ db_get () {
 }
 ```
 
-Many databases use _log_ which is append-only data file. Concept is similar to what `db_set` does.
+Many databases use [[Log]] which is append-only data file. Concept is similar to what `db_set` does.
 
 ![[Log#^a46879]]
 
