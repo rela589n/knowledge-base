@@ -55,7 +55,7 @@ Thus, [[MySQL]] can handle more concurrent connections (up to 10k in case of Ube
 
 In [[PostgreSQL]] Schema changes are [[Transition|Transactional]];
 
-In [[MySQL]] probably they aren't.
+In [[MySQL]] they aren't.
 
 ##### Vacuum approaches
 
