@@ -32,11 +32,12 @@ When row is updated:
 In [[PostgreSQL]] there are [[GIN Index]], [[GIST Index]], [[BRIN Index]] besides standard [[BTree]] and [[Hash Index]].
 
 In [[MySQL]] it only [[BTree]] and [[Hash Index]] are available.
+
 ###### Covering:
 
-In [[PostgreSQL]] there's direct support for [[Covering Index]].
+In [[PostgreSQL]] there's direct **support for [[Covering Index]]**.
 
-In [[MySQL]] you can only use [[Composite Index|Multi-column Index]] to do the same.
+In [[MySQL]] you can only **use [[Composite Index|Multi-column Index]]** to do the same, but it **won't be [[Unique Index]]** on the first column anymore.
 
 ##### Sequences
 
