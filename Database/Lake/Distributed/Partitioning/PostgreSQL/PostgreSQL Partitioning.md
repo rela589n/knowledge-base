@@ -1,4 +1,4 @@
-[[Partitioning Example]]
+[[Partitioning Test]]
 
 Create partition (list):
 

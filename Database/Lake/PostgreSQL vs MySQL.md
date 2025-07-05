@@ -39,6 +39,10 @@ In [[PostgreSQL]] there's direct **support for [[Covering Index]]**.
 
 In [[MySQL]] you can only **use [[Composite Index|Multi-column Index]]** to do the same, but it **won't be [[Unique Index]]** on the first column anymore.
 
+###### Functional
+
+Both [[PostgreSQL]] and [[MySQL]] support [[Index on Expression]].
+
 ##### Sequences
 
 In [[PostgreSQL]] sequence is a separate thing that can be used as is.

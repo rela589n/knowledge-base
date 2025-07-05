@@ -10,7 +10,7 @@ aliases:
 
 > Beware that [[Primary Key|Primary Keys]] and [[Unique Constraint|Unique Constraints]] are not globally unique any longer, neither do they or  [[Foreign Key|Foreign Keys]]  propagate to the derived tables (see [caveats](https://www.postgresql.org/docs/current/ddl-inherit.html#DDL-INHERIT-CAVEATS)).
 
-Use [[Partitioning Example]] instead.
+Use [[Partitioning Test]] instead.
 
 One table inherits columns of another table, and when we insert values into that concrete table, they show up when selected from an abstract table.
 

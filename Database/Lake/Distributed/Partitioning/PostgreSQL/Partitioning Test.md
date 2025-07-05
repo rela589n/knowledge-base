@@ -1,3 +1,7 @@
+---
+aliases:
+  - Partitioning Example
+---
 Create partitioned table:
 
 ```sql
