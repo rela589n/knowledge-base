@@ -27,9 +27,16 @@ When row is updated:
 
 ##### Indexes
 
-In [[PostgreSQL]] there are [[GIN Index]], [[GIST Index]], [[BRIN Index]] besides standard [[BTree]].
+###### Types:
 
-In [[MySQL]] it seems that only [[BTree]] is available.
+In [[PostgreSQL]] there are [[GIN Index]], [[GIST Index]], [[BRIN Index]] besides standard [[BTree]] and [[Hash Index]].
+
+In [[MySQL]] it only [[BTree]] and [[Hash Index]] are available.
+###### Covering:
+
+In [[PostgreSQL]] there's direct support for [[Covering Index]].
+
+In [[MySQL]] you can only use [[Composite Index|Multi-column Index]] to do the same.
 
 ##### Sequences
 
