@@ -41,7 +41,7 @@ In [[MySQL]] you can only **use [[Composite Index|Multi-column Index]]** to do t
 
 ###### Functional
 
-Both [[PostgreSQL]] and [[MySQL]] support [[Index on Expression]].
+Both [[PostgreSQL]] and [[MySQL]] support [[Expression-based Index]].
 
 ##### Sequences
 

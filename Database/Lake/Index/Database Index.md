@@ -13,3 +13,10 @@ Index types:
 - [[GIST Index]]
 - [[GIN Index]]
 - [[BRIN Index]]
+
+[[Unique Index]]
+
+[[Partial Index]]
+[[Composite Index]]
+[[Expression-based Index]]
+[[Covering Index]]

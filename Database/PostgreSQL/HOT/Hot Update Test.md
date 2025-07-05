@@ -2,7 +2,7 @@
 aliases:
   - Hot Update Example
 ---
-[[HOT update]] test that shows that when [[Database Index|Index]] changes, the actual update must re-evaluate all [[Database Index|Indexes]], including [[Index on Expression|Expression-based Indexes]]:
+[[HOT update]] test that shows that when [[Database Index|Index]] changes, the actual update must re-evaluate all [[Database Index|Indexes]], including [[Expression-based Index|Expression-based Indexes]]:
 
 ```sql
 -- Function that sleeps and logs when called
