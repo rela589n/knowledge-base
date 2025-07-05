@@ -2,7 +2,7 @@
 docs:
   - https://habr.com/ru/companies/quadcode/articles/679618/
 ---
-[[Partitioning Test]]
+[[Partitioning Test|Partitioning Example]], [[Partitioning Task]]
 
 Create partition (list):
 
@@ -10,6 +10,8 @@ Create partition (list):
 CREATE TABLE user_login_events PARTITION OF user_events
     FOR VALUES IN ('id1', 'id2');
 ```
+
+> ⚠️ You can't use [[Generated Column]] as Partition Key.
 
 [[Foreign Key]] toward the Partitioned table creates [[Inherited Constraint]] for every partition:
 
