@@ -5,7 +5,6 @@
 		{"id":"7148352a4726bd33","type":"file","file":"Database/Lake/Distributed/Partitioning/Partitioning.md","x":-240,"y":695,"width":400,"height":400},
 		{"id":"c13950c7bfaf1461","type":"file","file":"Database/Lake/Index/Clustered/Clustered Index Example.md","x":428,"y":337,"width":442,"height":303},
 		{"id":"56a4b066e432691b","type":"file","file":"Database/Lake/Index/Clustered/Clustered Index Multiple tables Example.md","x":1140,"y":420,"width":460,"height":368},
-		{"id":"7f896bb1c519a03f","type":"file","file":"Web Sockets/Centrifugo/Centrifugo.md","x":-720,"y":1960,"width":400,"height":400},
 		{"id":"ca4ce8e4d98388cb","type":"file","file":"Temporal/Temporal.md","x":-720,"y":2620,"width":400,"height":400},
 		{"id":"4805f6d6deb4cbd5","type":"text","text":"Use [[PostgreSQL]] native utilities for [[Partitioning]]. Note the differece.","x":559,"y":895,"width":412,"height":131},
 		{"id":"44f0719aea269be2","type":"file","file":"Database/Lake/Composite Index.md","x":-255,"y":1980,"width":400,"height":400},
@@ -13,7 +12,11 @@
 		{"id":"be0a150446d7d9ba","type":"file","file":"Database/Lake/Distributed/Partitioning/PostgreSQL/Partitioning Example.md","x":323,"y":1260,"width":442,"height":400},
 		{"id":"f65c4af7aa192f2e","type":"file","file":"Database/Lake/Distributed/Partitioning/PostgreSQL/Partitioning Task.md","x":1040,"y":1260,"width":400,"height":400},
 		{"id":"ee64959a3f7d6af4","type":"text","text":"Try using [[Partitioning]] as means for [[PostgreSQL Table Inheritance|Table Inheritance]]","x":1840,"y":1026,"width":392,"height":150},
-		{"id":"c15235d82aa764f8","type":"text","text":"Single-Tenancy","x":-180,"y":2590,"width":250,"height":90}
+		{"id":"c15235d82aa764f8","type":"text","text":"Single-Tenancy","x":-180,"y":2590,"width":250,"height":90},
+		{"id":"979c23d0b8abfb21","type":"text","text":"not possible [question](https://stackoverflow.com/questions/79673012/postgresql-add-column-to-partition-for-table-inheritance?noredirect=1#comment140537768_79673012)","x":1943,"y":1286,"width":250,"height":74},
+		{"id":"800ae52b9c13b2b7","x":-455,"y":3320,"width":400,"height":400,"type":"file","file":"Database/DDIA/I - Foundations of Data Systems/3. Storage and retrieval.md"},
+		{"id":"dede560d725e3964","x":-320,"y":3100,"width":250,"height":60,"type":"text","text":"**Spatial Indexes**"},
+		{"id":"7f896bb1c519a03f","type":"file","file":"Web Sockets/Centrifugo/Centrifugo.md","x":-920,"y":1940,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"494e70b039ed9da7","fromNode":"23ad63d035670776","fromSide":"right","toNode":"30ce573f913b9bc3","toSide":"left"},
@@ -23,6 +26,8 @@
 		{"id":"7b79460a8c0dc0c7","fromNode":"4805f6d6deb4cbd5","fromSide":"bottom","toNode":"be0a150446d7d9ba","toSide":"top"},
 		{"id":"076aefdf06f3df21","fromNode":"44f0719aea269be2","fromSide":"right","toNode":"72a26c04c574430a","toSide":"left"},
 		{"id":"178f30cc39a73bdc","fromNode":"4805f6d6deb4cbd5","fromSide":"right","toNode":"ee64959a3f7d6af4","toSide":"left"},
-		{"id":"dc518919f4ed2671","fromNode":"4805f6d6deb4cbd5","fromSide":"bottom","toNode":"f65c4af7aa192f2e","toSide":"top"}
+		{"id":"dc518919f4ed2671","fromNode":"4805f6d6deb4cbd5","fromSide":"bottom","toNode":"f65c4af7aa192f2e","toSide":"top"},
+		{"id":"978b5b8e5da0e584","fromNode":"ee64959a3f7d6af4","fromSide":"bottom","toNode":"979c23d0b8abfb21","toSide":"top"},
+		{"id":"f5aac6f4d6cdc564","fromNode":"dede560d725e3964","fromSide":"bottom","toNode":"800ae52b9c13b2b7","toSide":"top"}
 	]
 }
