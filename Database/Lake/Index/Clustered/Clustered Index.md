@@ -1,3 +1,8 @@
+---
+docs:
+  - https://habr.com/ru/companies/quadcode/articles/679618/
+  - https://www.postgresql.org/docs/current/sql-cluster.html
+---
 **Clustered index** - [[Database Index|Database Index]] that determines **how data is physically placed** on the disk (sorted in the order of index), therefore there could be **only one such index**.
 
 [[Primary Key]] can be used as [[Clustered Index]], if there is need for the efficient search by [[Primary Key]] (yet, inserts/updates might be not so efficient because of the need to reorganize the data).
