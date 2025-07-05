@@ -1,3 +1,7 @@
+---
+docs:
+  - https://habr.com/ru/companies/quadcode/articles/679618/
+---
 [[Partitioning Test]]
 
 Create partition (list):
