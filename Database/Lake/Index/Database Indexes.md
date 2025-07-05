@@ -6,5 +6,5 @@ aliases:
 Index types:
 - [[BTree]]
 - [[GIST Index]]
-- [[GIN index]]
+- [[GIN Index]]
 - [[BRIN Index]]
