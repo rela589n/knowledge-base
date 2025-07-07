@@ -9,7 +9,7 @@ It is rigorously organized and structured most relevant **selective abstraction 
 
 [[Domain Model|Model]] must capture the **conceptual core**, **vision of the system**.
 
-The most fundamental requirement of [[Domain Model|Model]] is that it **be internally consistent** (no contradictions). *Unification* - [[Invariant|Invariants]] are kept, terms are unambiguous, rules do not contradict. ^3cfe8a
+It must be kept [[Model Unification|Consistent]].
 
 It is not just a diagram. It is the idea that diagram conveys.
 
