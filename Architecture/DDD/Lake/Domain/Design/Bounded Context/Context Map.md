@@ -6,7 +6,7 @@ aliases:
 
 **Contracts** are **touch points** between [[Bounded Context|Bounded Contexts]].
 
-##### Types of Context Mapping:
+##### Patterns that define the nature of the *relationships between [[Bounded Context|Contexts]]*:
 
 [[Customer-Supplier|Customer/Supplier]]
 
