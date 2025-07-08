@@ -4,6 +4,8 @@ aliases:
 ---
 **[[Bounded Context|Context]] Map** is a global view the project's [[Bounded Context|Bounded Contexts]] and **relationships between them**. Useful for cross-team collaboration.
 
+[[Code]] reuse between [[Bounded Context|Bounded Contexts]] must be avoided.
+
 **Contracts** are **touch points** between [[Bounded Context|Bounded Contexts]].
 
 ##### Patterns that define the nature of the *relationships between [[Bounded Context|Contexts]]*:
