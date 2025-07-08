@@ -9,4 +9,3 @@ doctrine:
             tsvector_string: App\Support\Doctrine\Type\TsVectorString\TsVectorStringType
 ```
 
-
