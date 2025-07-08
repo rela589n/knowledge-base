@@ -22,4 +22,4 @@ What's in and what's out of [[Bounded Context|Context]] is determined by whether
 
 [[Context Map]] gives big picture of [[Bounded Context|Contexts]] and connections.
 
-**Continuous Integration** keeps the [[Model Unification|Model Unified]] within the [[Bounded Context]].
+[[Continuous Integration]] keeps the [[Model Unification|Model Unified]] within the [[Bounded Context]].
