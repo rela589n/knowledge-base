@@ -7,7 +7,7 @@ aliases:
 
 Context of the [[Domain Model|Model]] is a set of conditions under which [[Domain Concept|Model Terms]] have specific meaning.
 
-Total [[Model Unification|Unification]] of the [[Domain Model]] in a large system isn't effective. Most optimal is when [[Bounded Context|Bounded Contexts]] to expose their own small [[Domain Model|Models]] rather than one big over-arching [[Domain Model|Model]].
+Total [[Model Unification|Unification]] of the [[Domain Model]] in a large system isn't effective. Most optimal is to have few [[Bounded Context|Bounded Contexts]] to expose their own small [[Domain Model|Models]] rather than one big over-arching [[Domain Model|Model]].
 
 You should keep [[Domain Model|Model]] strictly [[Model Unification|Unified]] within [[Bounded Context|Context]] and not be distracted with the issues outside.
 
