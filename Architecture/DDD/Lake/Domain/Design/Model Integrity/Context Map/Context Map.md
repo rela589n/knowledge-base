@@ -6,7 +6,11 @@ aliases:
 
 [[Code]] reuse between [[Bounded Context|Bounded Contexts]] must be avoided.
 
+[[Context Map]] is a manager's view of the Design.
+We can see what [[Bounded Context|Bounded Contexts]] and who's working on them.
+
 **Contracts** are **touch points** between [[Bounded Context|Bounded Contexts]].
+Describe them and their nature explicitly.
 
 ##### Patterns that define the nature of the *relationships between [[Bounded Context|Contexts]]*:
 
