@@ -2,11 +2,10 @@
 
 Useful when it's too much overhead to fully sync the [[Domain Model|Models]].
 We **synchronize only the *subset* of [[Domain Model|Model]] citizens**.
-We don't remove the whole duplication, we just reduce it.
 
-The explicitly **shared stuff** shouldn't be **changed** without **consulting the other team**.
+We just **reduce duplication**, not eliminate it completely as it would've been if there was one [[Bounded Context]].
 
-All [[Continuous Integration]] **Tests of both teams must pass** when changes are made.
+The explicitly **shared stuff** should be **changed** only by **consulting the other team**. All [[Continuous Integration]] **Tests of both teams must pass** in this case.
 
 If team's [[Continuous Integration]] rate is once a day, then [[Shared Kernel]] [[Continuous Integration|Integration]] could be once a week.
 
