@@ -1,14 +1,14 @@
 ---
 aliases:
-  - Map Relationships
+  - Map Relationship
 ---
 Patterns that define the nature of the **relationships between [[Bounded Context|Bounded Contexts]]**:
+
+[[Shared Kernel]]
 
 [[Customer-Supplier|Customer/Supplier]]
 
 **Cooperation** - either **Partnership** or **Shared Kernel**. When teams are closely-collaborated.
-
-[[Shared Kernel]]
 
 **Partnership** - (? complete share ?)
 
