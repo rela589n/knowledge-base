@@ -1,4 +1,4 @@
-**Continuous Integration** means that all **the work** within single [[Bounded Context]] **is combined quickly** so that it's easy to detect and **fix [[Integrity Problems]] quickly**.
+**Continuous Integration** means that all **the work** within single [[Bounded Context]] **is integrated quickly** so that it's easy to detect and **fix [[Integrity Problems]] quickly**.
 
 It tames [[Integrity Problems|Model Fragmentation]] especially when the team increases.
 
