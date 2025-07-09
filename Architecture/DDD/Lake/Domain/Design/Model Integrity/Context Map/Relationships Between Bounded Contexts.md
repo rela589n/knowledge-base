@@ -8,7 +8,7 @@ Patterns that define the nature of the **relationships between [[Bounded Context
 
 **Cooperation** - either **Partnership** or **Shared Kernel**. When teams are closely-collaborated.
 
-**Shared Kernel** - two [[Bounded Context|bounded contexts]] physically share some parts of the code, holding shared entities.
+[[Shared Kernel]]
 
 **Partnership** - (? complete share ?)
 

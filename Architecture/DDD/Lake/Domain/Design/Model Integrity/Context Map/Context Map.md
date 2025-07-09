@@ -7,7 +7,7 @@ aliases:
 [[Context Map]] is a manager's view of the Design.
 We can see [[Bounded Context|Bounded Contexts]] and who's working on them.
 
-Each [[Bounded Context]] must have a name and **clear Boundaries** so that team could [[Comprehension|Understand]] which part of the system each [[Bounded Context#^c073df|Aspect]] belongs to.
+Each [[Bounded Context]] must have a name and **clear Boundaries** so that team could [[Comprehension|Understand]] which part of the system each [[Bounded Context Aspects|Aspect]] belongs to.
 
 [[Context Map]] must **represent the situation as it is**, not as we'd like it.
 
