@@ -1,3 +1,7 @@
+---
+aliases:
+  - CI
+---
 **Continuous Integration** means that all **the work** within single [[Bounded Context]] **is integrated quickly** so that it's easy to detect and **fix [[Integrity Problems]] quickly**.
 
 It tames [[Integrity Problems|Model Fragmentation]] especially when the team increases.
@@ -10,3 +14,5 @@ It tames [[Integrity Problems|Model Fragmentation]] especially when the team inc
 
 Set up frequent merges and automatic tests.
 Communicate [[Ubiquitous Language]].
+
+**Uncoordinated teams** working on closely related features might **go for a while**. Yet, usually their **work don't match together** in the end so they have to spend time on fixing [[Translation Layer]] that they might've **spent on [[Continuous Integration]]**.
