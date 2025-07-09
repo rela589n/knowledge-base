@@ -15,7 +15,7 @@ What's in and what's out of [[Bounded Context|Context]] is determined by whether
 - [[Anti-Corruption Layer|Translation Layer]] is outside of the [[Bounded Context|Context]] (not driven);
 - Database Schemas is within the [[Bounded Context|Context]], (it's driven by the [[Domain Model|Model]]).
 
-[[Bounded Context]] is made up of **all the aspects of the system that are driven by the [[Domain Model|Model]]**:
+[[Bounded Context]] is made up of **all the aspects of the system that are driven by the [[Domain Model|Model]]**: ^c073df
 - objects;
 - schemas;
 - applications.
