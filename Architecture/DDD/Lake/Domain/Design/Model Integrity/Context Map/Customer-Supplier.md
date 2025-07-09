@@ -4,12 +4,15 @@ aliases:
 ---
 **Customer/Supplier** - one (upstream) [[Bounded Context]] **provides subset of the [[Domain Model|Domain Model]] to another** (downstream) [[Bounded Context]]. Systems dependency is unidirectional.
 
+[[Customer-Supplier|Customer/Supplier]] is not poor-cousin relationship. 
+**Customer's priorities are paramount**.
+
 ![[Customer-Supplier.png]]
 
-The problems include:
+Key problems include:
 - **upstream freedom is hindered by downstream [[Backward Compatibility|BC]] requirement**;
 - **downstream is dependent on upstream's priorities**.
 
-To solve a [[Backward Compatibility|BC]] issue, the **interface acceptance tests** should be developed and established to run on upstream's [[Continuous Integration|CI]] .
+To solve a [[Backward Compatibility|BC]] issue, the **interface acceptance tests** should be **jointly developed** and set to **run on upstream's [[Continuous Integration|CI]]** . It's vital in customer relationship, lest upstream will fall short and emergency fixes will have to be developed, disrupting the normal work flow.
 
-To solve the priorities issue, it's necessary to do **cross-team iteration planning**. Supplier's planning should be expanded to **take into account Customer's concerns**. Supplier will get the priorities of the Customer, and the Customer will know when to expect delivered features.
+To solve the priorities issue, it's necessary to do **cross-team iteration planning**. *Supplier's* planning should be expanded to **take into account *customer's* concerns**. *Supplier* will get the priorities of the *customer*, and the *customer* will know when to **expect delivered features**. Customer team members should be available during iteration just in case of any questions.
