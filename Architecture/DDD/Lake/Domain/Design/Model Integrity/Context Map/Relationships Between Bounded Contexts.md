@@ -2,7 +2,7 @@
 aliases:
   - Map Relationship
 ---
-Patterns that define the nature of the **relationships between [[Bounded Context|Bounded Contexts]]**:
+Patterns that define the nature of the **relationships between [[Bounded Context|Bounded Contexts]]**. They mostly depend on the **project organization**.
 
 [[Shared Kernel]]
 
