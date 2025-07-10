@@ -1,4 +1,4 @@
-**Shared Kernel [[Relationships Between Bounded Contexts|Relationship]]** - two [[Bounded Context|Bounded Contexts]] physically share some parts of the [[Code]], holding shared entities. Two teams coordinate tightly.
+**Shared Kernel** is highly **cooperative [[Relationships Between Bounded Contexts|Relationship]]** between two [[Bounded Context|Bounded Contexts]], in which some **parts of the [[Code]]** (some entities) and other **[[Bounded Context Aspects|Aspects]] are physically shared**.
 
 Useful when it's too much overhead for full [[Model Unification|Unification of the Models]]. We **synchronize only the *subset* of [[Domain Model|Model]] citizens**.
 
