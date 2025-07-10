@@ -2,7 +2,7 @@
 aliases:
   - Customer/Supplier
 ---
-**Customer/Supplier** - one (upstream) [[Bounded Context]] **provides subset of the [[Domain Model|Domain Model]] to another** (downstream) [[Bounded Context]]. Systems dependency is unidirectional.
+**Customer/Supplier [[Relationships Between Bounded Contexts|Relationship]]** - one (upstream) [[Bounded Context]] **provides subset of the [[Domain Model|Domain Model]] to another** (downstream) [[Bounded Context]]. Systems dependency is unidirectional.
 
 [[Customer-Supplier|Customer/Supplier]] is not poor-cousin relationship. 
 **Customer's priorities are paramount**.

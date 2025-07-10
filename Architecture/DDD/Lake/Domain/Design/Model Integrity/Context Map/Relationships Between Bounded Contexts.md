@@ -8,11 +8,11 @@ Patterns that define the nature of the **relationships between [[Bounded Context
 
 [[Customer-Supplier|Customer/Supplier]]
 
+[[Conformist]]
+
 **Cooperation** - either **Partnership** or **Shared Kernel**. When teams are closely-collaborated.
 
 **Partnership** - (? complete share ?)
-
-**Conformist** - ?
 
 [[Anti-Corruption Layer]]
 
