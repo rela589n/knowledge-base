@@ -10,11 +10,11 @@ Patterns that define the nature of the **relationships between [[Bounded Context
 
 [[Conformist]]
 
+[[Anti-Corruption Layer]]
+
 **Cooperation** - either **Partnership** or **Shared Kernel**. When teams are closely-collaborated.
 
 **Partnership** - (? complete share ?)
-
-[[Anti-Corruption Layer]]
 
 [[Open-Host Service]]
 
