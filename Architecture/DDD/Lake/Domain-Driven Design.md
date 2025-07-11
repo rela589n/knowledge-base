@@ -15,7 +15,9 @@ DDD is responsibility-driven design ([[Binding Model to Implementation]]).
 
 DDD accelerates project onboarding, because [[Binding Model to Implementation|Model is bound to Implementation]].
 
-Encountering a change that isn't localized and requires a substantial change to the [[Domain Model|Model]] is a message: our [[Comprehension]] needs [[Model Refinement|Refinement]]. It presents an opportunity to [[Good Models lie deep|Deeper the Model]] and bring a [[Model Breakthrough|Breakthrough]].
+The benefits of isolation should be balanced against their cost.
+
+Encountering a change that isn't localized and requires a substantial change to the [[Domain Model|Model]] is a message that our [[Comprehension]] needs [[Model Refinement|Refinement]]. It presents an opportunity to [[Good Models lie deep|Deeper the Model]] and bring a [[Model Breakthrough|Breakthrough]].
 
 In DDD, [[Model Refinement]], [[Model-driven Design|Model-driven Design]], [[Code|Implementation]] and [[Refactoring Toward Deeper Insight]] must go hand-in-hand in an iterative development process (NO [[Waterfall method]]).
 

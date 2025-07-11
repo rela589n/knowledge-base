@@ -12,13 +12,12 @@ Patterns that define the nature of the **relationships between [[Bounded Context
 
 [[Anti-Corruption Layer]]
 
+[[Separate Ways]]
+
+[[Open-Host Service]]
+
 **Cooperation** - either **Partnership** or **Shared Kernel**. When teams are closely-collaborated.
 
 **Partnership** - (? complete share ?)
 
-[[Open-Host Service]]
-
 **Published language** - ?
-
-**Separate ways** - [[Bounded Context|Bounded Contexts]] are **completely independent** and have nothing shared.
-

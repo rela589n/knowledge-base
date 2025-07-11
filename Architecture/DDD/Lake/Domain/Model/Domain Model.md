@@ -17,4 +17,6 @@ It is not just a diagram. It is the idea that diagram conveys.
 
 [[Domain Model]] is a **must have** for the **[[Domain|Domains]] with rich functionality**. Not having it would turn into massive investment into ad hoc development.
 
+Some specialized [[Domain Model|Model]] that can handle some need must give way to a more generic [[Domain Model|Model]] that can handle all situations.
+
 [[Model-driven Design]]
