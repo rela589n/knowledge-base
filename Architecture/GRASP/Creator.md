@@ -3,4 +3,4 @@ The principle, that states that class A could create instance of class B if:
 - A has composition over B;
 - A has the information needed to create B.
 
-Related to [[Creational Patterns]]
+Related to [[Creational Design Patterns]]
