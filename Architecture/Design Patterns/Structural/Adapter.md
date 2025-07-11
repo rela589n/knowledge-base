@@ -2,9 +2,9 @@
 aliases:
   - Adapters
 ---
-**Adapter** allows client to use implementation, adapted to the interface that client understands.
+**Adapter** adapts **third-party interface** to the **client interface**.
 
-We pass the parameters in **one format**, and **adapter adjusts** it for the interface accepting **another**.
+It allows **client to use known interface**, and [[Adapter]] will convert passed parameters for the interface of the adapted system.
  
 Example: 
 - [[Anti-Corruption Layer]]
