@@ -4,6 +4,8 @@ aliases:
 ---
 Patterns that define the nature of the **relationships between [[Bounded Context|Bounded Contexts]]**. They mostly depend on the **project organization**.
 
+Typically you'll define [[Translation Layer]] for each integration your [[Bounded Context|Context]] will be engaged in.
+
 [[Shared Kernel]]
 
 [[Customer-Supplier|Customer/Supplier]]
@@ -14,7 +16,7 @@ Patterns that define the nature of the **relationships between [[Bounded Context
 
 [[Separate Ways]]
 
-[[Open-Host Service]]
+[[Open Host Service]]
 
 **Cooperation** - either **Partnership** or **Shared Kernel**. When teams are closely-collaborated.
 
