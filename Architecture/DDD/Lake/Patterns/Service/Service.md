@@ -1,3 +1,7 @@
+---
+aliases:
+  - Services
+---
 Service represents an operation offered to the client. It doesn't have the state on it's own. 
 
 It should accept parameters as domain objects and return results as the domain objects as well.
