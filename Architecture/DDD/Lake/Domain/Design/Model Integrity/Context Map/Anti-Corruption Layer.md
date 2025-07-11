@@ -17,3 +17,12 @@ There are three main [[Service|Services]]:
 Sometimes third-party exposes fuzzy **interfaces** that're **hard to deal with**. These should be encapsulated in **[[Facade|Facades]]** that present **friendly interface**. These belong to their [[Bounded Context]], and therefore must **written strictly in other system's [[Domain Model|Model]]**.
 
 To expose **interface in terms of our [[Domain Model|Model]]**, yet interact with their [[Domain Model|Model]], we should **use [[Adapter|Adapters]]**. These expose known interface, but operate with system in their interface, and convert results back to our interface.
+
+Then, dedicated [[Translation Layer|Translator]] holds the responsibility of cross-[[Domain Model|Model]] conversion.
+
+![[Anti-Corruption Layer.png]]
+
+Technically, [[Anti-Corruption Layer]] can be placed:
+- within our own subsystem;
+- as a separate system;
+- within third-party system.
