@@ -1,7 +1,7 @@
 ---
 aliases: []
 ---
-**Anti-corruption Layer** - [[Relationships Between Bounded Contexts|Relationship]] that anticipates severe intermediary **[[Translation Layer|Translation]]** mechanism between two [[Domain Model|Models]].
+**Anti-corruption Layer** - [[Relationships Between Bounded Contexts|Relationship]] that anticipates severe intermediary **[[Translation Layer|Translation]]** mechanism between two [[Domain Model|Models]] to protect our [[Domain Model|Model]] from external influence.
 
 When **integrating legacy system**, if it's a large scope of integration, **their [[Domain Model|Model]] may leak** into our [[Domain Model|Model]]. When interacting with them, we **need to adapt** to their semantics.
 
@@ -23,6 +23,8 @@ Then, dedicated [[Translation Layer|Translator]] holds the responsibility of cro
 ![[Anti-Corruption Layer.png]]
 
 Technically, [[Anti-Corruption Layer]] can be placed:
-- within our own subsystem;
-- as a separate system;
-- within third-party system.
+- within the subsystem;
+- as a separate subsystem.
+
+[[Anti-Corruption Layer]] can be extended with Audit trail.
+Also, [[Anti-Corruption Layer]] can be between your own [[Bounded Context|Bounded Contexts]] in case they've deviated ([[Separate Ways]]).
