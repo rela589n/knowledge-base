@@ -1,4 +1,10 @@
-When we need to pass the data in one format into the interface that accepts it in another.
+---
+aliases:
+  - Adapters
+---
+**Adapter** allows client to use implementation, adapted to the interface that client understands.
+
+We pass the parameters in **one format**, and **adapter adjusts** it for the interface accepting **another**.
  
 Example: 
 - [[Anti-Corruption Layer]]

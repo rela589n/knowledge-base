@@ -33,6 +33,10 @@ Tactical - patterns used in solution space. These are more technical, as they ar
 
 [[Enterprise Segment]]
 
+[[Facade]]
+
+[[Adapter]]
+
 
 ![[DDD Pattern map.png]]
 
