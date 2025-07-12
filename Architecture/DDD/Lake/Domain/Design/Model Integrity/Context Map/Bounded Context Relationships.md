@@ -6,22 +6,15 @@ Patterns that define the nature of the **relationships between [[Bounded Context
 
 Typically you'll define [[Translation Layer]] for each integration your [[Bounded Context|Context]] will be engaged in.
 
-[[Shared Kernel]]
+- [[Shared Kernel]]
+- [[Customer-Supplier|Customer/Supplier]]
+- [[Conformist]]
+- [[Anti-Corruption Layer]]
+- [[Separate Ways]]
 
-[[Customer-Supplier|Customer/Supplier]]
-
-[[Conformist]]
-
-[[Anti-Corruption Layer]]
-
-[[Separate Ways]]
-
-[[Open Host Service]]
-
-[[Published Language]]
+- [[Open Host Service]]
+- [[Published Language]]
 
 **Cooperation** - either **Partnership** or **Shared Kernel**. When teams are closely-collaborated.
 
 **Partnership** - (? complete share ?)
-
-
