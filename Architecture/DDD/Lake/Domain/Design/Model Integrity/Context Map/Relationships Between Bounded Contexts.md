@@ -18,8 +18,10 @@ Typically you'll define [[Translation Layer]] for each integration your [[Bounde
 
 [[Open Host Service]]
 
+[[Published Language]]
+
 **Cooperation** - either **Partnership** or **Shared Kernel**. When teams are closely-collaborated.
 
 **Partnership** - (? complete share ?)
 
-**Published language** - ?
+
