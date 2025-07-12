@@ -3,7 +3,7 @@ aliases:
   - Conform
   - Conformity
 ---
-**Conformist** is **one-sided [[Bounded Context Relationships|Relationship]]**, applied when full [[Customer-Supplier]] relationship can't be applied, and **downstream is on its own** with what's given.
+**Conformist** is **one-sided [[Model Context Strategies|Relationship]]**, applied when full [[Customer-Supplier]] relationship can't be applied, and **downstream is on its own** with what's given.
 
 [[Conformist]] is somewhat similar to [[Shared Kernel]] since the **[[Domain Model|Model]] is the same** (though not physically shared). 
 

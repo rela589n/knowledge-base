@@ -6,7 +6,7 @@ Patterns:
 - [[Bounded Context]]
 - [[Continuous Integration]]
 - [[Context Map]]
-- [[Bounded Context Relationships]]
+- [[Model Context Strategies]]
 
 **Model Integrity Patterns**
 ![[Model Integrity Patterns.png]]

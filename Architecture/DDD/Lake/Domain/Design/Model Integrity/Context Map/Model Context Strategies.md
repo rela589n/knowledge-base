@@ -1,6 +1,7 @@
 ---
 aliases:
   - Map Relationship
+  - Bounded Context Relationships
 ---
 Patterns that define the nature of the **relationships between [[Bounded Context|Bounded Contexts]]**. They mostly depend on the **project organization**.
 

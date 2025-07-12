@@ -4,6 +4,8 @@ aliases:
 ---
 **[[Bounded Context|Context]] Map** is a global view the project's [[Bounded Context|Bounded Contexts]] and **relationships between them**. Useful for cross-team collaboration.
 
+See [[Model Context Strategies|Model Context Strategies]]
+
 [[Context Map]] is a manager's view of the Design.
 We can see [[Bounded Context|Bounded Contexts]] and who's working on them.
 
@@ -16,4 +18,3 @@ Each [[Bounded Context]] must have a name and **clear Boundaries** so that team 
 **Contracts** are **touch points** between [[Bounded Context|Bounded Contexts]].
 Describe them and their nature explicitly.
 
-[[Bounded Context Relationships]]

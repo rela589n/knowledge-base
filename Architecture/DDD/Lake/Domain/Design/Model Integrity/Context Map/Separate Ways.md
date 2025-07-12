@@ -1,4 +1,4 @@
-**Separate Ways** - [[Bounded Context Relationships|Relationship]], in which [[Bounded Context|Bounded Contexts]] are **completely independent** and have nothing shared.
+**Separate Ways** - [[Model Context Strategies|Relationship]], in which [[Bounded Context|Bounded Contexts]] are **completely independent** and have nothing shared.
 
 Integration is always expensive. Sometimes it's **more trouble than it's worth**. Some integrations add little value.
 
