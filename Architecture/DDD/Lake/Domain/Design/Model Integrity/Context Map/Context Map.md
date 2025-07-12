@@ -16,4 +16,4 @@ Each [[Bounded Context]] must have a name and **clear Boundaries** so that team 
 **Contracts** are **touch points** between [[Bounded Context|Bounded Contexts]].
 Describe them and their nature explicitly.
 
-[[Relationships Between Bounded Contexts]]
+[[Bounded Context Relationships]]

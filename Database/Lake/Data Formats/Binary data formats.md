@@ -1,6 +1,6 @@
 ---
 aliases:
-  - binary data format
+  - Binary Protocols
 ---
 For internal use, when there are terabytes of data, it is really reasonable to stick with the most compact format. 
 

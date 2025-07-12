@@ -2,7 +2,7 @@
 aliases:
   - Published SDK
 ---
-**Open Host Service** - [[Relationships Between Bounded Contexts|Relationship]], in which host [[Bounded Context]] **exposes public SDK** that other [[Bounded Context|Bounded Contexts]] can use to integrate.
+**Open Host Service** - [[Bounded Context Relationships|Relationship]], in which host [[Bounded Context]] **exposes public SDK** that other [[Bounded Context|Bounded Contexts]] can use to integrate.
 
 When [[Bounded Context]] is needed to be integrated again and again, it brings much **overhead of writing [[Translation Layer]] for every Customer**. Open **SDK simplifies the integration**.
 
