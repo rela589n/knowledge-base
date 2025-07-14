@@ -12,4 +12,4 @@ With small [[Bounded Context]]:
 - [[Continuous Integration]] is easier;
 - Features flow is harder ([[Context Integration Map|Integration]]).
 
-
+External subsystems might be represented as multiple [[Bounded Context|Bounded Contexts]] as well.

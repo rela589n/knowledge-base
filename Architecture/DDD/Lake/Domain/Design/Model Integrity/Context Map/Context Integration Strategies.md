@@ -23,3 +23,5 @@ Typically you'll define [[Translation Layer]] for each integration your [[Bounde
 **Partnership** - (? complete share ?)
 
 See [[Bounded Context Boundaries]]
+[[External Systems Integration]]
+
