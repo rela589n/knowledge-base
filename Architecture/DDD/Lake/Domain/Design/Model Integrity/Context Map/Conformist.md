@@ -7,13 +7,15 @@ aliases:
 
 **[[Conformist]]** is in a sense similar to [[Shared Kernel]] as the **[[Domain Model|Model]] is the same** (though more replicated, not physically shared). 
 
-**[[Conformist|Conformity]]** enormously **simplifies [[Context Integration Map|Integration]] and [[Model Refinement|Communication]]**, as [[Ubiquitous Language]] is shared with the upstream (who's the driver), it's easy to talk with them.
+**[[Conformist|Conformity]]** enormously **simplifies [[Context Integration Map|Integration]] and [[Model Refinement|Communication]]**, as [[Ubiquitous Language|Language]] is shared with the upstream (who's the driver), and it's easy to talk with them.
 
 On the other hand, it completely **restricts the [[Domain Model|Model]]** to the use-cases they have, limiting what's possible.
 
 Typically the **Frontend should [[Conformist|Conform]] the Backend** (yet, being in more close collaboration). In essence, if **system isn't autonomous**, it should [[Conformist|Conform]].
 
-In a sense, writing ad-hoc system with [[Translation Layer]] could result more effort in [[Translation Layer]] than on the application itself.
+In essence, writing ad-hoc system with different [[Domain Model|Model]] rather than [[Conformist|Conforming]] it could result in **more effort for [[Translation Layer|Translation]] than for the application** itself.
+
+Though, with [[Conformist]] it's possible to use the [[Domain Model|Model]] and sharpen it a bit (make it more expressive). Yet, it's only within their [[Domain Model|Model]], no modifications to it.
 
 [[Conformist]] is not [[Customer-Supplier]] relationship. **Downstream is on its own and by itself**.
 

@@ -2,6 +2,7 @@
 aliases:
   - Translate
   - Translator
+  - Translation
 ---
 **Translator** is the class that encapsulates **interpretation between [[Domain Model|Models]]**.
 
