@@ -1,5 +1,7 @@
 [[Change Sets Calculated on every flush()|Flush Change Sets]]
 
+[[Identity map lookup limitations]]
+
 [[Partial Hydration]]
 
 [[Entity deletion happens last]]
