@@ -2,6 +2,8 @@
 
 [[Identity map lookup limitations]]
 
+[[Lazy loading limitations]]
+
 [[Partial Hydration]]
 
 [[Entity deletion happens last]]
