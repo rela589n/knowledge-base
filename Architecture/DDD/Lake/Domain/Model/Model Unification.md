@@ -3,6 +3,7 @@ aliases:
   - Model Consistency
   - Unified
   - Valid within
+  - Elephant
 ---
 The most fundamental requirement of [[Domain Model|Model]] is that it **be internally consistent** (no contradictions). *Unification* - [[Invariant|Invariants]] are kept, [[Domain Concept|Terms]] are unambiguous, rules do not contradict.
 
@@ -12,5 +13,5 @@ When [[Model Unification|Unifying]] [[Bounded Context|Bounded Contexts]], it's t
 
 If there's no enough knowledge about the [[Domain Concept|Conceptual]] makeup of the [[Domain Model|Model]], it can be gained by [[Model Refinement|Refinements]], leading to [[Model Breakthrough]].
 
-Blind men have to recognize the **incompleteness of their perception**:
+Blind men have to recognize the **incompleteness of their perception** of the elephant:
 ![[Elephant View.png]] ^4c61c2
