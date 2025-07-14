@@ -13,5 +13,5 @@ You should keep [[Domain Model|Model]] strictly [[Model Unification|Unified]] wi
 
 [[Bounded Context Aspects]] define what's in and what's out.
 
-[[Context Map]] gives big picture of [[Bounded Context|Contexts]] and connections.
+[[Context Integration Map]] gives big picture of [[Bounded Context|Contexts]] and connections.
 

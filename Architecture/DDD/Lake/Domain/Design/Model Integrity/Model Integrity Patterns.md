@@ -5,8 +5,8 @@ aliases:
 Patterns:
 - [[Bounded Context]]
 - [[Continuous Integration]]
-- [[Context Map]]
-- [[Model Context Strategies]]
+- [[Context Integration Map]]
+- [[Context Integration Strategies]]
 
 **Model Integrity Patterns**
 ![[Model Integrity Patterns.png]]

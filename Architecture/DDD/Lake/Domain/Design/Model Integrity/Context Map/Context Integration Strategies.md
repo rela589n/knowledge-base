@@ -2,8 +2,10 @@
 aliases:
   - Map Relationship
   - Bounded Context Relationships
+  - Integration Strategies
+  - Integration Relationships
 ---
-Patterns that define the nature of the **relationships between [[Bounded Context|Bounded Contexts]]**. They mostly depend on the **project organization**.
+**Context Strategies** are Patterns that define the nature of the **relationships between [[Bounded Context|Bounded Contexts]]**. They mostly depend on the **project organization**. Global view is shown in [[Context Integration Map]].
 
 Typically you'll define [[Translation Layer]] for each integration your [[Bounded Context|Context]] will be engaged in.
 
@@ -19,3 +21,5 @@ Typically you'll define [[Translation Layer]] for each integration your [[Bounde
 **Cooperation** - either **Partnership** or **Shared Kernel**. When teams are closely-collaborated.
 
 **Partnership** - (? complete share ?)
+
+See [[Bounded Context Boundaries]]

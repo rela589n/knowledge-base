@@ -1,0 +1,1 @@
+To determine **[[Bounded Context|Context]] Boundaries**, you first have to understand that one team is primarily interested in the **part of the system they'll have to change**, and secondarily in [[Context Integration Map|Integrations]].
