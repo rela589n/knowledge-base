@@ -4,7 +4,7 @@
 
 [[Identity map lookup limitations]]
 
-[[Lazy loading limitations]]
+[[N+1 Problem]]
 
 [[Criteria API limitations]]
 
