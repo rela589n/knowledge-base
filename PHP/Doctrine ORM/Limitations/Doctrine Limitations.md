@@ -1,12 +1,16 @@
+[[Entity deletion happens last]]
+
 [[Change Sets Calculated on every flush()|Flush Change Sets]]
 
 [[Identity map lookup limitations]]
 
 [[Lazy loading limitations]]
 
-[[Partial Hydration]]
+[[Criteria API limitations]]
 
-[[Entity deletion happens last]]
+[[Lack of async support]]
+
+[[Partial Hydration]]
 
 [[Doctrine ORM mappings without separate folder]]
 
