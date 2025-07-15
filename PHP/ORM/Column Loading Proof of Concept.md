@@ -6,7 +6,7 @@ require "/app/vendor/autoload.php";
 $entityLoader = new EntityLoader();
 
 $user1 = new UserProxy($entityLoader, 1);
-$user2 = new UserProxy($entityLoader,2);
+$user2 = new UserProxy($entityLoader, 2);
 
 $posts = new Collection([
     new PostProxy($entityLoader, 1, $user1),
