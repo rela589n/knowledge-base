@@ -2,7 +2,7 @@
 
 ```php
 #[Autowire]
-private PostCommentCollection $comments {
+protected PostCommentCollection $comments {
     set => $value->ofPost($this->id);
 }
 ```
@@ -15,7 +15,22 @@ It is lazily evaluated, meaning that `$comments` property will not be initialize
 
 ```php
 #[Autowire]
-private PostCommentCollection $topComments {
+protected PostCommentCollection $topComments {
     set => $this->comments->orderByRating()->limit(10);
+}
+```
+
+Technically it's possible to implement it lazily by [[PHP Property Hooks and Inheritance]].
+
+```php
+class Proxy extends Post
+{
+    protected PostCommentCollection $topComments {
+        get {
+            (fn() => $this->topComments = $this->container->get(PostCommentCollection::class))();
+
+            return $this->topComments;
+        }
+    }
 }
 ```
