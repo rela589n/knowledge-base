@@ -32,3 +32,5 @@ $p = new Person('John', 'Doe');
 
 var_dump($p->firstName, $p->lastName, $p->fullName, $p->doubleName);
 ```
+
+Also, property `&get` hooks may return property reference.
