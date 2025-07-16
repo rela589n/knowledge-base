@@ -1,8 +1,11 @@
 Criteria API is a great [[Specification]] thing, but it's with its own limitations. 
 
-<u>It's not possible to filter by non-direct object field.</u> That what you'd usually do as leftJoin (with filter) in query builder isn't possible.
+(1) <u>It's not possible to filter by non-direct object field.</u> That what you'd usually do as leftJoin (with filter) in query builder isn't possible.
 
-Besides that, currently [[Doctrine ORM]]  provides way to do `$repository->matching($criteria)`, and it returns `LazyCriteriaCollection`. 
+(2) IndexBy doesn't really work with matching() method 
+https://github.com/doctrine/orm/issues/4693
+
+(3) Besides that, currently [[Doctrine ORM]]  provides way to do `$repository->matching($criteria)`, and it returns `LazyCriteriaCollection`, which doesn't support further `matching` api. 
 
 Yet, it's not possible to chain `matching` calls, since it results in collection load:
 
