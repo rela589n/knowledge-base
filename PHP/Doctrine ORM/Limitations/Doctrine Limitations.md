@@ -1,5 +1,7 @@
 [[Entity deletion happens last]]
 
+[[Doctrine Custom Collections]]
+
 [[Change Sets Calculated on every flush()|Flush Change Sets]]
 
 [[Identity map lookup limitations]]
