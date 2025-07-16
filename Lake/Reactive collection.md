@@ -12,8 +12,7 @@ $collection->push(123);
 // dervied also has 123, if it satisfies the filter
 ```
 
-> Is it necessary to have `derive()` method? Can't `filter` itself return a new derived collection that is managed by it's parent?
-
+> Is it necessary to have `derive()` method? Can't `filter` itself return a new derived collection, managed by it's parent?
 
 If every collection in orm would have been reactive, then pushing new post to global `PostCollection`, from which every other collections (like `user.posts`) are derived would automatically update the derived collections.
 

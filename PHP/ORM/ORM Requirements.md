@@ -4,4 +4,5 @@
 
 [[Identity Heap]]
 
-[[Column Loading]]
+[[Lazy Loading]]
+

@@ -19,9 +19,10 @@ $posts = new Collection([
 
 // N+1: 10 posts = up to 20 queries,
 // but NO! It's only 2 queries
-$managers = $posts->map(fn (Post $post) => $post->getUser()->getManager());
+$managers = $posts
+    ->map(fn (Post $post) => $post->getUser()->getManager());
 
-// Firstly, Users are loaded at once 
+// Firstly, Users are loaded at once
 // Then, Mangers are loaded at once
 
 var_dump($managers);
@@ -56,11 +57,7 @@ class PostProxy extends Post
         //    return parent::getUser();
         // }
 
-        $this->entityLoader->addPendingLoad([$this, 'user']);
-
-        \Amp\delay(0);
-
-        $this->entityLoader->load();
+        $this->entityLoader->load('user', $this);
 
         return parent::getUser();
     }
@@ -94,11 +91,7 @@ class UserProxy extends User
         //    return parent::getManager();
         // }
 
-        $this->entityLoader->addPendingLoad([$this, 'manager']);
-
-        \Amp\delay(0);
-
-        $this->entityLoader->load();
+        $this->entityLoader->load('manager', $this);
 
         return parent::getManager();
     }
@@ -109,21 +102,30 @@ class EntityLoader
 {
     private array $pendingLoad = [];
 
-    public function addPendingLoad($item): void
+    public function load(string $class, $item): void
     {
-        $this->pendingLoad[] = $item;
+        $this->addPendingLoad($class, $item);
+
+        \Amp\delay(0);
+
+        $this->doLoad($class);
     }
 
-    public function load(): void
+    private function addPendingLoad(string $class, $item): void
     {
-        if ([] === $this->pendingLoad) {
+        $this->pendingLoad[$class][] = $item;
+    }
+
+    private function doLoad(string $class): void
+    {
+        if (empty($this->pendingLoad[$class])) {
             return;
         }
 
-        var_dump('loading entities');
-        var_dump($this->pendingLoad);
+        var_dump('loading entities: ' . $class);
+        var_dump($this->pendingLoad[$class]);
 
-        $this->pendingLoad = [];
+        $this->pendingLoad[$class] = [];
     }
 }
 
@@ -134,7 +136,7 @@ class Collection
     ) {
     }
 
-    public function map(Closure $callback)
+    public function map(Closure $callback): self
     {
         $futures = [];
 
@@ -142,7 +144,9 @@ class Collection
             $futures[] = \Amp\async($callback, $item);
         }
 
-        return new static(\Amp\Future\await($futures));
+        $results = \Amp\Future\await($futures);
+
+        return new static($results);
     }
 }
 ```
