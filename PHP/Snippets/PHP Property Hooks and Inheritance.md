@@ -21,6 +21,7 @@ class Child extends User
             var_dump('get');
 
             // this is different from a plain assignment
+            // it sets to 124 (with parent hook)
             (fn () => $this->foo = 123)();
             // $this->initializeFoo(123); would do the same effect
 
