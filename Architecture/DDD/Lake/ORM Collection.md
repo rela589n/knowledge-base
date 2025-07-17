@@ -7,6 +7,7 @@ ORM [[Repository]] represents a Collection of all the objects of a certain type.
 It should support:
 - index fields (e.g. access by O(1))
 
+
 It should enable eager loading, preventing N+1 query problem.
 
 `$users->map(fn($user) => $user.getPosts()->map(...))`
