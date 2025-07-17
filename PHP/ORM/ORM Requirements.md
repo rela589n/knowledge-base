@@ -1,9 +1,13 @@
+[[Storage and Retrieval]]
+
 [[Commit order]]
 
 [[Criteria Collections]]
 
 [[Identity Heap]]
 
-[[Lazy Loading]]
+[[State Management]]
+
+[[Proxy Objects]]
 
 [[Identity kick-in]]

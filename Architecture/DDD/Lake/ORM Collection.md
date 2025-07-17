@@ -1,4 +1,4 @@
-See: [[ORM]] [[Repository]] [[Reactive collection]]
+See: [[ORM]] [[Repository]] [[Reactive Collection]]
 
 ORM [[Repository]] represents a Collection of all the objects of a certain type.
 

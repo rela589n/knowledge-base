@@ -1,6 +1,8 @@
 See [[State Management.canvas|State Management]]
 
-State is managed by Ghost objects. It uses [[Lazy Loading]] technique, and therefore state is populated step by step.
+State is managed by Ghost objects. It uses [[Lazy Loading]] technique, so that state is populated step by step.
+
+Change management happens only to mapped properties. Not mapped ones aren't used.
 
 When some property is updated, this change is recorded in internal `$changes` array, that is used later on during flush.
 

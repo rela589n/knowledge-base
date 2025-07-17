@@ -9,7 +9,7 @@ Two users are the same, but how do we know it? If we do nothing when creating `U
 
 For the second scenario, two proxies must be adjusted to point to the same object.
 
-At some point we must combine `User{email: foo, ...}` and `User{id: 2, ...}` into `User{id: 2, email: foo}`, and maintain state for both of them. See [[Proxies Combination.canvas|Proxies Combination]]
+At some point we must combine `User{email: foo, ...}` and `User{id: 2, ...}` into `User{id: 2, email: foo}`, and maintain state for both of them. See [[Proxies Merge.canvas|Proxies Combination]]
 
 Consider that we create lazyProxy toward ghost object using 
 native means of PHP. When it's necessary to combine them, ghosts are merged, and one proxy is reset to point toward the merged ghost. Another ghost is discarded. It's safe to discard it, since it's never referenced outside of the scope of the proxy. E.g. `$proxy === $proxy->getThis()` is always kept.
