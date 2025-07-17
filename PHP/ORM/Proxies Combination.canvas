@@ -1,21 +1,24 @@
 {
 	"nodes":[
-		{"id":"a7c96d6b393a4134","type":"text","text":"**Proxy#1** \nUser{email: foo, ...}","x":-91,"y":320,"width":360,"height":80},
-		{"id":"5eab732ed5c38d16","type":"text","text":"**Ghost#1** \nUser{email: foo, ...}","x":-11,"y":100,"width":360,"height":80},
-		{"id":"3ff946ada666df81","type":"text","text":"**Proxy#2** \nUser{id: 2, ...}","x":447,"y":326,"width":360,"height":80},
 		{"id":"89b9ff111ccbd077","type":"text","text":"**Ghost#2** \nUser{id: 2, ...}","x":486,"y":98,"width":360,"height":84},
-		{"id":"b827f960b03c4083","type":"text","text":"*Collision is resolved by merging the ghost objects, and resetting one of the proxies to point to that object*","x":-120,"y":1060,"width":411,"height":172},
-		{"id":"002d3b64416645fc","type":"text","text":"**Proxy#1** \nUser{email: foo, ...}","x":-120,"y":880,"width":360,"height":80},
-		{"id":"bb08d0b0a3fe5421","type":"text","text":"**Ghost#1** \nUser{email: foo, ...}","x":-40,"y":660,"width":360,"height":80},
-		{"id":"a1de575acf895d2b","type":"text","text":"**Proxy#2** \nUser{id: 2, email: foo ...}","x":400,"y":880,"width":360,"height":80},
-		{"id":"ccfd2c99651ef63a","type":"text","text":"**Ghost#2** \nUser{id: 2, email: foo ...}","x":447,"y":660,"width":360,"height":84},
-		{"id":"cd02bd65cc8fd01a","type":"text","text":"**Proxy#1** \nUser{id:2, email: foo, ...}","x":-120,"y":1540,"width":360,"height":80},
-		{"id":"d3b25ead17a6ac61","type":"text","text":"**Ghost#1** \nUser{id: 2, email: foo, ...}","x":-40,"y":1320,"width":360,"height":80},
-		{"id":"2cbce704767b2f27","type":"text","text":"**Proxy#2** \nUser{id: 2, email: foo ...}","x":400,"y":1540,"width":360,"height":80},
-		{"id":"4ea23174297fb4b6","type":"text","text":"*merged and discarded*","x":671,"y":1400,"width":229,"height":80},
-		{"id":"0d4b264c7c6c8e61","type":"text","text":"**Ghost#2** \nUser{id: 2, email: foo ...}","x":669,"y":1276,"width":360,"height":84},
-		{"id":"6d5fc582a548ec80","type":"text","text":"***is it safe?***\nI mean, can't user code have any references to ghost#2 instead of proxy#2?","x":1020,"y":1400,"width":331,"height":187},
-		{"id":"b1b3c85e4cc1ffd9","x":1068,"y":1652,"width":250,"height":128,"type":"text","text":"can it be reset as Proxy rather than Ghost?"}
+		{"id":"5eab732ed5c38d16","type":"text","text":"**Ghost#1** \nUser{email: foo, ...}","x":-20,"y":98,"width":360,"height":84},
+		{"id":"a7c96d6b393a4134","type":"text","text":"**Proxy#1** \nUser{email: foo, ...}","x":-40,"y":320,"width":360,"height":80},
+		{"id":"3ff946ada666df81","type":"text","text":"**Proxy#2** \nUser{id: 2, ...}","x":447,"y":320,"width":360,"height":80},
+		{"id":"f2cf52f737d4fa57","x":160,"y":-120,"width":423,"height":100,"color":"1","type":"text","text":"*Stage1: proxies are not aware they are the same objects*"},
+		{"id":"ccfd2c99651ef63a","type":"text","text":"**Ghost#2** \nUser{id: 2, email: foo ...}","x":467,"y":680,"width":360,"height":84},
+		{"id":"bb08d0b0a3fe5421","type":"text","text":"**Ghost#1** \nUser{email: foo, ...}","x":-20,"y":680,"width":360,"height":84},
+		{"id":"91a3b2349ea113da","type":"text","text":"*Stage2: Proxy#2 detects collision with Proxy#1*","x":180,"y":520,"width":423,"height":80,"color":"1"},
+		{"id":"a1de575acf895d2b","type":"text","text":"**Proxy#2** \nUser{id: 2, email: foo ...}","x":440,"y":900,"width":360,"height":80},
+		{"id":"002d3b64416645fc","type":"text","text":"**Proxy#1** \nUser{email: foo, ...}","x":-74,"y":900,"width":360,"height":80},
+		{"id":"b827f960b03c4083","type":"text","text":"*Collision is resolved by merging the ghost objects (Ghost#2 is merged into Ghost#1), and resetting one of the proxies to point to that object (Proxy#2 now points to Ghost#1)*","x":140,"y":1080,"width":460,"height":196,"color":"1"},
+		{"id":"0d4b264c7c6c8e61","type":"text","text":"**Ghost#2** \nUser{id: 2, email: foo ...}","x":669,"y":1400,"width":360,"height":84},
+		{"id":"d3b25ead17a6ac61","type":"text","text":"**Ghost#1** \nUser{id: 2, email: foo, ...}","x":-40,"y":1444,"width":360,"height":80},
+		{"id":"4ea23174297fb4b6","type":"text","text":"*merged and discarded*","x":671,"y":1524,"width":229,"height":80},
+		{"id":"cd02bd65cc8fd01a","type":"text","text":"**Proxy#1** \nUser{id:2, email: foo, ...}","x":-120,"y":1664,"width":360,"height":80},
+		{"id":"2cbce704767b2f27","type":"text","text":"**Proxy#2** \nUser{id: 2, email: foo ...}","x":400,"y":1664,"width":360,"height":80},
+		{"id":"6d5fc582a548ec80","type":"text","text":"***is it safe?***\nCan't user code have any references to ghost#2 instead of proxy#2?","x":1020,"y":1524,"width":331,"height":187},
+		{"id":"b1b3c85e4cc1ffd9","type":"text","text":"If it wasn't safe, possibly it could be reset as Proxy rather than Ghost","x":1500,"y":1785,"width":340,"height":116},
+		{"id":"7da8a2bafa26dc80","x":1040,"y":1768,"width":355,"height":150,"type":"text","text":"**It's safe**, because user code could not have referenced Ghost directly"}
 	],
 	"edges":[
 		{"id":"a6295039230136de","fromNode":"a7c96d6b393a4134","fromSide":"top","toNode":"5eab732ed5c38d16","toSide":"bottom"},
@@ -27,6 +30,7 @@
 		{"id":"79d468d05401645c","fromNode":"4ea23174297fb4b6","fromSide":"right","toNode":"6d5fc582a548ec80","toSide":"left"},
 		{"id":"5fcf48ef85b7bc20","fromNode":"2cbce704767b2f27","fromSide":"top","toNode":"d3b25ead17a6ac61","toSide":"bottom"},
 		{"id":"66290b7e13e5288c","fromNode":"0d4b264c7c6c8e61","fromSide":"bottom","toNode":"4ea23174297fb4b6","toSide":"top"},
-		{"id":"06ef108aa76223a3","fromNode":"6d5fc582a548ec80","fromSide":"bottom","toNode":"b1b3c85e4cc1ffd9","toSide":"top"}
+		{"id":"abdeaa8eafb51cdb","fromNode":"6d5fc582a548ec80","fromSide":"bottom","toNode":"7da8a2bafa26dc80","toSide":"top"},
+		{"id":"a4611f324adcfd8f","fromNode":"7da8a2bafa26dc80","fromSide":"right","toNode":"b1b3c85e4cc1ffd9","toSide":"left"}
 	]
 }
