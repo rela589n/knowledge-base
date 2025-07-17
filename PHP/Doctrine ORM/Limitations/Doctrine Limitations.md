@@ -18,6 +18,8 @@
 
 [[Entity Inheritance - Inoptimal Join condition]]
 
+Entity Inheritance - many to one to abstract class is the worst case for performance.
+
 [[Doctrine ORM Change Entity Discriminator Column|Change Entity Discriminator Column]]
 
 [[Doctrine Foreign Key to Unique Column rather than Primary Key]]
