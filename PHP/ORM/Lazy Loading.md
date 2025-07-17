@@ -4,4 +4,4 @@ On field is accessed, only then should it be loaded. The approach to load should
 
 For example, if we've selected user by `email=test@test.com`, and then attempt to access `password` property, only then should `password` column be loaded from the database.
 
-Due to the possibility of existence of multiple Proxies for the same entity, [[Combinable Proxies]] are necessary.
+Due to the possibility of existence of multiple Proxies for the same entity, [[Proxies Merge]] are necessary.
