@@ -18,4 +18,4 @@ The main goal of open-source is not making the money out of it. The goal is to h
 
 For the companies using your software it is a good marketing to sponsor your project (even 10 dollars per month), since their logo will pop up at github, and people will see it and know that this company is sponsoring such a good project.
 
-There's option for opensource to make a well-used library, but provide **proprietary upgrade**. So, they don't have to pay for using, but they **have to pay for upgrade** toward the new versions.
+There's option for opensource to make a well-used library, but provide **proprietary upgrade**. So, they don't have to pay for using, but they **have to pay for upgrade** toward the new versions. An access to private github repository can be granted for sponsorship.
