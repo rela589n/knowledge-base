@@ -5,7 +5,7 @@ aliases:
   - Valid within
   - Elephant
 ---
-The most fundamental requirement of [[Domain Model|Model]] is that it **be internally consistent** (no contradictions). *Unification* - [[Invariant|Invariants]] are kept, [[Domain Concept|Terms]] are unambiguous, rules do not contradict.
+**[[Domain Model|Model]] Unification** - the most fundamental requirement of [[Domain Model|Model]] that it must **be internally consistent** (no contradictions). **[[Invariant|Invariants]] are kept**, **[[Domain Concept|Terms]] are unambiguous**, **rules do not contradict**.
 
 Whether to keep [[Bounded Context|Bounded Contexts]] unified or separate should depend on pros and cons of both.
 
