@@ -1,0 +1,5 @@
+---
+aliases:
+  - Business Rules
+  - Rules
+---

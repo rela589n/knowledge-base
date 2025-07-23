@@ -24,7 +24,7 @@ Typically you'll define [[Translation Layer]] for each integration your [[Bounde
 
 See [[Bounded Context Boundary]], [[External Systems Integration]]
 
-When to [[Bounded Context|Bounded Contexts]] have related [[Domain Model|Models]], it's possible that each develops its own fine-tuned [[Ubiquitous Language|Language]] (like [[Model Unification#^4c61c2|Elephant]]). 
+When to [[Bounded Context|Bounded Contexts]] have related [[Domain Model|Models]], it's possible that each develops its own fine-tuned [[Ubiquitous Language|Language]] (like [[Model Consistency#^4c61c2|Elephant]]). 
 It's fraught with:
 - loss of [[Ubiquitous Language|Shared Language]] reduces communication;
 - overhead of [[Translation Layer|Translation]] during [[Context Integration Map|Integration]];
