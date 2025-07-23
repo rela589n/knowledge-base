@@ -4,11 +4,12 @@ To determine **[[Bounded Context]] Boundaries**, you have to understand that the
 
 > Understand that **you can have biased opinion** due to the [[Bounded Context|Context]] you're working in.
 
-Deep [[Context Integration Map|Integration]] between [[Bounded Context|Bounded Contexts]] is impractical.
+**Deep [[Context Integration Map|Integration]]** between [[Bounded Context|Bounded Contexts]] **is impractical**.
+[[Context Integration Map|Integration]] is present only in the places where two [[Domain Model|Models]] can be expressed in terms of one another. Thus, Deep [[Context Integration Map|Integration]] only signifies that these two should've been **one [[Bounded Context|Context]]**.
 
 With big [[Bounded Context]]:
 - Features flow is easier (less [[Context Integration Map|Integration]] overhead);
-- [[Continuous Integration]] will have some overhead.
+- [[Continuous Integration]] is harder.
 
 With small [[Bounded Context]]:
 - [[Continuous Integration]] is easier;
