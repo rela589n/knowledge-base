@@ -3,7 +3,7 @@ aliases:
   - Conform
   - Conformity
 ---
-**Conformist** is **one-sided [[Context Integration Strategies|Relationship]]**, in which downstream conforms to upstream's [[Domain Model|Model]]. It's useful for **peripheral extensions** (supportive, ad-hoc) for main system.
+**Conformist** is **one-sided [[Context Integration Strategies|Relationship]]**, in which downstream conforms to **upstream's [[Domain Model|Model]]**. It's useful for **peripheral extensions** (supportive, ad-hoc) for main system.
 
 **[[Conformist]]** is in a sense similar to [[Shared Kernel]] as the **[[Domain Model|Model]] is the same** (though more replicated, not physically shared). 
 
