@@ -28,4 +28,4 @@ It only signifies that **two [[Bounded Context|Contexts]] should've been one**.
 
 External subsystems might encompass multiple [[Bounded Context|Bounded Contexts]] as well (not just single one).
 
-Note that **[[Bounded Context Boundary|Boundaries]] impact on the Deployment**.
+Note that **[[Bounded Context Boundary|Boundaries]] impact the Deployment**.
