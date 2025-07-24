@@ -9,3 +9,6 @@ The explicitly **shared stuff** should be **changed** only by **consulting the o
 If team's [[Continuous Integration]] rate is once a day, then [[Shared Kernel]] [[Continuous Integration|Integration]] could be once a week.
 
 Often [[Shared Kernel]] is [[Core Domain]], some set of [[Generic Subdomain]].
+
+[[Shared Kernel]] imposes burden on Deployment as much as on development.
+
