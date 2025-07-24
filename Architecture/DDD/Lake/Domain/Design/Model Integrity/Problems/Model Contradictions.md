@@ -17,3 +17,5 @@ It's fraught with:
 - overhead of [[Translation Layer|Translation]] during [[Context Integration Map|Integration]];
 
 How valuable is this jargon, peculiar to the [[Bounded Context]]? Sometimes it's just more trouble than it's worth.
+
+Weigh the value of specific dialects against [[Context Integration Map|Integration]] cost.

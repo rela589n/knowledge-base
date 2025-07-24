@@ -26,3 +26,5 @@ Typically you'll define [[Translation Layer]] for each integration your [[Bounde
 [[External Systems Integration]]
 
 [[Bounded Context Boundary|Bounded Context Boundaries]]
+
+When integrating our [[Bounded Context|Bounded Contexts]], it's important to understand that **we have much more freedom** than in case of [[External Systems Integration]]. When integration is needed, we can jointly create **simple [[Translation Layer]]**, and adjust both [[Bounded Context|Bounded Contexts]].

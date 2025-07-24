@@ -4,6 +4,6 @@ For External Systems [[Context Integration Map|Integration]] can be:
 
 [[Conformist]] - when master system remains master, and we are just building something peripheral, ad hoc.
 
-[[Anti-Corruption Layer]] - when your system is going to be more involved, and more important that just appendix to the third-party.
+[[Anti-Corruption Layer]] - when your system is going to be **more involved**, and more important that just appendix to the third-party.
 
 [[Customer-Supplier]] - when they are ready to collaborate and build something specifically for us.
