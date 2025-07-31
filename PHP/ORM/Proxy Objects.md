@@ -17,3 +17,7 @@ Actually everything that ORM can do is done primarily with Ghost objects. That's
 After adding new entity into the Collection, the very added object is actually discarded. Instead, Collection will retain another Ghost object that has all needed ORM features. This object is returned from `add()` method.
 
 Consider the case when the Whole [[Aggregate]] is created at once.
+
+Let's say that Post and Post.comments is created at once. When Post is being added to the collection, [[Entity Ghost kick-in]] happens. At this point, related collections are [[Autowire Feature|Autowired]], and existing items are moved there (with another [[Entity Ghost kick-in|Kick-in]]).
+
+Thus, afterwards all these objects will be replaced with their mirror Ghosts.

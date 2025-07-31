@@ -1,3 +1,7 @@
+---
+aliases:
+  - Autowired
+---
 `#[Autowire]` attribute allows to define properties that are automatically injected:
 
 ```php
