@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "path:Architecture",
+  "search": "path:\"PHP/Doctrine ORM/Limitations\"  ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 20,
   "linkStrength": 0.78125,
   "linkDistance": 30,
-  "scale": 0.3242561309397683,
+  "scale": 0.23647870429796647,
   "close": false
 }

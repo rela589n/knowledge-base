@@ -5,9 +5,9 @@ Criteria API is a great [[Specification]] thing, but it's with its own limitatio
 (2) IndexBy doesn't really work with matching() method 
 https://github.com/doctrine/orm/issues/4693
 
-(3) Besides that, currently [[Doctrine ORM]]  provides way to do `$repository->matching($criteria)`, and it returns `LazyCriteriaCollection`, which doesn't support further `matching` api. 
+(3) Besides that, [[Doctrine ORM]] currently provides a way to do `$repository->matching($criteria)`, and it returns `LazyCriteriaCollection`, yet that doesn't support further `matching` api.
 
-Yet, it's not possible to chain `matching` calls, since it results in collection load:
+It's not possible to chain `matching` calls, since it results in collection load:
 
 ```php
     /** @return ReadableCollection<TKey, TValue>&Selectable<TKey, TValue> */

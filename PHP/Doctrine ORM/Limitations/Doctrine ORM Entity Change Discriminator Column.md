@@ -2,7 +2,7 @@
 aliases:
   - Change Entity Discriminator Column
 ---
-It was sorted out with [[Deferrable Constraint|Deferred Constraint]].
+This can sorted out with [[Deferrable Constraint|Deferred Constraint]].
 
 ```php
 try {
