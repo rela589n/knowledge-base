@@ -2,7 +2,7 @@
 
 [[Commit order]]
 
-[[Criteria Collections]]
+[[Spec Collections]]
 
 [[Identity Heap]]
 

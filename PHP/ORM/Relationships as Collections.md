@@ -10,3 +10,5 @@ private PostCommentCollection $comments {
 ```
 
 On proxy this should be Auto-wired only when accessed.
+
+Thus, you can define any conceivable relationship you might want with any conditions you would like, joining as many entities as necessary.

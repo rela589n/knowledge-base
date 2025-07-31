@@ -2,7 +2,6 @@ For example:
 
 ```php
 /** @var PostCommentCollection $posts */
-$posts = new PostCommentCollection(...);
 $posts
     ->ofAuthor($authorId)
     ->ofPost($postId)
@@ -11,7 +10,7 @@ $posts
     ->toArray();
 ```
 
-This is much better than doing one method per use case, making it non-reusable for other use-cases.
+This is much better than doing one method per use case, making them non-reusable for other use-cases.
 
 ```php
 #[Autoconfigure(constructor: 'create')]

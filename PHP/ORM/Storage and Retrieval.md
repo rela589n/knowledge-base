@@ -1,4 +1,4 @@
-Both storage and retrieval is implemented with [[Criteria Collections]].
+Both storage and retrieval is implemented with [[Spec Collections]].
 
 ```php
 final readonly class RegisterUserCommand

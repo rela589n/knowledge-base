@@ -27,6 +27,7 @@ class Proxy extends Post
 {
     protected PostCommentCollection $topComments {
         get {
+	        // setting property
             (fn() => $this->topComments = $this->container->get(PostCommentCollection::class))();
 
             return $this->topComments;
