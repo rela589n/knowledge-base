@@ -11,3 +11,5 @@
 [[Proxy Objects]]
 
 [[Identity kick-in]]
+
+Cascade Persist - how to do it?

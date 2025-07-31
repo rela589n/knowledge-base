@@ -12,4 +12,6 @@ Links could come as a result of a [[Proxy Merge]]. Before they came to be Links 
 
 Actually everything that ORM can do is done primarily with Ghost objects. That's why on the very first `add()` the existing object is reset as lazy (if that was possible?) so that we can use Ghost functionality with it.
 
-After calling `sync()`, new entities are made persistent and
+<s>After calling `sync()`, new entities are made persistent and they are discarded in favor of Proxies. Beware that doing any modifications to these entities after first `sync()` call won't be tracked.</s>
+
+After adding new entity into the Collection, the very added object is actually discarded. Instead, Collection will retain another Ghost object that has all needed ORM features. This object is returned from `add()` method.
