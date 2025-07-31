@@ -15,3 +15,5 @@ Actually everything that ORM can do is done primarily with Ghost objects. That's
 <s>After calling `sync()`, new entities are made persistent and they are discarded in favor of Proxies. Beware that doing any modifications to these entities after first `sync()` call won't be tracked.</s>
 
 After adding new entity into the Collection, the very added object is actually discarded. Instead, Collection will retain another Ghost object that has all needed ORM features. This object is returned from `add()` method.
+
+Consider the case when the Whole [[Aggregate]] is created at once.
