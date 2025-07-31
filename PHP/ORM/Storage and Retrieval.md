@@ -1,4 +1,4 @@
-Both storage and retrieval is implemented with [[Spec Collections]].
+Both storage and retrieval is implemented with [[Spec Collection]].
 
 ```php
 final readonly class RegisterUserCommand

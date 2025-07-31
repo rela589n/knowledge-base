@@ -1,10 +1,10 @@
 [[Storage and Retrieval]]
 
-[[Commit order]]
-
-[[Spec Collections]]
+[[Spec Collection]]
 
 [[Identity Heap]]
+
+[[Commit order]]
 
 [[State Management]]
 

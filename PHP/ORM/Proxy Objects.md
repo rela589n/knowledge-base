@@ -1,11 +1,15 @@
 [[State Management]] is accomplished via Object Proxies.
 
 There are two types of proxies:
-- Wrappers (Proxies)
-- Ghosts
+- Ghost Proxies
+- Link Proxies
 
-Wrappers are the objects that client code interacts with. They point to Ghosts. This distinction between the two is primarily needed due for [[Proxy Merge]].
+Ghosts [[State Management|Manage the State]], perform [[Lazy Loading]], and spy on the interactions with the entity to track the changes. They manage mapped properties, keep track of the unique fields ([[Lazy Loading|Loading]] of unique field could result in [[Proxy Merge|Proxy Merge]]), and make sure that each update is appropriated to the [[Reactive Collection|Reactive Collections]].
 
-Ghosts [[State Management|Manage the State]], perform [[Lazy Loading]], and generally spy on the interactions with the entity. They manage mapped properties, keep track of the unique fields ([[Lazy Loading|Loading]] of unique field could result in [[Proxy Merge|Proxy Merge]]), and make sure that each update is appropriated to the [[Reactive Collection|Reactive Collections]].
+Links could come as a result of a [[Proxy Merge]]. Before they came to be Links they were ordinary Ghost Objects. Yet, once collision had been detected, [[Proxy Merge]] happened and they were updated to forward all interactions to the target Ghost object. They are indifferentiable from the real Ghost but by object id.
 
-Actually, anything that ORM can do is primarily done with Ghost objects. That's why on the very first `add()` the existing object is being reset as lazy so that we can use Ghost functionality with it.
+> When comparing entities, make sure to compare their identifiers, not object identities. Never use `$e1 === $e2`.
+
+Actually everything that ORM can do is done primarily with Ghost objects. That's why on the very first `add()` the existing object is reset as lazy (if that was possible?) so that we can use Ghost functionality with it.
+
+After calling `sync()`, new entities are made persistent and
