@@ -1,0 +1,4 @@
+```shell
+buf config init
+```
+

@@ -7,4 +7,6 @@ Replacement for [[Protocol Buffers Compiler|protoc]]
 It allows you to:
 - lint `.proto` files;
 - detect [[Backward Compatibility|Breaking Changes]];
-- generate code.
+- generate code;
+- convert between binary and json;
+
