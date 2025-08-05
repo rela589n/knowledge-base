@@ -14,7 +14,7 @@
 
 [[Partial Hydration]]
 
-[[Doctrine ORM mappings without separate folder]]
+[[Doctrine ORM directory mappings without separate folder]]
 
 [[Entity Inheritance - Inoptimal Join condition]]
 

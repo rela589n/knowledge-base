@@ -6,6 +6,6 @@ Mapping drivers are registered in `AbstractDoctrineExtension::registerMappingDri
 
 Service id that is used for attribute mapping driver: `doctrine.orm.default_attribute_metadata_driver`
 
-[[Doctrine ORM mappings without separate folder]]
+[[Doctrine ORM directory mappings without separate folder]]
 
 
