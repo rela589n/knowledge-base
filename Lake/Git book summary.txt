@@ -1,0 +1,85 @@
+# Revision:
+
+^ - parent commit
+^2 - second parent commit (useful for merge commits)
+
+~ - parent commit
+~2 - grandparent commit
+~n - nparent commit
+
+
+git log origin/master..HEAD - shows commits which will be sent to server
+
+<branch1>..<branch2> - revision, having commits of <branch2> which are not 
+currently in <branch1>
+
+<branch1>...<branch2> - xor-like revision. With --left-right shows to which branch which commit belongs. By default, they are sorted by date.
+
+
+# Interactive staging
+
+Start: git add -i
+
+Add part of file to staging area: git add --patch
+
+# Staging and clean
+
+git stage list
+git stage pop
+git stage --include-unstaged
+
+git stage branch <branch_to_create_from_staged_area>
+
+
+git clean -n
+
+
+# Git Search
+
+git grep --show-function --heading --break -n
+
+# Git reset & checkout
+
+Table down here https://git-scm.com/book/ru/v2/%D0%98%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B-Git-%D0%A0%D0%B0%D1%81%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B5-%D1%82%D0%B0%D0%B9%D0%BD-reset#_%D0%B7%D0%B0%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5_9
+
+# Advanced merging
+
+git show :1:hello.rb > hello.common.rb # version of common ancestor
+git show :2:hello.rb > hello.ours.rb   # version of our branch (in which merge)
+git show :3:hello.rb > hello.theirs.rb # version of their branch (which is being merged)
+
+View history of commits modifying file with conflicts:
+	 git log --oneline --left-right --merge [-p] # -p - print changes
+
+In conflict situation git diff shows only about conflicting files.
+
+
+Renew conflict in file:	 git checkout --conflict=diff3 <file_name>
+
+# rerere
+
+Use cache to solve conflict:	 git rerere 
+
+
+# Git Debugging
+
+Find last commits modifying lines from 12 to 22: git blame -L 12,22 <file>
+(With option -C finds where lines were copied from (within same commit))
+
+^sha1hash - initial file commit
+
+
+Binary search for first time bug appears: 
+	git bisect start
+	
+	bit bisect good # current commit has no bug
+	
+	git bisect bad # current commit has a bug
+	
+	git bisect reset # stop bisect
+
+
+# 
+
+To view verbose reflog, use `git log -g`
+

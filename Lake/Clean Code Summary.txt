@@ -1,0 +1,296 @@
+Never use bool parameters
+
+Function must not have more than 2 parameters unless they are ordered components of a single value.
+
+Don't use output arguments. If necessary, consider using this as an argument.
+
+Functions  should  either  do  something  or  answer  something. Never both! 
+public function setAttribute(string $name, string $value): bool - is bad practice.
+
+Always use Exceptions instead of returning error codes.
+
+You should extract try catch blocks into separate methods because they're ugly.
+
+To write beautiful function, first write ugly one and then refactor it into something more readable and and acceptable.
+
+/******* Comments ****/
+
+Don't comment bad code! Rewrite it.
+If you want add comment to your code, think through it and see wheather you can express it in plain code.
+
+Don't (over)use banners in code.
+
+Never leave commented out code.
+
+PhpDoc if needed only in public places.
+
+### Comments should say things that the code cannot say for itself.
+
+/******* Formatting *****/
+
+Related concepts should be as close each to other as possible.
+Different concepts shoud be divided by blank lines.
+
+Variables should be defined as  close  to  their  usage  as  possible. 
+
+Instance variables should be declared at the top of the class.
+
+If  one  function  calls  another,  they  should  be  vertically  close,and the caller should be above the callee, if at all possible.
+
+Lines shoud be short (no more 120 characters).
+
+No need to align assignments, lists of arguments, properties by rvalue.
+
+
+/**** Objects & Data structures ****/
+
+Objects hide their data behind abstractions and expose functions that operate on that data. 
+Data structures expose their data and have no meaningful functions.
+
+Procedural code (code using data structures) makes it easy to add new functions without changing the existing data structures. OO code, on the other hand, makes it easy to add new classes without changing existing functions.
+
+Procedural code makes it hard to add new data structures because all the functions must change. OO code makes it hard to add new functions because all the classes must change
+
+OO code is more simple to maintain, because we could easily find all implementations of interface to add functionality (by means of IDE). On other hand, find all functions to maintain is much more hard.
+
+
+/**** Error handling ****/
+
+If error handling obscures logic, it is wrong.
+
+Always use exceptions when handle errors.
+
+TDD enforce throwing exceptions.
+
+Checked exceptions violate OCP. Always use unchecked ones. Unless you write critical library and Exception must be caught.
+
+The purpose of exceptions is to allow you to handle errors at a distance.
+
+Create informative error messages and pass them along with your exceptions.
+
+Use  different exception classes  only  if  there are times when you want to catch one exception and allow the other one to pass through.
+
+Some of the exceptions could be like NULL constant. In that case, whe shoud use polymorphism instead. (Special Case Pattern)
+Catch blocks should not define main business logic flow.
+
+Never ever return NULL when you return some kind of object.
+Retrun instead special case object or throw exception.
+
+Passing null is WORSE than returning null. Don't do this.
+You should avoid passing null in your code whenever possible.
+
+
+/*** Boundaries ***/
+
+We should wrap third-party libraries with our own code to gain control.
+Lest we end up our selfs running through code changing it when library changes.
+
+A good thing to explore 3-party API is to create learning tests.
+
+
+/*** Unit Tests ***/
+TDD inheres in three rules:
+1. You may not write production code until you have written a failing unit test
+2. You may not write more of a unit test than is sufficient to fail, and not compiling is failing
+3. You may not write more production code than is sufficient to pass the curently failing test
+
+Unit tests are so impotarnt as production code. It is better be without unit tests than with dirty ones.
+When tests are dirty, you can't maintain them when production code changes. 
+Thus, you dismiss testing code and eventually bugs rise.
+
+!!!Tests must cover every single nook and cranny of the code!!!
+
+Readability in unit tests is perhaps more important than in production code.
+
+Each test have to have three clear sections: Arrange, Act, Assert.
+No overwhelming details should be provided.
+
+Dual standard:
+sometimes in test environment you could sacrifice efficiency for the sake of readability (what you would never do in production envirionment).
+
+## One assert per test where possible.
+Those tests come to a single conclusion that is quick and easy to understand.
+It is ok if test has more than one assertion, but the number of asserts in a test ought to be minimized
+
+## A single concept per test.
+Tests must not be miscellaneous. If AAA repeats more than once, test have to be splitted into multiple separate.
+With miscellaneous tests, some bugs could slip from programmers mind.
+
+
+### So probably the bestrule is that you should minimize the number of asserts per concept and test just one con-cept per test function
+
+## F.I.R.S.T:
+
+1. Fast - run quickly, lest you won't run them freequently, thus you could not fix problems right away.
+2. Independent - one test should not set up the conditions for the next test.
+Each test should assume that system works perfectly and just verify it. Independence does not mean that if i tested some functionality at first method, then I could not rely on it. Indeed I could.
+3. Repeatable - could be run in any environment - local, QA, production (because they are isolated).
+4. Self-validating - return just true or false. We should not view long logs to tell whether tests passed.
+5. Timely - written before production code.
+
+
+/****** Classes *********/
+Order of members:
+	public constants
+	private constants
+
+	private properties
+	
+	public & private methods
+
+
+Classes should be small.
+How small? Just one responsibility. One reason to change.
+
+Name should describe responsibility class fulfills.
+In general the more variables a method manipulates the more cohesive that method is to its class.
+Each method should use at least one property.
+
+When classes lose cohesion, split them (move logically the same properties and methods working with them into separate class).
+
+OCP: when NEW FEATURE request comes, classes have to be open for extension, sbut closed for modification. This mostly implemented by making your code dependent to interfaces, not to concretions.
+
+DIP: all classes should depend on abstractions rather than concretions. This promotes testing system.
+
+
+
+/***************** Systems *********************/
+We should separate startup process from runtime logic.
+
+The object should not take responsibility for instantiating dependencies itself.
+
+Systems have to be extendable. Because we could not build it from first time.
+Software systems are unique compared to physical systems. Their architectures can grow incrementally, if we maintain the proper separation of concerns.
+
+Cross-cutting concerns: for example when essentially the same code for persistance strategy have to be spread across many objects.
+
+An optimal system architecture consists of modularized domains of concern, each of which is implemented  with Plain Old Objects.  The different domains are integrated together with minimally invasive Aspects or Aspect-like tools. This architecture can be test-driven, just like the code.
+
+
+Annotations are our everything for cross-cutting concerns.
+We should write business logic in Plain Objects without coupling on framework (because of testing).
+
+
+In programming, we could start with simple (but decoupled) architecture (but highly SEPARATE CONCERNS), then when it is necessary, we evolve architecture.
+
+If you can postpone making decicion, postpone it.
+
+Don't obsess over standarts.
+
+Use domain-specific language to create your application. It allows all levels of abstraction to be expressed in Plain Objects.
+
+
+/****************************** Emergence *********************************/
+
+Rules of simple design:
+1. Runs all the tests
+Systems have to be tested. If we could not test system, all design effort is questionable.
+
+2. Contains no duplication
+Remember, the most likely next person to read the code will be you.
+
+3. Expresses the intent of the programmer
+4. Minimizes the number of classes and methods
+
+2-4: Refactoring: clean up code if it starts to violate clean design.
+
+
+
+/******************************* Concurrency ******************************/
+
+Precautions:
+
+1. Concurrency can sometimes improve performance (if there is a lot of wait time).
+2. In most cases we need change design to implement concurrency.
+3. Concurrency incurs some overhead.
+4. Correct concurrency is complex.
+5. Concurrency bugs aren’t usually repeatable.
+6. Concurrency often requires a fundamental change in design strategy.
+
+Concurrency defence principles:
+1. SRP
+Concurrency design is a reason to change and should be separated from another code.
+
+2. Limit the scope of data
+Take data encapsulation to heart; severely limit the access of any data that may be shared
+
+3. Use copies of data
+Where possible, we can create clones of objects, collect results from multiple threads in these copies and then merge results in single thread.
+
+4. Threads should be as independend as possible.
+Attempt  to  partition  data  into  independent  subsets  than  can  be operated on by independent threads, possibly in different processors.
+
+Know your library:
+There are special classes for thread-safe work with data (collections, maps).
+
+Execution models:
+
+1. Producer-customer (use queue)
+2. Readers-writers (one shared resource)
+3. Dinning philosophers
+
+Avoid using more than one method on shared object.
+If needed, to make code correct:
+1. Client-based locking
+2. Server-based locking
+3. Adapted Server (PROXY-like pattern - when server can not be changed)
+
+Keep syncronized sections small
+
+
+
+## Testing code:
+Write tests that have potential to ever fail. When test failed, track down error.
+Run such tests freequently.
+
+1. Treat spurious failures as candidate threading issues - Do not ignore system failures as one-offs;
+2. Get your nonthreaded code working first - Do not try to chase down nonthreading bugs and threading bugsat the same time. Make sure your code works outside of threads;
+3. Make your threaded code pluggable - Make your thread-based code especially pluggable so that you can run it in various configurations;
+4. Make your threaded code tunable - consider system be self-tuning based on throughput and system utilization;
+5. Run tests with more threads than processors - likely you will find code that misses critical section or causes deadlock;
+6. Run on different platforms - Run your threaded code on all target platforms early and often;
+7. Instrument your code to try and force failures.
+
+
+## Successive refinement:
+
+If you don't know how to write clean code for your particular feature, first of all, implement it as you might.
+Don't forget about full tests coverage.
+
+Then, to make things clean, perform hundreds of tiny refactoring steps with checking tests after each. Eventually code will be clean.
+
+## JUnit internals
+The compact... function should do nothing but compacting as it's name implies.
+
+To clean up code, we need to use refactoring. Step by step introduce new things and replace old ones by them.
+
+## Refactoring SerialDate
+It is impossible to do refactoring without full test coverage. First of all, you need cover your code with tests, if some tests fail, then make code work, and then do refactoring stuff.
+
+
+
+## Code Smells and Heuristics
+
+### Feature envy:
+The methods of a class should be interested inthe variables and functions of the class they belong to, and not the variables and functionsof  other  classes.
+
+### if-else switch
+ONE SWITCH RULE: There may be no more than one switch state-ment for a given type of selection. The cases in that switch statement must create polymor-phic objects that take the place of other such switch statements in the rest of the system
+
+### Be Precise
+All currency ought go through integers and only integers (no float is permitted). These values shall be encapsulated in Money class.
+
+### Encapsulate conditionals
+
+### Hidden temporal couplings
+If some methods should be called in particular order, we should enforce this order. It could be done by returning values and method parameters necessary to work.
+
+### Exhaustively test near bugs
+When you found a bug in a function, probably there are others.
+
+
+/*** Questions ***/
+
+Чому при операціях оновлення потрібно використовувати справжнє сховище? - можливий race condition.
+
+
