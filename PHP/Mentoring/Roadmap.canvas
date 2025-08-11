@@ -50,7 +50,7 @@
 		{"id":"bea1a161dad8d76d","type":"text","text":"Embeddable:\nhttps://www.doctrine-project.org/projects/doctrine-orm/en/3.3/tutorials/embeddables.html","x":-1049,"y":980,"width":406,"height":80},
 		{"id":"59dc8d0071991303","type":"text","text":"**Chat pair coding Example**","x":-300,"y":1640,"width":250,"height":100},
 		{"id":"ee975497dd94ab21","type":"text","text":"Encrypted string with AES-256-CBC","x":40,"y":1640,"width":250,"height":100},
-		{"id":"9257e4a5b03aee28","type":"file","file":"Lake/Github Actions.md","x":5440,"y":147,"width":480,"height":157},
+		{"id":"9257e4a5b03aee28","type":"file","file":"Lake/Git/Github Actions.md","x":5440,"y":147,"width":480,"height":157},
 		{"id":"9038b1b2b0775048","type":"file","file":"Lake/CI & CD.md","x":5830,"y":-413,"width":400,"height":179},
 		{"id":"36174a2c7abe0453","type":"text","text":"Налаштувати запуск тестів на CI. Запуск на кожній вітці, що відкриває МР на develop, і також на самому develop.","x":5620,"y":487,"width":410,"height":179},
 		{"id":"83fa0c623706cc1e","type":"file","file":"Lake/S3 Storage.md","x":4360,"y":-270,"width":520,"height":182},
