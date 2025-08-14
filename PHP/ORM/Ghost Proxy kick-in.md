@@ -1,4 +1,4 @@
-First of all, when you do `new Entity()`, it results in `new EntityProxy()` so that it would be possible to tracking by ORM.
+First of all, when you do `new Entity()`, it results in `new EntityProxy()` so that it could be tracked by ORM.
 
 Then, when we add new entity, there might be some relationships in place that are not connected to the ORM engine itself.
 
