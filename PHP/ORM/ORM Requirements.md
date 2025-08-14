@@ -10,6 +10,6 @@
 
 [[Proxy Objects]]
 
-[[Entity Ghost kick-in]]
+[[Ghost Proxy kick-in]]
 
 Cascade Persist - how to do it?

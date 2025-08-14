@@ -2,24 +2,24 @@
 
 There are two types of proxies:
 - Ghost Proxies
-- Link Proxies
+- Ref Proxies
 
 Ghosts [[State Management|Manage the State]], perform [[Lazy Loading]], and spy on the interactions with the entity to track the changes. They manage mapped properties, keep track of the unique fields ([[Lazy Loading|Loading]] of unique field could result in [[Proxy Merge|Proxy Merge]]), and make sure that each update is appropriated to the [[Reactive Collection|Reactive Collections]].
 
-Links could come as a result of a [[Proxy Merge]]. Before they came to be Links they were ordinary Ghost Objects. Yet, once collision had been detected, [[Proxy Merge]] happened and they were updated to forward all interactions to the target Ghost object. They are indifferentiable from the real Ghost but by object id.
+Refs could come as a result of a [[Proxy Merge]]. Before they came to be Refs they were ordinary Ghost Objects. Yet, once collision had been detected and [[Proxy Merge]] happened, they were updated to forward all interactions to the target Ghost object. They are indifferentiable from the real Ghost object but by the object id.
 
-> When comparing entities, make sure to compare their identifiers, not object identities. Never use `$e1 === $e2`.
+> When comparing entities, you should compare their identifiers, not object identities. Never use `$e1 === $e2`.
 
-Actually everything that ORM can do is done primarily with Ghost objects. That's why on the very first `add()` the existing object is reset as lazy (if that was possible?) so that we can use Ghost functionality with it.
+Basically everything that ORM can do is done primarily with Ghost objects. That's why on the very first `add()` the existing object is reset as lazy (if that was possible?) so that we can use Ghost functionality with it.
 
 <s>After calling `sync()`, new entities are made persistent and they are discarded in favor of Proxies. Beware that doing any modifications to these entities after first `sync()` call won't be tracked.</s>
 
-When adding a new entity into the Collection, the very added object is actually discarded. Instead, the Collection will retain another corresponding Ghost object to handle all needed ORM features. This is the object is returned from `add()` method.
+When adding a new entity into the Collection, the very added object is discarded. Instead, the Collection will retain another corresponding Ghost object that will handle all needed ORM features. This is the object is returned from `add()` method.
 
-> If we had the ability to reset the existing object as a Ghost, we'd use that.
+> If there had been ability to reset the existing object as a Ghost, we'd use that.
 
 Consider the case when the Whole [[Aggregate]] is created at once.
 
-Let's say that Post and Post.comments is created at once. When Post is being added to the collection, [[Entity Ghost kick-in]] happens. At this point, related collections are [[Autowire Feature|Autowired]], and existing items are moved there (with another [[Entity Ghost kick-in|Kick-in]]).
+Let's say that Post and Post.comments is created at once. When Post is being added to the collection, [[Ghost Proxy kick-in]] happens. At this point, related collections are [[Autowire Feature|Autowired]], and existing items are moved there (with another [[Ghost Proxy kick-in|Kick-in]]).
 
 Thus, afterwards all these objects will be replaced with their mirror Ghosts.
