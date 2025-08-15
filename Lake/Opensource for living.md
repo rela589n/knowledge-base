@@ -55,3 +55,8 @@ Anyone could go and get such key.
 In README.md there must be a link to the website where they sign in with Github and get their key right away.
 
 Licence key page must be protected by ReCaptcha.
+
+Purchased licence keys could have or not have ttl, depending on price tier.
+
+5$ / month - Licence key is granted for 5 months. At the end of this time, one have to manually get new licence key.
+10$ / month - granted for 
