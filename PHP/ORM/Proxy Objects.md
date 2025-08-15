@@ -4,7 +4,7 @@ There are two types of proxies:
 - Ghost Proxies
 - Ref Proxies
 
-Ghosts [[State Management|Manage the State]], perform [[Lazy Loading]], and spy on the interactions with the entity to track the changes. They manage mapped properties, keep track of the unique fields ([[Lazy Loading|Loading]] of unique field could result in [[Proxy Merge|Proxy Merge]]), and make sure that each update is appropriated to the [[Reactive Collection|Reactive Collections]].
+Ghosts [[State Management|Manage the State]], perform [[Lazy Loading]], and generally spy on the interactions with the entity to track the changes. They manage mapped properties, keep track of the unique fields ([[Lazy Loading|Loading]] of unique field could result in [[Proxy Merge|Proxy Merge]]), and make sure that each update is appropriated to the [[Reactive Collection|Reactive Collections]].
 
 Refs could come as a result of a [[Proxy Merge]]. Before they came to be Refs they were ordinary Ghost Objects. Yet, once collision had been detected and [[Proxy Merge]] happened, they were updated to forward all interactions to the target Ghost object. They are indifferentiable from the real Ghost object but by the object id.
 
