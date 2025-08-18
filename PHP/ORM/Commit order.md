@@ -3,7 +3,7 @@ At first, you might've assumed that commit order should be following:
 - insertions
 - updates
 
-Deletions must come first ([[Entity deletion happens last]] in [[Doctrine ORM]]), because we could just replace the entity with a new one.
+<s>Deletions must come first</s> ([[Entity deletion happens last]] in [[Doctrine ORM]]), because we could just replace the entity with a new one.
 
 Yet, this is not always the case.
 
