@@ -1,1 +1,1 @@
-[[Buf]] module is just a collection of [[Protobuf]] files, specified in the configuration file.
+[[Buf]] module is a collection of [[Protobuf]] files, grouped in the configuration file that are **configured**, **[[Buf build|built]]**, and **versioned** as a **logical unit**.

@@ -1,4 +1,4 @@
-[[Buf]] managed mode allows to specify language-specific configurations in `buf.gen.yaml` instead of [[Protobuf|proto]]-files.
+[[Buf]] managed mode allows to specify *language-specific* configurations in `buf.gen.yaml` instead of [[Protobuf|.proto]]-files.
 
 ```yaml
 managed:
