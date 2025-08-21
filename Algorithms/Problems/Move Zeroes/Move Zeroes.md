@@ -66,4 +66,4 @@ function moveZeroes(&$nums) {
 }
 ```
 
-This is different from previous one, since we don't have to move through all this gap of zero-space just to put value in front. On the other side, we put the value right by the index that we keep track of.
+This is different from previous one, since we don't have to move through all this gap of zero-space just to put value in front. On the other hand, we put the value right by the index that we keep track of.

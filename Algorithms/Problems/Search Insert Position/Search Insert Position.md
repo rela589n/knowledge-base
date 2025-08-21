@@ -24,8 +24,8 @@ function searchInsert($nums, $target) {
         }
     }
 
-    // if it was not found, then left pointer will be greater than right (l > r)
-    // therefore we could return l, since it's the first pointer after the first number that is less than target
+    // if it was not found, then left pointer will be greater than the right (l > r)
+    // therefore we can return l, since it's the first pointer after the first number that is less than target
 
     return $l;
 }

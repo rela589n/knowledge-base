@@ -17,7 +17,7 @@ function findMaxAverage($nums, $k) {
     $slidingSum = $maxSum;
 
     for ($i = $k; $i < $n; ++$i) {
-        $slidingSum += $nums[$i]- $nums[$i - $k];
+        $slidingSum += $nums[$i] - $nums[$i - $k];
 
         if ($slidingSum > $maxSum) {
             $maxSum = $slidingSum;

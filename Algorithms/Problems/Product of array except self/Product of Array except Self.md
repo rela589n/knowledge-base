@@ -90,7 +90,7 @@ function productExceptSelf($nums) {
     $prefix = 1;
 
     foreach($nums as $i => $num) {
-        $results[$i] *= $prefix; // multiply res[i] by previous prefix ([i - 1])
+        $results[$i] *= $prefix; // multiply res[i] by the previous prefix ([i - 1])
 
         $prefix *= $num;
     }
@@ -98,7 +98,7 @@ function productExceptSelf($nums) {
     $suffix = 1;
 
     for ($i = count($nums) - 1; $i >= 0; --$i) {
-        $results[$i] *= $suffix; // multipy res[i] by previous suffix ([i + 1])
+        $results[$i] *= $suffix; // multipy res[i] by the previous suffix ([i + 1])
 
         $suffix *= $nums[$i];
     }

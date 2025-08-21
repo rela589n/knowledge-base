@@ -2,7 +2,7 @@ See [problem](https://leetcode.com/problems/reverse-integer/description/).
 
 The idea is that we take modulo by 10 from the original number on every step of iteration, and add it to the multiplied by ten result.
 
-In other words
+In other words:
 
 ```php
 while ($x) {

@@ -1,3 +1,7 @@
+---
+aliases:
+  - Two pointer search
+---
 There are variations how it might look like:
 - L = 0, R = n - 1 (then shrink);
 - L = R = i (then extend);

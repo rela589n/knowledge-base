@@ -7,17 +7,17 @@ DDD focuses on the [[Domain Model]].
 > Software design is a constant battle with complexity. 
 > DDD is all about taming this complexity.
 
-DDD is about most optimal solution for given circumstances without derailing.
+DDD is about most **optimal solution** under the given circumstances without derailing.
 
-DDD aims for flexible, supple [[Domain Model|Model]] that can be adapted to new use cases easily, and allows [[Code]] to be reused easily.
+DDD aims for flexible, **supple [[Domain Model|Model]]** that can be **adapted to** new **use cases easily**, and allows [[Code]] to be reused easily.
 
-DDD is responsibility-driven design ([[Binding Model to Implementation]]).
+DDD is **responsibility-driven** design ([[Binding Model to Implementation]]).
 
-DDD accelerates project onboarding, because [[Binding Model to Implementation|Model is bound to Implementation]].
+DDD accelerates **project onboarding**, because [[Binding Model to Implementation|Model is bound to Implementation]].
 
 The benefits of isolation should be balanced against their cost.
 
-Encountering a change that isn't localized and requires a substantial change to the [[Domain Model|Model]] is a message that our [[Comprehension]] needs [[Model Refinement|Refinement]]. It presents an opportunity to [[Good Models lie deep|Deeper the Model]] and bring a [[Model Breakthrough|Breakthrough]].
+Encountering a **change that is scattered** and requires a substantial change to the [[Domain Model|Model]] is a message that **our [[Comprehension]] needs [[Model Refinement|Refinement]]**. It presents an opportunity to [[Good Models lie deep|Deeper the Model]] and bring a [[Model Breakthrough|Breakthrough]].
 
 In DDD, [[Model Refinement]], [[Model-driven Design|Model-driven Design]], [[Code|Implementation]] and [[Refactoring Toward Deeper Insight]] must go hand-in-hand in an iterative development process (NO [[Waterfall method]]).
 
