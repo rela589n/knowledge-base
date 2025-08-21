@@ -1,6 +1,6 @@
 See [problem](https://leetcode.com/problems/3sum-closest/description/).
 
-Need to find 3sum, closest to given target.
+Need to find triplet sum, closest to the given target.
 
 ### [[Sorting]] and [[Two pointers]]
 
