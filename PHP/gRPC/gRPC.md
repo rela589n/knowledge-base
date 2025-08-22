@@ -1,5 +1,6 @@
-The RPC framework.
+The RPC framework by Google. 
+[[Protobuf]] is used for serialization.
 
-gRPC server on PHP requires [[RoadRunner]] installation
+Both [[gRPC extension]] and [[gRPC composer package]]  are required.
 
-[[PHP Docker install gRPC extension]]
+[[gRPC server]] on PHP requires [[RoadRunner]] installation
