@@ -1,5 +1,7 @@
 ---
-aliases: Protocol Buffers
+aliases:
+  - Protocol Buffers
+  - .proto
 ---
 *Protocol Buffers* - [[Binary data formats|binary data format]], developed by Google.
 

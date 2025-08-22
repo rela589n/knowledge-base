@@ -4,3 +4,5 @@ The RPC framework by Google.
 Both [[gRPC extension]] and [[gRPC composer package]]  are required.
 
 [[gRPC server]] on PHP requires [[RoadRunner]] installation
+
+[[RoadRunner mTLS]] configuration.
