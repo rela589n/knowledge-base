@@ -16,7 +16,8 @@
 		{"id":"979c23d0b8abfb21","type":"text","text":"not possible [question](https://stackoverflow.com/questions/79673012/postgresql-add-column-to-partition-for-table-inheritance?noredirect=1#comment140537768_79673012)","x":1943,"y":1286,"width":250,"height":74},
 		{"id":"7f896bb1c519a03f","type":"file","file":"Web Sockets/Centrifugo/Centrifugo.md","x":-920,"y":1940,"width":400,"height":400},
 		{"id":"2169bb7d204bcba4","type":"file","file":"PHP/RoadRunner/Metrics Plugin.md","x":-180,"y":3200,"width":400,"height":400},
-		{"id":"d6a5e30216b1586d","x":480,"y":3400,"width":400,"height":400,"type":"file","file":"PHP/RoadRunner/gRPC/RoadRunner gRPC service.md"}
+		{"id":"d6a5e30216b1586d","type":"file","file":"PHP/RoadRunner/gRPC/RoadRunner gRPC service.md","x":480,"y":3400,"width":400,"height":400},
+		{"id":"c3eb42e178f81472","x":460,"y":3910,"width":420,"height":90,"type":"text","text":"how do I return status (not found)"}
 	],
 	"edges":[
 		{"id":"494e70b039ed9da7","fromNode":"23ad63d035670776","fromSide":"right","toNode":"30ce573f913b9bc3","toSide":"left"},
