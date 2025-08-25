@@ -1,0 +1,1 @@
+[[gRPC]] metadata is the information about particular call (method name, parameters, [[gRPC auth|Auth details]]) in key-value format.
