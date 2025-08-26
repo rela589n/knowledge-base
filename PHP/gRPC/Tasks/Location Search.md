@@ -1,0 +1,1 @@
+You need to implement a [[gRPC server]] for searching the location. It must accept a query string as an input, and return stream of locations.
