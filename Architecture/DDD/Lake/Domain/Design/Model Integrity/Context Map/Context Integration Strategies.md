@@ -10,11 +10,11 @@ aliases:
 
 Typically you'll define [[Translation Layer]] for each integration your [[Bounded Context|Context]] will be engaged in.
 
+- [[Separate Ways]]
 - [[Shared Kernel]]
 - [[Customer-Supplier|Customer/Supplier]]
 - [[Conformist]]
 - [[Anti-Corruption Layer]]
-- [[Separate Ways]]
 
 - [[Open Host Service]]
 - [[Published Language]]
