@@ -61,3 +61,5 @@ Purchased licence keys could have or not have ttl, depending on price tier.
 5$ / month - Licence key is granted for 5 months. At the end of this time, one have to manually get new licence key.
 10$ / month - granted for 5 months, and there's 1 month grace period. Thus, after reaching 5 months, devs will face the error locally, but it won't be error on production.
 15$ / month - 
+
+Licence check could be in evaluated code that will not give any stack trace. Defer coroutine?
