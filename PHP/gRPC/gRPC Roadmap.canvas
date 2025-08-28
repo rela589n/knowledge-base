@@ -6,16 +6,16 @@
 		{"id":"54753315ecd70e35","type":"file","file":"PHP/RoadRunner/gRPC/RoadRunner gRPC service.md","x":-402,"y":83,"width":600,"height":480},
 		{"id":"3edb54fcb33a91d8","type":"file","file":"PHP/RoadRunner/Roadrunner Bundle.md","x":-1002,"y":902,"width":600,"height":260},
 		{"id":"a8edf6360b84fe73","type":"file","file":"PHP/RoadRunner/RoadRunner gRPC plugin.md","x":-1002,"y":1315,"width":600,"height":251},
-		{"id":"f4dbd3fbc78fb059","type":"file","file":"PHP/gRPC/gRPC composer package.md","x":-40,"y":1320,"width":594,"height":246},
+		{"id":"f4dbd3fbc78fb059","type":"file","file":"PHP/gRPC/gRPC composer package.md","x":-40,"y":1320,"width":594,"height":320},
 		{"id":"03162f430087ab0f","type":"file","file":"PHP/gRPC/PHP Docker install gRPC extension.md","x":-40,"y":907,"width":594,"height":259},
 		{"id":"e98d60f46ea3a25d","type":"file","file":"PHP/gRPC/Protobuf/Protobuf extension.md","x":-522,"y":1720,"width":720,"height":212},
-		{"id":"d4f77fcd4b4f171e","type":"file","file":"PHP/gRPC/Protobuf/Protocol Buffers Compiler.md","x":-503,"y":2120,"width":760,"height":266},
+		{"id":"d4f77fcd4b4f171e","type":"file","file":"PHP/gRPC/Protobuf/Protocol Buffers Compiler.md","x":-503,"y":2120,"width":760,"height":340},
 		{"id":"6c74aa6ba49aec15","type":"file","file":"PHP/gRPC/Tasks/Async protobuf event.md","x":1000,"y":837,"width":400,"height":400},
 		{"id":"4e99d4fcc50678d4","type":"file","file":"PHP/gRPC/gRPC auth.md","x":1000,"y":2120,"width":400,"height":400},
 		{"id":"22e3cbe6f814e16b","type":"file","file":"PHP/gRPC/Tasks/Schema evolution - move namespaces.md","x":1000,"y":1520,"width":400,"height":400},
 		{"id":"2a8a313633842f2c","type":"file","file":"PHP/gRPC/Tasks/Streaming - Fibonacci.md","x":2840,"y":120,"width":600,"height":400},
 		{"id":"939166fdcad7b038","type":"file","file":"PHP/gRPC/Tasks/Location Search.md","x":2840,"y":640,"width":600,"height":240},
-		{"id":"f4c9b17d985151bf","x":1760,"y":323,"width":720,"height":197,"type":"file","file":"PHP/gRPC/PHP RoadRunner gRPC streaming.md"}
+		{"id":"f4c9b17d985151bf","type":"file","file":"PHP/gRPC/PHP RoadRunner gRPC streaming.md","x":1760,"y":323,"width":720,"height":197}
 	],
 	"edges":[
 		{"id":"37228c5960a7e0ad","fromNode":"f4dbd3fbc78fb059","fromSide":"top","toNode":"03162f430087ab0f","toSide":"bottom","label":"composer library uses the extension"},

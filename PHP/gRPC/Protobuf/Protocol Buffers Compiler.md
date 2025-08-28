@@ -2,7 +2,7 @@
 aliases:
   - protoc
 ---
-This is the Protocol Buffers Compiler of  `.proto` files into language-specific formats. 
+Protocol Buffers Compiler compiles  `.proto` files into language-specific formats.
 
 Protoc itself is a **generic tool**. To run compilation into your needed format you'd need to install appropriate plugin.
 
