@@ -28,3 +28,4 @@ Key points:
 - [[Smart UI and DDD are mutually exclusive|You can't both write DDD and Not DDD]]
 - [[Model-driven Design|Model-driven Design]]
 - [[Domain must be Isolated]]
+- [[Context Integration Map|Context Mapping]]

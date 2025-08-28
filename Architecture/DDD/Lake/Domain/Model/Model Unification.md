@@ -1,3 +1,7 @@
+---
+aliases:
+  - DDD Elephant
+---
 **[[Domain Model|Model]] Unification** - making [[Domain Model|Model]] internally [[Consistency|Consistent]].
 
 Whether to keep [[Bounded Context|Bounded Contexts]] unified or separate should depend on pros and cons of both.
