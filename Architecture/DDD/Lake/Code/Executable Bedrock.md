@@ -1,0 +1,1 @@
+[[Code]] could nothing but just means of technical implementation.

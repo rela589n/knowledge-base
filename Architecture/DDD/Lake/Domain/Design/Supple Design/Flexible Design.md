@@ -1,6 +1,7 @@
 ---
 aliases:
   - Supple Design Patterns
+  - Supple Design
 ---
 **Supple Design** is expressive, adaptable, flexible, [[Model-driven Design]] that **communicates its intent**.
 
@@ -16,7 +17,7 @@ It adds **clarity the [[Domain Model|Model]]**, limits [[Conceptual Overload]] b
 	- [[Assertion|Assertions]]
 - It [[Drawing on Established Formalisms|Draws on Established Formalisms]], and uses [[Closed Operation|Closure of Operations]].
 
-[[Supple Design]] aims for flexibility where it's necessary and simplicity elsewhere.
+[[Flexible Design]] aims for flexibility where it's necessary and simplicity elsewhere.
 
 It is achieved by [[Refactoring Toward Deeper Insight]].
 

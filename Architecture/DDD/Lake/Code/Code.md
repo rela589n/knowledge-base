@@ -1,6 +1,5 @@
 ---
 aliases:
-  - Executable Bedrock
   - Implementation
 ---
 > [[Extreme Programming|XP]] relies exceptionally on code as the source of truth.

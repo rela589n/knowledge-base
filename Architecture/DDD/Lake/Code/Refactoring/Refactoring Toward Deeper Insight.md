@@ -58,7 +58,7 @@ Development is not such a predictable process that change vs no change can be ac
 
 ##### Refactor
 
-[[Refactoring|Refactor]] constantly, seek for opportunities for a [[Supple Design]] and [[Expressing Concepts Explicitly|Make the implicit concepts explicit]].
+[[Refactoring|Refactor]] constantly, seek for opportunities for a [[Flexible Design]] and [[Expressing Concepts Explicitly|Make the implicit concepts explicit]].
 
 But don't do it the day before release.
 

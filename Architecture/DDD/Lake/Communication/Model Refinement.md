@@ -9,7 +9,7 @@ aliases:
 **[[Domain Model|Model]] Refinement** is exploration of the [[Domain]] aimed at building [[Rich Model Design|Rich Model]] that [[Comprehension|Makes Sense]] [[Single Model|Both]] to [[Domain Expert|Business Experts]] and to Developers.
 
 [[Model Refinement|Refinements]] are all about **Communication**:
-- [[Why Model Refinements are important]];
+- [[Why Model Refinements are important|Model Refinements are important]];
 - [[Ubiquitous Language|One Team - One Language]];
 - [[Documents and Diagrams]];
 - [[Explanatory Model]].

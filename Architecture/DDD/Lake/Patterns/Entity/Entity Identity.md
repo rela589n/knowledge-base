@@ -1,4 +1,6 @@
-[[Entity]] ***ID must be immutable***. If it is set of attributes, watch out for particular attribute updates.
+[[Entity]] [[Identity]] is defined by identifier.
+
+***ID must be immutable***. If it is set of attributes, watch out for particular attribute updates.
 
 Sometimes generated ID is of user's interest. For instance, tracking number.
 

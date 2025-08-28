@@ -3,9 +3,7 @@ aliases:
   - Model-driven Design
   - Design
 ---
-[[Domain-Driven Design|DDD]] emphasizes on use of a [[Single Model]].
-
-[[Model-driven Design]] is all about **[[Model Refinement|Refinements]]**.
+[[Domain Model|Model]]-driven Design is a Design, that values [[Domain Model]] the most. It's built with **[[Model Refinement|Refinements]]**.
 
 Domain modeling is [[Rich Model Design]]:
 1. [[Binding Model to Implementation]];
@@ -14,7 +12,7 @@ Domain modeling is [[Rich Model Design]]:
 4. [[Distilling the Model]];
 5. [[Model Refinement|Refine and Brainstorm]].
 
-[[Supple Design]]
+[[Flexible Design]]
 
 [[Analysis Patterns]]
 

@@ -1,4 +1,4 @@
-First of all, [[Domain Model]]'s [[Code]] must be separated from the rest of the [[Code]].
+First of all, [[Domain Model]]'s [[Code]] must be separated from the rest of the [[Code]]. Physically distinguishable set of classes.
 
 Apply  [[DDD Layered Architecture]] to isolate the [[Domain Model]] from anything else.
 

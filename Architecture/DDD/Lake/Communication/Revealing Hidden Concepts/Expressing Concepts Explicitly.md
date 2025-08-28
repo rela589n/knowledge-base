@@ -4,12 +4,13 @@ aliases:
   - Making implicit concepts explicit
   - Implicit Concepts
   - Revealing hidden concepts
+  - Explicit Concepts
 ---
 > Not just [[Code]] that calculates something and returns the result, but [[Code]] that expresses and reveals the [[Domain Model|Model]].
 > 
 > Every calculation, every rule, every check, every assert, **<u><b>everything</b></u> must be explicit**.
 
-**Revealing hidden concepts** is [[Comprehension|Understanding]] previously implicit [[Domain Concept|Concepts of the Business]] that you didn't [[Comprehension|Understand / Know]] before, and using them in the [[Domain Model|Model]]. 
+**Revealing hidden [[Domain Concept|Concepts]]** is [[Comprehension|Understanding]] previously implicit [[Domain Concept|Concepts of the Business]] that you didn't [[Comprehension|Understand / Know]] before, and using them in the [[Domain Model|Model]]. 
 
 This is the driving force of the [[Model Breakthrough|Breakthroughs]].
 

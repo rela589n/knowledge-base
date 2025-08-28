@@ -3,9 +3,9 @@ aliases:
   - Draw on Established Formalisms
   - Common Formalism
 ---
-**Drawing on Established Formalisms** - using something already established (like math / accounting).
+**Drawing on Established Formalisms** - using something already established (like **math** / **bool algebra** / accounting).
 
-Sometimes you **don't have to invent** things. Common [[Domain|Domains]] have been [[Model Refinement|Refined]], common problems have been solved. You can just **draw on what's already there**.
+Sometimes you **don't** have to **invent** things. Common [[Domain|Domains]] have been [[Model Refinement|Refined]], common problems have been solved. You can just **draw on what's already there**.
 
 **Math** is the perfect example of **[[Model Refinement|Refined Field]]** that **people know**. 
 Usage of familiar formalism makes your **[[Domain Model|Model]] easy to [[Comprehension|Grasp]]**. 
