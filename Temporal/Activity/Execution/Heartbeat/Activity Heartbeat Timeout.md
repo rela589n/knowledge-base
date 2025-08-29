@@ -2,7 +2,7 @@
 aliases:
   - Heartbeat Timeout
 ---
-**[[Activity Heartbeat]] Timeout** - timeout within which [[Activity]] must respond with ping before it's worker is considered stuck and activity re-published. Used for long-running activities.
+**[[Activity Heartbeat]] Timeout** - timeout within which [[Activity]] must respond with ping before it's [[Worker]] is considered stuck and the [[Activity]] is re-published. Used for long-running [[Activity]].
 
 The main idea of [[Activity Heartbeat Timeout|Heartbeat Timeout]] is to prevent a great pity (e.g. time loss) when [[Worker Process]] for a long-running task (say video processing that takes 10 hours) crashes just right after the start, and [[Temporal/Temporal Server|Temporal Server]] knows nothing about it until it reaches the timeout of 12 hours. Even though [[Worker Process]] might have been recovered long ago, [[Activity Task]] isn't available for any [[Worker]] until it times-out, since crashed worker didn't report to [[Temporal/Temporal Server|Temporal Service]].
 

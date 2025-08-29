@@ -1,9 +1,9 @@
 ---
 aliases:
   - Activity Timeout
+docs:
+  - https://docs.temporal.io/encyclopedia/detecting-activity-failures
 ---
-[Documentation](https://docs.temporal.io/encyclopedia/detecting-activity-failures)
-
 Timeouts are crucial in the case like [[Worker]] failure. If [[Worker]] fails and isn't recovered, no activities will be executed, and nobody will know that anything has gone wrong.
 
 > When setting the timeout, it's good practice to set it greater than the maximum time you anticipate the task to complete.
