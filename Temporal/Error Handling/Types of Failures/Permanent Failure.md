@@ -1,4 +1,7 @@
-It will fail until the cause is resolved (retries won't help).
-They require manual intervention.
+**Permanent Failures** - **require manual intervention**.
+
+It will fail **until the cause is resolved** ([[Retry Policy|Retries]] won't help).
+
 [[Application Failure|Application Failures]] are permanent.
-Make sure to mark any [[Permanent Failure|Permanent Failures]] as non-retriable.
+
+Make sure to mark all such failures as non-retriable.

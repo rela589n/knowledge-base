@@ -1,17 +1,19 @@
 ---
 aliases:
   - Failure detection
-  - retries
+  - Retries
   - Retry Options
 ---
 See [How Temporal Handles Failures](https://docs.temporal.io/encyclopedia/event-history/event-history-dotnet#How-History-Replay-Provides-Durable-Execution)
 
 **Retry Policy** - [[Declarative]] specification of how [[Temporal/Workflow/Workflow|Workflow]] or [[Activity]] must be retried if fails.
 
+> In almost all cases it's better to configure [[Activity Timeouts]] than [[Retry Policy]]. It's unlikely that the next retry will have more chance of success.
+
 [[Activity Retry Options]]
 [[Workflow Retry Options]]
 
-You define [[Retry Policy]] based on [[Types of Failures]].
+You define [[Retry Policy]] depending on [[Types of Failures]].
 
 > When every api request charged, it makes sense not to do much retrying.
 

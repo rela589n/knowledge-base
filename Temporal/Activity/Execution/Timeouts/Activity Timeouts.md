@@ -4,17 +4,14 @@ aliases:
 docs:
   - https://docs.temporal.io/encyclopedia/detecting-activity-failures
 ---
-Timeouts are crucial in the case like [[Worker]] failure. If [[Worker]] fails and isn't recovered, no activities will be executed, and nobody will know that anything has gone wrong.
+**Timeouts** are crucial in the case like [[Worker]] failure. If [[Worker]] fails and isn't recovered, no activities will be executed, and nobody will know that anything has gone wrong.
 
-> When setting the timeout, it's good practice to set it greater than the maximum time you anticipate the task to complete.
-
-It's mandatory to configure either [[Schedule-To-Close]] or [[Start-To-Close]] timeout.
+It's good practice to set it **greater than the maximum time** you anticipate the task to complete.
 
 Timeouts:
-- [[Schedule-To-Start]]
-- [[Activity Execution Timeouts]]
+- [[Schedule-To-Start]] (before execution, *optional*)
+- [[Activity Execution Timeouts|Execution Timeouts]] (*mandatory*)
 
-> In almost all cases it's better to configure [[Schedule-To-Close]] timeout than [[Retry Policy]], since usually it's unlikely that next retry has more chance for success.
 
 To handle [[Rate Limiting]], you can configure [[Exponential backoff|backoff coefficient]] respectively. Usually having this by itself will mean that you won't have [[Schedule-To-Close]] timeout, so you'd use [[Schedule-To-Start]] and [[Start-To-Close]] timeouts, and [[Retry Policy]].
 

@@ -1,4 +1,4 @@
 ---
 aliases:
-  - backoff coefficient
+  - Backoff Coefficient
 ---
