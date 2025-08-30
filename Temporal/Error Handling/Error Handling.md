@@ -1,10 +1,8 @@
-Categories of failures:
-- [[Application Failure]]
-- [[Platform Failure]]
+[[Categories of Failures]]
 
 [[Types of Failures]]
 
-In Temporal [[Errors are Propagated]]
+In Temporal [[Error Propagation|Errors are Propagated]]
 
 [[Activities Idempotence and Granularity]]
 

@@ -8,8 +8,8 @@ aliases:
 
 The previous exception of `ActivityFailure` contains the details about the failure:
 - `TimeoutFailure` - if timed-out;
-- `CanceledFailure` - if [[Activity Cancellation|activity was cancelled]];
-- `ApplicationFailure` - if [[Activity|activity]] has thrown (an [[Application Failure]]).
+- `CanceledFailure` - if [[Activity Cancellation|Activity was cancelled]];
+- `ApplicationFailure` - if [[Activity|Activity]] has thrown (an [[Application Failure]]).
 
 Throwing `ApplicationFailure` from the [[Workflow Execution|workflow]] causes it to [[Workflow Execution Failure|fail]]. That's the only exception you should throw manually.
 
