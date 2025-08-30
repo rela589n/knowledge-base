@@ -1,6 +1,6 @@
-When throw `\Error` from the workflow, it's retried ([[Workflow Task Failure]]).
+When `\Error` is thrown from the workflow, it results in [[Workflow Task Failure]] that's retried .
 
-[[Workflow Execution]] fails, and it's **not [[Retry Policy|Retried]]** when:
+[[Workflow Execution]] fails **without being [[Retry Policy|Retried]]** when:
 - `TemporalFailure` (like `ApplicationFailure`) is thrown, or when it's raised from the failed [[Activity]];
 - calling unknown [[Activity]] method;
 - throwing exception.

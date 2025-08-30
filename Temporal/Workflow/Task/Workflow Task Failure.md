@@ -1,10 +1,10 @@
-[[Workflow Task]] fails due to:
-- Errors in the [[Workflow Execution|Workflow]] (`\Error` - division by zero, type errs);
+[[Workflow Task]] could fail due to:
+- Errors in the [[Workflow Execution|Workflow]] (`\Error`) - division by zero, type errs;
 - [[Workflow Replay|Non-Deterministic Errors]];
 
 Some of these can happen during deployment.
 
-Other errors, including `TemporalFailure` cause [[Workflow Execution Failure]].
+Other errors, including [[Temporal Failures in the code|TemporalFailure]] cause [[Workflow Execution Failure]].
 
 [[Workflow Task Failure|Workflow Task Failures]] are considered [[Transient Failure|transient]], so that devs can fix the code without losing the state of [[Workflow Execution]].
 
