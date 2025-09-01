@@ -2,9 +2,11 @@
 aliases:
   - Cancel the Workflow
 ---
-[[Temporal/Workflow/Workflow|Workflow]] Cancellation is a graceful shutdown (anticipates cleanup) of [[Workflow Execution]].
+[[Temporal/Workflow/Workflow|Workflow]] Cancellation is a **graceful shutdown** of [[Workflow Execution]] (anticipates cleanup).
 
-When you cancel the workflow, [[Temporal/Temporal Server]] records `WorkflowExecutionCancelRequested` [[Workflow Event|Event]], and schedules [[Workflow Task]] to [[Workflow Replay|Replay the Workflow]]  to its last [[Workflow Execution|Execution]] point, and causes its unfinished child task to be cancelled (and cause it to be propagated into [[Activity Cancellation|Activity Cancellations]]), and finally it throws cancellation exception from any following yielded operation (and thus [[Workflow Async Operations#^c4a0d6|Workflow::asyncDetached()]] should be used in `catch` block to run [[SAGA|compensations]]).
+When you cancel the workflow, [[Temporal/Temporal Server]]:
+- records `WorkflowExecutionCancelRequested` [[Workflow Event|Event]],
+- schedules [[Workflow Task]] to [[Workflow Replay|Replay the Workflow]]  to its last [[Workflow Execution|Execution]] point, and causes its unfinished child task to be cancelled (and cause it to be propagated into [[Activity Cancellation|Activity Cancellations]]), and finally it throws cancellation exception from any following yielded operation (and thus [[Workflow Async Operations#^c4a0d6|Workflow::asyncDetached()]] should be used in `catch` block to run [[SAGA|compensations]]).
 
 If [[Temporal/Workflow/Workflow|Workflow]] defines any [[SAGA|compensations]], they'll be executed if they are properly configured (using `Saga` object, because otherwise [[Compensation is not executed during Cancellation]] problem rises up).
 
