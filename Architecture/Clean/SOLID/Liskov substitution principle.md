@@ -1,6 +1,6 @@
 ---
 aliases:
-  - Liskov substitution principle
+  - LSP
 ---
 Classes that use objects of base classes should not bother themselves with particular implementations (there should not be `instanceof` checks) so that we could pass any implementation. 
 

@@ -4,7 +4,7 @@ aliases:
 ---
 > Contravariance is an ascending (concrete to generic) variance
 > 
-> parameter types must be contrvariant (more generic) with the interface ([[LSP]])
+> parameter types must be contrvariant (more generic) with the interface ([[Liskov substitution principle]])
 
 This allows us to treat `Comparator<Animal>` (comparison of any animals, including dogs) as `Comparator<Dog>`, which is counter-inheritance direction.
 

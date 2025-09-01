@@ -7,7 +7,7 @@ aliases:
 
 Use it when [[Composite]] data structures can be asked **the same questions** as Leaf data structures. The interface must represent [[Conceptual Boundary|Conceptual Contour]].
 
-With [[Composite]], clients **depend on an abstract type** ([[DIP]]) and they don't care about implementation (treat [[Polymorphism|Uniformly]]). Each concrete **operation** either **arches over inner structures** (possibly [[Recursion|Recursively]]) in case of [[Composite]], or just **returns value on their own** in case of Leaf.
+With [[Composite]], clients **depend on an abstract type** ([[Dependency inversion principle]]) and they don't care about implementation (treat [[Polymorphism|Uniformly]]). Each concrete **operation** either **arches over inner structures** (possibly [[Recursion|Recursively]]) in case of [[Composite]], or just **returns value on their own** in case of Leaf.
 
 > **Example:** admin panel that provides [[Composite]] [[Specification]] of **filters** that can be applied: department, city, and you can **[[Composite|Compose]] them** with boolean logic ([[Predicate#^6640e7]]).
 

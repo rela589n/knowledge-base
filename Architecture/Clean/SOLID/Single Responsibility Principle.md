@@ -1,6 +1,6 @@
 ---
 aliases:
-  - Single Responsibility Principle
+  - SRP
 ---
 Every class must have only one "reason to change". 
 Obedience leads to [[Protected Variations]] (changes are isolated).

@@ -1,6 +1,6 @@
 ---
 aliases:
-  - Interface segregation principle
+  - ISP
 ---
 Clients should not be forced to depend on interfaces they do not use / implement. **Interfaces should be segregated**.
 
