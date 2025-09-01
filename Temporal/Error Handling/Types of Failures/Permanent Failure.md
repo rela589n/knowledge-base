@@ -1,6 +1,4 @@
-**Permanent [[Types of Failures|Failure]]** - it **requires manual intervention**.
-
-It will fail **until the cause is resolved** ([[Retry Policy|Retries]] won't help).
+**Permanent [[Types of Failures|Failure]]** will fail **until the cause is resolved** ([[Retry Policy|Retries]] won't help). It requires **manual intervention**.
 
 [[Application Failure|Application Failures]] are permanent.
 
