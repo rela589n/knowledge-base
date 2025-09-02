@@ -1,6 +1,6 @@
 ---
 aliases:
-  - contravariant
+  - Contravariant
 ---
 > Contravariance is an ascending (concrete to generic) variance
 > 
