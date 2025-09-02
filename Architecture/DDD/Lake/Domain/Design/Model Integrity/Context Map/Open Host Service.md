@@ -6,7 +6,7 @@ aliases:
 
 When [[Bounded Context]] is needed to be integrated again and again, it brings much **overhead of writing [[Translation Layer]] for every Customer**. Open **SDK simplifies the integration**.
 
-It exposes as set of [[Service|Services]] each client can use.
+It exposes as set of [[Architecture/DDD/Lake/Patterns/Service/Service|Services]] each client can use.
 
 When new changes are released on the host, there's no need for rewriting all the clients, because we can just update SDK.
 

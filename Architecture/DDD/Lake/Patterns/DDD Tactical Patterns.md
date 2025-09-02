@@ -15,7 +15,7 @@ Tactical - patterns used in solution space. These are more technical, as they ar
 
 [[Domain Event]]
 
-[[Service]]
+[[Architecture/DDD/Lake/Patterns/Service/Service]]
 
 [[Module]]
 

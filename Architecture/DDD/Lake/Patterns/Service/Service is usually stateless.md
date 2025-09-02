@@ -1,1 +1,1 @@
-[[Service]] is usually stateless and [[Immutability|Immutable]]. 
+[[Architecture/DDD/Lake/Patterns/Service/Service]] is usually stateless and [[Immutability|Immutable]]. 

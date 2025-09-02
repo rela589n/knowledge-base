@@ -7,9 +7,9 @@ When **integrating legacy system**, if it's a large scope of integration, **thei
 
 It's clear that if you take **data** from one system and **misinterpret it** in another, it **results in errors** and **corruption**. Much more if **[[Domain Model|Domain Models]] are different**, they must be **[[Translation Layer|Translated]]** and interpreted appropriately.
 
-This layer usually is represented as set of [[Service|Services]] (not even single component), each doing [[Translation Layer|Translation]]. 
+This layer usually is represented as set of [[Architecture/DDD/Lake/Patterns/Service/Service|Services]] (not even single component), each doing [[Translation Layer|Translation]]. 
 
-There are three main [[Service|Services]]:
+There are three main [[Architecture/DDD/Lake/Patterns/Service/Service|Services]]:
 - [[Adapter]]
 - [[Facade]]
 - [[Translation Layer|Translator]]

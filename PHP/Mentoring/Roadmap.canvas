@@ -42,7 +42,7 @@
 		{"id":"da0d5bbae424f0e6","type":"text","text":"task: add functional tests using WebTestCase for api endpoints","x":816,"y":1322,"width":399,"height":116},
 		{"id":"884885bea87dbad5","type":"text","text":"./vendor/bin/phpunit --generate-configuration","x":1797,"y":1200,"width":438,"height":97},
 		{"id":"c97a7ee3fbbf2417","type":"text","text":"Find a [[Value Object]] and cover it with tests. For example: https://phpunit.de/getting-started/phpunit-12.html","x":2010,"y":1334,"width":420,"height":193},
-		{"id":"a72e84d121e4fa9d","type":"text","text":"Task: configure [[ECS]] for project & use most strict config with `withPreparedSets()` ","x":-320,"y":597,"width":420,"height":146},
+		{"id":"a72e84d121e4fa9d","type":"text","text":"Task: configure [[PHP/Quality Tools/Code Style/ECS]] for project & use most strict config with `withPreparedSets()` ","x":-320,"y":597,"width":420,"height":146},
 		{"id":"3affaf2c876c2b90","type":"text","text":"Task: install PhpStan & Rector, use the most strict configuration for `withPreparedSets()`, use `withImportNames()`","x":440,"y":597,"width":440,"height":146},
 		{"id":"d636ef5d187530cc","type":"text","text":"Versions and Constraints\nhttps://getcomposer.org/doc/articles/versions.md","x":-1156,"y":180,"width":382,"height":114},
 		{"id":"3c7934459029d538","type":"text","text":"composer.lock (why it should be committed)","x":-1083,"y":25,"width":279,"height":118},
