@@ -2,3 +2,15 @@
 aliases:
   - POD
 ---
+**POD** is an abstraction over [[Container]], the smallest unit in [[Kubernetes|K8s]]. 
+Usually runs **one app [[Container]]** inside.
+
+For example, POD can be for:
+- database
+- application ([[PHP]]+[[Nginx]] / [[RoadRunner]])
+- consumers
+
+[[Kubernetes|K8s]] offers virtual network. **Each POD** gets an **IP address**. 
+When **POD dies**, a **new** one is **created** with **new IP address**.
+[[Environments/Kubernetes/Components/Service/Service|Service]] is used for the static address.
+
