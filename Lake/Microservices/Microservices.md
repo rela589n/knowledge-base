@@ -1,10 +1,7 @@
----
-aliases:
-  - services
----
-[[Idempotence]]
+[[Microservices Incentive]]
 
-[[SAGA]]
-
-[[Circuit Breaker]]
+Patterns:
+- [[Idempotence]]
+- [[SAGA]]
+- [[Circuit Breaker]]
 

@@ -1,3 +1,3 @@
 See Layout:
 
-![[touch typing layout.png]]
+![[Touch Typing Layout.png]]
