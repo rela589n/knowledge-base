@@ -1,4 +1,4 @@
-There are two ways implementing saga:
+There are two ways implementing SAGA:
 - [[Choreography SAGA]]
 - [[Orchestrator SAGA]]
 
