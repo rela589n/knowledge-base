@@ -1,4 +1,4 @@
-Factory is part of [[Domain Model]] that doesn't bear any business logic, but rather encapsulates objects creation logic.
+Factory is part of [[Domain Model]] that bears **no business logic**, but rather [[Encapsulation|Encapsulates]] **objects creation logic**.
 
 [[Factory incentive - Car example]]
 

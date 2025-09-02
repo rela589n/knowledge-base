@@ -1,3 +1,7 @@
+---
+aliases:
+  - Encapsulates
+---
 Object is a concept with the behavior it governs.
 
 Object **encapsulates the data with the logic** that operates on that there's no need to know about the internals.
