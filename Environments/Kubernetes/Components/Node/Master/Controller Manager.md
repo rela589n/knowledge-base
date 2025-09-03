@@ -1,1 +1,3 @@
-**Controller Manager** detects [[POD]]s dying, and recovers them by re-[[Scheduler|Scheduling]].
+**Controller Manager** detects [[POD]]s dying, and re-[[Scheduler|Schedules]] them.
+
+![[Controller Manager.png]]

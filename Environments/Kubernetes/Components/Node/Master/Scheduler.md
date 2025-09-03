@@ -1,4 +1,3 @@
-**Scheduler** decides on **which [[Node]]** the [[POD]] should be provisioned.
-It doesn't provision itself - [[Kubelet]] does that.
+**Scheduler** decides on **which [[Node]]** to provision the [[POD]] at, and then lets [[Kubelet]] to do that.
 
 ![[Scheduler.png]]
