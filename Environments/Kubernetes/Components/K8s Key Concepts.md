@@ -1,6 +1,6 @@
 [[Kubernetes]] main concepts:
 
-- [[Node]]
+- [[K8s Nodes|Node]]
 - [[POD|POD]]
 - [[Environments/Kubernetes/Components/Service/Service|Service]]
 - [[Ingress|Ingress]]
@@ -12,4 +12,3 @@
 
 - [[StatefulSet]]
 - [[Deployment]]
-
