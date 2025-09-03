@@ -5,10 +5,11 @@
 - [[Environments/Kubernetes/Components/Service/Service|Service]]
 - [[Ingress|Ingress]]
 
-- [[Volume|Volume]]
+- [[ConfigMap]]
+- [[Secret]]
+
+- [[Environments/Kubernetes/Components/Volume/Volume|Volume]]
 
 - [[StatefulSet]]
 - [[Deployment]]
 
-- [[Secrets]]
-- [[ConfigMap]]

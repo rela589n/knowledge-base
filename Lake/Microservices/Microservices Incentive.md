@@ -7,6 +7,7 @@
 	- **Fault Isolation**:
 		- changes **doesn't affect** each **other**:
 		- one feature won't break the **whole system**;
+		- **backup rollback** is pinpoint.
 	- **Resources Isolation**:
 		- feature won't swallow all the **RAM / CPU**;
 - Easier **Deploymet**:

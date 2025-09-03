@@ -1,0 +1,1 @@
+A [[ConfigMap]], used to store secret data. Encoded with base64.
