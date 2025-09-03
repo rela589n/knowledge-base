@@ -12,3 +12,7 @@ Allows to deploy, scale, manage [[Container|Containers]].
 [[Minikube]]
 
 [[kubectl]]
+
+[[Config file]]
+
+[[Dashboard]]
