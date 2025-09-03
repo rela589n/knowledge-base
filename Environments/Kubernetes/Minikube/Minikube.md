@@ -1,1 +1,5 @@
-**Minikube** is one-[[K8s Nodes|Node]] [[Cluster]], in which this [[K8s Nodes|Node]] is both [[Master Node|Master]] and [[Worker Node|Worker]].
+**Minikube** is one-[[K8s Nodes|Node]] [[Cluster]], in which this [[K8s Nodes|Node]] is both [[Master Node|Master]] and [[Worker Node|Worker]]. Used for local setup.
+
+`minikube start`
+`minikube status`
+`minikube delete`

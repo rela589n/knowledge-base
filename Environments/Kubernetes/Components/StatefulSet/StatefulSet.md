@@ -4,4 +4,4 @@ It manages the **access** to the **persistent storage** (when which [[POD]]s can
 
 ![[StatefulSet.png]]
 
-It's tedious to configure DB in [[Kubernetes|K8s]], and that's why often it's externalized.
+It's tedious to configure DB in [[Kubernetes|K8s]], and that's why often DB is externalized.

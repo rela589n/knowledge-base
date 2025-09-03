@@ -14,3 +14,4 @@ POD can be used for:
 When **POD dies**, a **new** will have a **new IP address**.
 [[Environments/Kubernetes/Components/Service/Service|Service]] is used for the static address.
 
+You don't create PODs manually. You create [[Deployment]]s.

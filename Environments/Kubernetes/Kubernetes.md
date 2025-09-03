@@ -8,3 +8,7 @@ docs:
 Allows to deploy, scale, manage [[Container|Containers]].
 
 [[K8s Key Concepts]]
+
+[[Minikube]]
+
+[[kubectl]]
