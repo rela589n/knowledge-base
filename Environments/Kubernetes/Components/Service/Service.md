@@ -13,6 +13,6 @@ Services can be:
 
 ![[K8s.png|330]]
 
-Service also acts as a [[Load Balancer]] - forwards request to the least busy [[POD]].
+Service also acts as a [[Load Balancer]] - forwards request to the least busy [[POD]] (my-app). More in: [[Kube-proxy]]
 
 ![[Service Load Balancing.png|500]]
