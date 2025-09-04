@@ -1,4 +1,4 @@
-[[Swoole configurations]]
+[[Swoole Configuration]]
 
 Number of php processses to create.
 
