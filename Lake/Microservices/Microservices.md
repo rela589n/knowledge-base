@@ -4,4 +4,3 @@ Patterns:
 - [[Idempotence]]
 - [[SAGA]]
 - [[Circuit Breaker]]
-
