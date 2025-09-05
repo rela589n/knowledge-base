@@ -10,13 +10,13 @@ The main revenue is your **popularity**. You should utilize it.
 
 There are open-source companies that **provide paid services**. People using their projects hire them to solve some particular problems they couldn't or aren't willing to solve themselves.
 
-Another way is by [[Sponsorship platforms|sponsorship]]. Yet, this model doesn't always work in practice, because actual consumers usually just install your software and don't pay you any money for the product they use. Vue.js (authored by Evan You), having over a million users, has only a few hundreds sponsors. Yet, this is the main source of income for Vue.
+Another model is [[Sponsorship platforms|Sponsorship]]. Yet, it doesn't always work in practice, because actual consumers usually just install your software and don't pay any money for the product they use. Vue.js (authored by Evan You), having over a million users, only has a few hundred sponsors. This is the main source of income for Vue.
 
-I think one could promote sponsorship by requiring at least 1$ of monthly <strike>payment for documentation</strike>. So, everything is free, but to have the docs to read, you'll have to pay. Documentation should be licenced. Payment should be made as subscription, and not one-off payment, to prevent people from paying just again when they open docs.
+I think one could promote sponsorship by requiring at least 1$ of monthly <strike>payment for documentation</strike>. So, everything is free, but to have the docs to read, you'll have to pay. Documentation licenced. Payment should be made as subscription, and not one-off payment, to prevent people from paying just again when they open docs.
 
 Actually, docs could available for some time slot (somehow copying should be prevented). This should not prevent new people from viewing it, but those who already use the lib.
 
-There are also partnerships. Like you can post some of the companies built on top of your project on your website (ads). Video teaching programs that generate income from teaching your framework could kick back some revenue back to you.
+There are also partnerships (ads). You can post some of the companies built on top of your project on your website. Video teaching programs that generate income from teaching your framework could kick some revenue back to you.
 
 The main goal of open-source is not making the money out of it. The goal is to have the ability to keep working on it by the money passively coming to you by from it. You could start a business out of it, but this way you will have to run the business, not to do the actual programming.
 
@@ -30,7 +30,7 @@ Access can only be granted for the user, who's at least registered for some time
 
 ### Dual Licence: licence check in the generated code
 
-It's open-source (w/o modification), but its usage requires licence.
+It's open-code (w/o modification), but its usage requires licence.
 
 For example, when having ORM Proxies, one could place a licence check there.
 
@@ -74,9 +74,11 @@ This hash value will change every time the new version is released.
 
 Thus, if one would like to do something like this, he'd need to develop a tool for cleaning up the class from these checks. That's the opposite of you developing the tool for adding these checks.
 
-Besides that, you can patch a random method to add the licence check there.
+Besides that, you can patch random methods to add the licence check there. Since you already have a loader, it's easy to inject it there.
 
-It's problematic to check, since you still can make your class loader return the expected string (if written as literal). To solve this, the hash must be evaluated in place.
+In order to check properly, you must do this check in place. Basically, two random values are compared somehow. Also, you must prevent people from using debug debug backtrace to just return the expected value from the loader.
+
+To solve this, there's custom tool that will obfuscate licence check.
 
 Another option could be creating an <strike>obfuscated class</strike> that is inherent to the usage of the library (like `EntityManager`), where licence check would happen. This way one trying to skip it will have to replace the complete class. Yet, this is not good for supporting this class, since it won't be easy to maintain. And also it's hard to obfuscate code w/o any extensions.
 
