@@ -54,32 +54,6 @@ Licence key should have:
 - the id that will allow you to issue a patch that explicitly blocks that key;
 - some information about the user (login, email) to know the person whose key was leaked.
 
-Starting point for a hacker to check is to find where the licence key is used. If he can't find it out, he'll debug it.
-
-In the library code, one could add "autoload.files" to load licence-checking file. This way, it won't be possible to patch the `composer.json` to skip it, but it will still be possible to patch the file to skip the licence.
-
-The licence file could register an autoloader which is crucial to the application itself. It's not a standard psr-4 loading. It's custom. This loader will **use licence key** to load the file. One wouldn't be able to load all files in their application because each class would require a key variable from the autoloader to ensure it's the same as the signatureI:
-
-```php
-if ($v !== '1009877e') {
-    throw new Exception();
-}
-```
-
-Patching it manually would mean patching all the library files on every upgrade.
-
-There should be variations about variable names and structure. There must be at least ten different ways of implementing this to prevent people from using auto replace with regex. 
-
-This hash value will change every time the new version is released.
-
-Thus, if one would like to do something like this, he'd need to develop a tool for cleaning up the class from these checks. That's the opposite of you developing the tool for adding these checks.
-
-Besides that, you can patch random methods to add the licence check there. Since you already have a loader, it's easy to inject it there.
-
-In order to check properly, you must do this check in place. Basically, two random values are compared somehow. Also, you must prevent people from using debug debug backtrace to just return the expected value from the loader.
-
-To solve this, there's custom tool that will obfuscate licence check.
-
 Another option could be creating an <strike>obfuscated class</strike> that is inherent to the usage of the library (like `EntityManager`), where licence check would happen. This way one trying to skip it will have to replace the complete class. Yet, this is not good for supporting this class, since it won't be easy to maintain. And also it's hard to obfuscate code w/o any extensions.
 
 Licence check could fail with some probability. For example, 10%, which makes it more trouble to find the place.
