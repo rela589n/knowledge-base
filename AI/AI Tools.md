@@ -3,3 +3,5 @@
 [[Junie]]
 
 [[Q Developer]]
+
+[[Claude Code]]
