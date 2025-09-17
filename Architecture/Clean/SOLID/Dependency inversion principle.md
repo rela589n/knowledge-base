@@ -4,7 +4,7 @@ aliases:
   - Inversion of dependency
   - Dependency Inversion
 ---
-**Dependency Inversion** calls for **depending on abstractions** rather than concretions. 
+**Dependency Inversion** - you should **depend on abstractions** rather than concretions, achieving [[Protected Variations]] and [[Open-closed principle|OCP]].
 
 **If** at some point  we would **need to** change/**complement the implementation** (e.g. add [[Decorator]], [[Proxy]]), it'd be easier. 
 

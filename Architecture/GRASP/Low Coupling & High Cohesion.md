@@ -6,7 +6,7 @@ aliases:
 ---
 Low [[Coupling]] & High [[Cohesion]]
 
-There must be **least references** to other [[Module|Modules]] and classes, so that they **can be understood by themselves** w/o any references.
+There must be **least references** between the [[Module|Modules]] and classes, so that they can **be understood by themselves** w/o any references.
 
 Big code that has a lot of dependencies should be separated into smaller pieces of code (High [[Cohesion]]), that are least interdependent (Low [[Coupling]]).
 

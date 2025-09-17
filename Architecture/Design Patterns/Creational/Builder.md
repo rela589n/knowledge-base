@@ -1,1 +1,1 @@
-Example: Query Builder (you add selects, joins, wheres, search filters etc)
+> **Example**: Query Builder (you add selects, joins, wheres, search filters etc)

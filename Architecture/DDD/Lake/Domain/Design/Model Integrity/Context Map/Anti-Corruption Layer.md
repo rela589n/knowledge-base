@@ -1,7 +1,7 @@
 ---
 aliases: []
 ---
-**Anti-corruption Layer** - [[Context Integration Strategies|Relationship]] that anticipates severe intermediary **[[Translation Layer|Translation]]** mechanism between two [[Domain Model|Models]] to protect our [[Domain Model|Model]] from external influence. This [[Context Integration Strategies|Relationship]] has no much support from their side.
+**Anti-corruption Layer** - [[Context Integration Strategies|Relationship]] that anticipates severe intermediary **[[Translation Layer|Translation]]** mechanism **between [[Domain Model|Models]]** to protect our [[Domain Model|Model]] from external influence. This [[Context Integration Strategies|Relationship]] has no much support from their side.
 
 When **integrating legacy system**, if it's a large scope of integration, **their [[Domain Model|Model]] may leak** into our [[Domain Model|Model]]. When interacting with them, we **need to adapt** to their semantics.
 

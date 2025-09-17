@@ -1,1 +1,1 @@
-This creation method is suitable for most of the simple scenarios where factory is just an overhead.
+Constructor method is suitable for the most **simple scenarios** when **[[Factory]] is an overhead**.

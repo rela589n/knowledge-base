@@ -3,19 +3,14 @@ aliases:
   - Object Tree
   - Compose
 ---
-**Composite** is a [[GOF Design Patterns|Design Pattern]], that allows you to **compose objects into tree** of **[[Recursion|Recursive]] data structures** and work with them [[Polymorphism|Uniformly]] via **the same interface** as with individual objects.
+**Composite** allows you to:
+- **compose** objects into a **tree** of **[[Recursion|Recursive]] data structures**;
+- and **[[Polymorphism|Uniformly]]** work with **compound** objects **as** with **individual**  via the **same interface** ([[Dependency inversion principle|DIP]]).
 
-Use it when [[Composite]] data structures can be asked **the same questions** as Leaf data structures. The interface must represent [[Conceptual Boundary|Conceptual Contour]].
+Clients **depend on** an **abstract type** ([[Dependency inversion principle|Dependency Inversion]]) and they don't care about implementation ([[Polymorphism]]).
 
-With [[Composite]], clients **depend on an abstract type** ([[Dependency inversion principle]]) and they don't care about implementation (treat [[Polymorphism|Uniformly]]). Each concrete **operation** either **arches over inner structures** (possibly [[Recursion|Recursively]]) in case of [[Composite]], or just **returns value on their own** in case of Leaf.
+Each **operation** either **arches over inner structures** (possibly [[Recursion|Recursively]]) in case of [[Composite]], or just **returns value on their own** in case of Leaf.
 
-> **Example:** admin panel that provides [[Composite]] [[Specification]] of **filters** that can be applied: department, city, and you can **[[Composite|Compose]] them** with boolean logic ([[Predicate#^6640e7]]).
+> **Example:** admin panel that provides [[Composite]] **Filters** [[Specification]] that can be applied: department, city, and you can **[[Composite|Compose]] them** with boolean logic ([[Predicate#^6640e7]]).
 
-Use it for:
-- tree-like objects structure;
-- when we want to treat complex compound items uniformly as a single leaves.
-
-
-
-
-
+Use when **[[Composite]] structures** can be **asked** the **same questions** as **Leaf** data structures. The interface must represent [[Conceptual Boundary|Conceptual Contour]].
