@@ -1,15 +1,14 @@
-[[Microservices]] Incentive.
+[[Microservices]] Incentive - @ changes **doesn't affect** each **other**.
 
 - Team **Productivity**:
 	- [[Continuous Integration|CI]] time;
 	- teams disturbance;
 - Lower **Error Cost**:
 	- **Fault Isolation**:
-		- changes **doesn't affect** each **other**:
-		- one feature won't break the **whole system**;
-		- **backup rollback** is per service.
+		- one **feature** won't **break** the **whole system**;
+		- **backup rollback** is per service
 	- **Resources Isolation**:
-		- feature won't swallow all the **RAM / CPU**;
+		- feature won't **swallow** all the **RAM / CPU**;
 - Easier **Deploymet**:
 	- Isolated **Downtime** / No Downtime;
 	- Isolated **Scope** of Deployment - roll out **frequently**;
@@ -18,3 +17,8 @@
 	- **Different Stack**.
 - Independent **Upgrades**:
 	- one service could be upgraded without the others;
+
+Yet, it's:
+- harder debug
+- common things are duplicated
+- more work for the upgrade

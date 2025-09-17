@@ -1,5 +1,7 @@
 [[GIST Index]]
 
+Vacation / Stock taking Calendar - **non-overlapping periods**.
+
 ```sql
 ALTER TABLE vacations 
     ADD CONSTRAINT vacations_non_overlapping_periods 

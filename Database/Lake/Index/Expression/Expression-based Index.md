@@ -1,8 +1,9 @@
 ---
 aliases:
   - Index on Function
+  - Index for Expression
 ---
-**[[Database Index|Index]] on Expression** makes it possible to create **[[Database Index|Index]] for a complex expression** so that it will be **considered as query plan** so that there'd be **no need for manual computation** at runtime (**no [[Sequence Scan]]**).
+**[[Database Index|Index]] for Expression** makes it possible to create **[[Database Index|Index]] for a complex expression** so that it will be **considered as query plan** so that there'd be **no need for manual computation** at runtime (**no [[Sequence Scan]]**).
 
 ```sql
 CREATE INDEX test_col1_lower_idx ON test (lower(col1));

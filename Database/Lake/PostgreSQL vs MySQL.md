@@ -1,6 +1,7 @@
 ---
 aliases:
   - MySQL vs PostgreSQL
+  - pg vs my
 ---
 ##### Clusterization
 
@@ -8,7 +9,9 @@ aliases:
 
 ![[Clustered Index#^5263c5]]
 
-Physically, that's a difference - [[PostgreSQL]] always inserts data to the end [[Page]], while [[MySQL]] keeps up [[Clustered Index]].
+Physically, that's a difference:
+- **[[PostgreSQL]]** always inserts data to the **end [[Page]]**;
+- while **[[MySQL]]** keeps up **[[Clustered Index]]**.
 
 When row is updated:
 - [[MySQL]] rewrites it in place (old is backed up in [[Rollback Segment]]), and only needed [[Database Index|Indexes]] are updated (if there was indexable field update). 
@@ -39,15 +42,15 @@ In [[PostgreSQL]] there's direct **support for [[Covering Index]]**.
 
 In [[MySQL]] you can only **use [[Composite Index|Multi-column Index]]** to do the same, but it **won't be [[Unique Index]]** on the first column anymore.
 
-###### Functional
+###### Expression idx:
 
-Both [[PostgreSQL]] and [[MySQL]] support [[Expression-based Index]].
+Both [[PostgreSQL]] and [[MySQL]] support [[Expression-based Index|Index for Expression]].
 
-##### Sequences
+##### Schema changes
 
-In [[PostgreSQL]] sequence is a separate thing that can be used as is.
+In [[PostgreSQL]] Schema changes are **[[Transition|Transactional]]**;
 
-In [[MySQL]] it seems to be only AUTO_INCREMENT, and it's not designed to use it as a separate thing.
+In [[MySQL]] they aren't.
 
 ##### Replication
 
@@ -63,17 +66,17 @@ In [[MySQL]] it seems to be only AUTO_INCREMENT, and it's not designed to use it
 
 Thus, [[MySQL]] can handle more concurrent connections (up to 10k in case of Uber), while for [[PostgreSQL]] it's necessary to keep connection [pools](https://wiki.postgresql.org/wiki/Number_Of_Database_Connections?uclick_id=c4efc6bf-8b8a-4e96-9cfa-df99c2ae86dd).
 
-##### Schema changes
-
-In [[PostgreSQL]] Schema changes are [[Transition|Transactional]];
-
-In [[MySQL]] they aren't.
-
 ##### Vacuum approaches
 
 [[PostgreSQL VACUUM]] runs full table scan to find deleted rows.
 
 [[MySQL]] uses separate [[Rollback Segment]], where the data is already at hand.
+
+##### Sequences
+
+In **[[PostgreSQL]] sequence** is a separate thing that can be used as is.
+
+In **[[MySQL]]** it seems to be only **AUTO_INCREMENT**, and it's not designed to use it as a separate thing.
 
 ##### Table Inheritance
 
