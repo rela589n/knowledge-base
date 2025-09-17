@@ -1,7 +1,9 @@
-Allows the interested parties to subscribe for some particular events of the class.
+**Observer** allows the **interested parties** to **subscribe** for some events of the class.
 
 Examples:
-- sf event dispatcher
-- doctrine orm lifecycle callbacks, schema events ([[Doctrine migration prevent  removing foreign key]])
+- symfony **event dispatcher**
+- doctrine orm:
+	- **lifecycle callbacks**, 
+	- **schema events** ([[Doctrine migration prevent removing unmapped foreign key|Prevent removing unmapped foreign key]])
 
-Using event bus, as it is more flexible.
+Using **event bus**, as it is more **flexible**.

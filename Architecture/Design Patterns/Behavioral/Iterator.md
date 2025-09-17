@@ -1,5 +1,6 @@
-We can implement custom class that implements PHP's iterator interfaces to make an object that represents iterable collection of something.
+**Iterator** allows to create **object** that represents (**is**) **iterable collection** of something. It's created by implementing PHP's Iterator interfaces.
 
 Example:
-- doctrine orm's query toIterate() method
-- csv iterator (opens the file to traverse it fully)
+- **[[PHP PostgreSQL Cursor|Cursor]] Query Iterator**
+- doctrine orm's query **toIterate()** method
+- **csv iterator** (opens the file to traverse it fully)

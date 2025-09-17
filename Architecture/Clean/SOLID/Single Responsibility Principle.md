@@ -7,6 +7,8 @@ Obedience leads to [[Low Coupling & High Cohesion|High Cohesion]] and [[Protecte
 
 This implies that **any part** of the system could only **change due** to **only one actor** of the system **asking for feature**.
 
-For example, a **violation** of that principle could be when one **endpoint is used by two** features - reports and financial transactions list.
+> **Example**: a **violation** of that principle could be when one **endpoint is used by two** features - reports and financial transactions list.
+> 
+> If admin / user asks for the feature, this would lead to change in the same code, meaning it has at least 2 responsibilities.
 
-If admin / user asks for the feature, this would lead to change in the same code, meaning it has at least 2 responsibilities.
+Similar to [[Common Closure Principle]]

@@ -1,10 +1,11 @@
-Allows us to traverse [[Composite]] trees with a single class.
+**Visitor** allows us to **traverse [[Composite]]** trees in a **single class**.
 
-For example, we could dump the whole tree of filters (one class that implements visitor interface).
+Visitor is a way to **eliminate `instanceof`** checks 
+-> in favor of [[Polymorphism]].
 
-Visitor is a way to eliminate `instanceof` checks in favor of [[Polymorphism|polymorphism]].
+> **Example**, dump the whole **[[Composite|Tree]] of Filters** to **build a query** - in one class that implements visitor interface.
 
-Visitor pattern allows to avoid creating a [[Factory]] of way too separated algorithms. 
+Visitor allows to avoid creating a [[Factory]] of way too separated algorithms. 
 
 For instance, when we would need to execute some logic which depends on [[Polymorphism|polymorphic]] classes usually we would create service class per each type of entity as well as create factories which will check original class instance and create&return correlated service class.
 

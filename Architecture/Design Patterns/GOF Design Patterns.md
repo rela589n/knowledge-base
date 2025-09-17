@@ -2,7 +2,7 @@
 aliases:
   - Design Patterns
 ---
-Patterns are solutions to the common problems, also providing a **common [[Ubiquitous Language|Language]]** of abstractions to communicate.
+**Patterns** are **common solutions** to the common problems, also providing a **common [[Ubiquitous Language|Language]]** of abstractions to communicate.
 
 GOF patterns are divided into three categories:
 - [[Creational Design Patterns|Creational]];
