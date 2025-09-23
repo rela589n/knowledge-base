@@ -1,3 +1,7 @@
+---
+aliases:
+  - Multiple ids in the same number
+---
 This class represents way to store three ids in one 64-bit number:
 
 ```php
