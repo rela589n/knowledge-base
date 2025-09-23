@@ -4,7 +4,7 @@ aliases:
   - Cooperative multitasking
   - Generator as promise
 ---
-See [article](https://www.npopov.com/2012/12/22/Cooperative-multitasking-using-coroutines-in-PHP.html), also see 
+See [article](https://www.npopov.com/2012/12/22/Cooperative-multitasking-using-coroutines-in-PHP.html), also see [github poc](https://github.com/rela589n/generator-as-promise-poc)
 
 Basically, code looks like this:
 
