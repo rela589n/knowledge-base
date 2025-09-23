@@ -2,8 +2,9 @@
 aliases:
   - Generator-based evaluation
   - Cooperative multitasking
+  - Generator as promise
 ---
-See [article](https://www.npopov.com/2012/12/22/Cooperative-multitasking-using-coroutines-in-PHP.html)
+See [article](https://www.npopov.com/2012/12/22/Cooperative-multitasking-using-coroutines-in-PHP.html), also see 
 
 Basically, code looks like this:
 
@@ -46,6 +47,7 @@ It suffers from [[Red-blue function problem]], yet for a long time it's what [[T
 Evaluation is pretty simple. On every step it just sends to the generator each value as "evaluated". Thus, if there were "inner generators", these are evaluated first, and then return value is substituted in place so that `yield` acts as `await` in this case:
 
 ```php
+// identical to await in js
 function evaluate(Generator $code): mixed
 {
     // for some reason it's just not possible
