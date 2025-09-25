@@ -2,6 +2,6 @@
 
 It prefers [[POD]] on the same [[Worker Node]] when forwarding.
 
-For instance, my-app -> db:
+For instance, when my-app -> db:
 
 ![[Kube-proxy.png]]

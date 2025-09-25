@@ -34,19 +34,21 @@ NAME                          READY   STATUS    RESTARTS   AGE
 ngninx-dep-75fd6f9d87-w8k7j   1/1     Running   0          9m36s
 ```
 
-###### `KUBE_EDITOR="nano" kubectl edit deployments ngninx-dep `
+###### `kubectl edit deployments ngninx-dep `
+
+> Use `KUBE_EDITOR="nano"` prefix
 
 Change image, replicas count.
 
 ###### `kubectl get replicasets`
+
+Updated the config, everything else is updated automatically.
 
 ```shell
 NAME                    DESIRED   CURRENT   READY   AGE
 ngninx-dep-75fd6f9d87   0         0         0       20m
 ngninx-dep-79497d4798   2         2         2       86s
 ```
-
-Updated the config, everything else is updated automatically.
 
 ###### `kubectl logs ngninx-dep-79497d4798-d8bxq`
 

@@ -1,0 +1,1 @@
+ReplicaSet manages [[POD]]s.
