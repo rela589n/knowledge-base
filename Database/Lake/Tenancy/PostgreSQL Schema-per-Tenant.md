@@ -8,24 +8,29 @@ CREATE SCHEMA tenant2;
 
 BEGIN;
 
-CREATE TABLE tenant1.products
+SET search_path = tenant1;
+
+CREATE TABLE products
 (
     name VARCHAR(100) NOT NULL PRIMARY KEY
 );
 
-INSERT INTO tenant1.products (name)
+INSERT INTO products (name)
 VALUES ('Laptop'),
        ('Smartphone'),
        ('Headphones');
 
-CREATE TABLE tenant2.products
+SET search_path = tenant2;
+
+CREATE TABLE products
 (
     name VARCHAR(100) NOT NULL PRIMARY KEY
 );
 
-INSERT INTO tenant2.products (name)
+INSERT INTO products (name)
 VALUES ('Laptop'),
        ('Smartphone'),
        ('Headphones');
+
 COMMIT;
 ```
