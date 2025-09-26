@@ -13,4 +13,4 @@ There are three **types of faults** that make system not reliable:
 
 ## Importance
 
-Outages in software and programmatic bugs usually cost **lost profit and lost reputation**. However sometimes software may have reduced reliability in case of development for untapped market (RAD). ^reliability-importance
+Outages in software and programmatic bugs usually cost lost **profit** and lost **reputation**. However sometimes software may have reduced reliability in case of development for untapped market (RAD). ^reliability-importance
