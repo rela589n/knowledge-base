@@ -14,8 +14,8 @@ Each [[Bounded Context]] must have a name and **clear [[Bounded Context Boundary
 
 [[Context Integration Map]] must **represent the situation as it is**, not as we'd like it.
 
-Direct [[Code]] reuse between [[Bounded Context|Bounded Contexts]] is prohibited. 
-It's fraught with [[Model Contradictions|Model Fragmentation]] issues. **Relationships** must be established with [[Context Integration Strategies]].
+Direct **[[Code]] reuse** between [[Bounded Context|Bounded Contexts]] is **prohibited**. 
+It's fraught with [[Model Contradictions|Model Fragmentation]] issues. Proper **relationships** must be **established** with [[Context Integration Strategies]].
 
 **Contracts** are **touch points** between [[Bounded Context|Bounded Contexts]].
 Describe them and their nature explicitly.
