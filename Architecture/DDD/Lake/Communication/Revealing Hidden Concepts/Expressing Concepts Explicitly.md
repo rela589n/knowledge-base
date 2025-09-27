@@ -6,7 +6,7 @@ aliases:
   - Revealing hidden concepts
   - Explicit Concepts
 ---
-> Not just [[Code]] that calculates something and returns the result, but [[Code]] that expresses and reveals the [[Domain Model|Model]].
+> *Not* just [[Code]] that calculates something and returns the result, *but* [[Code]] that **expresses** and **reveals the [[Domain Model|Model]]**.
 > 
 > Every calculation, every rule, every check, every assert, **<u><b>everything</b></u> must be explicit**.
 

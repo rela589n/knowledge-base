@@ -8,4 +8,4 @@ aliases:
   - Comprehend
   - Insight
 ---
-Clear understanding of the intended meaning of the [[Domain Model|Model]] through [[Ubiquitous Language]].
+Ability to understand the intended meaning of the [[Domain Model|Model]] through [[Ubiquitous Language]] clearly.
