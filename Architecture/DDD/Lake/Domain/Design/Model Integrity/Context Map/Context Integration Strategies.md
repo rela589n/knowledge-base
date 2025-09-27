@@ -1,12 +1,14 @@
 ---
 aliases:
-  - Map Relationship
+  - Context Map Relationship
   - Bounded Context Relationships
   - Integration Strategies
   - Integration Relationships
-  - Map Strategies
+  - Context Map Strategies
 ---
-**Context Integration Strategies** are Patterns that define the nature of the **relationships between [[Bounded Context|Bounded Contexts]]**. They mostly depend on the **project's organization**. Global view is shown in [[Context Integration Map]].
+**Context Integration Strategies** are Patterns that define the nature of the **relationships between [[Bounded Context|Bounded Contexts]]**.
+They depend mostly on the **project's organization**. 
+Global view is represented in [[Context Integration Map]].
 
 Typically you'll define [[Translation Layer]] for each integration your [[Bounded Context|Context]] will be engaged in.
 
@@ -14,6 +16,7 @@ Typically you'll define [[Translation Layer]] for each integration your [[Bounde
 - [[Shared Kernel]]
 - [[Customer-Supplier|Customer/Supplier]]
 - [[Conformist]]
+
 - [[Anti-Corruption Layer]]
 
 - [[Open Host Service]]

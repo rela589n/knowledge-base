@@ -1,14 +1,16 @@
-**Shared Kernel** is highly **cooperative [[Context Integration Strategies|Relationship]]** between two [[Bounded Context|Bounded Contexts]], in which some **parts of the [[Code]]** (some entities) and other **[[Bounded Context Aspects|Aspects]] are physically shared**.
+**Shared Kernel** is highly **cooperative [[Context Integration Strategies|Relationship]]** in which two **[[Bounded Context|Bounded Contexts]]** *have* some **parts of the [[Code]]** (and other [[Bounded Context Aspects|Aspects]]) **physically shared**.
 
-Useful when it's too much overhead for full [[Model Consistency|Unification of the Models]]. We **synchronize only the *subset* of [[Domain Model|Model]] citizens**.
+Useful when it's too **much overhead** *for* **full [[Model Consistency|Unification]]** of the [[Domain Model|Models]]. We can **synchronize** *only* the **subset** *of* **[[Domain Model|Model]] citizens**.
 
-We only **reduce duplication**, not eliminate it completely compared to how it would've been in case of one [[Bounded Context]].
+We only **reduce duplication**, but **not eliminate it** completely compared to how it would've been in case of one [[Bounded Context]].
 
-The explicitly **shared stuff** should be **changed** only by **consulting the other team**. All [[Continuous Integration]] **Tests of both teams must pass** in this case.
+The **changes** to the **shared stuff** must only be introduced by **consulting** the **other team**. Both team's tests must pass.
 
-If team's [[Continuous Integration]] rate is once a day, then [[Shared Kernel]] [[Continuous Integration|Integration]] could be once a week.
+*If* team's **[[Continuous Integration|Sync]] rate** is *once* **a day**,
+*then* [[Shared Kernel]] **[[Continuous Integration|Integration]] rate** could be *once* **a week**.
 
 Often [[Shared Kernel]] is [[Core Domain]], some set of [[Generic Subdomain]].
 
-[[Shared Kernel]] imposes burden on Deployment as much as on development.
+[[Shared Kernel]] imposes **burden *on* Deployment** 
+as much as ***on* development**.
 

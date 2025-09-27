@@ -2,6 +2,7 @@
 aliases:
   - Valid within
   - Consistent
+  - Unified Model
 ---
 **[[Domain Model|Model]] Consistency** - imperative property of the [[Domain Model|Model]] not to have [[Model Contradictions|Contradictions]]:
 - **[[Invariant|Invariants]] are kept**;
