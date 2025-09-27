@@ -1,7 +1,3 @@
-# Reliability
-
-## Definition
-
 **Reliability** - is the feature of software such that it **continues working** properly even if things do **not go expected** way. Reliable systems are **fault tolerant or resilient**. ^def-reliability
 
 ## Faults
