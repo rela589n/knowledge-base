@@ -63,5 +63,14 @@
       ],
       "key": "N"
     }
+  ],
+  "highlightr-plugin:Blue": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "H"
+    }
   ]
 }

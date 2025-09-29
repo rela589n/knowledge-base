@@ -18,11 +18,14 @@ There's a correspondence of **team *per* [[Bounded Context]]**:
 *and* making **more than one** team to work on a single [[Bounded Context]] ***is* hard**.
 
 With **big [[Bounded Context]]**:
-- Features [[Context Integration Map|Integration]] is easier (less overhead);
+- Features **[[Context Integration Map|Integration]]** is easier (less overhead);
+- If [[Domain Model|Model]] is big, but **[[Cohesion|Coherent]]**, it's easier to [[Comprehension|Grasp]];
+Yet:
 - [[Continuous Integration]] is harder.
 
 With **small [[Bounded Context]]**:
-- [[Continuous Integration]] is easier;
+- [[Continuous Integration]] is easier (smaller team and code);
+Yet:
 - Features-[[Context Integration Map|Integration]] is harder.
 
 **[[Context Integration Map|Integration]]** of [[Bounded Context|Contexts]] only **makes sense** 
