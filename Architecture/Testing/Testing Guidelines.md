@@ -11,4 +11,4 @@ Test:
 
 Think of all possible inputs and test the unit.
 
-Load least necessary data possible.
+Load as **least necessary data** as possible.
