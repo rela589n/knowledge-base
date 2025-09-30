@@ -3,7 +3,8 @@ aliases:
   - Bounded Context Boundaries
   - Boundary
 ---
-**[[Bounded Context]] Boundaries** demarcates the [[Bounded Context|Context]].
+**[[Bounded Context]] Boundaries** demarcates the [[Bounded Context|Context]], 
+*[[Comprehension|Defining]]* where each **[[Bounded Context Aspects|Aspect]]** *belongs to*.
 
 The **team's primarily interested**
 *in* the parts of the system **they'll *have to* work with**,
@@ -33,10 +34,11 @@ Yet:
 *having* **small intersections**,
 *so that* one can be **expressed** *in* [[Domain Concept|Terms]] of another.
 
-**Deep [[Context Integration Map|Integration]]** *is* **impractical**. It only signifies 
-that **two [[Bounded Context|Contexts]]** *should've been made* **one**.
+**Deep [[Context Integration Map|Integration]]** *is* **impractical**.
+It only *signifies* that **two [[Bounded Context|Contexts]]** *should've been* **one**.
 
-External subsystems might represent multiple [[Bounded Context|Bounded Contexts]], not just single one.
+**External** subsystems might *represent* ***multiple* [[Bounded Context|Contexts]]**, 
+not just single one.
 
 Note that **[[Bounded Context Boundary|Boundaries]] impact the Deployment**.
-Related to [[Microservices Incentive]].
+Related to **[[Microservices Incentive]]**.
