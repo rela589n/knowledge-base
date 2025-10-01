@@ -20,10 +20,10 @@ Solution for unsorted array [[Two Sum (Pair Sum) In unsorted Array#^09cf47]]
 
 We could use [[Two pointers]] so that we get [[O (N)]].
 
-1. Have pointer L  as the beginning of the array, pointer R as the end of the array. 
+1. Have pointer `L` set to the beginning of the array, pointer `R` at the end of the array. 
 2. Check the sum. 
-3. If it's less then the needed sum, there's just no other way of increasing it, but to shift the left pointer (thus, increasing the sum). Shifting the right pointer won't do any good, since it only decreases the value.
-4. On the other hand, if the sum is greater than the needed sum, we have nothing else to do, but to shift the right pointer so that the sum will become smaller. Shifting the left pointer won't help us, since it only increases the value, as the array is sorted.
+3. If it's less then the needed sum, we'd need to increase it. There's just no other way of increasing it, but by shifting the left pointer. Shifting the right won't do any good, since it only decreases the value. Thus, we **increase** the **sum** by doing **`L++`**.
+4. On the other hand, if the sum is greater than the needed sum, we need to decrease it. It's just nothing else to do, but to shift the right pointer so that the sum will become smaller. Shifting the left won't help us, since it only increases the value, as the array is sorted. Thus, we **decrease** the **sum** by doing **`R--`**.
 
 ![[Two sum.png]]
 

@@ -10,7 +10,7 @@ Steps:
 - Choose something **simple** to start
 - Work out **shared [[Domain Model|Model]]**
 	- identify [[Duplicate Concept|Duplicates]], map them
-	- options for [[Unified Model|Unification]]:
+	- choose way of [[Unified Model|Unification]]:
 		- shift toward one, [[Refactoring|Refactor]] the other;
 		- choose one [[Domain Concept|Concept]] at a time, and [[Refactoring|Refactor]] the other;
 		- build a [[Good Models lie deep|Deep Model]] that'll serve both.
