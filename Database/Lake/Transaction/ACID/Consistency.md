@@ -1,4 +1,4 @@
-**Consistency** - the property of database when it **follows** application **[[Invariant|Invariants]]** (see [[Model Consistency]]).
+**Consistency** - the property of database when it **follows** application **[[Invariant|Invariants]]** (see [[Unified Model]]).
 
 It is **not** always **for database** to enforce it, yet some **constraints** may be defined (**foreign keys**, **checks**, **unique**, etc.). 
 

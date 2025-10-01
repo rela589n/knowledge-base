@@ -9,7 +9,7 @@ It is rigorously organized and structured most relevant **selective abstraction 
 
 [[Domain Model|Model]] must capture the **conceptual core**, **vision of the system**.
 
-It must be kept [[Model Consistency|Consistent]].
+It must be kept [[Unified Model|Consistent]].
 
 It is not just a diagram. It is the idea that diagram conveys.
 

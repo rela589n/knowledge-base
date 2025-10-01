@@ -1,6 +1,6 @@
 **Shared Kernel** is highly **cooperative [[Context Integration Strategies|Relationship]]** in which two **[[Bounded Context|Bounded Contexts]]** *have* some **parts of the [[Code]]** (and other [[Bounded Context Aspects|Aspects]]) **physically shared**.
 
-Useful when it's too **much overhead** *for* **full [[Model Consistency|Unification]]** of the [[Domain Model|Models]]. We can **synchronize** *only* the **subset** *of* **[[Domain Model|Model]] citizens**.
+Useful when it's too **much overhead** *for* **full [[Unified Model|Unification]]** of the [[Domain Model|Models]]. We can **synchronize** *only* the **subset** *of* **[[Domain Model|Model]] citizens**.
 
 We only **reduce duplication**, but **not eliminate it** completely compared to how it would've been in case of one [[Bounded Context]].
 

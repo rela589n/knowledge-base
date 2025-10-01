@@ -37,3 +37,5 @@ we *have* **more freedom** *than* in case of **[[External Systems Integration|Ex
   *and* **adjust** both [[Bounded Context|Contexts]]
 
 [[External Systems Integration]]
+
+[[Map Reorganization]]

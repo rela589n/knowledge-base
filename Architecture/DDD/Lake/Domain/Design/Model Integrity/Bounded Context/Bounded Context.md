@@ -7,9 +7,9 @@ aliases:
 
 It is used to **delimit distinctive subsystems** with **its own [[Ubiquitous Language]]**, that can be developed by different teams / departments.
 
-[[Bounded Context|Context]] **keeps [[Domain Model|Model]] strictly [[Model Consistency|Consistent]]** within its [[Bounded Context Boundary|Boundary]], and must not be distracted with the issues outside.
+[[Bounded Context|Context]] **keeps [[Domain Model|Model]] strictly [[Unified Model|Consistent]]** within its [[Bounded Context Boundary|Boundary]], and must not be distracted with the issues outside.
 
-Total [[Model Consistency|Unification]] of the [[Domain Model|Model]] in a large system isn't effective. Most optimal is to have few [[Bounded Context|Bounded Contexts]] to expose their own small [[Domain Model|Models]] rather than one big over-arching [[Domain Model|Model]]. See [[Bounded Context Boundary|Bounded Context Boundaries]].
+Total [[Unified Model|Unification]] of the [[Domain Model|Model]] in a large system isn't effective. Most optimal is to have few [[Bounded Context|Bounded Contexts]] to expose their own small [[Domain Model|Models]] rather than one big over-arching [[Domain Model|Model]]. See [[Bounded Context Boundary|Bounded Context Boundaries]].
 
 Context of the [[Domain Model|Model]] is a set of conditions under which [[Domain Concept|Model Terms]] have specific meaning.
 

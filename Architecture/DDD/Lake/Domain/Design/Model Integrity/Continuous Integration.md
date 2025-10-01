@@ -4,7 +4,7 @@ aliases:
 ---
 **Continuous Integration** means ***quickly* integrating** all **the work** *within* a [[Bounded Context]] *so that* it's easy to detect and ***quickly* fix [[Model Contradictions]]**.
 
-It **tames [[Model Contradictions|Model Fragmentation]]** and keeps the [[Model Consistency|Model Unified]] within the [[Bounded Context]]. Especially valuable when the team increases.
+It **tames [[Model Contradictions|Model Fragmentation]]** and keeps the [[Unified Model|Model Unified]] within the [[Bounded Context]]. Especially valuable when the team increases.
 
 It's is first **about [[Domain Concept|Concepts]]**:
 - creating common **[[Ubiquitous Language|Knowledge]]** in the team - **[[Domain Concept|Conceptual]] Integration**:
