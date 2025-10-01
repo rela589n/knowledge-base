@@ -4,6 +4,10 @@ Need to find triplet sum, closest to the given target.
 
 ### [[Sorting]] and [[Two pointers]]
 
+It's  [[O (N**2)]].
+
+See [[Two Sum (Pair Sum) In sorted Array]].
+
 ```php
 function threeSumClosest($nums, $target) {
     sort($nums);
@@ -33,10 +37,10 @@ function threeSumClosest($nums, $target) {
 
             $sum = $first + $second + $third;
 
-            // we must use abs, since otherwise [11, 12] would produce -1, while [11, 11] (more correct answer) - 0, leading to -1 being accepted as the answer
+            // Must use abs, lest [11, 12] will produce -1, while [11, 11] is more correct answer - 0. Closest means by modulo, not resulting in -1 being accepted as the answer
             $sumDiff = abs($target - $sum);
 
-            // we are finding such $sum that is the least in difference with $target (finding min by sum diff)
+            // finding such $sum that is the least in difference with $target (finding min by sum diff)
             if ($sumDiff < $minSumDiff) {
                 $minSumDiff = $sumDiff;
                 $closestSum = $sum;

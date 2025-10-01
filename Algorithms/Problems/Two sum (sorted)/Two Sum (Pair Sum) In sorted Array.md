@@ -18,7 +18,7 @@ Solution for unsorted array [[Two Sum (Pair Sum) In unsorted Array#^09cf47]]
 ##### Two Pointers 
 ^b7d57e
 
-We could use [[Two pointers]] so that we get [[O (N)]].
+[[Two pointers]] solution gives us [[O (N)]].
 
 1. Have pointer `L` set to the beginning of the array, pointer `R` at the end of the array. 
 2. Check the sum. 
