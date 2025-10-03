@@ -3,11 +3,11 @@ aliases:
   - Model
   - Design
 ---
-**[[Model (generic)|Model]] of the [[Domain]]** is a [[Distilling the Model|Distilled]] knowledge of some **aspect of reality** or an **idea is of interest**.
+**[[Domain]] [[Model (generic)|Model]]** is a **[[Distilling the Model|Distillation]] of knowledge** of some [[Domain]] (**aspect of reality** or an **idea is of interest**).
 
-It is rigorously organized and structured most relevant **selective abstraction of the knowledge from BA head**. 
+It is rigorously organized and structured most relevant **selective abstraction** of the **knowledge** from the **head of BA**. 
 
-[[Domain Model|Model]] must capture the **conceptual core**, **vision of the system**.
+[[Domain Model|Model]] captures the **conceptual core**, **vision of the system**.
 
 It must be kept [[Unified Model|Consistent]].
 

@@ -2,7 +2,9 @@
 aliases:
   - Refactoring toward Breakthrough
 ---
-**[[Refactoring]] Toward Deeper Insight** contributes to [[Model Breakthrough]]. You can only **improve the [[Domain Model|Model]] by [[Comprehension|Understanding]] it** first.
+**[[Refactoring]] Toward Deeper Insight** leads to **[[Model Breakthrough]]**. 
+
+You can only **improve the [[Domain Model|Model]]** by **[[Comprehension|Understanding]] it** first.
 
 1. Live in the [[Domain]];
 2. Look closely on things from different angles;
@@ -19,21 +21,21 @@ aliases:
 
 ##### What team should undertake
 
-[[Model Refinement|Communicate]] with:
-- **other devs**
-   *who* [[Comprehension|Understand]] the [[Domain]],
-   *or* are good modelers;
+**[[Model Refinement|Communicate]] with:**
+- **Other devs**
+   *who* **[[Comprehension|Understand]] the [[Domain]]**,
+   *or* are **good modelers**;
 - **[[Domain Expert|Business Experts]]**:
 	- find useful **[[Domain Model|Model]]**
 	  *that* would **make sense** to them.
 
-Make it productive:
+Be productive:
 - **Self-determined** team:
 	- few people arrange together 
 	  *to* solve the problem and disband;
 - **Scope and sleep**:
-	- Don't be dragging out long meetings;
-	- Convene over few days.
+	- Convene over few days;
+	- Don't drag out long meetings;
 - **Exercise [[Ubiquitous Language]]**
 	- engage [[Domain Expert|Domain Experts]] and [[Model Refinement|Refine]] it.
 
@@ -41,19 +43,18 @@ A full-blown [[Model Refinement|Brainstorming]] session is dynamic, unstructured
 
 ##### What Source to start with
 
-[[Model Refinement|Brainstorming]] is extremely useful for finding ideas from any source.
+[[Model Refinement|Brainstorming]] is useful for finding ideas from any source.
 
-You can start with:
-- **ideas from books and internet**;
-- [[Analysis Patterns]]
-- any source of [[Ubiquitous Language|Domain Knowledge]] 
-*and* **feed the [[Model Refinement|Brainstorming]] session** with it,
-	*thereby* [[Model Refinement|Crunch]] the [[Ubiquitous Language|Knowledge]] more effectively.
+To [[Model Refinement|Crunch]] the [[Ubiquitous Language|Knowledge]] more effectively,
+you can **feed the [[Model Refinement|Brainstorming]] session** with:
+- ideas from **books and internet**;
+- **[[Analysis Patterns]]**
+- any source of [[Ubiquitous Language|Domain Knowledge]]
 
 When the things begin to fit together, you can [[Refactoring|Refactor]]:
 - employ [[GOF Design Patterns|Design Patterns]] 
-  *if* they fit the [[Domain Model|Model]] 
-   *and* express the [[Comprehension|Meaning]]
+  (*if* they fit the [[Domain Model|Model]] 
+   *and* express the [[Comprehension|Meaning]])
 - [[Drawing on Established Formalisms|Draw on Established Formalisms]]
 
 ##### If you wait it, you don't do it
