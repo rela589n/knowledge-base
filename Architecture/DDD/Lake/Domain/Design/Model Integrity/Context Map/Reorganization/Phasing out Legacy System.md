@@ -9,3 +9,12 @@ You should ***cover* new systems** with **[[Testing|Tests]]**.
 Don't get all features in one go.
 
 **Deployment** should be as **iteration**-sized as features.
+
+1. Select a small set of **features** for the **iteration**;
+2. **Identify** additions for **[[Anti-Corruption Layer]]**;
+3. **Implement** feature;
+4. Deploy;
+
+Then, in the **process of time**:
+1. Delete unused [[Anti-Corruption Layer]];
+2. Delete phased out features off the [[Legacy]] system.
