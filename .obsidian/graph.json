@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "path:\"PHP/Doctrine ORM/Limitations\"  ",
+  "search": "path:\"Architecture/DDD\"  ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 20,
   "linkStrength": 0.78125,
   "linkDistance": 30,
-  "scale": 0.23647870429796647,
+  "scale": 0.36959941273349045,
   "close": false
 }
