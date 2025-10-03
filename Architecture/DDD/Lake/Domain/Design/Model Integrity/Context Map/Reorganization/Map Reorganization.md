@@ -9,3 +9,5 @@ Take reasonable steps of [[Refactoring]].
 
 - [[Merging Separate Ways into Shared Kernel]]
 - [[Merging Shared Kernel into Single Context]]
+- [[Phasing out Legacy System]]
+

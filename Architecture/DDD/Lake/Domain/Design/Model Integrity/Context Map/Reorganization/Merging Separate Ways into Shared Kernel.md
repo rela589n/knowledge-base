@@ -6,7 +6,7 @@ Two [[Bounded Context|Contexts]] were going **[[Separate Ways]]**
 Steps:
 - *(preliminaries)*:
 	- [[Bounded Context|Context]]'s [[Domain Model|Models]] must be [[Unified Model|Unified]]
-	- Set up [[Tests]]
+	- Set up [[Testing]]
 - Choose something **simple** to start
 - Work out **shared [[Domain Model|Model]]**
 	- identify [[Duplicate Concept|Duplicates]], map them

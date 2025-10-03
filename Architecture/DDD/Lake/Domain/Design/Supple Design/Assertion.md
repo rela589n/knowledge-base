@@ -6,4 +6,4 @@ aliases:
 
 They clearly state what state ([[Side-Effect|Side-Effects]]) system ends up with after [[Command]] execution.
 
-These can be written in [[Tests]], and must cover all reasonable [[Side-Effect|Side-Effects]] that happen to the system.
+These can be written in [[Testing]], and must cover all reasonable [[Side-Effect|Side-Effects]] that happen to the system.
