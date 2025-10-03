@@ -11,4 +11,3 @@
 
 Finally, you will have **one large team** 
 *working* on the **same codebase**.
-
