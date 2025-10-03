@@ -1,4 +1,4 @@
-**Published Language** - [[Context Integration Strategies|Relationship]] between parties with equal right, when **intermediary language** is created for their integration.
+**Published Language** - [[Context Integration Strategies|Relationship]] between parties with equal right, when **intermediary language** is created *for* their **integration**.
 
 Sometimes when integrating two [[Domain|Businesses]] to exchange data, we **don't want to choose one [[Domain Model|Model]]** over the other. Doing so would imply that it'll **remain bound** to this communication protocol (especially bad for bad models).
 

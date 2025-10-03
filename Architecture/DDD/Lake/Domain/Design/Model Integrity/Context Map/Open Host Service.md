@@ -2,11 +2,13 @@
 aliases:
   - Published SDK
 ---
-**Open Host Service** - [[Context Integration Strategies|Relationship]], in which host [[Bounded Context]] ***exposes* public SDK** for its API so that other [[Bounded Context|Bounded Contexts]] can use it to integrate.
+**Open Host Service** - **host [[Bounded Context|Context]]** *exposes* **public SDK** as an API that **other [[Bounded Context|Contexts]] can use** it to integrate.
 
-When [[Bounded Context]] is needed to be integrated again and again, it brings much **overhead of writing [[Translation Layer]] for every Customer**. Open **SDK simplifies the integration**.
+Open **SDK *simplifies*** the **integration** 
+*when* **[[Bounded Context|Context]]** must be **integrated again** and again
+*eliminating* **overhead** of writing **[[Translation Layer]]** for **every Customer**. 
 
-It exposes as set of [[Architecture/DDD/Lake/Patterns/Service/Service|Services]] each client can use.
+It exposes as set of [[Architecture/DDD/Lake/Patterns/Service/Service|Services]] that clients can use.
 
 When new changes are released on the host, there's no need for rewriting all the clients, because we can just update SDK.
 
