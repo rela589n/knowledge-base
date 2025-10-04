@@ -3,7 +3,7 @@ aliases:
   - Model
   - Design
 ---
-**[[Domain]] [[Model (generic)|Model]]** is a **[[Distilling the Model|Distillation]] of knowledge** of some [[Domain]] (**aspect of reality** or an **idea is of interest**).
+**[[Domain]] [[Model (generic)|Model]]** is a **[[Distilling the Model|Distillation]] of knowledge** of some [[Domain]] (of some **aspect of reality** or an **idea is of interest**).
 
 It is rigorously organized and structured most relevant **selective abstraction** of the **knowledge** from the **head of BA**. 
 
