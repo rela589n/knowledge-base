@@ -8,7 +8,7 @@ and allocate highly **skilled devs** to implement it.
 
 
 Concepts:
--  [[Core Domain]]
+- [[Core Domain]]
 - [[Generic Subdomain]]
 - [[Coherent Mechanism]]
 
