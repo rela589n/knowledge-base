@@ -1,4 +1,11 @@
-**Distillation** - separation of the components and extracting the **essence**.
+**Distillation** - separation of the components and extracting the **essence**. 
+
+It allows to *hew away* **distractions** 
+and *focus* on what matters **most**.
+
+One must set **priorities** to the **[[Core Domain]]**, 
+and allocate highly **skilled devs** to implement it.
+
 
 Concepts:
 -  [[Core Domain]]
@@ -7,5 +14,3 @@ Concepts:
 
 ![[Strategic Distillation Map.png]]
 
-It allows to *hew away* **distractions** 
-and *focus* on what matters **most**.
