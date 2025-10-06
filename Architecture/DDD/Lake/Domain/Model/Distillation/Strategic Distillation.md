@@ -6,11 +6,12 @@ and *focus* on what matters **most**.
 One must set **priorities** to the **[[Core Domain]]**, 
 and allocate highly **skilled devs** to implement it.
 
-
 Concepts:
 - [[Core Domain]]
 - [[Generic Subdomain]]
 - [[Coherent Mechanism]]
+
+Domain design is interesting and challenging when approached seriously.
 
 ![[Strategic Distillation Map.png]]
 
