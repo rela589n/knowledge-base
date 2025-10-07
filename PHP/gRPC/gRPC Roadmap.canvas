@@ -15,7 +15,8 @@
 		{"id":"22e3cbe6f814e16b","type":"file","file":"PHP/gRPC/Tasks/Schema evolution - move namespaces.md","x":1000,"y":1520,"width":400,"height":400},
 		{"id":"2a8a313633842f2c","type":"file","file":"PHP/gRPC/Tasks/Streaming - Fibonacci.md","x":2840,"y":120,"width":600,"height":400},
 		{"id":"939166fdcad7b038","type":"file","file":"PHP/gRPC/Tasks/Location Search.md","x":2840,"y":640,"width":600,"height":240},
-		{"id":"f4c9b17d985151bf","type":"file","file":"PHP/gRPC/PHP RoadRunner gRPC streaming.md","x":1760,"y":323,"width":720,"height":197}
+		{"id":"f4c9b17d985151bf","type":"file","file":"PHP/gRPC/PHP RoadRunner gRPC streaming.md","x":1760,"y":323,"width":720,"height":197},
+		{"id":"e63aeb05675319eb","type":"text","text":"how to return status (not found)","x":2160,"y":1566,"width":420,"height":90}
 	],
 	"edges":[
 		{"id":"37228c5960a7e0ad","fromNode":"f4dbd3fbc78fb059","fromSide":"top","toNode":"03162f430087ab0f","toSide":"bottom","label":"composer library uses the extension"},

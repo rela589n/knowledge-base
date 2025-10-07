@@ -12,12 +12,12 @@
 		{"id":"ca4ce8e4d98388cb","type":"file","file":"Temporal/Temporal.md","x":2040,"y":-720,"width":640,"height":400},
 		{"id":"5ddaf3209577b536","type":"file","file":"Temporal/Learn/Temporal Roadmap.canvas","x":2060,"y":-65,"width":600,"height":472},
 		{"id":"7f896bb1c519a03f","type":"file","file":"Web Sockets/Centrifugo/Centrifugo.md","x":3040,"y":-720,"width":400,"height":280},
-		{"id":"44f0719aea269be2","type":"file","file":"Database/Lake/Index/Composite Index.md","x":3840,"y":-720,"width":555,"height":380},
-		{"id":"72a26c04c574430a","type":"text","text":"Why is it better to order columns by [[Cardinality|Selectivity]]?","x":3951,"y":-205,"width":333,"height":140},
-		{"id":"c5eb639899a79796","type":"file","file":"Monitoring/Grafana/Grafana.md","x":4800,"y":-720,"width":400,"height":400},
-		{"id":"d6a5e30216b1586d","type":"file","file":"PHP/SAPI/RoadRunner/gRPC/RoadRunner gRPC service.md","x":5680,"y":-720,"width":400,"height":400},
-		{"id":"c3eb42e178f81472","type":"text","text":"how do I return status (not found)","x":5680,"y":-275,"width":420,"height":90},
-		{"id":"2169bb7d204bcba4","type":"file","file":"PHP/SAPI/RoadRunner/Metrics Plugin.md","x":5200,"y":40,"width":400,"height":400}
+		{"id":"d6a5e30216b1586d","type":"file","file":"PHP/SAPI/RoadRunner/gRPC/RoadRunner gRPC service.md","x":3880,"y":-720,"width":400,"height":400},
+		{"id":"3b7f461a9df09a3e","type":"file","file":"PHP/gRPC/gRPC Roadmap.canvas","x":3880,"y":-65,"width":400,"height":400},
+		{"id":"44f0719aea269be2","type":"file","file":"Database/Lake/Index/Composite Index.md","x":4760,"y":-720,"width":555,"height":380},
+		{"id":"72a26c04c574430a","type":"text","text":"Why is it better to order columns by [[Cardinality|Selectivity]]?","x":4871,"y":-205,"width":333,"height":140},
+		{"id":"2169bb7d204bcba4","type":"file","file":"PHP/SAPI/RoadRunner/Metrics Plugin.md","x":4560,"y":280,"width":400,"height":400},
+		{"id":"c5eb639899a79796","type":"file","file":"Monitoring/Grafana/Grafana.md","x":3680,"y":560,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"19affa841bb06efe","fromNode":"30ce573f913b9bc3","fromSide":"bottom","toNode":"c13950c7bfaf1461","toSide":"top"},
@@ -29,6 +29,7 @@
 		{"id":"39c4e2b1680c2849","fromNode":"7148352a4726bd33","fromSide":"bottom","toNode":"4805f6d6deb4cbd5","toSide":"top"},
 		{"id":"99e65e350514971c","fromNode":"f65c4af7aa192f2e","fromSide":"right","toNode":"be0a150446d7d9ba","toSide":"left"},
 		{"id":"31c6b9254a3492b7","fromNode":"44f0719aea269be2","fromSide":"bottom","toNode":"72a26c04c574430a","toSide":"top"},
-		{"id":"2cf0d98a798a16eb","fromNode":"ca4ce8e4d98388cb","fromSide":"bottom","toNode":"5ddaf3209577b536","toSide":"top"}
+		{"id":"2cf0d98a798a16eb","fromNode":"ca4ce8e4d98388cb","fromSide":"bottom","toNode":"5ddaf3209577b536","toSide":"top"},
+		{"id":"4cdfda48ac7ac5f9","fromNode":"d6a5e30216b1586d","fromSide":"bottom","toNode":"3b7f461a9df09a3e","toSide":"top"}
 	]
 }
