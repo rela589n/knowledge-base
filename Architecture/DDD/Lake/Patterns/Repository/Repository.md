@@ -2,11 +2,11 @@ Repository encapsulates infrastructural low-level job necessary for domain objec
 
 ![[Repository.png]]
 
-The starting point where we get the first object reference from. After having the first [[Aggregate Root]] reference, we could use [[Aggregate root has global identity|Association Traversal]] to get other objects.
+The starting point where we get the first object reference from. After having the first [[Aggregate Root]] reference, we could use [[Association Traversal]] to get other objects.
 
-As a rule of thumb, no query access is needed for the objects that are more conveniently found by [[Aggregate root has global identity|Association Traversal]].
+As a rule of thumb, no query access is needed for the objects that are more conveniently found by [[Association Traversal]].
 
-Any object inside of the [[Aggregate]] is ***prohibited*** to be found by any other means but by [[Aggregate root has global identity|Association Traversal]].
+Any object inside of the [[Aggregate]] is ***prohibited*** to be found by any other means but by [[Association Traversal]].
 
 The client of the repository should think as if the objects were all in memory, and repository was just filtering them.
 

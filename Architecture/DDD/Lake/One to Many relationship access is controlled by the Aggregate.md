@@ -7,4 +7,4 @@ For example:
 
 You'd want to make sure that Question of `questionId` belongs to Questionnaire, and if it doesn't - thrown an exception (probably 404).
 
-If that's the case, then Questionnaire should be [[Aggregate Root]], and Question - subsidiary entity. Use [[Aggregate root has global identity|Association Traversal]] to find one.
+If that's the case, then Questionnaire should be [[Aggregate Root]], and Question - subsidiary entity. Use [[Association Traversal]] to find one.

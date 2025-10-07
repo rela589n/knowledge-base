@@ -9,7 +9,7 @@ aliases:
 
 Primary aim is **efficient search**:
 - for **[[Primary Key]]** when if it's the main query pattern (yet, inserts/updates might be not so efficient due to the need to reorganize the data);
-- for **subordinate entities** of [[Aggregate]]:
+- for **[[Subordinate Objects|Aggregate Subordinate Objects]]**:
 	- If [[Entity]] **A** has **full ownership** over [[Entity]] **B**, 
 	  it's reasonable that subsidiary [[Entity]] B isn't needed to be found by ID, but only by parent [[Entity]], since it's owner. Example: User and UserEvent ([[Clustered Index Example]]).
 
