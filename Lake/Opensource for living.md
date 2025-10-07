@@ -62,7 +62,7 @@ If you fail right from the licence checker, it will be easy to track that. Excep
 
 When the library code is autoloaded, one could check for a file hash sum. If it's not in the list, stored by the licence file, it will cause the application to fail.
 
-One could make the library work unexpectedly if the licence file is absent. Sick library. It will not fail explicitly. It will fail due to other reasons.
+One could make the library work unexpectedly if the licence file is absent. Sick library. It will not fail explicitly. It will fail due to other reasons. Some [[PHP Silent Implicit Exit]].
 
 Licence check could be in evaluated code that will not give any stack trace.
 
@@ -70,14 +70,14 @@ Subscription is implemented via native means of github. Your licence is active a
 
 There's no impedance for the new devs to play around with your library. They'd be able to get free one-day licence key in one click. 
 
-One-day licence keys are free of charge.
-Anyone could go and get such key.
+One-week licence keys are free of charge.
+Anyone could get and use such key.
 
 In README.md there must be a link to the website where they sign in with Github and get their key right away.
 
-Licence key page must be protected by ReCaptcha.
+Licence key page must be protected with ReCaptcha.
 
-Purchased licence keys could have or not have ttl, depending on price tier.
+Purchased licence keys might (or might not) have a ttl, depending on a price tier.
 
 5$ / month - Licence key is granted for 5 months. At the end of this time, one have to manually get new licence key.
 10$ / month - granted for 5 months, and there's 1 month grace period. Thus, after reaching 5 months, devs will face the error locally, but it won't be error on production.
