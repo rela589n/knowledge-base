@@ -2,15 +2,19 @@
 docs:
   - https://habr.com/ru/companies/quadcode/articles/679618/
   - https://www.postgresql.org/docs/current/sql-cluster.html
+aliases:
+  - Clusterization
 ---
-**Clustered index** - [[Database Index|Database Index]] that determines **how data is physically placed** on the disk (sorted in the order of index), therefore there could be **only one such index**.
+**Clustered [[Database Index|Index]]** -  determines how **data** is **physically placed** on disk. The data is sorted by it, therefore it's possible to cluster only by **one such index**.
 
-[[Primary Key]] can be used as [[Clustered Index]], if there is need for the efficient search by [[Primary Key]] (yet, inserts/updates might be not so efficient because of the need to reorganize the data).
+Primary aim is **efficient search**:
+- for **[[Primary Key]]** when if it's the main query pattern (yet, inserts/updates might be not so efficient due to the need to reorganize the data);
+- for **subordinate entities** of [[Aggregate]]:
+	- If [[Entity]] **A** has **full ownership** over [[Entity]] **B**, 
+	  it's reasonable that subsidiary [[Entity]] B isn't needed to be found by ID, but only by parent [[Entity]], since it's owner. Example: User and UserEvent ([[Clustered Index Example]]).
 
-Clustered Index can be created **for multiple columns**, yet it should be used wisely, since in that case search by [[Primary Key]] will become ineffective (and would require [[Secondary Index]] for the [[Primary Key]]).
+It can be created **for multiple columns**, though it is to be used wisely, because search by [[Primary Key]] might become ineffective (and would require [[Secondary Index]] for the [[Primary Key]]) - in case of [[MySQL]].
 
-Clustered Index can be used for [[Aggregate]] subordinate entities. If [[Entity]] A has full ownership over [[Entity]] B, it's reasonable that subsidiary [[Entity]] B isn't needed to be found by ID, but only by parent [[Entity]], since it's owner. 
-Example: User and UserEvent ([[Clustered Index Example]]).
 
 **[[MySQL]] always** creates [[Clustered Index]] for [[Primary Key]]. Every [[Secondary Index]] stores [[Primary Key]] (rather than [[Table Heap|Heap File]] pointer) to define the location. ^5263c5
 

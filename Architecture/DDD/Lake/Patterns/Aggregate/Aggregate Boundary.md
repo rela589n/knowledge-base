@@ -1,3 +1,7 @@
+---
+aliases:
+  - Boundary
+---
 Scopes the set of classes belong to this particular [[Aggregate]].
 
 [[Aggregate Root]] is the only entity that external objects are allowed to reference.

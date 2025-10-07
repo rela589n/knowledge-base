@@ -80,5 +80,6 @@ Execution Time: 0.756 ms
 ```
 
 This is with the fact that each user has `~2000` events.
-Random [[Table Heap|Heap File]] access is much slower than sequential as with index.
+Random [[Table Heap|Heap File]] access is much slower than sequential, as it is with index.
+Yet, beware that [[Clustered Index|Clusterization]] of the table is blocking.
 

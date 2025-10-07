@@ -2,15 +2,23 @@
 aliases:
   - Aggregates
 ---
-Aggregate is a **cluster of related objects**, which make up a logical unit, that allows us to **maintain [[Invariant|business invariants]]** inside of the [[Transaction]]. 
+**Aggregate** is a **cluster** of **related objects**, which 
+makes up a **logical unit**, that 
+allows to **maintain [[Invariant|Invariants]]** inside of the [[Transaction]]. 
 
-One of them is the [[Aggregate Root|Root]], and others are subordinate objects ([[Entity|Entities]] and [[Value Object|Value Objects]]).
-
-Aggregates are limited within a [[Aggregate Boundary|Boundary]].
-
-- When **we run the [[Transition]]** that touches any object within [[Aggregate Boundary]], all the **[[Invariant|Invariants]] of the [[Aggregate]] must be kept** ([[Aggregate Root]] is responsible for that)
-- When we **delete [[Aggregate]]**, we delete everything within [[Aggregate Boundary]];
-- When we **clone [[Aggregate]]** (see [[Prototype]]), we should clone only within [[Aggregate Boundary]].
+- All **[[Aggregate]] [[Invariant|Invariants]] must be kept** 
+  in all **[[Transition]]s** that touch objects within [[Aggregate Boundary]]
+  ([[Aggregate Root|Root]] is responsible for it);
+- When we **delete [[Aggregate]]**, 
+  we delete everything **within [[Aggregate Boundary|Boundary]]**;
+- When we **clone [[Aggregate]]** (see [[Prototype]]), 
+  we clone only **within [[Aggregate Boundary|Boundary]]**.
 - [[Aggregate resolves the Contention points]]
 
-[[One to Many relationship access is controlled with the Aggregate]]
+Aggregate consists of:
+- [[Aggregate Root|Root]] entity;
+- [[Subordinate Objects]]
+
+It is limited by a [[Aggregate Boundary|Boundary]]
+
+[[One to Many relationship access is controlled by the Aggregate]]
