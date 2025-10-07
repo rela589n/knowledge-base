@@ -1,32 +1,34 @@
 {
 	"nodes":[
-		{"id":"ca4ce8e4d98388cb","type":"file","file":"Temporal/Temporal.md","x":-720,"y":2620,"width":400,"height":400},
-		{"id":"44f0719aea269be2","type":"file","file":"Database/Lake/Index/Composite Index.md","x":-255,"y":1980,"width":400,"height":400},
-		{"id":"72a26c04c574430a","type":"text","text":"Why is it better to order columns by [[Cardinality|Selectivity]]?","x":432,"y":2140,"width":333,"height":140},
-		{"id":"7f896bb1c519a03f","type":"file","file":"Web Sockets/Centrifugo/Centrifugo.md","x":-920,"y":1940,"width":400,"height":400},
-		{"id":"2169bb7d204bcba4","type":"file","file":"PHP/SAPI/RoadRunner/Metrics Plugin.md","x":-180,"y":3200,"width":400,"height":400},
-		{"id":"c5eb639899a79796","type":"file","file":"Monitoring/Grafana/Grafana.md","x":-720,"y":3710,"width":400,"height":400},
-		{"id":"d6a5e30216b1586d","type":"file","file":"PHP/SAPI/RoadRunner/gRPC/RoadRunner gRPC service.md","x":460,"y":2635,"width":400,"height":400},
-		{"id":"c3eb42e178f81472","type":"text","text":"how do I return status (not found)","x":460,"y":3080,"width":420,"height":90},
 		{"id":"c13950c7bfaf1461","type":"file","file":"Database/Lake/Index/Clustered/Clustered Index Example.md","x":-1560,"y":239,"width":442,"height":368},
 		{"id":"30ce573f913b9bc3","type":"text","text":"Create a [[Clustered Index]] for UserEvent table and analyse what happens then and how search by User does search on the low level","x":-1297,"y":-110,"width":499,"height":164},
 		{"id":"56a4b066e432691b","type":"file","file":"Database/Lake/Index/Clustered/Clustered Index Multiple tables Example.md","x":-798,"y":239,"width":460,"height":368},
 		{"id":"4805f6d6deb4cbd5","type":"text","text":"Use [[PostgreSQL]] native utilities for [[Partitioning]]. Note the differece.","x":436,"y":-126,"width":412,"height":131},
-		{"id":"ee64959a3f7d6af4","type":"text","text":"Using [[Partitioning]] as means for [[PostgreSQL Table Inheritance|Table Inheritance]] - it's not possible: [question](https://stackoverflow.com/questions/79673012/postgresql-add-column-to-partition-for-table-inheritance?noredirect=1#comment140537768_79673012)","x":1400,"y":-126,"width":392,"height":150},
 		{"id":"7148352a4726bd33","type":"file","file":"Database/Lake/Distributed/Partitioning/Partitioning.md","x":342,"y":-720,"width":600,"height":400},
 		{"id":"23ad63d035670776","type":"file","file":"Database/Lake/Index/Clustered/Clustered Index.md","x":-1412,"y":-720,"width":730,"height":440},
 		{"id":"be0a150446d7d9ba","type":"file","file":"Database/Lake/Distributed/Partitioning/PostgreSQL/Partitioning Test.md","x":880,"y":207,"width":520,"height":400},
-		{"id":"f65c4af7aa192f2e","type":"file","file":"Database/Lake/Distributed/Partitioning/PostgreSQL/Partitioning Task.md","x":184,"y":207,"width":505,"height":400}
+		{"id":"f65c4af7aa192f2e","type":"file","file":"Database/Lake/Distributed/Partitioning/PostgreSQL/Partitioning Task.md","x":184,"y":207,"width":505,"height":400},
+		{"id":"ee64959a3f7d6af4","type":"text","text":"Using [[Partitioning]] as means for [[PostgreSQL Table Inheritance|Table Inheritance]] - it's not possible: [question](https://stackoverflow.com/questions/79673012/postgresql-add-column-to-partition-for-table-inheritance?noredirect=1#comment140537768_79673012)","x":1204,"y":-135,"width":392,"height":150},
+		{"id":"ca4ce8e4d98388cb","type":"file","file":"Temporal/Temporal.md","x":2040,"y":-720,"width":640,"height":400},
+		{"id":"5ddaf3209577b536","type":"file","file":"Temporal/Learn/Temporal Roadmap.canvas","x":2060,"y":-65,"width":600,"height":472},
+		{"id":"7f896bb1c519a03f","type":"file","file":"Web Sockets/Centrifugo/Centrifugo.md","x":3040,"y":-720,"width":400,"height":280},
+		{"id":"44f0719aea269be2","type":"file","file":"Database/Lake/Index/Composite Index.md","x":3840,"y":-720,"width":555,"height":380},
+		{"id":"72a26c04c574430a","type":"text","text":"Why is it better to order columns by [[Cardinality|Selectivity]]?","x":3951,"y":-205,"width":333,"height":140},
+		{"id":"c5eb639899a79796","type":"file","file":"Monitoring/Grafana/Grafana.md","x":4800,"y":-720,"width":400,"height":400},
+		{"id":"d6a5e30216b1586d","type":"file","file":"PHP/SAPI/RoadRunner/gRPC/RoadRunner gRPC service.md","x":5680,"y":-720,"width":400,"height":400},
+		{"id":"c3eb42e178f81472","type":"text","text":"how do I return status (not found)","x":5680,"y":-275,"width":420,"height":90},
+		{"id":"2169bb7d204bcba4","type":"file","file":"PHP/SAPI/RoadRunner/Metrics Plugin.md","x":5200,"y":40,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"19affa841bb06efe","fromNode":"30ce573f913b9bc3","fromSide":"bottom","toNode":"c13950c7bfaf1461","toSide":"top"},
 		{"id":"b63758c3cdd2a011","fromNode":"c13950c7bfaf1461","fromSide":"right","toNode":"56a4b066e432691b","toSide":"left"},
 		{"id":"7b79460a8c0dc0c7","fromNode":"4805f6d6deb4cbd5","fromSide":"bottom","toNode":"be0a150446d7d9ba","toSide":"top"},
-		{"id":"076aefdf06f3df21","fromNode":"44f0719aea269be2","fromSide":"right","toNode":"72a26c04c574430a","toSide":"left"},
 		{"id":"178f30cc39a73bdc","fromNode":"4805f6d6deb4cbd5","fromSide":"right","toNode":"ee64959a3f7d6af4","toSide":"left"},
 		{"id":"dc518919f4ed2671","fromNode":"4805f6d6deb4cbd5","fromSide":"bottom","toNode":"f65c4af7aa192f2e","toSide":"top"},
 		{"id":"b8cf783fc492c589","fromNode":"23ad63d035670776","fromSide":"bottom","toNode":"30ce573f913b9bc3","toSide":"top"},
 		{"id":"39c4e2b1680c2849","fromNode":"7148352a4726bd33","fromSide":"bottom","toNode":"4805f6d6deb4cbd5","toSide":"top"},
-		{"id":"99e65e350514971c","fromNode":"f65c4af7aa192f2e","fromSide":"right","toNode":"be0a150446d7d9ba","toSide":"left"}
+		{"id":"99e65e350514971c","fromNode":"f65c4af7aa192f2e","fromSide":"right","toNode":"be0a150446d7d9ba","toSide":"left"},
+		{"id":"31c6b9254a3492b7","fromNode":"44f0719aea269be2","fromSide":"bottom","toNode":"72a26c04c574430a","toSide":"top"},
+		{"id":"2cf0d98a798a16eb","fromNode":"ca4ce8e4d98388cb","fromSide":"bottom","toNode":"5ddaf3209577b536","toSide":"top"}
 	]
 }
