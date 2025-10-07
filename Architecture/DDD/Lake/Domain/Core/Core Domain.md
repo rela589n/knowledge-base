@@ -11,8 +11,6 @@ It should be ***as* small *as possible***.
 Only **top talents** should be in charge of ***building*** It.
 **Team** needs accumulate **[[Ubiquitous Language|Knowledge]]**.
 
-Importance of supportive things depend on how they support the Core.
-
 It must use **[[Good Models lie deep|Deep Model]]** and **[[Flexible Design|Supple Design]]**.
 
 
