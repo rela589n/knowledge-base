@@ -15,7 +15,6 @@ Primary aim is **efficient search**:
 
 It can be created **for multiple columns**, though it is to be used wisely, because search by [[Primary Key]] might become ineffective (and would require [[Secondary Index]] for the [[Primary Key]]) - in case of [[MySQL]].
 
-
 **[[MySQL]] always** creates [[Clustered Index]] for [[Primary Key]]. Every [[Secondary Index]] stores [[Primary Key]] (rather than [[Table Heap|Heap File]] pointer) to define the location. ^5263c5
 
 **[[PostgreSQL]]** does **not cluster** anything **automatically**. For [[Primary Key]] it creates a unique [[BTree]] so that it can be searched, and [[Secondary Index|Secondary Indexes]] also point to the location on disk. To **cluster the table** (reorganize the order), there's dedicated `CLUSTER` table command that can be used. ^950260
