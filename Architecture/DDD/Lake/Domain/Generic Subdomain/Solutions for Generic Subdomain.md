@@ -45,3 +45,14 @@ Disadvantages:
 - code quality can vary.
 
 If you do this, set up tests for [[Continuous Integration]].
+
+### In-house Implementation
+
+Advantages:
+- easy **integration**;
+- exactly **what you need**;
+- assign temporary contractors.
+
+Disadvantages:
+- **maintenance** is on our side;
+- **time** and **resources** might be **underestimated**;
