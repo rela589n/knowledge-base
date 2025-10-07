@@ -14,5 +14,7 @@ There are multiple [[Solutions for Generic Subdomain]].
 
 > Often top tech people enjoy definable problems, which are usually the simplest. Yet, disciplined look says that priority is in [[Core Domain|Core]].
 
-Generic doesn't mean Reusable. It might or might not be reusable.
-Most of effort is into [[Core Domain]], supportive things - only necessary.
+**Generic *doesn't mean* Reusable**. It might or might not be reusable.
+Most of the **effort** should go into **[[Core Domain]]**. 
+Supportive things - only necessary.
+
