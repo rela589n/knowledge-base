@@ -19,6 +19,6 @@ is determined by the **leftmost prefix** rule:
 If you need to **search by any subset of columns**, 
 multi-column [[GIN Index]] or [[BRIN Index]] can be used. 
 They provide the same performance 
-regardless of the set of columns. 
+regardless of the set of columns.
 
-Also note about [[Bitmap Index Scan|Index Combination Feature]] that uses multiple separate indexes, combining their results.
+Also note that [[Bitmap Index Scan|Index Combination Feature]] allows usage of multiple separate indexes, combining their results.
