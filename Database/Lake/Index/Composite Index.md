@@ -4,9 +4,11 @@ aliases:
 ---
 Best practice for **ordering columns** in composite index **is by [[Cardinality|Selectivity]]**, since less index [[Page|Pages]] will be needed scan.
 
-The most common type is **concatenated index**.
+The most common type is **concatenated index** [[B-Tree]].
 Columns are concatenated to make a **single key**.
-Index, consisting of (firstname+lastname) may be used to find records either by firstname or by both firstname and lastname.
+
+>**Example:**
+>Index, consisting of (firstname+lastname) may be used to find records either by firstname or by both firstname and lastname.
 
 The **part of index** to be **scanned** 
 is determined by the **leftmost prefix** rule:

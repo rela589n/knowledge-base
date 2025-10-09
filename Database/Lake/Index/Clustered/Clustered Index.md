@@ -19,7 +19,7 @@ It can be created **for multiple columns**, though it is to be used wisely, beca
 Every [[Secondary Index]] stores [[Primary Key]] (rather than [[Table Heap|Heap File]] pointer) to define the location. ^5263c5
 
 **[[PostgreSQL]]** does **not cluster** anything **automatically**. 
-For [[Primary Key]] it creates a unique [[BTree]] to make it searchable. [[Secondary Index|Secondary Indexes]] point to the location on disk.
+For [[Primary Key]] it creates a unique [[B-Tree]] to make it searchable. [[Secondary Index|Secondary Indexes]] point to the location on disk.
 To **cluster the table** (reorganize the order), there's dedicated `CLUSTER` table command that can be used. ^950260
 
 When clustering table, you need to free up the space on disk for at least twice size of the table and indexes, because `CLUSTER` temporarily copies them. Also, after clustering it's recommended to run [[PostgreSQL ANALYSE|ANALYSE]].

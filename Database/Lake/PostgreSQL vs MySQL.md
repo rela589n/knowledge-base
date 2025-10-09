@@ -32,9 +32,9 @@ When row is updated:
 
 ###### Types:
 
-In [[PostgreSQL]] there are [[GIN Index]], [[GIST Index]], [[BRIN Index]] besides standard [[BTree]] and [[Hash Index]].
+In [[PostgreSQL]] there are [[GIN Index]], [[GIST Index]], [[BRIN Index]] besides standard [[B-Tree]] and [[Hash Index]].
 
-In [[MySQL]] it only [[BTree]] and [[Hash Index]] are available.
+In [[MySQL]] it only [[B-Tree]] and [[Hash Index]] are available.
 
 ###### Covering:
 

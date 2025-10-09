@@ -9,7 +9,7 @@ aliases:
 CREATE INDEX test_col1_lower_idx ON test (lower(col1));
 ```
 
-This query will not compute it again, and [[BTree]] will make the access fast:
+This query will not compute it again, and [[B-Tree]] will make the access fast:
 ```sql
 SELECT * FROM test WHERE lower(col1) = 'value';
 ```

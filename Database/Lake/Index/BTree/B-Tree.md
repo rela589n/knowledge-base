@@ -1,7 +1,9 @@
 ---
-aliases: []
+aliases:
+  - BTree
 ---
-BTrees keep **key-value pairs sorted by key** (alike SSTables) to allow quick lookup and range queries, but use completely different approach.
+**BTrees** is the structure that keeps **key-value** pairs **sorted by key** (like SSTables)
+allowing quick lookup and range queries, but use completely different approach from SSTables.
 
 BTrees **break the database** down **into [[Page|Pages]]** by 4Kb (or 8Kb) and read/write one [[Page]] at a time.
 
