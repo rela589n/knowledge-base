@@ -1,0 +1,1 @@
+**OLAP** (online analytic processing) - access patter, which, compared to _OLTP_, doesn't return raw data to user, but rather does run kind of analytic query to scan typically big number of records in order to calculate some stats.

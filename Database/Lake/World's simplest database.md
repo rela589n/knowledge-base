@@ -10,8 +10,8 @@ db_get () {
 }
 ```
 
-Many databases use [[Log]] which is append-only data file. Concept is similar to what `db_set` does.
+Many databases use [[Log (sequence)]] which is append-only data file. Concept is similar to what `db_set` does.
 
-![[Log#^a46879]]
+![[Log (sequence)#^a46879]]
 
 The `db_get`  has  `O(n)` cost of lookup, meaning if database will grow twice, lookup time will  double too.
