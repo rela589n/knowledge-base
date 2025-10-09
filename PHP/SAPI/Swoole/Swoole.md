@@ -1,3 +1,5 @@
-[[Swoole Configuration]]
+**Swoole** is an **asynchronous** framework that uses [[Shared-memory processing model]].
 
-[[Runtime Hooks]]
+[[Swoole Coroutines]]
+
+[[Swoole Configuration]]

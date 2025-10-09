@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "path:\"Architecture/DDD\"  ",
+  "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 20,
   "linkStrength": 0.78125,
   "linkDistance": 30,
-  "scale": 0.36959941273349045,
-  "close": false
+  "scale": 1.2473980179755255,
+  "close": true
 }

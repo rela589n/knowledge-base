@@ -1,5 +1,4 @@
-[[Swoole Configuration]]
+**Workers number** specifies how many php processses to create.
 
-Number of php processses to create.
-
-By default, `2 * CPU`. This is a reasonable default, since with [[Shared-memory processing model]] one worker process would consume all the given resources.
+By default, it's **`2 * CPU`**.
+This is a reasonable default, since with [[Shared-memory processing model]].

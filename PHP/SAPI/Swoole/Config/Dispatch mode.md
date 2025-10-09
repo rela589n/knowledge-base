@@ -1,6 +1,6 @@
 [[Swoole Configuration]]
 
-Is applied only to [[Swoole Server process mode]]
+Is applied only to [[Process Server mode]]
 
 - round-robin
 - preemptive (selects idle worker)
