@@ -13,7 +13,7 @@ B-tree storage engine must write data at least twice: to [[Write-Ahead Log|WAL]]
 
 Log-structured indices have to do some additional job (compaction and merging of segments). When one incoming write to DB produces multiple writes to disk over DB lifetime is called _write amplification_. 
 
-LSM-trees typically have higher write throughput than B-trees partly because sometimes write amplification is lower, and partly because they are not page-oriented, and don't have to overwrite the whole page on disk when few bytes were updated, but instead write compact SSTables sequentially.
+LSM-trees typically have higher write throughput than B-trees partly because sometimes write amplification is lower, and partly because they are not page-oriented, and don't have to overwrite the whole page on disk when few bytes were updated, but instead write compact [[SSTable|SSTables]] sequentially.
 
 LSM-trees are compressed better. No fragmentation is possible with LSM-trees, hence it takes less storage overhead (especially with leveled compaction).
 
