@@ -2,15 +2,24 @@
 aliases:
   - Transactions
 ---
-**Transaction** - sequence of **reads and writes** which make up a **logical unit** and should be **committed [[Atomicity|atomically]]**. It provides **safety guarantees** so that we can **ignore** some **error scenarios** and **concurrency issues**.
+**Transaction** - sequence of **reads and writes**, forming a **logical unit** that should be **committed [[Atomicity|atomically]]**. 
+
+Provides **[[ACID]] safety guarantees** that allow us to **ignore** some **error scenarios** and **concurrency issues**.
 
 Things that can go wrong:
-- **database crash** in the mid of write operation;
-- **application crash** in the mid of writes;
+- **database crash** in the mid of write operation:
+	- **power** outages;
+	- **disk** crashes;
+- **application crash** betwixt the writes;
 - **network interrupts** between app and db or db nodes;
-- **clients overwrite changes** of each other;
-- **partially updated data is read**;
+- [[Concurrency]] problems:
+	- **clients overwriting changes** of each other;
+	- **reading partially updated data**;
 - other **race condition bugs**.
+
+> Transactions do not necessarily have to follow [[ACID]] properties.
+
+[[Transaction Isolation Level]]s
 
 [[Transactions - Poor Performance?]]
 

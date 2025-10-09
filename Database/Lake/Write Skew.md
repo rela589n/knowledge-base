@@ -3,7 +3,7 @@ aliases:
   - Phantoms
   - Write Skews
 ---
-**Write Skew** - [[Transaction]] **reads something** (premise), **makes decision** based on it and **performs write**, which leads to **oudated premise** of another [[Transition]]. Only **[[Snapshot Isolation]]** prevents it.
+**Write Skew** - [[Transaction]] **reads something** (premise), **makes decision** based on it and **performs write**, which leads to **oudated premise** of another [[Transaction]]. Only **[[Snapshot Isolation]]** prevents it.
 
 > **Example:** there should always be **at least one doctor** for every slot. Both doctors request sick leave at the same time for the same slot. **Queries check** that there are two doctors for this slot and **both go off**. As a result, **no doctor is left**. 
 > See more [[Examples of Write Skew]].

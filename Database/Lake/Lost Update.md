@@ -2,7 +2,7 @@
 aliases:
   - Lost Updates
 ---
-**Lost Update** - when **one [[Transition]] overwrites just written updates of another [[Transition]]**. It happens in **[[Read-Modify-Write]]** cycle.
+**Lost Update** - when **one [[Transaction]] overwrites just written updates of another [[Transaction]]**. It happens in **[[Read-Modify-Write]]** cycle.
 
 Solutions to prevent [[Lost Update|Lost Updates]]:
 - [[Automatic Lost Updates prevention|Automatically (Snapshot Isolation)]];

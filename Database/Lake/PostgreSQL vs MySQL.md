@@ -48,7 +48,7 @@ Both [[PostgreSQL]] and [[MySQL]] support [[Expression-based Index|Index for Exp
 
 ##### Schema changes
 
-In [[PostgreSQL]] Schema changes are **[[Transition|Transactional]]**;
+In [[PostgreSQL]] Schema changes are **[[Transaction|Transactional]]**;
 
 In [[MySQL]] they aren't.
 

@@ -7,7 +7,7 @@ makes up a **logical unit**, that
 allows to **maintain [[Invariant|Invariants]]** inside of the [[Transaction]]. 
 
 - All **[[Aggregate]] [[Invariant|Invariants]] must be kept** 
-  in all **[[Transition]]s** that touch objects within [[Aggregate Boundary]]
+  in all **[[Transaction]]s** that touch objects within [[Aggregate Boundary]]
   ([[Aggregate Root|Root]] is responsible for it);
 - When we **delete [[Aggregate]]**, 
   we delete everything **within [[Aggregate Boundary|Boundary]]**;
