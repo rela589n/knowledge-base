@@ -9,6 +9,8 @@ and allocate highly **skilled devs** to implement it.
 Concepts:
 - [[Core Domain]]
 - [[Generic Subdomain]]
+- [[Domain Vision Statement]]
+- [[Highlighted Core]]
 - [[Coherent Mechanism]]
 
 See [[Project Risk Management]]

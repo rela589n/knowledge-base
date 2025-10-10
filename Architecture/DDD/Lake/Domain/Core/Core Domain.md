@@ -1,6 +1,7 @@
 ---
 aliases:
   - Conceptual Core
+  - Core
 ---
 **Core [[Domain]]** is one **distinctive**, most valuable **central part** of the system that solves [[Domain|Business]] problems, and makes it worth building.
 
