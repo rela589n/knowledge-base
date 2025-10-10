@@ -11,18 +11,9 @@ Concepts:
 - [[Generic Subdomain]]
 - [[Coherent Mechanism]]
 
+See [[Project Risk Management]]
+
 Domain design is interesting and challenging when approached seriously.
 
 ![[Strategic Distillation Map.png]]
 
-#### Risk management
-
-Generic subdomains are **easier to analyze**. 
-Yet, it's risky to shift focus from [[Core Domain|Core]], which is the most important and valuable thing.
-
-Modeling risks:
-- unforeseen **complexity**;
-- lack of ***access*** to **business experts**;
-- gaps in **devs skills**.
-
-[[Core Domain]] is high risk, because w/o it project can't succeed.
