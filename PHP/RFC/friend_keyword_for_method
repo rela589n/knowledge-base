@@ -1,0 +1,14 @@
+```php
+// can only be called from within Message class
+ 
+   public function changeTo(friend Message $message, self $other): void
+    {
+        $message->privateProperty = $other;
+    }
+```
+
+When passed to constructor, message's private properties can be accessed from whole class
+And object can be created only from Message or Message's friends (friend of mine friend is my friend)
+```php
+public function __construct(friend Message $message, string $status);
+```
