@@ -2,14 +2,12 @@
 aliases:
   - Diagrams
 ---
-Are useful during [[Model Refinement|model refinements]]. 
+**Diagram** is **not a [[Domain Model|Model]]** itself, it's **reflection of the [[Domain Model|Model]]** useful **for explanation**. It helps to focus discussion on some aspect of the [[Domain Model|Model]] during [[Model Refinement|Refinements]].
 
-Diagram **is not a [[Domain Model|Model]]** itself, it just **means for the [[Domain Model|Model]] explanation**. It helps to focus discussion on some aspect of the model.
-
-It makes no sense to have full object model diagram, as it would be too complex, hence not suitable for discussion. It's better to have **multiple smaller diagrams** instead of one big.
+It makes sense to have **multiple smaller diagrams** instead of one big, since full object model diagram would be too complex, wherefore not suitable for discussion. 
 
 **Unified Modeling Language** ([[UML]]):
-- [[Object interactions diagram|object interactions]];
-- [[Class diagram|class diagrams]].
+- [[Object interactions diagram|Object Interactions]];
+- [[Class diagram]].
 
 [[Diagram Tools]]

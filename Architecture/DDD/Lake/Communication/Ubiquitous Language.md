@@ -10,7 +10,7 @@ aliases:
   - Domain Knowledge
   - Knowledge
 ---
-**Ubiquitous Language** is the [[Domain Model|Model]] language that is made up of [[Domain Concept|Concepts]] that pervade [[Model Refinement|Speech]], [[Documents and Diagrams]], and even [[Code]].
+**Ubiquitous Language** is **language** of the **[[Domain Model|Model]]**, made up of **[[Domain Concept|Concepts]]** that pervade [[Model Refinement|Speech]], [[Design Documents and Diagrams]], and [[Code]].
 
 This is the **intersection** between dev's language and [[Domain Expert]]' language. This is mostly **constituted by [[Domain|Business]] terms** rather than dev terms.
 
