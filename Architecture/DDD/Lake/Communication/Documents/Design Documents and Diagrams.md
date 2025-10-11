@@ -2,7 +2,7 @@
 aliases:
   - Documents and Diagrams
 ---
-**Design Documents** [[Documents complement the code|Complement the code]] and must not overwhelm reader with details, since there's [[Code]] for it.
+**Design Documents** [[Documents complement the code|complement the code]] aiming to **cut through complexity** and must not overwhelm reader with details, as there's [[Code]] for it.
 
 Documents must use [[Ubiquitous Language]].
 

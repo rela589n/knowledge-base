@@ -1,3 +1,7 @@
+---
+aliases:
+  - Microservice
+---
 [[Microservices Incentive]]
 
 Patterns:
