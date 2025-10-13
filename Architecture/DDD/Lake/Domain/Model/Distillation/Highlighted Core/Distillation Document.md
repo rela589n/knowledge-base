@@ -12,4 +12,3 @@ It's an **indicator of importance** of a change.
 Anyhow, these **require**:
 - **consultation** to other team members;
 - **notification** of all.
-
