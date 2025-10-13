@@ -55,7 +55,7 @@ When the things begin to fit together, you can [[Refactoring|Refactor]]:
 - employ [[GOF Design Patterns|Design Patterns]] 
   (*if* they fit the [[Domain Model|Model]] 
    *and* express the [[Comprehension|Meaning]])
-- [[Drawing on Established Formalisms|Draw on Established Formalisms]]
+- draw on [[Established Formalisms|Established Formalisms]]
 
 ##### If you wait it, you don't do it
 

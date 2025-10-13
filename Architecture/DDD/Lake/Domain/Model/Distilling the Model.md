@@ -6,12 +6,17 @@ aliases:
 
 [[Strategic Distillation]]
 
-We should **drop** all the **excessive things** which are not important to the [[Code|Implementation]], as it contributes to [[Conceptual Overload]].
+We should ***drop*** all the **excessive things**, not important to the [[Code|Implementation]], *as* **those *contribute*** *to* **[[Conceptual Overload]]**.
 
-Each class must be [[Comprehension|Understood]] with minimum references to the other classes. Each [[Association]] must embody **something  fundamental** to the meaning of the object. 
+Each **class** must be *[[Comprehension|Understood]]* with **minimum references** to other classes. 
+Each **[[Association]]** must *embody* something **fundamental *to the* [[Comprehension|Meaning]]** of the object. 
 
-Anything else must be [[Extracting a hidden concept|Extracted Elsewhere]]. You can [[Drawing on Established Formalisms|Draw on Established Formalisms]], and revolve it around a [[Value Object]].
+Anything else must be [[Extracting a hidden concept|Extracted Elsewhere]]. 
+You can ***draw on* [[Established Formalisms|Established Formalisms]]**, 
+and ***revolve*** it ***around*** a **[[Value Object]]**.
 
-[[Low Coupling & High Cohesion|Low Coupling]] is crucial. Each [[Module]], each class must be self-contained. They must be [[Comprehension|Understood]] with least references to other [[Module|Modules]] and classes.
+**[[Low Coupling & High Cohesion|Low Coupling]]** is crucial. 
+Each [[Module]], each class must be self-contained. 
+They must be [[Comprehension|Understood]] with least references to other [[Module|Modules]] and classes.
 
 

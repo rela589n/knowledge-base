@@ -15,7 +15,7 @@ It adds **clarity the [[Domain Model|Model]]**, limits [[Conceptual Overload]] b
 - Easy to anticipate **the [[Side-Effect|Consequences]] of running [[Code]]**:
 	- [[Side-Effect-Free Functions]]
 	- [[Assertion|Assertions]]
-- It [[Drawing on Established Formalisms|Draws on Established Formalisms]], and uses [[Closed Operation|Closure of Operations]].
+- It [[Established Formalisms|Draws on Established Formalisms]], and uses [[Closed Operation|Closure of Operations]].
 
 [[Flexible Design]] aims for flexibility where it's necessary and simplicity elsewhere.
 

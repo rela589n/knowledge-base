@@ -7,5 +7,6 @@ aliases:
   - Meaning
   - Comprehend
   - Insight
+  - Idea
 ---
 Ability to understand the intended meaning of the [[Domain Model|Model]] through [[Ubiquitous Language]] clearly.

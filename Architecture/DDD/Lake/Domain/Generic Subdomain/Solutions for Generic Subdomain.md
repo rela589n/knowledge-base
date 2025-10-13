@@ -18,7 +18,7 @@ Solutions for [[Generic Subdomain]].
 
 ### Published Design
 
-Published [[Domain Model|Model]] - [[Drawing on Established Formalisms|Draw on Established Formalisms]].
+Published [[Domain Model|Model]] - draw on [[Established Formalisms|Established Formalisms]].
 
 When field already proposes already formalized, rigorous [[Domain Model|Model]].
 

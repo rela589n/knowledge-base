@@ -1,6 +1,5 @@
 ---
 aliases:
-  - Draw on Established Formalisms
   - Common Formalism
   - Established Formalism
 ---
@@ -20,4 +19,4 @@ Usage of familiar formalism makes your **[[Domain Model|Model]] easy to [[Compre
 > Shares Math utilized mathematical rigor to express Share Pie manipulations (split into parts).
 
 [[Extracting a hidden concept|Extract a hidden concept]] into a [[Value Object]], 
-and utilize [[Drawing on Established Formalisms|Common Formalism]] to express [[Domain|Business]] rules.
+and utilize [[Established Formalisms|Common Formalism]] to express [[Domain|Business]] rules.

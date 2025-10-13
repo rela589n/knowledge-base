@@ -9,4 +9,4 @@ Allows client **[[Subdomain|Component]]** to *use* **simple [[Declarative]] [[In
 
 It makes main [[Subdomain|Component]] ***easier to* [[Comprehension|Understand]]**.
 
-[[Drawing on Established Formalisms|Draw on Established Formalisms]] to have familiar terminology.
+Draw on [[Established Formalisms|Established Formalisms]] to have familiar terminology.
