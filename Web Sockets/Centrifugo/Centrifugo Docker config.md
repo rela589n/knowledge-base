@@ -1,3 +1,5 @@
+[[Centrifugo]] configuration for [[Docker]]
+
 ```yaml
     centrifugo:
         image: centrifugo/centrifugo:v5.1.1
@@ -11,3 +13,11 @@
 ```
 
 The `prototype` folder contains index.html file: [[Centrifugo hello world client]].
+
+Then, include this configuration file into the main [[Compose]] file:
+
+```yaml
+include:
+    - ./src/Infra/WebSocket/centrifugo-compose.yaml
+```
+

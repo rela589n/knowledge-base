@@ -1,4 +1,4 @@
-[[Centrifugo]]
+[[Centrifugo]] configuration:
 
 ```json
 {
