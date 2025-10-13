@@ -1,6 +1,7 @@
 ---
 aliases:
   - Subdomains
+  - Component
 ---
 **Subdomain** is some **problem area** *of* the **[[Domain]]**.
 **One Subdomain** may hold **multiple [[Bounded Context|Contexts]]**, not just one.

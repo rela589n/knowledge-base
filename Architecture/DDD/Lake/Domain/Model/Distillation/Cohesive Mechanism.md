@@ -1,0 +1,12 @@
+---
+aliases:
+  - Coherent Mechanism
+---
+**[[Cohesion|Cohesive]] Mechanism** - a part that *[[Encapsulation|Encapsulates]]* **complex system** *behind* **simple [[Intention-Revealing Interface]]**.
+
+Allows client **[[Subdomain|Component]]** to *use* **simple [[Declarative]] [[Intention-Revealing Interface|Interface]]**, 
+*while* your **[[Cohesive Mechanism]]**  **implements it**.
+
+It makes main [[Subdomain|Component]] ***easier to* [[Comprehension|Understand]]**.
+
+[[Drawing on Established Formalisms|Draw on Established Formalisms]] to have familiar terminology.

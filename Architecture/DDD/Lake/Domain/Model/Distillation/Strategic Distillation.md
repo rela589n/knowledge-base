@@ -14,7 +14,7 @@ Separation:
 Docs:
 - [[Domain Vision Statement]]
 - [[Highlighted Core]]
-- [[Coherent Mechanism]]
+- [[Cohesive Mechanism]]
 
 See [[Project Risk Management]]
 
