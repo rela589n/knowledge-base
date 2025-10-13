@@ -1,4 +1,5 @@
-**Distillation** - separation of the components and extracting the **essence**. 
+**Distillation** - strategic **separation** of the components 
+to delineate the **essence** from inessential.
 
 It allows to *hew away* **distractions** 
 and *focus* on what matters **most**.

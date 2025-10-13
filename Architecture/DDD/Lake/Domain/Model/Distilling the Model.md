@@ -1,7 +1,6 @@
 ---
 aliases:
-  - Distilled
-  - Distillation
+  - Model Distillation
 ---
 [[Domain Model]] is the [[Model (generic)|Model]], - it should contain **bare minimum** of things that do actually **closely relate** to the [[Domain Concept|Domain Concepts]].
 
