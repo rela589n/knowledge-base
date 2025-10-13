@@ -1,0 +1,1 @@
+**Flagged Core** - marked out [[Core Domain|Core]] points in the written document.

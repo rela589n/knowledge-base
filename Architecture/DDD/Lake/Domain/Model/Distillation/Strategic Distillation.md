@@ -7,9 +7,11 @@ and *focus* on what matters **most**.
 One must set **priorities** to the **[[Core Domain]]**, 
 and allocate highly **skilled devs** to implement it.
 
-Concepts:
+Separation:
 - [[Core Domain]]
 - [[Generic Subdomain]]
+
+Docs:
 - [[Domain Vision Statement]]
 - [[Highlighted Core]]
 - [[Coherent Mechanism]]
