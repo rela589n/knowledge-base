@@ -8,7 +8,7 @@ One must set **priorities** to the **[[Core Domain]]**,
 and allocate highly **skilled devs** to implement it.
 
 Separation:
-- [[Core Domain]]
+- [[Core Domain]] (big effect)
 - [[Generic Subdomain]]
 
 Docs:
