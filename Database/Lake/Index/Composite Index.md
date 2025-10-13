@@ -24,3 +24,5 @@ They provide the same performance
 regardless of the set of columns.
 
 Also note that [[Bitmap Index Scan|Index Combination Feature]] allows usage of multiple separate indexes, combining their results.
+
+Besides that, note about [[Covering Index|Include Index]], since sometimes it can perform better (see [link](https://stackoverflow.com/a/2292952/10910621)).

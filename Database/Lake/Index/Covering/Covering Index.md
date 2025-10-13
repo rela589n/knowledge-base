@@ -1,5 +1,7 @@
 ---
 docs: https://www.postgresql.org/docs/current/indexes-index-only-scans.html
+aliases:
+  - Include Index
 ---
 **Covering [[Database Index|Index]]** can **answer queries without [[Table Heap|Heap]] access**.
 
@@ -10,3 +12,4 @@ It uses [[Table Visibility Map]] to avoid [[MVCC Visibility rules|MVCC Visibilit
 [[Primary Key]] can also be `INCLUDED` with other columns.
 
 [[Composite Index|Multi-column Index]] can be [[Covering Index]] by itself.
+
