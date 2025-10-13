@@ -5,4 +5,4 @@ Associations represent relationships in the [[Domain Model]].
 A good design follows these rules:
 - [[Imposing traversal direction]];
 - [[Qualifying the relationships]];
-- [[Distilling the Model]];
+- [[Distilling the Model|Distilling the Model]];

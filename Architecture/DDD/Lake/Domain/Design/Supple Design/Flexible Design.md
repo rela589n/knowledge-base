@@ -5,7 +5,7 @@ aliases:
 ---
 **Supple Design** is expressive, adaptable, flexible, [[Model-driven Design]] that **communicates its intent**.
 
-**Software** is for users just as for developers who need to support it. Clarity of [[Comprehension|Understanding]] is crucial.
+**Software** is for users just as it is for developers who need to support it. Clarity of [[Comprehension|Understanding]] is crucial.
 
 It adds **clarity the [[Domain Model|Model]]**, limits [[Conceptual Overload]] by:
 - [[Intention-Revealing Interface|Intention-Revealing Interfaces]] ([[Expressing Concepts Explicitly]]);
