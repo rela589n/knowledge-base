@@ -14,13 +14,11 @@ and allocate highly **skilled devs** to implement it.
 Separation:
 - [[Core Domain]] (big effect)
 - [[Generic Subdomain]]
+- [[Cohesive Mechanism]]
 
 Docs:
 - [[Domain Vision Statement]]
 - [[Highlighted Core]]
-
-Approaches:
-- [[Cohesive Mechanism]]
 
 See [[Project Risk Management]]
 
