@@ -1,5 +1,9 @@
+---
+aliases:
+  - Distillation
+---
 **Distillation** - strategic **separation** of the components 
-to delineate the **essence** from inessential.
+to *demarcate* the **essence** out of inessential.
 
 It allows to *hew away* **distractions** 
 and *focus* on what matters **most**.
@@ -14,6 +18,8 @@ Separation:
 Docs:
 - [[Domain Vision Statement]]
 - [[Highlighted Core]]
+
+Approaches:
 - [[Cohesive Mechanism]]
 
 See [[Project Risk Management]]
