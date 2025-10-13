@@ -1,1 +1,0 @@
-Classes that are created for the same reason must be placed in the same namespace.
