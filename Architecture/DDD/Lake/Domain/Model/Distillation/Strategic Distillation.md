@@ -20,6 +20,8 @@ Docs:
 - [[Domain Vision Statement]]
 - [[Highlighted Core]]
 
+[[Segregated Core]]
+
 See [[Project Risk Management]]
 
 Domain design is interesting and challenging when approached seriously.
