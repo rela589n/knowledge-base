@@ -18,6 +18,8 @@ due to **[[Low Coupling & High Cohesion|Low Coupling]]**:
 - easier to use **another** option;
 - easier to **[[Testing|Test]]**.
 
+**Most useful** when used with **[[Flexible Design|Supple Design]]**.
+
 It's **not** a **[[Generic Subdomain]]** as it 
 does **not** hold any **[[Ubiquitous Language|Domain Knowledge]]**.
 
