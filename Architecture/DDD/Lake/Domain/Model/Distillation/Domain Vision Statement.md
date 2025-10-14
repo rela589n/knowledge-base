@@ -1,5 +1,5 @@
 **[[Domain]] Vision Statement** is a primary **document** that 
-highlights the main **[[Business Rule|Business Rules]]** - ***how*** **[[Core Domain|Core]] [[Domain Model|Model]] *brings* value** to the organization.
+*highlights* the main **[[Business Rule|Business Rules]]** - ***how*** **[[Core Domain|Core]] [[Domain Model|Model]] *brings* value** to the organization.
 
 A <b><u>short</u></b>, **high-level description** of the **[[Core Domain]]**:
 - ***what* [[Domain Model|Model]] represents**;
