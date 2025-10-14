@@ -1,5 +1,6 @@
 ---
 aliases:
   - Business Rules
-  - Rules
+  - Rule
 ---
+[[Domain|Business]] Rule.

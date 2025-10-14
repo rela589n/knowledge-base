@@ -3,7 +3,9 @@ aliases:
   - Supportive Subdomain
 ---
 **Generic Subdomain** is an independent **supporting part** 
-that doesn't capture [[Core Domain]] [[Ubiquitous Language|Knowledge]].
+that lightens [[Core Domain]] as it *shifts* **supplementary [[Domain]] [[Ubiquitous Language|Knowledge]]** *off* from it.
+
+It's **like [[Core Domain]]**, just **less central**.
 
 The **importance** of supportive things directly 
 ***depends*** *on how* they **support the [[Core Domain|Core]]**.
