@@ -2,4 +2,4 @@
 
 The records contain `created_by` (txid) and `deleted_by` (txid) fields for each row. When the row is updated it is the same as if the previous version was deleted and new created, iow `update=delete+create`.
 
-The MVCC allows the DB to **observe a consistent snapshot via  [[MVCC Visibility rules|visibility rules]]**.
+The MVCC allows the DB to **observe a consistent snapshot via  [[MVCC Visibility rules|Visibility Rules]]**.

@@ -54,7 +54,7 @@ In [[MySQL]] they aren't.
 
 ##### Replication
 
-[[PostgreSQL]] uses [[Write-ahead Log (WAL)-based Replication]] by default (yet, alternatives are possible)
+[[PostgreSQL]] uses [[Write-ahead Log (WAL)-based Replication]] by default (though, alternatives are possible)
 
 [[MySQL]] uses [[Logical (row-based) log Replication]]
 
@@ -64,7 +64,8 @@ In [[MySQL]] they aren't.
 
 [[MySQL]] uses **Thread per Connection** (more lightweight).
 
-Thus, [[MySQL]] can handle more concurrent connections (up to 10k in case of Uber), while for [[PostgreSQL]] it's necessary to keep connection [pools](https://wiki.postgresql.org/wiki/Number_Of_Database_Connections?uclick_id=c4efc6bf-8b8a-4e96-9cfa-df99c2ae86dd).
+Thus, [[MySQL]] can handle more concurrent connections (up to 10k in case of Uber), 
+while for [[PostgreSQL]] it's necessary to keep **[pool](https://wiki.postgresql.org/wiki/Number_Of_Database_Connections?uclick_id=c4efc6bf-8b8a-4e96-9cfa-df99c2ae86dd) *of* connections**.
 
 ##### Vacuum approaches
 
