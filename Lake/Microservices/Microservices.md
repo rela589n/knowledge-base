@@ -6,6 +6,6 @@ aliases:
 
 Patterns:
 - [[Idempotence]]
-- [[SAGA]]
+- [[SAGA pattern]]
 - [[(Try -> Confirm <-> Cancel) Transaction Protocol|TCC]]
 - [[Circuit Breaker]]

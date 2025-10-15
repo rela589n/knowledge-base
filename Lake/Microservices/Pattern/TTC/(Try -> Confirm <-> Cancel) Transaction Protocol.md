@@ -7,14 +7,14 @@ aliases:
 **Try - Confirm/Cancel (TCC)** is based on the idea of **reservations**.
 
 **Similar to** manually implemented **[[Two-phase commit|2PC]]**, where:
-- the first **(Try) phase** is making change to **reserve**:
+- **(Try) phase** is making change to **reserve**:
 	- **[[Microservices|Microservice]]** itself *calls* others to do **reservations**;
-- the second **(Confirm/Cancel) phase**:
+- **(Confirm/Cancel) phase**:
 	- if **[[Microservices|Microservice]] goes down**:
 		- **automatic cancel** happens *after* **reservation timeout**;
-	- otherwise **call**:
-		- **confirm** to commit;
-		- **cancel** to rollback.
+	- otherwise:
+		- **confirm** *is called to* **commit**;
+		- **cancel** *to* **rollback**.
 	 on the orchestrator.
 
 Yet, it's **different** *from* **[[Two-phase commit|2PC]]** because it's 

@@ -1,6 +1,6 @@
-When multiple steps are required to implement the business transaction, there's a single orchestrator that controls the whole flow.
+**Orchestrator [[SAGA pattern|SAGA]]** - ***controls*** the whole **workflow** of steps required to implement business transaction.
 
-For example, vacation file signature:
+**Example:** vacation file signature:
 - sign file
 - acknowledge signature
 - acknowledge to crm
@@ -12,4 +12,8 @@ There would be SignVacationFileWorkflow that would call four activities:
 - AcknowledgeToCrmActivity
 - SignatureSuccessfulActivity
 
-In case of any failure (for example, AcknowledgeToCrmActivity fails unrecoverably), SAGA should execute compensation steps (e.g. compensate AcknowledgeSignatureActivity and SignFileActivity), - it would delete the signed file and revert status.
+In case of **any failure** 
+	(for example, AcknowledgeToCrmActivity fails unrecoverably), 
+SAGA should *execute* **compensation steps** 
+	(e.g. compensate AcknowledgeSignatureActivity and SignFileActivity)
+		 it would delete the signed file and revert status.
