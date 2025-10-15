@@ -1,4 +1,5 @@
-[[Microservices]] Incentive is **Isolation** - changes **don't affect** each **other**.
+[[Microservices]] Incentive is **Isolation**
+	**changes** ***don't affect*** each **other**.
 
 - Team **Productivity**:
 	- [[Continuous Integration|CI]] time;
