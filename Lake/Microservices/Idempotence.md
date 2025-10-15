@@ -10,7 +10,7 @@ aliases:
 
 > **Example**: when we **charge the customer** for particular order, 
 > clicking on the **same button** 
-> 	triggering multiple requests 
+> 	triggering two requests 
 > shouldn't lead to **double charges**.
 
 Button 1 is not idempotent. Buttons 2 and 3 are idempotent.
