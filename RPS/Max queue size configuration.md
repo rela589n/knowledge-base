@@ -38,7 +38,7 @@ What will happen if system operates on 32 RPS (100% capacity) and then load incr
 
 The overall [[Client-side response time]] for p75 of requests will increase to ~3 seconds instead of ~0.5. Yet, there are still [[First quartile|p25]] that could experience response time of more than 3 seconds. How far the [[Client-side response time]] for these requests above [[Third quartile|p75]] would deviate from 3 seconds will initially actually depend on how desired [[Percentiles|percentile]] of initial  [[Server-side response time]] deviates from [[Third quartile|p75]] used in these calculations.
 
-Once again, these calculations are for [[Third quartile|p75]], meaning that 3 seconds response is not the typical one, since [[Typical response time]] is [[Median percentile]], - and this is going to be less than 3 seconds. 
+Once again, these calculations are for [[Third quartile|p75]], meaning that 3 seconds response is not the typical one, since [[Typical Response Time]] is [[Median percentile]], - and this is going to be less than 3 seconds. 
 
 To understand the typical response time in this configuration, the same formula cold be used `client_res_time = q_size / RPS`.
 
@@ -47,4 +47,4 @@ If we consider the same `q_size=96` and have measurements of [[Server-side respo
 Therefore, for the given system under given configuration of `q_size=96` typical request performance under peak load would be `1.5 seconds`, while [[Third quartile|p75]] performance would be `3 seconds`.
 Under given circumstances the system is likely to withstand the load w/o being too sluggish to the end users.
 
-> The optimal approach for calculating the [[Max queue size]] is to check the [[Server-side response time]] [[percentiles]] distribution chart of the system, and then take the decision about [[Client-side response time]] boundaries.
+> The optimal approach for calculating the [[Max queue size]] is to check the [[Server-side response time]] [[Percentiles]] distribution chart of the system, and then take the decision about [[Client-side response time]] boundaries.

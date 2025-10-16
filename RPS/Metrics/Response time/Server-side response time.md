@@ -1,0 +1,1 @@
+Server-side [[Response Time]] does not take into account [[Latency]].

@@ -1,4 +1,4 @@
-![[Response time percentiles.png]]
+![[Percentiles for Response Time.png]]
 
 [[Percentiles]] distribution:
 ![[Quartiles Percentiles.png]] 

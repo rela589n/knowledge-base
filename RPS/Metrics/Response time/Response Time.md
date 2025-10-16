@@ -4,3 +4,4 @@ It could be either:
 - [[Server-side response time]]
 - [[Client-side response time]]
 
+See [[Typical Response Time]]

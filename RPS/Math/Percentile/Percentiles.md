@@ -1,13 +1,14 @@
-See [[Percentiles distribution chart]].
 
 Could be used to measure:
 - [[Latency]];
-- [[Response time]].
+- [[Response Time]].
 
 There are quartile percentiles:
 - [[First quartile]];
 - [[Median percentile]];
 - [[Third quartile]].
+
+See [[Percentiles distribution chart]].
 
 Also, there are **90-th percentile**, **95-th**, **99.9-th percentiles**.
 
