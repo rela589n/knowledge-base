@@ -1,6 +1,6 @@
 Commonly, web servers provide the configuration for:
 - number of workers;
-- [[max queue size]].
+- [[Max queue size]].
 
 Proper configuration of queue size would allow us to withstand an increase of load ([[Load spike]]) for a short period of time.
 
