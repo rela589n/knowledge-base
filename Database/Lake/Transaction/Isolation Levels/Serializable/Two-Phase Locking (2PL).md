@@ -1,8 +1,8 @@
 **Two-phase locking** (**2PL**) - approach to provide [[Serializable|Serializability]], which **protects from all kinds of race conditions** including lost updates and write skew. It no longer follow **reads never block writes** and **writes never block reads**. 
 
 Instead reads block writes and vice versa:
-- if transaction **A has read object**, and transaction **B wants to write it**, B will have to **wait for A to finish** (no unexpected changes to read objects);
-- if transaction **A has wrote object**, and transaction **B wants to read it**, B will have to wait **for A to finish** (reading old versions of object is not acceptable).
+- if [[Transaction]] **A has read object**, and transaction **B wants to write it**, B will have to **wait for A to finish** (no unexpected changes to read objects);
+- if [[Transaction]] **A has wrote object**, and transaction **B wants to read it**, B will have to wait **for A to finish** (reading old versions of object is not acceptable).
 
 #### Implementation of 2PL
 
