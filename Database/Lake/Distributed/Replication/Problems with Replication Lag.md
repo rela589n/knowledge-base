@@ -1,4 +1,4 @@
-Scaling the read requests makes fully **synchronous replication almost unusable**, because single node outage would lead to completely blocked writes.
+Scaling the read requests makes fully **[[Synchronous VS Asynchronous Replication|Synchronous Replication]] almost unusable**, because single node outage would lead to completely blocked writes.
 
 ![[Eventual Consistency#^7a648b]]
 

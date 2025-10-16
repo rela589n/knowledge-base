@@ -1,3 +1,7 @@
+---
+aliases:
+  - Synchronous Replication
+---
 Usually, the **[[Replication]] is quite fast** - *within a second*. However in some cases (network issues, failure recovery, max load) **followers might fall behind** by several minutes.
 
 Sync replication:
