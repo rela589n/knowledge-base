@@ -2,18 +2,16 @@
 aliases:
   - Transactions
 ---
-**Transaction** - sequence of **reads and writes**, forming a **logical unit** that should be **committed [[Atomicity|atomically]]**. 
+**Transaction** - *sequence of* **reads** *and* **writes**, 
+*forming* a **logical unit** that should be **committed [[Atomicity|Atomically]]**. 
 
-Provides **[[ACID]] safety guarantees** 
-that allow to ***ignore*** some 
-	**error scenarios** and **concurrency issues**.
-
-Things that can go wrong:
-- **database crash** in the mid of write operation:
-	- **power** outages;
+Provides **[[ACID]] safety guarantees** that *allow to* ***ignore*** 
+	some **error scenarios** *and* **concurrency issues**:
+- **application** or **database** ***crashes*** 
+  between writes:
+	- **reboots**, deployments, power outages;
 	- **disk** crashes;
-- **application crash** betwixt the writes;
-- **network interrupts** between app and db or db nodes;
+- **network *interrupts*** between app and db (or db nodes);
 - [[Concurrency]] problems:
 	- **clients overwriting changes** of each other;
 	- **reading partially updated data**;
@@ -49,11 +47,11 @@ It's possible that **client sent commit** operation, but **TCP connection was in
 - **another client** tries to **read** the **same record** - not to show spliced up record (**_Isolation_**). It is implemented using **locks on objects** - only one thread has an access;
 
 > How does it work with transactions? If we modify content in current transation and in the mid of upload server interrupts. How does other clients not see corrupted data? 
-> The answer is that MVCC updates are equivalent to delete and create operations. Hence, old value is kept not being overwritten. New value will be abandoned because write didn't commit.
+> Answer: MVCC updates are equivalent to delete and create operations. Hence, old value is kept not being overwritten. New value will be abandoned because write didn't commit.
 
 DB support **atomic operations** (like **increments**) to avoid **read-modify-write** cycle, which is **prone to the issue of lost updates**.
 
-**Compare-and-set** may be used to **prevent update** of the **concurrently modified record**.
+**[[Compare-and-Set]]** may be used to **prevent update** of the **concurrently modified record**.
 
 #### The need for Multi-Object Transactions
 
@@ -95,19 +93,19 @@ See [[Transaction Isolation Level]]
 
 ## Summary
 
-Transactions are the **abstraction**, which allows us to **pretend that some faults do not exist**. A lot of errors come to simple transaction abort.
+Transactions are the **abstraction**, which allows us to **pretend that some faults do not exist**. Many of the errors come to simple [[Transaction]] abort.
 
-**Without transactions** process, power, disk, network, concurrency **issues lead to inconsistencies** in the DB. For instance, keeping up to date denormalized data.
+**Without [[Transaction|Transactions]]** process, power, disk, network, concurrency **issues lead to inconsistencies** in the DB. For instance, keeping up to date denormalized data.
 
 Race conditions, which different isolation levels prevent:
 - [[Dirty Read|Dirty Reads]];
 - [[Dirty Write|Dirty Writes]] (always prevented);
-- [[Read Skew]] (**nonrepeatable read**) - transaction sees **different parts of the database** in **different points of time**. This is prevented in **snapshot isolation** with **MVCC**.
-- **lost updates** - two transactions use **read-modify-write** cycle leading to changes of one to be overwritten. Some DBs detect lost updates in **snapshot isolation**, while for others **explicit lock** to be used.
-- **write skew** - transaction **reads something** (premise), **makes decision** based on it and **performs write**, which leads to **oudated premise** of another transaction. Only **snapshot isolation** prevents it.
-- **phantom reads** - **transaction searches rows** matching the condition. **Another** transaction **performs the write**, which **affects the result set** of search. **Snapshot isolation** prevents it by means of **index-range locks** which may not be as fine-grained as necessary.
+- [[Read Skew]] (**nonrepeatable read**) - [[Transaction]] sees **different parts of the database** in **different points of time**. This is prevented in **snapshot isolation** with **MVCC**.
+- [[Lost Update]] - two [[Transaction|Transactions]] use **read-modify-write** cycle leading to changes of one to be overwritten. Some DBs detect lost updates in **snapshot isolation**, while for others **explicit lock** to be used.
+- [[Write Skew]] - [[Transaction]] **reads something** (premise), **makes decision** based on it and **performs write**, which leads to **oudated premise** of another transaction. Only **snapshot isolation** prevents it.
+- **phantom reads** - **[[Transaction]] searches rows** matching the condition. **Another** transaction **performs the write**, which **affects the result set** of search. **Snapshot isolation** prevents it by means of **index-range locks** which may not be as fine-grained as necessary.
 
-**Serializable isolation level** protects against all race conditions:
+**[[Serializable]]** protects against all race conditions:
 - **serial execution** - may be used if write throughput is low and each transaction is fast to execute;
 - **two-phase locking** - uses locks, unreliable performance, first concurrent serializable isolation level implementation;
 - **serializable snapshot isolation** - uses optimistic lock approach, transactions execute in parallel, on commit serializability is checked and if not satisfied transaction is aborted.
