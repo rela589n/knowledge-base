@@ -1,3 +1,5 @@
+[[PHP]]
+
 There's somewhere infinite [[Recursion]]:
 
 For example, when `$this->valueHolderf75ba` is `$this`:

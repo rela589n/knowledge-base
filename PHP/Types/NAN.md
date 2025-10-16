@@ -1,3 +1,5 @@
+**[[PHP]] NAN**
+
 🤔 Did You Know that PHP Has a NAN Type!
 
 In PHP, NAN (Not A Number) is a special floating-point value returned by invalid math operations, like `sqrt(-1)`.

@@ -1,5 +1,4 @@
-
-[[PostgreSQL Cursor]] abstraction:
+[[PHP]] [[PostgreSQL Cursor]] abstraction:
 
 ```php
 use Doctrine\DBAL\Connection;  

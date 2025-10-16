@@ -1,3 +1,5 @@
+Check [[PHP]] extension:
+
 Run:
 
 ```shell
