@@ -1,4 +1,4 @@
-If null-field in the target table will actually become not-null (e.g. updated to some value), then it will not be updated back in the source table by the [[Composite foreign key]].
+If null-field in the target table will actually become not-null (e.g. updated to some value), then it will not be updated back in the source table by the [[Composite Foreign Key]].
 
 In order to fix that, it's necessary to add trigger function:
 ```sql

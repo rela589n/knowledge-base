@@ -22,9 +22,11 @@ This is the anomaly when two **parallel [[Transaction|Transactions]] run read qu
 
 ## Phantoms causing write skew
 
-**Phantom** - the effect when **write in one [[Transaction]] changes the query result in another** after this query was executed.
+**Phantom** - the effect when just **committed [[Transaction]] changes the query result of another** (outdated premise) after this query was executed.
 
-Basically phantoms are ***revealed** when* we ***read*** the set of records from the database ***twice***. When we see a different set from the one we've seen it before, - that's a phantom.
+Phantoms are ***revealed** when* we ***read*** the set of records from the database ***twice***. 
+
+If we see a different result set from once seen - that's a phantom.
 
 **Pattern of [[Write Skew]]** is following:
 1. **query** searches for rows that ***match*** some **condition**;

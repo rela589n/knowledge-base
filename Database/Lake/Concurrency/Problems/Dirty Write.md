@@ -4,7 +4,7 @@ aliases:
 ---
 **Dirty Write** - one **[[Transaction]] *overwrites* uncommitted changes of another concurrent [[Transaction]]** (just written). 
 
-[[Read Committed]] prevents this. 
+[[Read Committed]] prevents this.
 
 **Reasons *to prevent*** it:
 - if transaction issues multiple updates (for example, buying the car updates `buyer_id` and invoice `recipient_id`), then at the end of two concurrent transactions, some updates would be succeeded from transaction 1, and some - from transaction 2 (e.g. [[Dirty Write - Car example.png|owner is set to Alice, while invoice is created for Bob]]), leading to the corrupted state;
