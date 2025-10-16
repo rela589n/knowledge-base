@@ -1,5 +1,5 @@
 **Multi-version [[Concurrency]] Control** (MVCC) - **[[Snapshot Isolation|Repeatable Read]] technique**, in which:
-- **[[Dirty Write#^1048c2|writes use locks]]** the same way **as in [[Read Committed|read committed]]** isolation, 
+- **[[Dirty Write#^1048c2|writes use locks]]** the same way **as in [[Read Committed]]** isolation, 
 - reads are served this way: each **record**, besides the actual data, **holds incremental id of the [[Transaction]]** (txid), which wrote this data.
 
 The records contain `created_by` (txid) and `deleted_by` (txid) fields for each row. 
