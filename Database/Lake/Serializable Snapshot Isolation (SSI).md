@@ -2,7 +2,7 @@ SSI has small performance penalty compared to [[Snapshot Isolation]]
 
 #### Pessimistic vs Optimistic concurrency control
 
-[[Pessimistic concurrency control]]
+[[Pessimistic Concurrency Control]]
 
 [[Optimistic concurrency control]]
 

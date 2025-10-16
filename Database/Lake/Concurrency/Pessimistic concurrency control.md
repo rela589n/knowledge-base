@@ -1,1 +1,0 @@
-**Pessimistic concurrency control** is essentially what [[Two-Phase Locking (2PL)|2PL]] is. If **anything could possibly go wrong**, we'd **wait until situation is safe** again and only then continue execution. Actual serial execution is pessimistic to the extreme - lock is held on the entire database.
