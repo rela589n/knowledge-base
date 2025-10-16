@@ -4,9 +4,12 @@ aliases:
 ---
 **Partitioning** is breaking data into the **[[Partition|Partitions]]**.
 
-Main reason for partitioning is **[[Scalability]]**.
+Main reason is **[[Scalability]]**.
 
-See [[Partitioning Split Approaches]]
+Approaches to Partition key-value data:
+- [[Range Partitioning]];
+- [[Hash-based Partitioning]].
+
 See [[Partitions Rebalancing]]
 See [[Partitioning and Secondary Indexes]]
 See [[Partitioning and Replication]]
