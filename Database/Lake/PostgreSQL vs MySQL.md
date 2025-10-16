@@ -3,6 +3,24 @@ aliases:
   - MySQL vs PostgreSQL
   - pg vs my
 ---
+##### Schema changes
+
+In [[PostgreSQL]] Schema changes are **[[Transaction|Transactional]]**;
+
+In [[MySQL]] they aren't.
+
+##### Deferred Constraints
+
+[[PostgreSQL]] supports [[Deferrable Constraint|Deferrable Constraints]]
+
+[[MySQL]] doesn't.
+
+##### Exclude Constraints
+
+[[PostgreSQL Exclude Constraint]]
+
+[[MySQL]] doesn't have exclude constraints.
+
 ##### Clusterization
 
 ![[Clustered Index#^950260]]
@@ -16,18 +34,6 @@ Physically, that's a difference:
 When row is updated:
 - [[MySQL]] rewrites it in place (old is backed up in [[Rollback Segment]]), and only needed [[Database Index|Indexes]] are updated (if there was indexable field update). 
 - [[PostgreSQL]] writes new [[MVCC]] version, and it needs to update [[Table Heap|Heap File]] pointers for all the indexes (if [[HOT update]] wasn't used).
-##### Exclude Constraints
-
-[[PostgreSQL Exclude Constraint]]
-
-[[MySQL]] doesn't have exclude constraints.
-
-##### Deferred Constraints
-
-[[PostgreSQL]] supports [[Deferrable Constraint|Deferrable Constraints]]
-
-[[MySQL]] doesn't.
-
 ##### Indexes
 
 ###### Types:
@@ -45,12 +51,6 @@ In [[MySQL]] you can only **use [[Composite Index|Multi-column Index]]** to do t
 ###### Expression idx:
 
 Both [[PostgreSQL]] and [[MySQL]] support [[Expression-based Index|Index for Expression]].
-
-##### Schema changes
-
-In [[PostgreSQL]] Schema changes are **[[Transaction|Transactional]]**;
-
-In [[MySQL]] they aren't.
 
 ##### Replication
 

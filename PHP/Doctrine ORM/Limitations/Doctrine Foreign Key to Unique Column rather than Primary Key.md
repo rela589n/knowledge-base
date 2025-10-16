@@ -10,7 +10,7 @@ class User
 ```php
 class Subscription
 {
-    // referenced by unique users.email column
+    // references users.email column
     private User $user;
 }
 ```

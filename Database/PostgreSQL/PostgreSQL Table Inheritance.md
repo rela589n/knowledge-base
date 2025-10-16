@@ -4,7 +4,8 @@ aliases:
 ---
 [[PostgreSQL]] supports such feature as table inheritance.
 
-> Beware that if your abstract table declares ID, and you insert values only into concrete tables, you won't be able to reference abstract table's id as the foreign key (nothing there).
+> Beware that if your abstract table declares ID, and you insert values only into concrete tables, you won't be able to reference abstract table's id as the [[Foreign Key]] (nothing there).
+> 
 > > `[23503]` ERROR: insert or update on table "warehouses" violates foreign key constraint "warehouses_city_id_fkey" 
 > > Detail: Key (city_id)=(a001d0d1-93d9-7178-a73d-e1b629e13242) is not present in table "cities".
 

@@ -2,6 +2,7 @@
 aliases:
   - Denormalized foreign key
 ---
+Composite [[Foreign Key]]
 
 This is a relatively easy way to keep the denormalized fields up-to-date.
 
@@ -38,7 +39,7 @@ $queries->addPostQuery(new SqlMigrationQuery(
 ));
 ```
 
-In this example, once foreign key is added, `'onUpdate' => 'CASCADE'` will take care of foreign key updates.
+In this example, once [[Foreign Key]] is added, `'onUpdate' => 'CASCADE'` will take care of [[Foreign Key]] updates.
 
 > You are to use this approach wisely, since it works well **only for NOT NULL fields**. 
 > 

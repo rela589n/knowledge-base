@@ -2,15 +2,20 @@
 aliases:
   - Repeatable Read
 ---
-**Snapshot isolation** - [[Transaction Isolation Level|Transaction Isolation Level]], that provides a guarantee of seeing the **consistent snapshot** during the **whole lifespan** of the [[Transaction]]. Select statements returns committed rows in their state at **the beginning** of the [[Transaction]].
+**Snapshot isolation** - [[Transaction Isolation Level|Isolation Level]], that guarantees 
+*seeing the* **consistent snapshot** 
+	*during the* **whole lifespan** *of the* [[Transaction]].
+Select statements return committed **rows** 
+in the **state *at the* beginning** *of the* [[Transaction]].
 
 It prevents [[Read Skew]].
+
 In [[PostgreSQL]], it also prevents [[Automatic Lost Updates prevention|Lost Updates]].
 
 See [[Implementing Snapshot Isolation]] for internal details.
 
-> ?? How does it all work if we don't wrap reads into a transaction. I assume each operation is a separate transaction, and it is no different from [[Read Committed]]?
+#### Naming confusion
 
-## Snapshot isolation and naming confusion
-
-**[[Snapshot Isolation|Snapshot Isolation]]** is called **serializable** in [[Oracle]] and **Repeatable Read** in [[PostgreSQL]] and [[MySQL]]. In IBM DB2 **Repeatable Read** refers to **[[Serializable|Serializability]]**.
+**[[Snapshot Isolation|Snapshot Isolation]]** is called **serializable** in [[Oracle]],
+**Repeatable Read** in [[PostgreSQL]] and [[MySQL]]. 
+	While in IBM DB2 **Repeatable Read** refers to **[[Serializable]]**.

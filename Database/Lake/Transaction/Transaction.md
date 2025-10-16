@@ -4,7 +4,9 @@ aliases:
 ---
 **Transaction** - sequence of **reads and writes**, forming a **logical unit** that should be **committed [[Atomicity|atomically]]**. 
 
-Provides **[[ACID]] safety guarantees** that allow us to **ignore** some **error scenarios** and **concurrency issues**.
+Provides **[[ACID]] safety guarantees** 
+that allow to ***ignore*** some 
+	**error scenarios** and **concurrency issues**.
 
 Things that can go wrong:
 - **database crash** in the mid of write operation:
@@ -29,17 +31,16 @@ Some apps might not need transactions, and for better performance transactional 
 
 ![[NoSQL - no Transactions#^21bd59]]
 
-### The Meaning of ACID
-
-See [[ACID]].
-
 ### Single-Object and Multi-Object operations
 
-**Multi-object transactions** - transactions, which **modify multiple objects** (rows, records, documents). They are especially necessary **if data must be kept in sync** (say, denormalized counter for some query).
+**Multi-object Transactions** - transactions, which **modify multiple objects** (rows, records, documents). They are especially necessary **if data must be kept in sync** (say, denormalized counter for some query).
 
-The **violation of an isolation** is when on the **halfway of the transaction**, some **other client reads just written data**. **Reading of not committed writes** is known as [[Dirty Read|dirty read]].
+The **violation of an isolation** is when on the **halfway of the transaction**, some **other client reads just written data**. 
+**Reading not committed writes** is known as [[Dirty Read]].
 
-To group statements, `START TRANSACTION` and `COMMIT` commands are used. It's possible that **client sent commit** operation, but **TCP connection was interrupted** at this time. Client **can't know** whether transaction was **committed or not**.
+To group statements, `START TRANSACTION` and `COMMIT` commands are used. 
+
+It's possible that **client sent commit** operation, but **TCP connection was interrupted** at this time. Client **can't know** whether transaction was **committed or not**.
 
 #### Single-Object Writes
 
@@ -59,7 +60,7 @@ DB support **atomic operations** (like **increments**) to avoid **read-modify-wr
 **Multi-Object transactions** are **must-have** for most applications.
 Conceptually nothing prevents us from distributed transactions implementation, though it is not supported now.
 
-Issues in **not having multi-object transactions**:
+Problems of **not having multi-object transactions**:
 1. when inserting **records which reference** one another using **foreign keys**, the data gets out of sync in the mid of writes;
 2. since **document databases** encourage **denormalization**, the same **data** need to be **updated in multiple places**, this may get our data out of sync;
 3. **secondary indexes** are separately standing storages, which are necessary to be **kept up-to-date with main data**. If actual record was written, but index was not yet updated, then query using this index will not read the record.
@@ -68,7 +69,8 @@ Issues in **not having multi-object transactions**:
 
 In **leaderless replication**, it is **up to application to recover** from errors.
 
-The whole point of **transaction aborts** is to **allow safe retries**. Though, this is a pity that some ORM libraries does not retry at all and just throw away user input and show the error message.
+The whole point of **[[Transaction]] aborts** is to **allow safe retries**. 
+Yet, it is pity that some ORM libraries does not retry at all and just throw away user input and show the error message.
 
 Pitfalls of retried transactions:
 - if **transaction was not ACK-ed** to client, but it was actually executed, then retry **may write data twice** unless app **deduplicate**s it;
