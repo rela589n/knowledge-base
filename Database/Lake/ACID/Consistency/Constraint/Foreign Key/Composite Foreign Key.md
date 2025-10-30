@@ -1,6 +1,6 @@
 ---
 aliases:
-  - Denormalized foreign key
+  - Denormalized Foreign Key
 ---
 Composite [[Foreign Key]]
 

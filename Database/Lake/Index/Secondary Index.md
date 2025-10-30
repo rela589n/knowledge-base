@@ -1,5 +1,9 @@
+---
+aliases:
+  - Secondary Indexes
+---
 **Secondary [[Database Index|Index]]** is stored **outside** of the **main table** space, 
-and does **not** necessarily have to be **unique**.
+and does **not** necessarily have to be **[[Unique Index|Unique]]**.
 
 Both [[B-Tree|B-Tree]] and LSM-trees indexes might be used.
 

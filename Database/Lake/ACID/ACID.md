@@ -1,4 +1,4 @@
-**ACID** - stands for:
+**ACID** - **safety guarantees**:
 - **[[Atomicity]]**
 - **[[Consistency]]**
 - **[[Isolation]]**

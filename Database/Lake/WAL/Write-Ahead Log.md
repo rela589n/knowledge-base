@@ -2,4 +2,7 @@
 aliases:
   - WAL
 ---
-To accomplish **failover**, the **write-ahead log** (WAL) is written **before every modification** of [[B-Tree]]. After crash this log is **used to restore DB** to a consistent state.
+**Write-Ahead Log** (WAL) - written **before every modification** of [[B-Tree]].  
+
+Used to accomplish **failover**:
+	after crash DB uses WAL is **to [[Consistency|Restore]]** itself.

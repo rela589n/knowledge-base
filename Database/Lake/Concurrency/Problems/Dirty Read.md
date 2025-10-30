@@ -2,7 +2,7 @@
 aliases:
   - Dirty Reads
 ---
-**Dirty Read** - one **[[Transaction]]** *sees* **uncommitted changes** 
+**Dirty Read** - **[[Transaction]]** *sees* **uncommitted changes** 
 	***of* another [[Transaction]]**.  
 Solved by [[Read Committed]].
 

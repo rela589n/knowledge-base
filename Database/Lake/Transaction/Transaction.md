@@ -3,97 +3,52 @@ aliases:
   - Transactions
 ---
 **Transaction** - *sequence of* **reads** *and* **writes**, 
-*forming* a **logical unit** that should be **committed [[Atomicity|Atomically]]**. 
+*forming* a **logical unit** 
+that's **committed [[Atomicity|Atomically]]**. 
 
-Provides **[[ACID]] safety guarantees** that *allow to* ***ignore*** 
-	some **error scenarios** *and* **concurrency issues**:
-- **application** or **database** ***crashes*** 
-  between writes:
+Useful both for:
+- [[Single-Object Write]]
+- [[Multi-Object Transaction]]
+
+Provides **[[ACID|Safety Guarantees]]** (depending on [[Transaction Isolation Level|Isolation Levels]]) 
+	*allowing to* ***pretend** that* some **faults *don't exist*** (abort):
+- **app** or **db** ***crashes*** *in the midst of* **writes**:
 	- **reboots**, deployments, power outages;
 	- **disk** crashes;
-- **network *interrupts*** between app and db (or db nodes);
+- **network *interrupts***;
 - [[Concurrency]] problems:
-	- **clients overwriting changes** of each other;
-	- **reading partially updated data**;
+	- clients ***overwriting* changes** of each other;
+	- ***reading* partially updated data** ([[Dirty Read]]);
 - other **race condition bugs**.
 
-> Transactions do not necessarily have to follow [[ACID]] properties.
+See:
+- [[Dirty Read]]
+- [[Dirty Write]]
+- [[Lost Update]]
+- [[Read Skew]]
+- [[Write Skew]]
 
-[[Transaction Isolation Level]]s
-
-[[Transactions - Poor Performance?]]
-
-Some apps might not need transactions, and for better performance transactional guarantees may be weakened or disabled completely. 
-
-## The Slippery Concept of a Transaction
-
-![[NoSQL - no Transactions#^21bd59]]
+It's possible that **client sent commit** operation, but **TCP connection was interrupted** at this time. Accordingly, client **can't know** whether transaction was **committed or not**.
 
 ### Single-Object and Multi-Object operations
 
-**Multi-object Transactions** - transactions, which **modify multiple objects** (rows, records, documents). They are especially necessary **if data must be kept in sync** (say, denormalized counter for some query).
-
-The **violation of an isolation** is when on the **halfway of the transaction**, some **other client reads just written data**. 
-**Reading not committed writes** is known as [[Dirty Read]].
-
-To group statements, `START TRANSACTION` and `COMMIT` commands are used. 
-
-It's possible that **client sent commit** operation, but **TCP connection was interrupted** at this time. Client **can't know** whether transaction was **committed or not**.
-
-#### Single-Object Writes
-
-**Single-object writes** may face **issues the mid of large content upload**:
-- the **network is interrupted** or **power fails** - not to store partially inserted/replaced value (**_Atomicity_**). It is implemented using **[[Write-ahead Log (WAL)-based Replication|WAL]]**;
-- **another client** tries to **read** the **same record** - not to show spliced up record (**_Isolation_**). It is implemented using **locks on objects** - only one thread has an access;
-
-> How does it work with transactions? If we modify content in current transation and in the mid of upload server interrupts. How does other clients not see corrupted data? 
-> Answer: MVCC updates are equivalent to delete and create operations. Hence, old value is kept not being overwritten. New value will be abandoned because write didn't commit.
-
-DB support **atomic operations** (like **increments**) to avoid **read-modify-write** cycle, which is **prone to the issue of lost updates**.
-
-**[[Compare-and-Set]]** may be used to **prevent update** of the **concurrently modified record**.
-
-#### The need for Multi-Object Transactions
-
-**Multi-Object transactions** are **must-have** for most applications.
-Conceptually nothing prevents us from distributed transactions implementation, though it is not supported now.
-
-Problems of **not having multi-object transactions**:
-1. when inserting **records which reference** one another using **foreign keys**, the data gets out of sync in the mid of writes;
-2. since **document databases** encourage **denormalization**, the same **data** need to be **updated in multiple places**, this may get our data out of sync;
-3. **secondary indexes** are separately standing storages, which are necessary to be **kept up-to-date with main data**. If actual record was written, but index was not yet updated, then query using this index will not read the record.
-
 #### Handling Errors and Aborts
 
-In **leaderless replication**, it is **up to application to recover** from errors.
+In **[[Leaderless Replication]]**, it is **up to application to recover** from errors.
 
 The whole point of **[[Transaction]] aborts** is to **allow safe retries**. 
-Yet, it is pity that some ORM libraries does not retry at all and just throw away user input and show the error message.
+Yet, most ORMs does not retry at all and throw away user input, showing the error message.
 
 Pitfalls of retried transactions:
-- if **transaction was not ACK-ed** to client, but it was actually executed, then retry **may write data twice** unless app **deduplicate**s it;
-- if transaction aborted because **DB is overloaded**, retry is **even  worse**. One may **limit the number of retries**, use **exponential backoff**, try to **handle** overload-related issues **separately**; 
+- if **[[Transaction]] was not ACK-ed** to client, but it was actually executed, then retry **may write data twice** unless app **deduplicate**s it;
+- if [[Transaction]] aborted because **DB is overloaded**, retry is **even  worse**. One may **limit the number of retries**, use **[[Exponential backoff]]**, try to **handle** overload-related issues **separately**; 
 - **retry won't help** to solve **non-recoverable issues** (**constraint violations**); **retry may help** for **transient issues** like deadlocks, failover, network interruptions, isolation violations;
-- some **third-party systems** may **receive multiple (or none) messages** instead of one. **Two-phase commit** (**2PC**) may help to avoid it;
+- some **third-party systems** may **receive multiple (or none) messages** instead of one. **[[Two-phase commit]]** may help to avoid it;
 - after couple retries **client may fail** itself, which will mean not written data.
-
-## Weak Isolation Levels
-
-^2864e8
-
-See [[Transaction Isolation Level]]
-
-### Preventing Lost Updates
-
-[[Lost Update]]
-
-### Write Skew and Phantoms
-
-[[Write Skew]]
 
 ## Summary
 
-Transactions are the **abstraction**, which allows us to **pretend that some faults do not exist**. Many of the errors come to simple [[Transaction]] abort.
+--Transactions are the **abstraction**, which allows us to **pretend that some faults do not exist**. Many of the errors come to simple [[Transaction]] abort.
 
 **Without [[Transaction|Transactions]]** process, power, disk, network, concurrency **issues lead to inconsistencies** in the DB. For instance, keeping up to date denormalized data.
 
