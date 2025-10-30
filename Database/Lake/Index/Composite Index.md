@@ -2,7 +2,7 @@
 aliases:
   - Multi-column Index
 ---
-Best practice for **ordering columns** in composite index **is by [[Cardinality|Selectivity]]**, since less index [[Page|Pages]] will be needed scan.
+**Composite [[Database Index|Index]]** is one that consists of multiple columns.
 
 The most common type is **concatenated index** [[B-Tree]].
 Columns are concatenated to make a **single key**.
