@@ -1,1 +1,5 @@
-**Log** is **append-only sequence** of records. In this context word "log" is referred to something more general than application logs. These don't have to be human-readable. Logs can be binary (intended to be read by the other programs). ^a46879
+**Log** is **append-only sequence** of records. 
+
+More general than application logs. 
+These aren't human-readable. 
+Can be binary (intended to be read by the other programs). ^a46879

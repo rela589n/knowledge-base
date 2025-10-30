@@ -1,0 +1,3 @@
+**Split Brain** - in some [[Leader failure - Failover|Failover]] scenarios, it is possible that **two nodes consider themselves to be leaders**. 
+
+If both are accepting writes, and there is no way to resolve conflicts, possibly **data will be lost or corrupted**.

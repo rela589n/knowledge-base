@@ -1,4 +1,4 @@
-Load is described by **load parameters**. For instance, req/sec to server, cache hit rates, ratio of reads/writes to database, etc.
+Load is described by **load parameters**. For instance, [[Request per second|RPS]] to server, cache hit rates, ratio of reads/writes to database, etc.
 
 > Fan-out - number of requests to other services necessary to serve incoming request.
 

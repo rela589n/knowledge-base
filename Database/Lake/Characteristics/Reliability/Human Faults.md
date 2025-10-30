@@ -1,5 +1,3 @@
-#### Human Faults
-
 **Human errors** - most of faults are **because of humans** as far as people are not reliable. 
 
 To prevent human errors:
