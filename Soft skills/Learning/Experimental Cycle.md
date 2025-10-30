@@ -2,7 +2,7 @@
 aliases:
   - Experimental Reflection Cycle
 ---
-That's a vital cycle with which you learn any skill:
+A vital cycle to learn any skill:
 ![[Experimental Cycle.png]]
 
 1. Experience something to be improved (target)

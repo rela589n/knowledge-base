@@ -3,10 +3,12 @@ There are two **phases** for remembering read information:
 - **Digesting** - using respective [[PACER|process]] to digest.
 
 ![[Consumption and Digestion.png]]
-Both are equally important. 
 **Everything Consumed** must be **Digested.**
 
-Digestion is what our learning is all about. We need to **use the knowledge** in some way; otherwise, there's no point in learning.
+**Learning** is all about **Digestion**. 
+
+We need to **use the knowledge** in some way; 
+otherwise, there's no point in learning.
 
 ![[Knowledge usage Pyramid.png]]
 
