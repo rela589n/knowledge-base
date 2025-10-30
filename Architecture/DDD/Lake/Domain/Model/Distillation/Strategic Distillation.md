@@ -5,8 +5,8 @@ aliases:
 **Distillation** - strategic **separation** of the components 
 to *demarcate* the **essence** out of inessential.
 
-It allows to *hew away* **distractions** 
-and *focus* on what matters **most**.
+It allows to ***hew away***  **distractions** 
+and ***focus on***  **paramount matters**.
 
 One must set **priorities** to the **[[Core Domain]]**, 
 and allocate highly **skilled devs** to implement it.

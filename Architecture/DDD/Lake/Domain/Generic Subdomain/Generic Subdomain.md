@@ -2,8 +2,9 @@
 aliases:
   - Supportive Subdomain
 ---
-**Generic Subdomain** is an independent **supporting part** 
-that lightens [[Core Domain]] as it *shifts* **supplementary [[Domain]] [[Ubiquitous Language|Knowledge]]** *off* from it.
+**Generic Subdomain** is a **supporting part** 
+that lightens up [[Core Domain]], 
+*shifting* **supplementary [[Domain]] [[Ubiquitous Language|Knowledge]]** *off* from it.
 
 It's **like [[Core Domain]]**, just **less central**.
 

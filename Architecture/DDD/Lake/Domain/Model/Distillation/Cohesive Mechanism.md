@@ -6,12 +6,12 @@ aliases:
 
 > **Example**: [[Specification]].
 
-Allows **client [[Subdomain|Component]]** to *use* **simple [[Declarative]] [[Intention-Revealing Interface|Interface]]**
-	(state the [[Business Rule|Rule]]), 
+It makes **main [[Subdomain|Component]]** ***easier to* [[Comprehension|Understand]]**.
+
+**Client [[Subdomain|Component]]** *uses* **simple [[Declarative]] [[Intention-Revealing Interface|Interface]]**
+	(states the [[Business Rule|Rule]]),
 *while* your **[[Cohesive Mechanism]]**  **implements it**
 	(resolve the [[Business Rule|Rule]]).
-
-It makes **main [[Subdomain|Component]]** ***easier to* [[Comprehension|Understand]]**.
 
 Keeping it **separate from** the main **[[Domain Model|Model]]** is good 
 due to **[[Low Coupling & High Cohesion|Low Coupling]]**:
