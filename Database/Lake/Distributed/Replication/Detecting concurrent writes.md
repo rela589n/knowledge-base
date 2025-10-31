@@ -6,4 +6,4 @@ When two clients concurrently modify the same piece of data, nodes may **receive
 
 [[LWW (last write wins)]] may be used for discarding concurrent writes, but **it implies data loss**. 
 
-To handle concurrent writes sensibly, **explicit tracking of [[Capturing the Happens-before relationship|dependent and concurrent]] operations** is necessary.
+To handle concurrent writes sensibly, **explicit tracking of [[Capturing Causal Dependencies|dependent and concurrent]] operations** is necessary.

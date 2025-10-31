@@ -1,4 +1,4 @@
-To **capture [[Causality|dependent]] and [[Concurrent operations|concurrent]] writes**:
+To **capture [[Causality|Causally Dependent]] and [[Concurrent operations|Concurrent]] writes**:
 - on a single node, [[Version Numbers]] are used;
 - on multiple replicas, [[Version Vectors]] are used.
 

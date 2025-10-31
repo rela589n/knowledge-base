@@ -8,4 +8,4 @@ Each [[Replica]] **increments it's own version** number.
 
 Each [[Replica]] **keeps versions of other [[Replica|Replicas]]**.
 
-**Version vector** - collection of **versions from all replicas**.
+**Version vector** - collection of **versions from all [[Replica|Replicas]]**.

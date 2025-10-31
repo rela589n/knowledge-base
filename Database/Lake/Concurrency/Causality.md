@@ -17,4 +17,4 @@ On the other hand, **A** ***happens before*** **B**.
 If **operations *are dependent*** on each other (no [[Concurrent operations|Concurrency]]), 
 then **latter overwrite** former.
 
-[[Capturing the Happens-before relationship]]
+[[Capturing Causal Dependencies]]
