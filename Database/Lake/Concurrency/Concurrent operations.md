@@ -1,1 +1,5 @@
+---
+aliases:
+  - Concurrent
+---
 **Concurrency** - if **neither** of operations **[[Causality|Happens Before]]** the other (if **neither knows** about the other).  On **concurrent** modifications the **conflicts must be resolved**. 

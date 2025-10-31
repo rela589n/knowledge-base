@@ -1,7 +1,8 @@
 ---
 aliases: []
 ---
-**Replication** - *keeping* the **same data** *on* **multiple [[Replica|Replicas]]** by transmitting the [[Replication Log|Log]] over the [[Async Network|Network]].
+**Replication** - *keeping* the **same data** *on* **multiple [[Replica|Replicas]]** 
+by transmitting the [[Replication Log|Log]] over the [[Async Network|Network]].
 
 Reasons to replicate data:
 - ***reduce* [[Network Latency|Latency]]** - keep **servers closer** to users;
@@ -23,10 +24,10 @@ A bare minimum for app using replication is to **deal with**:
 - **async** - requires anticipating app behavior when [[Problems with Replication Lag|Replication Lag]] increases.
 
 Replication **consistency models**:
-- **[[Reading your writes]]** - users should **see their submitted data**.
-- **[[Monotonic reads]]** - once some information is displayed to the user, he should ***not see***  **data  *staler than*** already ***shown*** to him;
+- **[[Reading your writes]]** - users ***see* their submitted data**.
+- **[[Monotonic reads]]** - once displayed to the user, the  **information** should ***not** be* ***any*** ***staler** than* already *shown* to him;
 - **[[Consistent prefix reads]]** - [[Causality|Causal]] dependencies must be kept (question message comes first, then answer).
 
 In **[[Multi-Leader Replication|Multi-Leader]] and [[Leaderless Replication|Leaderless]]** replication types the **conflicts may arise**. To solve them one can use:
-- **automatic** conflict resolution (like [[LWW (last write wins)]], usage of **CRDT**s);
-- **manual** resolution using **[[Version Numbers|Versions]]** and **[[Version Vectors]]**.
+- **automatic** conflict resolution (like [[LWW (last write wins)]], usage of **[[Conflict-free Replicated Data Types|CRDTs]]**);
+- **manual** resolution with **[[Version Numbers|Versions]]** and **[[Version Vectors]]**.

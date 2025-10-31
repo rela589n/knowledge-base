@@ -4,4 +4,4 @@ When it comes to merging the values, **siblings can't be rashly unioned**, becau
 
 One sibling may remove the **deleted item from the collection**, while it will still be **kept in another sibling**. To allow deletion, [[Tombstone marker]] can be used.
 
-Usually custom **merging code is error-prone**. The **automatic merge** is possible as well, **using CRDT**s, which merges siblings in sensible way including deletions.
+Usually custom **merging code is error-prone**. The **automatic merge** is possible as well, **using [[Conflict-free Replicated Data Types|CRDTs]]**, which merges siblings in sensible way including deletions.
