@@ -1,5 +1,6 @@
 Too **hight timeout** will cause **clients to wait** or see errors.
 Too **low timeout** will cause high rate of **false faults**. 
+
 It leads to:
 - **lost data**;
 - **actions** performed **more than once**;

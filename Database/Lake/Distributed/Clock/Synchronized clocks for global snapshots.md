@@ -1,4 +1,4 @@
-The [[Implementing Snapshot Isolation|Snapshot Isolation]] incremental transaction ids are used. In distributed systems we barely can generate **sequential ids without coordination**. If transaction A reads value written by transaction B it must have greater txid, otherwise it would be a violation of causality.
+The [[Implementing Snapshot Isolation|Snapshot Isolation]] incremental transaction ids are used. In distributed systems we barely can generate **sequential ids without coordination**. If transaction A reads value written by transaction B it must have greater txid, otherwise it would be a violation of [[Causality]].
 
 There's [[Twitter Snowflake]] approximate algorithm for sequential ids generation based on time.
 ![[Twitter Snowflake#^e12cfc]]

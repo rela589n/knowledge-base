@@ -10,7 +10,7 @@ SSI has small performance penalty compared to [[Snapshot Isolation]]
 
 #### Decisions based on outdated premise
 
-The transaction queries may have causal dependency (e.g. writes depend on the read data).
+The transaction queries may have [[Causality|Causal Dependency]] (e.g. writes depend on the read data).
 
 **Outdated Premise** - statement that was true at the beginning of transaction, but no longer true at the commit time.
 

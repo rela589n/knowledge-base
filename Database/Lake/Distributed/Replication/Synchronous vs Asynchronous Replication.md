@@ -15,5 +15,5 @@ Often the [[Single-Leader Replication|Leader-based Replication]] is made **compl
 Main reason for doing this is that **leader** may **process writes** even if all of **followers** have **fallen behind**. Yet, it requires solving [[Problems with Replication Lag]].
 
 >  **Research on Replication**
->  To not lose data if leader fails, and still have good performance and availability, **chain replication** may be used.
+>  To not lose data if leader fails, and still have good performance and [[Availability]], **chain replication** may be used.
 >  **Consensus** (getting several nodes to agree on value) has strong connection to consistency.

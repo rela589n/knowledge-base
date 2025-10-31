@@ -9,9 +9,8 @@ In **circular** topology writes are propagated along with new writes of nodes, w
 
 If a **one node fails in *circular* or *star* topologies**, it may **interrupt the flow** of replication. Nodes may be reconfigured to communicate around a failed node, but it is mostly done manually.
 
-The fault tolerance of more dense topologies (**all-to-all**) is better, though other **pitfalls of causality** arise.
+The fault tolerance of more dense topologies (**all-to-all**) is better, though other **pitfalls of [[Causality]]** arise.
 
 There may be the case when some **required writes were not processed yet** on a replicated leader, while it **receives dependent writes** (like updates of rows, which were never inserted).
 
 > ? Why won't we just append all writes to the current batch of writes the same way as in circular topology?
-
