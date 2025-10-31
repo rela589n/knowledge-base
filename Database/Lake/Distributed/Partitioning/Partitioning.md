@@ -4,7 +4,8 @@ aliases:
 ---
 **Partitioning** is breaking data into the **[[Partition|Partitions]]**.
 
-Main reason is **[[Scalability]]**.
+Main reason is **[[Scalability]]**. 
+When single node can **no longer store all the data** or **handle the whole load**. 
 
 Approaches to Partition key-value data:
 - [[Range Partitioning]];
