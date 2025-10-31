@@ -12,4 +12,4 @@ In [[Riak]] - optional method.
 
 There may even be the cases when **LWW drops writes** which are **not concurrent** (see [[LWW clock issues]]). Thus, it should only be used where lost writes are acceptable (like caching).
 
-> This method achieves **convergence** by the **cost of durability** - clients were informed that write was successful, though it is silently discarded later on. See [[LWW clock issues]].
+> This method achieves **convergence** by the **cost of [[Durability]]** - clients were informed that write was successful, though it is silently discarded later on. See [[LWW clock issues]].

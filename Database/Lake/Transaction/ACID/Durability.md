@@ -1,12 +1,12 @@
 **Durability** - database guarantee that 
 	**once [[Transaction]] *is* committed**, 
-		it's **committed** 
-		and will **keep value**
+		**it's committed** 
+		and will ***keep*** the **value**
 	so that
-		 later on we'd be *able to*  **read the written data** regardless of crashes.
+		 later on we'd be ***able to***  ***read*** **written data** regardless of crashes.
 
-In the **[[Replication|Replicated]] databases durability** 
-*means that* **write** *was* successfully ***processed by* W nodes**.
+In the **[[Replication|Replicated]] systems durability** 
+*implies that* **write** *was* successfully ***processed by* W nodes**.
 
 ## Replication and Durability
 
