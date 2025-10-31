@@ -1,5 +1,5 @@
 Networks can be:
 - [[Sync networks]]
-- [[Async Networks]]
+- [[Async Network]]
 
 [[Sync vs Async Networks]]

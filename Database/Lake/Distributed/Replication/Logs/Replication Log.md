@@ -3,6 +3,7 @@ aliases:
   - Implementation of Replication Logs
   - Replication Strategy
   - Ways To Replicate Changes
+  - Replication Strategies
 ---
 [[Replication]] can be implemented as:
 - [[Statement-based Replication]];

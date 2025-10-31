@@ -1,4 +1,4 @@
-Distributed **[[Consistency]] Guarantees** provide stronger guarantees compared to [[Eventual Consistency]]. 
+Distributed **[[Consistency]] Guarantees** provide stronger guarantees compared to [[Convergence]]. 
 
 They have somewhat similar hierarchy to [[Transaction Isolation Level|Transaction Isolation Levels]].
 

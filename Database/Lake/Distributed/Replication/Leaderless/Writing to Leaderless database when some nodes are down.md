@@ -5,5 +5,4 @@ The client sends **[[Quorum]] Read** to all replicas as well. The results may di
 See:
 - [[Leaderless Read-repair and anti-entropy]];
 - [[Quorums for reading and writing]];
-- [[Sloppy quorums and Hinted Handoff]];
-
+- [[Sloppy Quorums and Hinted Handoff]];

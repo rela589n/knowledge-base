@@ -1,4 +1,4 @@
-[[Async Networks|Network]] is necessary for **faulty nodes detection**:
+[[Async Network|Network]] is necessary for **faulty nodes detection**:
 - **load balancer** should take **failed node out of rotation**;
 - [[5. Replication#Leader failure: failover|failover process]] in distributed single-leader databases.
 

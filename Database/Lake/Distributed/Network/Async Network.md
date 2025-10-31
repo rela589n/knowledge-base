@@ -1,3 +1,7 @@
+---
+aliases:
+  - Network
+---
 ![[Shared-Nothing Architecture#^6b450e]]
 
 **Asynchronous packet network** (Ethernet) does not provide any **guarantees** regarding **when message will arive** or whether **will it arrive** at all. In other words, [[Network Unbounded Delay|latency is unbounded]].

@@ -3,4 +3,4 @@ aliases:
   - Follower
   - Replicas
 ---
-**Replica** - each node that stores copy of data.
+**Replica** - each node / machine that stores copy of data.
