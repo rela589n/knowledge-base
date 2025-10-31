@@ -1,1 +1,1 @@
-![[WAL, Shared Buffers.png]]
+![[PostgreSQL WAL, Shared Buffers.png]]
