@@ -1,8 +1,9 @@
-**Single-Object Writes** are subject to
+**Single-Object Writes** are 
 
-**Issues** *with* the **large content upload**:
-- **network interrupted** / **power fails** - not to store partially inserted/replaced value ([[Atomicity]]). Implemented using **[[Write-ahead Log (WAL)-based Replication|WAL]]**;
-- **other client** ***reads*** the **same record** - not to show it spliced up ([[Isolation]]). Implemented using **locks on objects** - only one thread has an access;
+**Issues** (<u>large content</u>):
+- **network interrupts** / **power fails** - partially saved/updated value ([[Atomicity]]). Fixed with **[[Write-ahead Log (WAL)-based Replication|WAL]]**;
+- **other client** *is **reading*** the **same record** - spliced up (if no [[Isolation]]). 
+  Fixed with **locks on objects** - only one thread has an access;
 
 > How does it work with [[Transaction|Transactions]]? 
 > If we modify content in current [[Transaction]] and in the mid of upload server interrupts. How clients do not see corrupted data?

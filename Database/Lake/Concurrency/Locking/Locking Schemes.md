@@ -1,7 +1,8 @@
 ---
 aliases:
+  - Locking
 ---
-Locking is important, because its prevents [[Concurrency Problems]] that arise in case if it's absent.
+Locking solves [[Concurrency Problems]] that arise otherwise.
 
 [[Explicit locking]]
 

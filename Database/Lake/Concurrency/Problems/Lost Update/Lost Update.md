@@ -2,10 +2,10 @@
 aliases:
   - Lost Updates
 ---
-**Lost Update** - **[[Transaction]] *overwrites* just written updates *of* another**. It happens in **[[Read-Modify-Write]]** cycle.
+**Lost Update** - **[[Transaction]] *overwrites*** *just written* **changes *of* another**. It happens in **[[Read-Modify-Write]]** cycle.
 
-Preventing [[Lost Update|Lost Updates]]:
-- [[Automatic Lost Updates prevention|Automatically (Snapshot Isolation)]];
+Preventing:
+- [[Automatic Lost Update Prevention|Automatically (Snapshot Isolation)]];
 - [[Atomic write operations]];
 - [[Explicit locking]];
 - [[Compare-and-Set]].

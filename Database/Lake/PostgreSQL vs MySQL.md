@@ -34,6 +34,13 @@ Physically, that's a difference:
 When row is updated:
 - [[MySQL]] rewrites it in place (old is backed up in [[Rollback Segment]]), and only needed [[Database Index|Indexes]] are updated (if there was indexable field update). 
 - [[PostgreSQL]] writes new [[MVCC]] version, and it needs to update [[Table Heap|Heap File]] pointers for all the indexes (if [[HOT update]] wasn't used).
+
+##### [[Automatic Lost Update Prevention]]
+
+![[Automatic Lost Update Prevention#^26e2c6]]
+
+![[Automatic Lost Update Prevention#^8ed4f2]]
+
 ##### Indexes
 
 ###### Types:

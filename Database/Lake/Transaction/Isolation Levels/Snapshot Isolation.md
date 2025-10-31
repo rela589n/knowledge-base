@@ -10,7 +10,7 @@ in the **state *at the* beginning** *of the* [[Transaction]].
 
 It prevents [[Read Skew]].
 
-In [[PostgreSQL]], it also prevents [[Automatic Lost Updates prevention|Lost Updates]].
+In [[PostgreSQL]], it also prevents [[Automatic Lost Update Prevention|Lost Updates]].
 
 See [[Implementing Snapshot Isolation]] for internal details.
 

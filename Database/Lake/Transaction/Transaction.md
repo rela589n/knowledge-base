@@ -6,7 +6,7 @@ aliases:
 *forming* a **logical unit** 
 that's **committed [[Atomicity|Atomically]]**. 
 
-Useful both for:
+Used both for:
 - [[Single-Object Write]]
 - [[Multi-Object Transaction]]
 
