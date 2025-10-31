@@ -14,4 +14,4 @@ Preventing:
 
 The only working way with **no overhead** is via of [[Atomic write operations]], especially **commutative** (like counter increment, addition etc).
 
-**Neither [[Compare-and-Set]] nor [[Explicit locking]]** can help us to **prevent lost updates** in replicated systems (**[[Multi-Leader Replication|multi-leader]], [[Leaderless Replication|leaderless]]**). Therefore, it is necessary to implement **conflict resolution logic** as written previously in [[Handling write conflicts in replicated system]].
+**Neither [[Compare-and-Set]] nor [[Explicit locking]]** can help to **prevent [[Lost Update|Lost Updates]]** in replicated systems (**[[Multi-Leader Replication|multi-leader]], [[Leaderless Replication|leaderless]]**). It is necessary to implement **conflict resolution logic** as written in [[Handling write conflicts in Replicated system]].

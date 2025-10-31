@@ -1,7 +1,7 @@
 **Read-Modify-Write** - **Plain assignment** / **Rewrite**. 
 Fraught with [[Lost Update]].
 
-**It does "overwrite"** for all these scenarios:
+**It *does* "overwrite"** regardless:
 - counter increment ;
 - balance changes;
 - local change in a complex value (say adding json field);
