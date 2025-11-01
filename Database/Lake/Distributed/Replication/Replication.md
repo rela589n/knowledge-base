@@ -1,12 +1,11 @@
 ---
 aliases: []
 ---
-**Replication** - *keeping* the **same data** *on* **multiple [[Replica|Replicas]]** 
-by transmitting the [[Replication Log|Log]] over the [[Async Network|Network]].
+**Replication** - *[[Redundancy|Redundancing]]* the **data** *over* **multiple [[Replica|Replicas]]** by *transmitting* the [[Replication Log|Log]] *over* the [[Async Network|Network]]. 
 
-Reasons to replicate data:
+Aims:
+- ***increase* [[Availability]]** - ***serving*** data *from* **other nodes**;
 - ***reduce* [[Network Latency|Latency]]** - keep **servers closer** to users;
-- ***increase* [[Availability]]** - system operates even if some nodes are down;
 - ***increase* read throughput** (**[[Scalability]]**) - serve reads from [[Replica|Replicas]], which could be scaled up;
 - **disconnected operation** - app continues to work even though there are network issues.
 

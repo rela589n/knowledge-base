@@ -2,10 +2,10 @@
 aliases:
   - Database Split
 ---
-**Partitioning** is breaking data into the **[[Partition|Partitions]]**.
+**Partitioning** - logically ***splitting*** data set ***into*** **[[Partition|Partitions]]** 
+***for*** the sake of **[[Scalability]]**.
 
-Main reason is **[[Scalability]]**. 
-When single node can **no longer store all the data** or **handle the whole load**. 
+When single node can **no longer** ***store*** **all data** or ***handle* the whole load**. 
 
 Approaches to Partition key-value data:
 - [[Range Partitioning]];

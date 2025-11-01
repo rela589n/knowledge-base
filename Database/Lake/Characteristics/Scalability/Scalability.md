@@ -1,5 +1,7 @@
-**Scalability** - ability of the system to **remain performant** in spite of growing data and load, ability to **cope with increased load**. ^def-scalability
+**Scalability** - ability to cope with increased data and load growth. ^def-scalability
 
+When **one node** ***can't handle*** data volume, r/w load,
+it can be ***spread*** *across* **multiple nodes**.
 #### Measurements
 
 - for **Describing The Load** [[Load Parameters]] are used;
