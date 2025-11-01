@@ -1,7 +1,8 @@
 ---
 aliases:
   - Partitions
+  - Shard
 ---
-**Partition** - a small database on it's own, which holds some **subset of records**.
+**Partition** - a small **subset *of* data**, stored in its own database.
 
-It's the same term as **shard**, **region**, **tablet**, **vnode**, **vbucket**. 
+Same term as **shard**, **region**, **tablet**, **vnode**, **vbucket**.

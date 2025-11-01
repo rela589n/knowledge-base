@@ -1,8 +1,9 @@
 ---
 aliases:
   - Database Split
+  - Sharding
 ---
-**Partitioning** - logically ***splitting*** data set ***into*** **[[Partition|Partitions]]** 
+**Partitioning** - logically ***splitting*** data ***into*** **[[Partition|Partitions]]** 
 ***for*** the sake of **[[Scalability]]**.
 
 When single node can **no longer** ***store*** **all data** or ***handle* the whole load**. 
