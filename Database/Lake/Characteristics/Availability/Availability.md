@@ -8,5 +8,3 @@ aliases:
 ***Achieved by*** **[[Redundancy]]**:
 	by using **multiple machines**: 
 		if one fails, another ***takes over***.
-
-[[0. Intro#^951525]]

@@ -2,4 +2,6 @@
 aliases:
   - Latency
 ---
-**Network Latency** - time it takes for information to pass from one point of network to another.
+**Latency** - time for the information to pass from one point of network to another.
+
+If **system *is used* worldwide**, it's better to have multiple servers across the globe, so that requests will be served by the **closest server**.

@@ -13,7 +13,7 @@ Approaches to Partition key-value data:
 - [[Hash-based Partitioning]].
 
 See [[Partitions Rebalancing]]
-See [[Partitioning and Secondary Indexes]]
+See [[Partitioning Secondary Indexes]]
 See [[Partitioning and Replication]]
 See [[Skewed Partitioning|Relieving Skewed Workloads]]
 See [[Partitions Request Routing]]

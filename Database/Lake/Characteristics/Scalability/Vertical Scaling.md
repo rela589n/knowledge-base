@@ -2,4 +2,4 @@
 aliases:
   - Scaling Up
 ---
-**Vertical Scaling** - using **single node** on [[Shared-Memory Architecture]], allocating to it more RAM, CPUs, disks (joined together) - all under one OS.
+**Vertical Scaling** - based on [[Shared-Memory Architecture]]. ***Allocating to* the node** more **RAM**, **CPUs**, **disks** (joined together) - all under one OS.
