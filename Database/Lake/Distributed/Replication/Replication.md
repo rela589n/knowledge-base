@@ -1,7 +1,7 @@
 ---
 aliases: []
 ---
-**Replication** - *[[Redundancy|Redundancing]]* the **data** *over* **multiple [[Replica|Replicas]]** by *transmitting* the [[Replication Log|Log]] *over* the [[Async Network|Network]]. 
+**Replication** - *[[Redundancy|Redundanting]]* the **data** *over* **multiple [[Replica|Replicas]]** by *transmitting* the [[Replication Log|Log]] *over* the [[Async Network|Network]]. 
 
 Aims:
 - ***increase* [[Availability]]** - ***serving*** data *from* **other nodes**;
