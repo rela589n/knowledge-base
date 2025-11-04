@@ -25,7 +25,7 @@ A bare minimum for app using replication is to **deal with**:
 Replication **consistency models**:
 - **[[Reading your writes]]** - users ***see* their submitted data**.
 - **[[Monotonic reads]]** - once displayed to the user, the  **information** should ***not** be* ***any*** ***staler** than* already *shown* to him;
-- **[[Consistent prefix reads]]** - [[Causality|Causal]] dependencies must be kept (question message comes first, then answer).
+- **[[Consistent prefix reads]]** - [[Causality|Causal]] dependencies must be kept (question comes first, then answer).
 
 In **[[Multi-Leader Replication|Multi-Leader]] and [[Leaderless Replication|Leaderless]]** replication types the **conflicts may arise**. To solve them one can use:
 - **automatic** conflict resolution (like [[LWW (last write wins)]], usage of **[[Conflict-free Replicated Data Types|CRDTs]]**);
