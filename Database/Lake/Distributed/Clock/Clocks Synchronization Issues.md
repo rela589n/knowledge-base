@@ -1,5 +1,5 @@
 Wall clock issues:
-- **Clocks are prone to [[Clock drifts|drifting]]**;
+- **Clocks are prone to [[Clock Drift|Drifting]]**;
 - NTP server time may be far ahead/behind machine time, leading **apps to see time going back/forth** substantially, or even **machine can refuse to sync clock**;
 - misconfigured **firewall** may **refuse access to NTP** server;
 - NTP **works via network** [[Network Unbounded Delay|prone to delays]], inaccuracy may be up to seconds when network is loaded;

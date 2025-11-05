@@ -1,4 +1,4 @@
-**Monotonic clocks** - are meant to **always move forward**, but clock value on one machine doesn't make any sense for other.
+**Monotonic Clock** - meant to **always move forward**, but clock value on one machine doesn't make any sense for other.
 
 These are suitable for **duration measurements**, but **not for absolute measurement** of time. ^4b7ce2
 

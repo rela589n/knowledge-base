@@ -5,4 +5,4 @@ There's [[Twitter Snowflake]] approximate algorithm for sequential ids generatio
 
 Timestamps seem to be good option at first, though [[Clocks Synchronization Issues]] lead to **each node having it's own time**, even though it may differ only by 5ms.
 
-Also there's [[Google Cloud Spanner]] database, which implements distributed transactions **in a reliable way** using timestamp [[Clock confidence interval|confidence intervals]].
+Also there's [[Google Cloud Spanner]] database, which implements distributed transactions **in a reliable way** using timestamp [[Clock Confidence Interval|confidence intervals]].
