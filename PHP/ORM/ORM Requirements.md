@@ -2,11 +2,12 @@
 
 [[Spec Collection]]
 
-[[Identity Heap]]
-
-[[Commit order]]
+[[PHP/ORM/Map/Identity Map|Identity Map]]
 
 [[State Management]]
+
+
+[[Commit order]]
 
 [[Proxy Objects]]
 

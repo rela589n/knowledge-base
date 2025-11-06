@@ -1,4 +1,4 @@
-Both storage and retrieval is implemented with [[Spec Collection]].
+Both storage and retrieval is done with [[Spec Collection]].
 
 ```php
 final readonly class RegisterUserCommand
@@ -10,16 +10,16 @@ final readonly class RegisterUserCommand
     ) {
     }
 
-    public function process(CollectionManager $collectionManager): void
+    public function process(CollectionManager $manager): void
     {
         /** @var Collection<User> $collection */
-        $collection = $collectionManager->getCollection(User::class);
+        $collection = $manager->getCollection(User::class);
 
         $user = new User($this->id, $this->email, password_hash($this->password));
 
         $collection->add($user);
 
-        $collectionManager->sync();
+        $manager->sync();
     }
 }
 ```

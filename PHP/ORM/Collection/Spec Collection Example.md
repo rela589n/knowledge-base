@@ -10,7 +10,7 @@ $posts
     ->toArray();
 ```
 
-This is much better than doing one method per use case, making them non-reusable for other use-cases.
+This is much better than doing one method per use case, which are not reusable for other use-cases.
 
 ```php
 #[Autoconfigure(constructor: 'create')]

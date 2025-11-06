@@ -1,12 +1,17 @@
+---
+aliases:
+  - Collection
+---
 See: [[ORM]] [[Repository]] [[Reactive Collection]]
 
-ORM [[Repository]] represents a Collection of all the objects of a certain type.
+ORM Collection is a [[Repository]] that represents all objects of a certain type.
+
+[[Lazy Loading]]
 
 ## Features, good to have
 
 It should support:
 - index fields (e.g. access by O(1))
-
 
 It should enable eager loading, preventing N+1 query problem.
 

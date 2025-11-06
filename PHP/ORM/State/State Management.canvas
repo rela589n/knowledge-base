@@ -3,7 +3,7 @@
 		{"id":"04abfd2ac15ee443","type":"text","text":"**Ghost#1** \nUser{id: 2, email: foo, ...}","x":-140,"y":-150,"width":360,"height":80},
 		{"id":"d63b5ddca0f21e2f","type":"text","text":"**Proxy#1** \nUser{id:2, email: foo, ...}","x":-200,"y":200,"width":360,"height":80},
 		{"id":"70aae5abf450975f","type":"text","text":"*Proxy is just a public reference. It doesn't manage state by itself.*","x":-269,"y":300,"width":489,"height":79},
-		{"id":"b0c4e268a658ac60","type":"text","text":"*It's ghost who manages state. It keeps track of loaded properties, and of changed properties*","x":-204,"y":-40,"width":489,"height":120}
+		{"id":"b0c4e268a658ac60","type":"text","text":"*It's a ghost who manages state. It keeps track of loaded properties, changed properties*","x":-204,"y":-40,"width":489,"height":120}
 	],
 	"edges":[
 		{"id":"25ae1eca5f1a75a3","fromNode":"d63b5ddca0f21e2f","fromSide":"top","toNode":"04abfd2ac15ee443","toSide":"bottom"}

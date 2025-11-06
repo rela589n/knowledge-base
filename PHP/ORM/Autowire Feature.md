@@ -31,7 +31,7 @@ class Proxy extends Post
 {
     protected PostCommentCollection $topComments {
         get {
-	        // setting property
+	        // setting property, todo: check if already isset
             (fn() => $this->topComments = $this->container->get(PostCommentCollection::class))();
 
             return $this->topComments;
