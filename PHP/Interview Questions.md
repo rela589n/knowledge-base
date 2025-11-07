@@ -1,8 +1,11 @@
 More details at https://docs.google.com/document/d/1lIldIy_6iP2wKJVtxMsa7m2aUTTq1HHwxNo7wnMYt8Q/edit#heading=h.lrvj6uobtw26
 
 Difference between authentication and authorization.
+
 JWT issues (when user has been revoked from some permissions).
+
 Making classes final.
+
 SF autowire & autoconfigure
 
 # PHP
