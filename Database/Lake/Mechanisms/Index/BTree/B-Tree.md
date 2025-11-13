@@ -1,6 +1,7 @@
 ---
 aliases:
   - BTree
+  - Tree
 ---
 **BTrees** is a **[[Balanced Tree]]** that keeps **key-value** pairs **sorted by key** (like [[SSTable|SSTables]])
 allowing quick lookup and range queries,

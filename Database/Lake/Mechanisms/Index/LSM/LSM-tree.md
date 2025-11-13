@@ -1,4 +1,4 @@
-**LSM** stands for **Log-Structured Merge-Tree**.
+**Log-Structured Merge-Tree**
 
 ### Making an LSM-tree of [[SSTable|SSTables]]
 
@@ -8,7 +8,7 @@ Lucene (indexing engine used by [[ElasticSearch]] and Solr) uses similar method 
 
 ##### Performance Optimizations
 
-LSM-tree algorithm may be slow when looking for keys, which are not present in database.  It requires to check all segments in their order. This kind of acces is optimized by _Bloom filters_ - data structure for approximating the contents of a set. It can tell if key doesn't exist using bitmasks.
+LSM-tree algorithm may be slow when looking for keys, which are not present in database.  It requires to check all segments in their order. This kind of access is optimized by [[Bloom Filter]].
 
 Another topics are strategies how to compact and merge [[SSTable|SSTables]]. Most common are:
 - size-tiered ([[HBase]], [[Cassandra]]);
