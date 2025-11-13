@@ -2,8 +2,9 @@
 aliases:
   - BTree
 ---
-**BTrees** is the structure that keeps **key-value** pairs **sorted by key** (like [[SSTable|SSTables]])
-allowing quick lookup and range queries, but use completely different approach from [[SSTable|SSTables]].
+**BTrees** is a **[[Balanced Tree]]** that keeps **key-value** pairs **sorted by key** (like [[SSTable|SSTables]])
+allowing quick lookup and range queries,
+but uses different from [[SSTable|SSTables]] approach.
 
 BTrees **break the database** down **into [[Page|Pages]]** by 4Kb (or 8Kb) and read/write one [[Page]] at a time.
 

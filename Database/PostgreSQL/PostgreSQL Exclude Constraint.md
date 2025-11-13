@@ -1,4 +1,4 @@
-[[GIST Index]]
+[[Exclude Constraint]]
 
 Vacation / Stock taking Calendar - **non-overlapping periods**.
 
