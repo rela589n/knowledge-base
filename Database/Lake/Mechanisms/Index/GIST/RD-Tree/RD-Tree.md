@@ -1,7 +1,13 @@
-**RD-[[B-Tree|Tree]]** (Russian Doll [[B-Tree|Tree]]) - [[GIST Index]] that organizes data into a **[[Balanced Tree|Tree]] of Bounded [[Set|Sets]]**.
+**RD-[[B-Tree|Tree]]** (Russian Doll [[B-Tree|Tree]]) - a variation of [[R-Tree]] that organizes data into a generalized **[[Balanced Tree|Tree]] of bounded [[Set|Sets]]**.
+
+Each intermediary node holds its **bounding set**,
+which is a <b><u>union</u> <i>of</i></b> all **children's keys**.
 
 For example, search terms set:
-![[RD-TRee.png]]
+![[RD-Tree.png]]
 
 The higher to the root, the larger is index row.
-For search, [[Signature Tree]] is used.
+As an optimization, [[Signature Tree]] is used.
+
+See [docs](https://dsf.berkeley.edu/papers/UW-CS-TR-1252.pdf)
+
