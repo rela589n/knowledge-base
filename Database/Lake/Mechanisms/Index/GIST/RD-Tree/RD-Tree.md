@@ -1,6 +1,6 @@
 **RD-[[B-Tree|Tree]]** (Russian Doll [[B-Tree|Tree]]) - a variation of [[R-Tree]] that organizes data into a generalized **[[Balanced Tree|Tree]] of bounded [[Set|Sets]]**.
 
-Each intermediary node holds its **bounding set**,
+Each intermediary node has a **bounding set**,
 which is a <b><u>union</u> <i>of</i></b> all **children's keys**.
 
 For example, search terms set:
