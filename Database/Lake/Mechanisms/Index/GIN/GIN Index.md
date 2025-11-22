@@ -13,7 +13,8 @@ GIN index can be used for:
 - [[Array|arrays]];
 - [[PostgreSQL Json|json objects]].
 
-GIN Index is a [[B-Tree|B-Tree Index]] built over every indexable key from the original document. It stores set of `(key, posting list)` pairs that cover full range of indexed items.
+GIN Index is a [[B-Tree|B-Tree Index]] built over every indexable key from the original documents.
+It stores set of `(key, posting list)` pairs that cover full range of indexed items.
 
 **Indexed *Item*** - document to be indexed (e.g. compound value), contains key / keys.
 

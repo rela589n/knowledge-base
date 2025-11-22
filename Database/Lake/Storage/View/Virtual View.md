@@ -1,0 +1,1 @@
+**Virtual View** - table-like object, which acts like a shortcut for the underlying query.
