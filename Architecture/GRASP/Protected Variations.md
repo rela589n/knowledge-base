@@ -1,6 +1,7 @@
-**Protected Variations** - **Changes** in **one part** of the system 
-do **not** lead to **changes** in **another part**. 
+**Protected Variations** - ***changes*** of **one part** of the system 
+	do **not** lead to ***changes*** of **another part**. 
 
-Achieved by proper **[[Cohesion|Cohesive]] abstractions** and following [[Single Responsibility Principle|SRP]] and patterns.
+Achieved by proper **[[Cohesion|Cohesive]] Abstractions** 
+and following [[Single Responsibility Principle|SRP]] and patterns.
 
 Similar to [[Open-closed principle]].

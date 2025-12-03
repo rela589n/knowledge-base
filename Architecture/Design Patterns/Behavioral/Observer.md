@@ -5,5 +5,4 @@ Examples:
 - doctrine orm:
 	- **lifecycle callbacks**, 
 	- **schema events** ([[Doctrine migration prevent removing unmapped foreign key|Prevent removing unmapped foreign key]])
-
-Using **event bus**, as it is more **flexible**.
+- **event bus** - more **flexible**.

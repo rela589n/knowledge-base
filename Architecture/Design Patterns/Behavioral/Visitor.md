@@ -1,9 +1,10 @@
 **Visitor** allows us to **traverse [[Composite]]** trees in a **single class**.
 
-Visitor is a way to **eliminate `instanceof`** checks 
+Allows to **eliminate `instanceof`** checks 
 -> in favor of [[Polymorphism]].
 
-> **Example**, dump the whole **[[Composite|Tree]] of Filters** to **build a query** - in one class that implements visitor interface.
+> **Example**, dump the whole **[[Composite|Tree]] of Filters** to **build a query** 
+> implement visitor interface in one class.
 
 Visitor allows to avoid creating a [[Factory]] of way too separated algorithms. 
 

@@ -15,7 +15,7 @@ Anything else must be [[Extracting a hidden concept|Extracted Elsewhere]].
 You can ***draw on* [[Established Formalisms|Established Formalisms]]**, 
 and ***revolve*** it ***around*** a **[[Value Object]]**.
 
-**[[Low Coupling & High Cohesion|Low Coupling]]** is crucial. 
+**[[High Cohesion & Low Coupling|Low Coupling]]** is crucial. 
 Each [[Module]], each class must be self-contained. 
 They must be [[Comprehension|Understood]] with least references to other [[Module|Modules]] and classes.
 

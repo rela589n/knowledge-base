@@ -8,4 +8,4 @@ The bigger is the **number of things we have to keep in mind** to understand the
 
 **[[Expressing Concepts Explicitly|Implicit Concepts]]** contribute to [[Conceptual Overload]] even more than explicit dependencies. They also **are needed to be understood**, but it's harder as they are "ghosts" whose existence we can only imply.
 
-**[[Low Coupling & High Cohesion|Low Coupling]]** (defining [[Conceptual Boundary|Conceptual Boundaries]]) is fundamental to **coping with [[Conceptual Overload|Conceptual Load]]**. Each [[Module]], each Class must be as self-contained as possible (Standalone Classes). 
+**[[High Cohesion & Low Coupling|Low Coupling]]** (defining [[Conceptual Boundary|Conceptual Boundaries]]) is fundamental to **coping with [[Conceptual Overload|Conceptual Load]]**. Each [[Module]], each Class must be as self-contained as possible (Standalone Classes). 

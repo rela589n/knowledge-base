@@ -4,9 +4,9 @@ aliases:
   - Conceptual Boundaries
 ---
 **[[Domain Concept|Conceptual]] Boundary** define the **scope of the [[Domain Concept|Concept]]**. 
-If structured accordingly, it **reduces [[Low Coupling & High Cohesion|Dependencies]]**.
+If structured accordingly, it **reduces [[High Cohesion & Low Coupling|Dependencies]]**.
 
-[[Low Coupling & High Cohesion]] 
+[[High Cohesion & Low Coupling]] 
 applies to [[Domain Concept|Domain Concepts]] as well as to [[Code]].
 
 Apply it to **detect the [[Conceptual Boundary|Boundaries]]** of [[Subdomain|Subdomains]], [[Bounded Context|Bounded Contexts]], [[Module|Modules]], [[Aggregate|Aggregates]], and particular classes.

@@ -6,12 +6,12 @@ Example:
 	- symfony lazy services
 - **white list**
 	- some feature can only be accessed by **some users**
-- **caching proxy**
+- **caching**
 	- returns stored responses instead 
 	  of making api/database request
-- **particular days submission policy**
+- **days submission policy**
 	- form could be only submitted from 5 to 25, 
 	  but **not in other** days
 
-> There's a slight difference to [[Decorator]] that
+> **Difference to [[Decorator]]**:
 > -> **[[Proxy]] could interrupt** the execution of the code **w/o calling** the decorated object.

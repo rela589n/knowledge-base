@@ -9,7 +9,7 @@ GOF patterns are divided into three categories:
 - [[Structural Design Patterns|Structural]];
 - [[Behavioral Design Patterns|Behavioral]].
 
-They provide two **pictures**: 
+These provide two **pictures**: 
 - [[Code|Technical]]
 - [[Domain Concept|Conceptual]] ([[Domain-Driven Design|DDD]])
 

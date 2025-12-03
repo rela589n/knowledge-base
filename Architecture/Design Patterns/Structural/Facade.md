@@ -2,4 +2,10 @@
 aliases:
   - Facades
 ---
-Facade **simplifies access** to a **complex subsystem** by providing **simple interface**. It [[Encapsulation|Encapsulates]] complex logic behind simple interface.
+**Facade** - *[[Encapsulation|Encapsulates]]* **complex logic** *behind* **simple interface**.
+
+**Simplifies access** to a **complex subsystem**..
+
+Example:
+- entity manager
+

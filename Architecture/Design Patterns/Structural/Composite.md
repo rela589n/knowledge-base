@@ -5,16 +5,23 @@ aliases:
   - Tree
 ---
 **Composite** allows you to:
-- **compose** objects into a **tree** of **[[Recursion|Recursive]] data structures**;
-- and **[[Polymorphism|Uniformly]]** work with **compound** objects **as** with **individual**  via the **same interface** ([[Dependency inversion principle|DIP]]).
+- ***compose*** objects *into* a **tree** of **[[Recursion|Recursive]] data structures**;
+- and *work **[[Polymorphism|Uniformly]]*** *with* **compound** objects
+  ***as** with* **individual** (same interface, [[Dependency inversion principle|DIP]]).
 
-Clients **depend on** an **abstract type** ([[Dependency inversion principle|Dependency Inversion]]) and they don't care about implementation ([[Polymorphism]]).
+Clients ***depend on*** an **abstract type** ([[Dependency inversion principle|Dependency Inversion]])
+and don't care about implementation ([[Polymorphism]]).
 
-Each **operation** either **arches over inner structures** (possibly [[Recursion|Recursively]]) in case of [[Composite]], or just **returns value on their own** in case of Leaf.
+Each **operation** either:
+- [[Composite]]: ***arches over*  inner structures** (possibly [[Recursion|Recursively]])
+- Leaf:  *or* just ***returns* value** on their own.
 
-> **Example:** admin panel that provides [[Composite]] **Filters** [[Specification]] that can be applied: department, city, and you can **[[Composite|Compose]] them** with boolean logic ([[Predicate#^6640e7]]).
+> **Example:** admin panel that provides **[[Composite]] Filters**
+> ([[Specification]] can be: department, city).
+> You can **[[Composite|Compose]] them** with boolean logic ([[Predicate#^6640e7]]).
 
-Useful with [[Prototype]], [[Visitor]].
+**Supported by**: [[Prototype]], [[Visitor]].
 
-Use when **[[Composite]] structures** can be **asked** the **same questions** as **Leaf** data structures. The interface must represent [[Conceptual Boundary|Conceptual Contour]].
+The interface represents [[Conceptual Boundary|Conceptual Contour]].
+Use when **[[Composite]] structures** can be **asked** the **same questions** as **Leaf** data structures. 
 

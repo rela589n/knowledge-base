@@ -4,7 +4,7 @@ aliases:
 ---
 Every class must have only **one "reason to change"**. 
 Obedience ***leads to*** 
-- [[Low Coupling & High Cohesion|High Cohesion]] 
+- [[High Cohesion & Low Coupling|High Cohesion]] 
 - [[Protected Variations]] (**isolated changes**).
 
 This implies that **any part** of the system could only **change due** to **only one actor** of the system **asking for feature**.

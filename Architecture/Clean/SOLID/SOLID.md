@@ -1,5 +1,5 @@
 - [[Single Responsibility Principle]]
 - [[Open-closed principle]]
 - [[Liskov substitution principle]]
-- [[Interface segregation principle]]
+- [[Interface Segregation Principle]]
 - [[Dependency inversion principle]]

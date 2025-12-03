@@ -1,4 +1,6 @@
-**General Responsibility Assignment Software Patterns** - patterns that answer the question "What object is **responsible** for what?", and is related to [[GOF Design Patterns]], being more high-level principles.
+**General Responsibility Assignment Software Patterns** - 
+answer the question "**Who's *responsible* for what?**",
+related to [[GOF Design Patterns]], but are more high-level principles.
 
 Principles:
 - [[Creator]]
@@ -6,7 +8,7 @@ Principles:
 - [[Controller]]
 - [[Protected Variations]]
 - [[Indirection]]
-- [[Low Coupling & High Cohesion]]
+- [[High Cohesion & Low Coupling]]
 - [[Polymorphism]]
 - [[Pure Fabrication]]
 

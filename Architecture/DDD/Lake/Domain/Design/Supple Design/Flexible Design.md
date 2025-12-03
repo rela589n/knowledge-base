@@ -9,7 +9,7 @@ aliases:
 
 It adds **clarity the [[Domain Model|Model]]**, limits [[Conceptual Overload]] by:
 - [[Intention-Revealing Interface|Intention-Revealing Interfaces]] ([[Expressing Concepts Explicitly]]);
-- [[Conceptual Boundary|Conceptual Boundaries]] (Reducing [[Low Coupling & High Cohesion|Dependencies]]);
+- [[Conceptual Boundary|Conceptual Boundaries]] (Reducing [[High Cohesion & Low Coupling|Dependencies]]);
 - [[Distilling the Model]];
 - [[Declarative Style of Design]];
 - Easy to anticipate **the [[Side-Effect|Consequences]] of running [[Code]]**:

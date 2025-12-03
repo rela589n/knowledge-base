@@ -1,6 +1,7 @@
-**Decorator** allows to **add behavior** to the object **w/o modifying it**s source code.
+**Decorator**: ***add* behavior** to the object 
+	***w/o modifying*  its** source code.
 
-We have one **interface** and multiple implementations.
+One **interface** ([[Dependency inversion principle|DIP]]) and multiple implementations.
 
 One **implementation** "decorates" **(wraps) another** 
 and **adds** some additional **behavior** (like logs) to the original class.
@@ -11,4 +12,3 @@ and **adds** some additional **behavior** (like logs) to the original class.
 	- `TraceableMessageBus` (keeps track of dispatched messages)
 - [[Centrifugo]] - response logging
 - logging/caching gateway responses
-

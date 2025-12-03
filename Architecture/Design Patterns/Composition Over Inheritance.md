@@ -1,0 +1,5 @@
+---
+aliases:
+  - COI
+---
+[[Bridge]] Pattern

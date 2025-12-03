@@ -2,10 +2,12 @@
 aliases:
   - Contravariant
 ---
-> Contravariance is an ascending (concrete to generic) variance
-> 
-> parameter types must be contrvariant (more generic) with the interface ([[Liskov substitution principle]])
+**Contravariance** is an <u><b>ascending</b></u> **variance** (concrete to generic)
 
-This allows us to treat `Comparator<Animal>` (comparison of any animals, including dogs) as `Comparator<Dog>`, which is counter-inheritance direction.
+> Parameter types must be contravariant (same / **wider**)
+> to the interface ([[Liskov substitution principle]])
 
-It is useful, since when you have a generic `Comparator<Animal>` that could compare any two animals regardless of their types, so we can use it in any place, including `Comparator<Dog>`, `Comparator<Cat>`, or any other.
+This allows us to pass `Comparator<Animal>`
+(some generic comparison of any animals, including dogs)
+into `Comparator<Dog>` or `Comparator<Cat>`,
+which is <b><u>counter-inheritance</u></b> direction.

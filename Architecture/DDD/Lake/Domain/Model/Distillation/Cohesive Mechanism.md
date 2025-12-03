@@ -14,7 +14,7 @@ It makes **main [[Subdomain|Component]]** ***easier to* [[Comprehension|Understa
 	(resolve the [[Business Rule|Rule]]).
 
 Keeping it **separate from** the main **[[Domain Model|Model]]** is good 
-due to **[[Low Coupling & High Cohesion|Low Coupling]]**:
+due to **[[High Cohesion & Low Coupling|Low Coupling]]**:
 - easier to use **another** option;
 - easier to **[[Testing|Test]]**.
 
