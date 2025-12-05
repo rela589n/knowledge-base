@@ -1,7 +1,7 @@
 ```xml
 <MissingOverrideAttribute>  
     <errorLevel type="suppress">  
-        <directory name="src/ExceptionalValidation/**/Assembler/"/>  
+        <directory name="src/**/Assembler"/>  
     </errorLevel>  
 </MissingOverrideAttribute>
 ```
