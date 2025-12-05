@@ -18,7 +18,8 @@
 		{"id":"2169bb7d204bcba4","type":"file","file":"PHP/SAPI/RoadRunner/Metrics Plugin.md","x":4560,"y":280,"width":400,"height":400},
 		{"id":"c5eb639899a79796","type":"file","file":"Monitoring/Grafana/Grafana.md","x":3680,"y":560,"width":400,"height":400},
 		{"id":"d3a4a88e2be6d53d","type":"file","file":"PHP/SAPI/Swoole/Swoole.md","x":5960,"y":-720,"width":560,"height":280},
-		{"id":"72a26c04c574430a","type":"text","text":"Why is it better to sort columns by [[Cardinality|Selectivity]]? - it's not better. Sort them according to your query pattern.","x":4816,"y":-205,"width":444,"height":140}
+		{"id":"72a26c04c574430a","type":"text","text":"Why is it better to sort columns by [[Cardinality|Selectivity]]? - it's not better. Sort them according to your query pattern.","x":4816,"y":-205,"width":444,"height":140},
+		{"id":"049a5a7e30c75bb0","x":6820,"y":-720,"width":600,"height":280,"type":"file","file":"Soft skills/Management/Management.md"}
 	],
 	"edges":[
 		{"id":"19affa841bb06efe","fromNode":"30ce573f913b9bc3","fromSide":"bottom","toNode":"c13950c7bfaf1461","toSide":"top"},
