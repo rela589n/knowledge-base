@@ -2,8 +2,10 @@
 
 Always **balance** your new **theory** *with* **practice**.
 
+[[Focus]]
+
 [[Highlight Books]]
 
-[[How to process the information]]
+[[Processing the information]]
 
 [[Effective Learning and Cognitive Switch]]
