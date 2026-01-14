@@ -1,3 +1,4 @@
 File with general instructions, applicable to every coding session.
 
-[[Project Analysis Prompt]]
+You can use [[Project Analysis Prompt]] to generate it.
+

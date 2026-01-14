@@ -1,6 +1,7 @@
 ---
 aliases:
   - Prompt to Analyse the Project
+  - CLAUDE.md prompt
 ---
 Analyze this codebase and create a [[CLAUDE.md]] file following these principles:
 
