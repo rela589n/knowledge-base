@@ -7,3 +7,5 @@
 Cursor (IDE)
 
 [[Claude Code]]
+
+[[Spec-kit]]
