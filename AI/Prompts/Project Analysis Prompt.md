@@ -1,4 +1,8 @@
-Analyze this codebase and create a CLAUDE.md file following these principles:
+---
+aliases:
+  - Prompt to Analyse the Project
+---
+Analyze this codebase and create a [[CLAUDE.md]] file following these principles:
 
 1. Keep it under 150 lines total - focus only on universally applicable information
 2. Cover the essentials: WHAT (tech stack, project structure), WHY (purpose), and HOW (build/test commands)
