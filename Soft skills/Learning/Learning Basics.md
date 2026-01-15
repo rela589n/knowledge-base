@@ -2,6 +2,8 @@
 
 Always **balance** your new **theory** *with* **practice**.
 
+[[Learning Curve]]
+
 [[Focus]]
 
 [[Highlight Books]]
