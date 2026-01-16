@@ -13,3 +13,5 @@ exit
 ```
 
 This will output dumps into the file, so you can analyse it with [[Lnav]].
+
+Also, see [buggregator/trap](https://github.com/buggregator/trap) which provides better DX.
