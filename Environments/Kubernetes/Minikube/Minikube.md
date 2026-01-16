@@ -1,4 +1,6 @@
-**Minikube** allows to run [[Cluster|K8s Cluster]] with one [[K8s Nodes|Node]], acting both as a [[Master Node|Master]] and as a [[Worker Node|Worker]]. Used for **local setup**.
+**Minikube** is a [[Cluster|K8s Cluster]] on a single [[K8s Nodes|Node]],
+		which acts both as a [[Master Node|Master]] and as a [[Worker Node|Worker]].
+Used for **local setup**.
 
 `minikube start`
 `minikube status`

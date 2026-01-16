@@ -10,9 +10,9 @@ POD can be used for:
 - application ([[PHP-FPM]]+[[Nginx]] / [[RoadRunner]])
 - consumers
 
-[[Kubernetes|K8s]] offers virtual **network**. Each **POD** gets a unique **IP address**. 
-When **POD dies**, a **new IP address** will be used for the new Pod.
-
+[[Kubernetes|K8s]] offers virtual **network**.
+Each **POD** gets a unique **IP address**.
+When **POD dies**, a **new IP address** is used for the new Pod.
 Static address can be achieved with a [[Environments/Kubernetes/Components/Service/Service|Service]].
 
 You don't create PODs manually. You create [[Deployment]]s.

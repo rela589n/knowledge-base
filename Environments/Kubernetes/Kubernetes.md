@@ -18,6 +18,6 @@ Allows to deploy, scale, manage [[Container|Containers]]:
 
 [[kubectl]]
 
-[[Config file]]
+[[k8s Config file]]
 
 [[Dashboard]]
