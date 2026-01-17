@@ -1,5 +1,7 @@
 [[Interest is the best leverage you have to achieve anything in life]]
 
+[[Reading.excalidraw]]
+
 [[Brain Capacity]]
 
 Always **balance** your new **theory** *with* **practice**.
