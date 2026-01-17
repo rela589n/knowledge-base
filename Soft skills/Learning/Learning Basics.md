@@ -1,3 +1,5 @@
+[[Interest is the best leverage you have to achieve anything in life]]
+
 [[Brain Capacity]]
 
 Always **balance** your new **theory** *with* **practice**.
@@ -6,7 +8,7 @@ Always **balance** your new **theory** *with* **practice**.
 
 [[Focus]]
 
-[[Highlight Books]]
+[[Highlighting Books]]
 
 [[Processing the information]]
 
