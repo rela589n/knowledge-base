@@ -9,3 +9,4 @@
 
 You can use [[Project Analysis Prompt]] (or `/init`) to generate it.
 
+[[Response format (indentation-based)]]
