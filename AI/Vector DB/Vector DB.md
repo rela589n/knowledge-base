@@ -1,0 +1,1 @@
+**Vector DB** is a database that stores [[Chunk Overlap|Chunks]] of [[Embedding Vector|Vector Embeddings]] over many [[Dimension|Dimensions]]. 
