@@ -33,7 +33,7 @@ txt
 Vectorizer ^QQZaozXy
 
 ## Embedded Files
-ca49639e081935adc4e3c29cd68e1a8512e09979: [[Pasted Image 20260121122057_078.png]]
+ca49639e081935adc4e3c29cd68e1a8512e09979: [[DB.png]]
 
 %%
 ## Drawing
