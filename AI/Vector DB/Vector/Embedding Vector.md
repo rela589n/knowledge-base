@@ -11,4 +11,6 @@ Similar meanings are close to each other.
 
 ![[3D Vectors Angles.png]]
 
-If there are two thoughts in one sentence, building one vector for it will bring worse results than if there had been one thought per sentence.
+If there are two thoughts in one sentence,
+building one vector for it will bring worse results
+		than if there had been one thought per prompt.
