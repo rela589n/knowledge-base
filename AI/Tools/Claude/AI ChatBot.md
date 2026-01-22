@@ -3,9 +3,8 @@
 
 **Core Requirements**:
 - Chat interface for users to ask questions
-- Context-aware responses based on your documentation/FAQ
+- Context-aware responses based on your data (e.g. blog)
 - Conversation history (multi-turn dialogue)
-- Fallback to human support when AI can't help
 
 **Tech Stack**:
 - Symfony AI Bundle (Platform + Agent + Chat components)
