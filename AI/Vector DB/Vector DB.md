@@ -6,5 +6,3 @@ optimized for similar [[Embedding Vector|Vector]] search.
 
 These [[Embedding Vector|Vectors]] themselves are not sent to the LLM.
 	The underlying data is.
-
-What [[Chunk|Chunks]]?
