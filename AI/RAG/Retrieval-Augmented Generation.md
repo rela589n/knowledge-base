@@ -9,6 +9,8 @@ aliases:
 - No need to fine-tune a model
 - Data can be updated without retraining
 
+See [[RAG.excalidraw]]
+
 ## The Problem
 
 LLMs know nothing about your website and documents.
