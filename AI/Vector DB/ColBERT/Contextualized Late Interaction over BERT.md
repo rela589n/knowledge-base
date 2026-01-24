@@ -4,7 +4,8 @@ aliases:
 docs:
   - https://www.youtube.com/watch?v=xTzUn3G9YA0
 ---
-**ColBERT** - contextually creates individual [[Embedding Vector|Vectors]] and compares them. Much larger storage, but much better results.
+**Col-[[Bidirectional Encoder Representations from Transformers|BERT]]** - creates contextual individual [[Embedding Vector|Vectors]] and compares them.
+Much larger storage, but much better results.
 
 1. Tokenize:
    ![[1 - Tokenize Documents.png]]
