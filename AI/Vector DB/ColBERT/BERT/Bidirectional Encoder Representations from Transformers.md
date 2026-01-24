@@ -4,9 +4,7 @@ aliases:
 docs:
   - https://www.youtube.com/watch?v=_Fou4xbyESw
 ---
-BERT
-
-![[Words are Contextualized.png]]
+**BERT** - is [[Context|Contextualized]], reading bi-directionally.
 
 ![[Sentences are formed of Contextual Words.png]]
 
