@@ -11,9 +11,13 @@ Similar meanings are close to each other.
 
 ![[3D Vectors Angles.png]]
 
-If there are two thoughts in one sentence,
+If there are few thoughts in one sentence,
 building one vector for it will bring worse results
-		than having one thought per prompt.
+		than having one thought per prompt:
+- Multi-topic queries get "averaged" into one vector                          
+    - Semantic meaning gets diluted
+- Retrieved chunks may only match the "dominant" topic            
+    - Other topics in the query get under-represented 
 
 ColBERT tries to solve that.
 
