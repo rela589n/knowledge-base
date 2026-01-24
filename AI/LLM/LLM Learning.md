@@ -1,4 +1,5 @@
 How close must these [[Embedding Vector|Vectors]] be to be considered close?
+See [[Bidirectional Encoder Representations from Transformers|BERT]]
 
 Short answer: **No fixed threshold. It's relative.**
 
