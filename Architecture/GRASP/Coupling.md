@@ -1,4 +1,4 @@
-The extent of connection of <u>conceptually different</u> things together.
+The **extent** of connection of <b><u>conceptually different</u></b> things together.
 
 [[Extracting a hidden concept]] reduces [[Coupling]]
 (for example, Introduction of [[Strategy#^d7fee7|Strategy]])
