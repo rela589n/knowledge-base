@@ -17,3 +17,5 @@ Similarity is computed via [[Hamming Distance]] (extremely fast)
 
 - Works better with higher-dimensional embeddings
 	- More bits = less relative information loss
+
+`unpack_bits` - converts each bit back into float (`0.0` or `1.0`)
