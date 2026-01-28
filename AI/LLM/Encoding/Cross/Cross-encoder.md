@@ -14,3 +14,5 @@
 Typical role — **re-ranker**:
 - A [[Single-Vector Encoder]] retrieves top-k candidates cheaply
 - Cross-encoder re-scores those candidates for precision
+
+Example: [[Bidirectional Encoder Representations from Transformers|BERT]]
