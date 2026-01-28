@@ -1,6 +1,6 @@
 ---
 aliases:
-  - BQ
+  - pack_bits
 ---
 **Binary Quantization** — compresses [[Embedding Vector|Vectors]]
 	by converting each [[Dimension]] to a single bit (0 or 1).
