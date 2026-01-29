@@ -1,8 +1,8 @@
 {
-  "outputStyle": "Explanatory",
   "permissions": {
     "allow": [
       "WebFetch(domain:docs.vespa.ai)"
     ]
-  }
+  },
+  "outputStyle": "Explanatory"
 }
