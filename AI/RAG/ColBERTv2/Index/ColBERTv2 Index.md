@@ -4,7 +4,7 @@
 All document token [[Embedding Vector|Embeddings]] are stored in one [[ANN index]]
   Each [[Embedding Vector|Embedding]] is tagged with source document ID
   
-```
+``` 
 Index entry: (vector, doc_id, token_position)
 ```
 
