@@ -27,3 +27,4 @@ schema <name> {
 ```
 
 
+See also: [[Vespa Schema Changes]]

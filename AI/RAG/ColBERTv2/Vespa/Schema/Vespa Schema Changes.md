@@ -1,6 +1,5 @@
 ---
 aliases:
-  - Vespa Live Schema Update
 ---
 **Schema Changes** - Vespa applies schema modifications live with zero downtime, but enforces rules to protect data.
 

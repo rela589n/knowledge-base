@@ -4,6 +4,8 @@ aliases:
 ---
 **Application** - a deployed unit of configuration that tells Vespa what data to accept and how to handle it.
 
+One Vespa cluster runs one Application.
+
 ## Structure
 
 ```
