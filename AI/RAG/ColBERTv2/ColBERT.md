@@ -19,16 +19,18 @@ Larger storage, but much better results:
 	- Document embeddings are precomputed and indexed  
 	- "Late interaction" = only the final scoring step happens at query time
 
-1. Documents are [[ColBERTv2 Index|Indexed]]:
+1. Documents are [[ColBERTv2 Index|Indexed]] ahead of time:
 	- [[Token|Tokenized]] with [[Bidirectional Encoder Representations from Transformers|BERT]] tokenizer;
 	- [[Encoder|Encoded]] with [[ColBERT Encoding|Clever Encoding]];
 	- Each [[Embedding Vector|Vector]] is stored in the [[ColBERTv2 Index|Index]].
 	
 2. Queries are [[Token|Tokenized]] and [[Encoder|Encoded]] the same way;
 
-3. [[MaxSim]] score is computed ([[O (N**2)]]):
-   score each [[Token]] in the document
-	   and combine into an overall score
+3. [[ColBERTv2 Index|Index]] is looked up for candidates;
+
+4. For every [[MaxSim]] score is computed:
+   every query [[Token]] is scored against of document
+	   and the highest is added to the overall score
 
 Database: [[Vespa]]
 Python lib (separate): [RAGatouille](https://github.com/AnswerDotAI/RAGatouille)
