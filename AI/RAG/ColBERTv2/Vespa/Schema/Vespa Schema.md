@@ -1,3 +1,7 @@
+---
+aliases:
+  - Schema
+---
 **Schema** - like a database table definition + query configuration + ranking logic.
 
 - Document fields = what you store
