@@ -5,6 +5,12 @@ docs:
   - https://www.youtube.com/watch?v=xTzUn3G9YA0
 ---
 **Col-[[Bidirectional Encoder Representations from Transformers|BERT]]** - keeps contextual [[Embedding Vector|Vectors]] for each token.
+
+A hybrid approach:  
+- Encodes query and document separately (like bi-encoder)  
+- But keeps token-level embeddings (not pooled)  
+- Computes fine-grained matching at retrieval time
+
 Larger storage, but much better results.
 
 - Preserves granularity
@@ -14,7 +20,7 @@ Larger storage, but much better results.
 	- Document embeddings are precomputed and indexed  
 	- "Late interaction" = only the final scoring step happens at query time
 
-1. *Tokenize* q&d with [[Bidirectional Encoder Representations from Transformers|BERT]] tokenizer:
+1. *Tokenize* query & document with [[Bidirectional Encoder Representations from Transformers|BERT]] tokenizer:
    [[Tokenize Documents.png]]
 2. Contextually [[Encoder|Encode]] Tokens:
    [[Encode Tokens.png]]

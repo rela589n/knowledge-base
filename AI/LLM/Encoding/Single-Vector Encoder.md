@@ -13,7 +13,7 @@ aliases:
 	- At query time, only the query needs [[Encoder]]
 	- Search becomes a fast ANN lookup
 
-Contrast with **Cross-encoder**:
+Contrast with **[[Cross-encoder]]**:
 - Cross-encoder feeds query + document **together** into one model
 	- Tokens can attend to each other — more accurate
 	- But requires a forward pass **per document** — doesn't scale
