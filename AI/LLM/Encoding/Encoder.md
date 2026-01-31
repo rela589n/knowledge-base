@@ -1,6 +1,7 @@
 ---
 aliases:
   - Vectorizer
+  - Encode
 ---
 **Encoder** — a model that *reads*  input
 	and *compresses* it into a [[Embedding Vector|Vector]].
