@@ -3,7 +3,7 @@ https://github.com/vespa-engine/vespa
 [[Vespa Architecture]]
 
 Main Concepts:
-- [[Vespa Schema]] — How You Model Data
+- [[Schema]] — How You Model Data
 - Hybrid Search — How You Retrieve
 - Ranking — How You Order Results
 

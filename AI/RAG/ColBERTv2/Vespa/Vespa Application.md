@@ -19,7 +19,7 @@ my-app/
 ## Purpose
 
 - Specifies what services to run
-- Defines document fields, types, indexing ([[Vespa Schema|Schemas]])
+- Defines document fields, types, indexing ([[Schema|Schemas]])
 
 ## Key Point
 

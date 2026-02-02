@@ -6,7 +6,7 @@ aliases:
 
 ## Purpose
 
-- Partition documents without duplicating [[Vespa Schema|Schemas]]
+- Partition documents without duplicating [[Schema|Schemas]]
 - [[Multi-Tenancy]]: one namespace per customer
 
 ### Example

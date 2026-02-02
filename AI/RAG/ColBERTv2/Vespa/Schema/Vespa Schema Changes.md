@@ -17,7 +17,7 @@ aliases:
 
 Vespa rejects these to prevent data loss.
 
-## Forcing Breaking Changes
+### Forcing Breaking Changes
 
 - Add `validation-overrides.xml` to acknowledge data loss
 - Or create new schema + migrate data
