@@ -2,6 +2,7 @@
 aliases:
   - Vector
   - Token Vector
+  - Embedding
 ---
 **Embedding Vector** is multi-[[Dimension|Dimensional]] point that represents a <u><b>direction of thought</b></u>. A position in a menaing-space.
 
