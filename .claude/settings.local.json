@@ -4,5 +4,5 @@
       "WebFetch(domain:docs.vespa.ai)"
     ]
   },
-  "outputStyle": "Explanatory"
+  "outputStyle": "default"
 }

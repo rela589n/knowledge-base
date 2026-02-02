@@ -7,7 +7,7 @@ aliases:
 ## From Inside Container
 
 ```bash
-docker exec -it vespa bash
+docker compose exec -it vespa bash
 ```
 
 ### Prepare (validate config)
