@@ -2,7 +2,7 @@
 aliases:
   - Vespa Indexing Pipelines
 ---
-Vespa's `indexing` directive defines how field data is ***processed*** and ***stored***.
+Vespa's `indexing` directive defines ***how*  field** data *is* ***processed*** and ***stored***.
 
 ## Operations
 
