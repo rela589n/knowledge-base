@@ -29,6 +29,6 @@ schema <name> {
 }
 ```
 
-See [[Indexing Pipelines]]
+See [[Indexing Pipelines]], [[Field Types]]
 
 See also: [[Vespa Schema Changes]]

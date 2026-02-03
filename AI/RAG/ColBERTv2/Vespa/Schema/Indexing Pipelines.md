@@ -2,19 +2,19 @@
 aliases:
   - Vespa Indexing Pipelines
 ---
-Vespa's `indexing` directive defines ***how*  field** data *is* ***processed*** and ***stored***.
+Vespa's `indexing` directive defines ***how*  field** data *is* ***processed*** and ***stored***, determining how it will be queried.
 
 ## Operations
 
 | Operation   | Purpose                                        |
 | ----------- | ---------------------------------------------- |
-| `summary`   | Include in search results (returned to client) |
-| `index`     | Build text search index (full-text search)     |
+| `summary`   | Makes field available in responses             |
+| `index`     | Full-text on-disk index (if `string`)          |
 | `attribute` | Store in memory (sorting, filtering, grouping) |
 
 ## Pipeline
 
-The `|` chains operations — data flows through each in order:
+The Pipe `|` chains operations — data flows through each in order:
 
 ```
 indexing: input | lowercase | index | summary
