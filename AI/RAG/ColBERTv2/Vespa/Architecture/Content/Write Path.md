@@ -24,7 +24,7 @@ Gateway (container node):
 
 ### 2. Document ID → Bucket
 
-Gateway computes bucket ([[Bucket Distribution]]):
+Gateway computes bucket ([[Document-to-Bucket Distribution]]):
 
 ```
 "id:shop:product::SKU-789"
@@ -52,6 +52,8 @@ Ideal State Algorithm:
   input:  bucket ID + node list + redundancy
   output: [node0, node2]
 ```
+
+See [[Bucket-to-Node Distribution]]
 
 ### 5. Parallel Write
 

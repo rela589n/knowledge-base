@@ -25,8 +25,8 @@ Defined in `services.xml`:
 
 ## Key Concepts
 
-- **Redundancy** — how many copies of each document
-- **Distribution key** — identifies the node for data partitioning
+- **Redundancy** — how many [[Replica|Replicas]] of each document
+- **Distribution key** — identifies [[Bucket-to-Node Distribution]]
 - **Document type** — references a [[Schema]]
 
 ## Multiple Clusters
