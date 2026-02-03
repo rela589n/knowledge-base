@@ -10,7 +10,7 @@ final class Version2032000000000 extends AbstractMigration
 
     public function up(Schema $schema): void
     {
-        $this->addSql("ALTER TABLE products ADD search_vector TSVECTOR NOT NULL DEFAULT ''");
+        $this->addSql("ALTER TABLE products ADD search_vector TSVECTOR NOT NULL DEFAULT ''::TSVECTOR");
         $this->addSql('ALTER TABLE products ALTER search_vector DROP DEFAULT');
 
         $this->addSql('CREATE INDEX products_search_vector_idx ON products USING GIN (search_vector)');
