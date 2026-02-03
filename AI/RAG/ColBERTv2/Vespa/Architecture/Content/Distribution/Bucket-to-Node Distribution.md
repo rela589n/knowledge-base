@@ -56,7 +56,18 @@ Result: bucket `0x8C` → **node1, node2**
 **Avoid large gaps** in key sequence
 	wastes random number generations
 
+## Consistency Guarantee
+
+All [[Distributor|distributors]] compute **identical** bucket ownership
+	given the same [[Cluster Controller (health)|cluster state]] version
+
+No overlapping ownership possible
+	this is why distribution-key must never change
+	it's an input to the algorithm everyone relies on
+
 ## See Also
 
-- [[Document Write Path]]
+- [[Write Path]]
 - [[Content Cluster Scaling]]
+- [[Distributor]]
+- [[Cluster Controller (health)]]

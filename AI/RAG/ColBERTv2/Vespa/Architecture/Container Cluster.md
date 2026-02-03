@@ -1,6 +1,7 @@
 ---
 aliases:
   - Vespa middleware
+  - API entrypoint
 ---
 **Container Cluster** — the stateless middleware layer in [[Vespa Architecture|Vespa]].
 
