@@ -3,6 +3,7 @@ aliases:
 ---
 **Schema Changes** - Vespa applies schema modifications live with zero downtime, but enforces rules to protect data.
 
+https://docs.vespa.ai/en/basics/schemas.html#working-with-schemas
 ## Safe Changes - Applied Automatically
 
 - Add new fields

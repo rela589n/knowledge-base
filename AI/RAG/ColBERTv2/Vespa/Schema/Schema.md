@@ -31,4 +31,4 @@ schema <name> {
 
 See [[Indexing Pipelines]], [[Field Types]]
 
-See also: [[Vespa Schema Changes]]
+See also: [[Schema Evolution]]

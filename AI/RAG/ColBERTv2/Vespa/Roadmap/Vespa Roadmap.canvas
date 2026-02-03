@@ -1,0 +1,6 @@
+{
+	"nodes":[
+		{"id":"09113db353716619","x":-340,"y":-280,"width":517,"height":160,"type":"file","file":"AI/RAG/ColBERTv2/Vespa/Roadmap/Tasks/Vespa Hello World task.md"}
+	],
+	"edges":[]
+}
