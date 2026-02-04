@@ -12,7 +12,7 @@ Index entry: (vector, doc_id, token_position)
 
 1. **[[Encoder|Encode]] Query** → token [[Embedding Vector|Embeddings]] `[q1, q2, q3, ...]`
 
-2. **[[ANN index]] Search Per Token [[Embedding Vector|Vector]]** — each query token [[Embedding Vector|Vector]] finds K nearest neighbors:
+2. **[[ANN index]] Search Per Each [[Embedding Vector|Vector]]** — each query token [[Embedding Vector|Vector]] finds K nearest neighbors:
 ```
 q1 → [(doc_42, score), (doc_17, score), ...]
 q2 → [(doc_17, score), (doc_42, score), ...]
