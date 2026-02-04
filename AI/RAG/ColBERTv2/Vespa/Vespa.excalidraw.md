@@ -13,7 +13,7 @@ tags: [excalidraw]
 PHP ^7wd73xgx
 
 ## Embedded Files
-4941d1582e0e20227be14d77a84a9504c9ba4793: [[Pasted Image 20260129112655_706.png]]
+4941d1582e0e20227be14d77a84a9504c9ba4793: [[Vespa.png]]
 
 %%
 ## Drawing
