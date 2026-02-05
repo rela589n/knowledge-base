@@ -1,5 +1,6 @@
 ```bash
 #!/bin/bash
+set -e
 
 DUMP_FILE="/path/to/dump-file.sql"
 DB_NAME="your-db-name-prod"
