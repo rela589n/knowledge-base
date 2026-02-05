@@ -26,4 +26,4 @@ my-app/
 - Vespa won't serve port 8080 until an application is deployed
 - Deploy via config server on port 19071
 
-See also [[Vespa Deploy]]
+See also [[Vespa Deploy]], [[services.xml Overview]]
