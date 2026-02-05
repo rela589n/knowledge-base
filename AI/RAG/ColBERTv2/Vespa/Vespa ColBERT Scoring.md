@@ -13,3 +13,6 @@ expression: sum(                                 ← Step 3: sum over querytoken
   querytoken
 )
 ```
+
+It looks like that [[Vespa Sample Apps]] includes [[ColBERT]] (`colbert` and `colbert-long`).
+
