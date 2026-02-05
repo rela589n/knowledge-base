@@ -67,7 +67,7 @@ All steps applied to **both** document and query.
 
 ---
 
-### Why Match Modes Matter
+### Why [[Match Mode]]s Matter
 
 The `match` setting controls **which transformations** apply:
 
@@ -105,5 +105,5 @@ schema product {
 ## See Also
 
 - [[Matching vs Ranking]]
-- [[Index field]]
+- [[Indexing Configuration]]
 - [[Indexing Attribute field]]
