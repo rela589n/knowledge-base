@@ -4,6 +4,8 @@ aliases:
 ---
 **Deploy** - apply application configuration to Vespa.
 
+See [text-search tutorial](https://docs.vespa.ai/en/learn/tutorials/text-search.html#deploy-the-application-package)
+
 ## From Inside Container
 
 ```bash
