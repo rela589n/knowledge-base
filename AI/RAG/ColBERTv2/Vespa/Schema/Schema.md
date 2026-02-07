@@ -4,8 +4,9 @@ aliases:
 ---
 **Schema** - describes data stored and computations over it (ranking).
 
-> It's like a database table definition + query configuration + ranking logic.
-> All in one file.
+> It's like a database table definition
+> 		+ query configuration + ranking logic.
+> all in one file.
 
 - Document fields = what you store
 - Derived fields = what Vespa computes (embeddings, lengths)  
@@ -29,6 +30,6 @@ schema <name> {
 }
 ```
 
-See [[Indexing Pipelines]], [[Field Types]]
+See [[Indexing Pipelines]], [[Field Types]], [[Rank Profile]]
 
 See also: [[Schema Evolution]]

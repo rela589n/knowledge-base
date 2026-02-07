@@ -1,5 +1,6 @@
 ---
-aliases: []
+aliases:
+  - Index Field
 ---
 Vespa's `:` operator behaves differently depending on field type.
 

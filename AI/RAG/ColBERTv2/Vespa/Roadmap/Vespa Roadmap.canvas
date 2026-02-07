@@ -1,6 +1,11 @@
 {
 	"nodes":[
-		{"id":"09113db353716619","x":-340,"y":-280,"width":517,"height":160,"type":"file","file":"AI/RAG/ColBERTv2/Vespa/Roadmap/Tasks/Vespa Hello World task.md"}
+		{"id":"09113db353716619","type":"file","file":"AI/RAG/ColBERTv2/Vespa/Roadmap/Tasks/Vespa Hello World task.md","x":-659,"y":360,"width":517,"height":160},
+		{"id":"c29807c82d806a29","x":-280,"y":-120,"width":460,"height":300,"type":"file","file":"AI/RAG/ColBERTv2/Vespa/Roadmap/Tasks/Vespa Full Text Search Tutorial.md"},
+		{"id":"5546819d34400171","type":"file","file":"AI/RAG/ColBERTv2/Vespa/Roadmap/Vespa Sample Apps.md","x":340,"y":-480,"width":517,"height":220}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"96fe5a3a2c42be2a","fromNode":"09113db353716619","fromSide":"top","toNode":"c29807c82d806a29","toSide":"bottom"},
+		{"id":"e6570f6821e22068","fromNode":"c29807c82d806a29","fromSide":"top","toNode":"5546819d34400171","toSide":"bottom"}
+	]
 }
