@@ -3,25 +3,6 @@ aliases: []
 ---
 **Attribute** field - stores field value **in RAM** as a forward index (document → value).
 
-## Structure
-
-Column-oriented array, not a hash map:
-
-```
-Document ID:  [0]       [1]       [2]         [3]
-book:         Genesis   Exodus    Leviticus   Numbers
-chapter_num:  1         1         1           1
-```
-
-- Document ID = array index
-- Direct lookup: `doc[2].book` → "Leviticus" (O(1))
-
-## Why array, not hash map?
-
-- More memory-efficient (no key storage overhead)
-- Cache-friendly (sequential memory access)
-- Document IDs are sequential integers internally
-
 ## Enables
 
 - Sorting (`order by book`)
