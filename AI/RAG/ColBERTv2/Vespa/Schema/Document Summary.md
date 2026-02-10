@@ -4,8 +4,7 @@ aliases:
   - summary class
 ---
 **Document Summary** - a named configuration that defines
-	which fields to return
-		in query results.
+	which fields to return in query results.
 
 ### The Core Idea
 
