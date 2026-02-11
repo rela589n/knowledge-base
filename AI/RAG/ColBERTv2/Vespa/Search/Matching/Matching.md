@@ -42,7 +42,7 @@ Match? → Yes ✓
                     "run" → [doc1, doc47, doc302...]
 ```
 
-**`attribute`** — stores value directly in memory
+**[[Indexing Attribute field|attribute]]** — stores value directly in memory
 ```
 "The cat is running" → "the cat is running"
                               ↓
@@ -56,12 +56,12 @@ Match? → Yes ✓
 
 For example, `indexing: index` and `match: text`:
 
-| Step          | Input              | Output             |
-| ------------- | ------------------ | ------------------ |
-| Tokenization  | "Hello-World"      | ["Hello", "World"] |
-| Lowercasing   | ["Hello", "World"] | ["hello", "world"] |
-| Normalization | ["cafe"]           | ["cafe"]           |
-| Stemming      | ["running"]        | ["run"]            |
+| Step          | Input                | Output               |
+| ------------- | -------------------- | -------------------- |
+| Tokenization  | `"Hello-World"`      | `["Hello", "World"]` |
+| Lowercasing   | `["Hello", "World"]` | `["hello", "world"]` |
+| Normalization | `["café"]`           | `["cafe"]`           |
+| Stemming      | `["running"]`        | `["run"]`            |
 
 All steps applied to **both** document and query.
 
