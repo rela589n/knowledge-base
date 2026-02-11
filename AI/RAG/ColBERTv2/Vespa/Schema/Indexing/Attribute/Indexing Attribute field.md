@@ -3,6 +3,9 @@ aliases: []
 ---
 **Attribute** field — stores field value **in RAM** as a forward index (document → value).
 
+Like a database index — you query using the index,
+  but you keep the underlying table ([[Document Store]]) to rebuild it when needed.
+
 ## Structure
 
 Column-oriented — each field is a separate array indexed by document ID:
@@ -60,7 +63,15 @@ field book type string {
 
 10 million documents × 100-byte attribute ≈ 1 GB RAM
 
-### `paged` — spilling to disk
+### `paged` — letting OS manage memory
+
+All attributes are persisted to disk as snapshots — both normal and paged.
+The difference is what happens after startup:
+
+```
+Normal:  disk → load all into RAM → serve from RAM (disk sits idle)
+Paged:   disk → memory-map       → OS caches what it can → page faults for the rest
+```
 
 ```vespa
 field book type string {
@@ -68,8 +79,6 @@ field book type string {
     attribute: paged
 }
 ```
-
-Memory-maps the file — the OS decides what stays in RAM and what spills to disk.
 
 Trade-offs:
 - Latency becomes unpredictable (page faults when data is on disk)

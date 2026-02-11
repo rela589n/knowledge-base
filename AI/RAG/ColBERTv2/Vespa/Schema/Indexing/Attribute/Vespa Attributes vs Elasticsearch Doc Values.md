@@ -28,3 +28,18 @@ The difference is **who manages memory**.
 
 - <b><u>Latency-critical</u> workloads</b> where page faults are unacceptable
 - <b><u>Predictable</u> performance</b> matters more than cost
+
+## Vespa `paged` — the middle ground
+
+`paged` attribute is Vespa adopting the Elasticsearch approach for a specific field.
+Memory-maps the file instead of loading it into RAM — the OS manages caching.
+
+|                    | Regular attribute  | Paged attribute    | ES doc values      |
+| ------------------ | ------------------ | ------------------ | ------------------ |
+| Who manages memory | Vespa              | OS                 | OS                 |
+| Disk role          | Backup only        | Actively read      | Actively read      |
+| Latency            | Predictable        | Depends on cache   | Depends on cache   |
+| Startup            | Load all into RAM  | Just open the file | Just open the file |
+
+Avoid `paged` with HNSW or first-phase ranking
+  — those access many documents, and relying on OS cache is a gamble.
