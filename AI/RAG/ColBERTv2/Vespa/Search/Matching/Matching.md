@@ -1,6 +1,6 @@
 ---
 aliases:
-  - Match Properties
+  - Field Matching
 ---
 **Matching** is the process of determining
   whether a document's field content

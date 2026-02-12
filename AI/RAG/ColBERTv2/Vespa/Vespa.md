@@ -5,7 +5,7 @@ https://github.com/vespa-engine/vespa
 Main Concepts:
 - [[Schema]] — How You Model Data
 - Hybrid Search — How You Retrieve
-- Ranking — How You Order Results
+- [[Matching vs Ranking]] — Match and Order Results
 
 For [[Retrieval-Augmented Generation|RAG]]:
 - [[Vespa RAGSearcher|RAGSearcher]] — How You Connect to LLM
