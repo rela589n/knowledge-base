@@ -1,6 +1,9 @@
 ---
 aliases:
   - pack_bits
+  - Vector Binirizing
+docs:
+  - https://docs.vespa.ai/en/rag/binarizing-vectors
 ---
 **Binary Quantization** — compresses [[Embedding Vector|Vectors]]
 	by converting each [[Dimension]] into a single bit (0 or 1).

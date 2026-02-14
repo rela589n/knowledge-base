@@ -21,7 +21,7 @@ Larger storage, but much better results:
 
 1. Documents are [[ColBERTv2 Index|Indexed]] ahead of time:
 	- [[Token|Tokenized]] with [[Bidirectional Encoder Representations from Transformers|BERT]] tokenizer;
-	- [[Encoder|Encoded]] with [[ColBERT Encoding|Clever Encoding]];
+	- [[Encoder|Encoded]] with a [[ColBERT Encoding|Smart ColBERT Encoding]];
 	- Each [[Embedding Vector|Vector]] is stored in the [[ColBERTv2 Index|Index]].
 	
 2. Queries are [[Token|Tokenized]] and [[Encoder|Encoded]] the same way;
