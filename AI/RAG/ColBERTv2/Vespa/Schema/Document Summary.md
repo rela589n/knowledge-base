@@ -1,11 +1,8 @@
 ---
 aliases:
-  - document-summary
-  - summary class
 ---
-**Document Summary** - a named configuration that defines
-	which fields to return
-		in query results.
+**Document Summary** - a configuration that exposes fields
+	to be returned in query results.
 
 ### The Core Idea
 
@@ -63,11 +60,18 @@ Request in query:
 
 ---
 
-### Why Use Custom Summaries?
+### Why have `summary` in the first place?
 
-**Performance**
-- attribute fields → memory-only (fast)
-- non-attribute fields → disk I/O (slow)
+Not every field should be exposed to clients.
+
+`summary` in the schema defines what's **available** to return — a prerequisite.
+YQL `select` then picks from that set at query time.
+
+A field without `summary` simply **cannot** be returned in query responses, even if requested.
+
+---
+
+### Why Use Custom Summaries?
 
 Creating attribute-only summaries = faster responses:
 ```vespa
@@ -81,6 +85,10 @@ document-summary fast-summary {
 **Bandwidth**
 - return only what the client needs
 - skip large fields (embeddings, full text)
+
+**Performance considerations**
+- attribute fields → memory-only (fast)
+- non-attribute fields → disk I/O (slow)
 
 ---
 

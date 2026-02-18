@@ -6,12 +6,12 @@ Vespa's `indexing` directive defines ***how*  field** data *is* ***processed*** 
 
 ## Operations
 
-| Operation     | Purpose                                        |
-| ------------- | ---------------------------------------------- |
-| `summary`     | Makes field available in responses             |
-| `index`       | Full-text on-disk index (if `string`)          |
-| `attribute`   | Store in memory (sorting, filtering, grouping) |
-| `enable-bm25` | Enable [[Best Match 25\|BM25]] usage.          |
+| Operation     | Purpose                                          |
+| ------------- | ------------------------------------------------ |
+| `summary`     | Makes field available in responses               |
+| `index`       | Full-text on-disk index (if `string`) - stemming |
+| `attribute`   | Store in memory (sorting, filtering, grouping)   |
+| `enable-bm25` | Enable [[Best Match 25\|BM25]] usage.            |
 
 ## Pipeline
 

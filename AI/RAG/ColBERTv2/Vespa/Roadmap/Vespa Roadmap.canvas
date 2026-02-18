@@ -1,11 +1,13 @@
 {
 	"nodes":[
 		{"id":"09113db353716619","type":"file","file":"AI/RAG/ColBERTv2/Vespa/Roadmap/Tasks/Vespa Hello World task.md","x":-659,"y":360,"width":517,"height":160},
-		{"id":"c29807c82d806a29","x":-280,"y":-120,"width":460,"height":300,"type":"file","file":"AI/RAG/ColBERTv2/Vespa/Roadmap/Tasks/Vespa Full Text Search Tutorial.md"},
-		{"id":"5546819d34400171","type":"file","file":"AI/RAG/ColBERTv2/Vespa/Roadmap/Vespa Sample Apps.md","x":340,"y":-480,"width":517,"height":220}
+		{"id":"c29807c82d806a29","type":"file","file":"AI/RAG/ColBERTv2/Vespa/Roadmap/Tasks/Vespa Full Text Search Tutorial.md","x":-280,"y":-120,"width":460,"height":300},
+		{"id":"5546819d34400171","type":"file","file":"AI/RAG/ColBERTv2/Vespa/Roadmap/Vespa Sample Apps.md","x":860,"y":-640,"width":517,"height":220},
+		{"id":"11ffefda56217d0a","type":"file","file":"AI/RAG/ColBERTv2/Vespa/Roadmap/Tasks/Vespa Product Ranking.md","x":460,"y":-180,"width":500,"height":230},
+		{"id":"ee66bed0db0d51f7","x":40,"y":-600,"width":440,"height":320,"type":"file","file":"AI/RAG/ColBERTv2/Vespa/Roadmap/Tasks/Vespa Full Text with AI.md"}
 	],
 	"edges":[
 		{"id":"96fe5a3a2c42be2a","fromNode":"09113db353716619","fromSide":"top","toNode":"c29807c82d806a29","toSide":"bottom"},
-		{"id":"e6570f6821e22068","fromNode":"c29807c82d806a29","fromSide":"top","toNode":"5546819d34400171","toSide":"bottom"}
+		{"id":"8f081d1933527583","fromNode":"c29807c82d806a29","fromSide":"top","toNode":"ee66bed0db0d51f7","toSide":"bottom"}
 	]
 }

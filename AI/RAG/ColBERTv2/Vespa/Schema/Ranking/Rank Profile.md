@@ -7,8 +7,7 @@ aliases:
 
 - Multiple profiles per schema
 - Selected via `ranking.profile` query parameter
-- Can inherit from other profiles
-- Default uses `nativeRank`;
+- Default uses [[nativeRank()]];
   `unranked` skips scoring for performance
 
 ## Multi-Phase Ranking
