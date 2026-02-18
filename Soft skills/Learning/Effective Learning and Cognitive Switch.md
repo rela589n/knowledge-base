@@ -24,7 +24,7 @@ KrZr6EmY: [[Brain Jungle Mode]]
 RpurG97U: [[Organizing Mode]]
 
 ## Embedded Files
-19bcd84ee7825d978a84736038d845a4e5ef30b1: [[Learning Stream.png]]
+19bcd84ee7825d978a84736038d845a4e5ef30b1: [[Learning Flow.png]]
 
 %%
 ## Drawing

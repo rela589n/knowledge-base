@@ -1,4 +1,4 @@
-[[Learning - from the ground up]]
+[[Learning - from the foundation]]
 
 Taking notes - Obsidian
 
