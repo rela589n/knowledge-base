@@ -14,6 +14,8 @@
 
 [[Hard Topics.excalidraw]]
 
+[[Learning Strategies.excalidraw]]
+
 Always **balance** your new **theory** *with* **practice**.
 
 [[Processing the information]]
