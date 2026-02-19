@@ -9,7 +9,7 @@ aliases:
 - Distributes configuration to all nodes
 - Manages application deployment
 - Tracks cluster state
-- Source of truth for the application package
+- **Source of truth** for the application package
 
 ## Port
 

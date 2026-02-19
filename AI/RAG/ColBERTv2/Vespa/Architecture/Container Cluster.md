@@ -4,6 +4,7 @@ aliases:
   - API entrypoint
 ---
 **Container Cluster** — the stateless middleware layer in [[Vespa Architecture|Vespa]].
+Deployed on `:8080` by default.
 
 ## Role
 
@@ -32,7 +33,3 @@ Defined in `services.xml`:
 - **Document processors** — transform documents before indexing
 - **Handlers** — custom HTTP endpoints
 - **Components** — shared services (written in Java)
-
-## Port
-
-Listens on `:8080` by default.
