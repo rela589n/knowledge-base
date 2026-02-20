@@ -17,7 +17,7 @@ aliases:
 
 **Goal**: order candidates by relevance.
 
-- Evaluates [[Rank Profile]] expressions
+- Evaluates [[Ranking]] expressions
 - Computes scores from rank features
 - Multi-phase refinement
 - Result: ordered list

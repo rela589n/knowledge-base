@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:docs.vespa.ai)"
+      "WebFetch(domain:docs.vespa.ai)",
+      "WebFetch(domain:vinted.engineering)"
     ]
   },
   "outputStyle": "default"

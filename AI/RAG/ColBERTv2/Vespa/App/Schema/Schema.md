@@ -30,6 +30,6 @@ schema <name> {
 }
 ```
 
-See [[Indexing Pipelines]], [[Field Types]], [[Rank Profile]]
+See [[Indexing Pipelines]], [[Field Types]], [[Ranking]]
 
 See also: [[Schema Evolution]]

@@ -5,18 +5,17 @@ aliases:
 ---
 **Rank Profile** - defines how to score and order matching documents.
 
-- Multiple profiles per schema
+- Default uses [[nativeRank()]]
 - Selected via `ranking.profile` query parameter
-- Default uses [[nativeRank()]];
-  `unranked` skips scoring for performance
+- `unranked` skips scoring for performance
 
 ## Multi-Phase Ranking
 
 Vespa ranks in layers, progressively refining results:
 
-1. **First-phase** — all matching documents
+1. **First-phase** — all matching documents - when request's scattered to the **content nodes**
 	- Fast, lightweight expressions
-2. **Second-phase** — top k docs (default 1000/node)
+2. **Second-phase** — top k docs (1000/node)
 	- More expensive models
 3. **Global-phase** — after merging across nodes
 	- Final reranking (typically top ~20)
