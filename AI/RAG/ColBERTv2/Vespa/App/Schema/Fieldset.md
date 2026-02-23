@@ -63,7 +63,7 @@ Fields in a fieldset should have **similar settings**:
   - same indexing type
   - same [[Match Mode]]
 
-Mixing different match modes
+Mixing different [[Match Mode]]s
   → deployment warning
   → unpredictable behavior
 

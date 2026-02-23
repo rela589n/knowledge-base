@@ -9,7 +9,7 @@ aliases:
 - Selected via `ranking.profile` query parameter
 - `unranked` skips scoring for performance
 
-## Multi-Phase Ranking
+## Ranking Phases
 
 Vespa ranks in layers, progressively refining results:
 
