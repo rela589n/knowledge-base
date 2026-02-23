@@ -25,3 +25,12 @@ rank-profile tags {
 }
 ```
 
+Tags is a [[Weighted Set]]:
+
+```sd
+field tags type weightedset<string> {
+	indexing: summary | attribute
+	attribute: fast-search
+}
+```
+
