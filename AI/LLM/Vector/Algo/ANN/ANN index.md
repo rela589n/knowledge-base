@@ -1,0 +1,4 @@
+---
+aliases:
+  - Approximate Nearest Neighbour
+---

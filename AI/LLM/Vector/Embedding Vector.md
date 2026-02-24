@@ -3,14 +3,22 @@ aliases:
   - Vector
   - Token Vector
   - Embedding
+  - Dense Representations
 ---
-**Embedding Vector** is multi-[[Dimension|Dimensional]] point that represents a <u><b>direction of thought</b></u>. A position in a menaing-space.
+**Embedding Vector** is multi-[[Dimension|Dimensional]] point that represents a <u><b>direction of thought</b></u>. A position in a meaning-space.
 
-Similar meanings are close to each other.
-
-![[Similar Words - Similar Vectors.png]]
+Characteristics:
+- [[Dimension]]
+- Data type
+- [[Distance Metric|Distance Metric]]
 
 ![[3D Vectors Angles.png]]
+
+Similar things are close to each other.
+
+![[BlowBall.png]]
+
+![[Similar Words - Similar Vectors.png]]
 
 If there are few thoughts in one sentence,
 building one vector for it will bring worse results

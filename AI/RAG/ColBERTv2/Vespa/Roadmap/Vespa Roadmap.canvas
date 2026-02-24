@@ -2,17 +2,21 @@
 	"nodes":[
 		{"id":"09113db353716619","type":"file","file":"AI/RAG/ColBERTv2/Vespa/Roadmap/Tasks/Vespa Hello World task.md","x":-659,"y":360,"width":517,"height":160},
 		{"id":"c29807c82d806a29","type":"file","file":"AI/RAG/ColBERTv2/Vespa/Roadmap/Tasks/Vespa Full Text Search Tutorial.md","x":-280,"y":-120,"width":460,"height":300},
-		{"id":"5546819d34400171","type":"file","file":"AI/RAG/ColBERTv2/Vespa/Roadmap/Vespa Sample Apps.md","x":860,"y":-640,"width":517,"height":220},
-		{"id":"ee66bed0db0d51f7","type":"file","file":"AI/RAG/ColBERTv2/Vespa/Roadmap/Tasks/Vespa Full Text with AI.md","x":-362,"y":-740,"width":440,"height":320},
-		{"id":"11ffefda56217d0a","type":"file","file":"AI/RAG/ColBERTv2/Vespa/Roadmap/Tasks/Vespa Product Ranking.md","x":1000,"y":30,"width":500,"height":230},
-		{"id":"e96a76044e23ed73","type":"text","text":"**Vespa Phased Ranking**\nhttps://docs.vespa.ai/en/ranking/phased-ranking.html","x":808,"y":440,"width":442,"height":126},
-		{"id":"44b93c0e6bfc370f","type":"file","file":"AI/RAG/ColBERTv2/Vespa/Roadmap/Tasks/Vespa Full Text Product Vector Search.md","x":340,"y":-260,"width":468,"height":200},
-		{"id":"833e5ff0037eaca3","type":"text","text":"Embedding","x":466,"y":5,"width":250,"height":60},
-		{"id":"84a8f0edfa0403a4","type":"text","text":"**Vespa Performance Guide**\n\nhttps://docs.vespa.ai/en/performance/practical-search-performance-guide\n","x":1338,"y":419,"width":502,"height":147},
-		{"id":"eb90b1c7112b378f","type":"text","text":"**Life of a Query in Vespa:**\nhttps://docs.vespa.ai/en/performance/sizing-search.html#life-of-a-query-in-vespa","x":180,"y":419,"width":472,"height":131},
-		{"id":"9fc11503d881652e","x":211,"y":660,"width":410,"height":163,"type":"text","text":"**CBOR Format:**\nhttps://docs.vespa.ai/en/performance/practical-search-performance-guide#hits-and-summaries"}
+		{"id":"eb90b1c7112b378f","type":"text","text":"**Life of a Query in Vespa:**\nhttps://docs.vespa.ai/en/performance/sizing-search.html#life-of-a-query-in-vespa","x":1200,"y":414,"width":472,"height":131},
+		{"id":"84a8f0edfa0403a4","type":"text","text":"**Vespa Performance Guide**\n\nhttps://docs.vespa.ai/en/performance/practical-search-performance-guide\n","x":2358,"y":414,"width":502,"height":147},
+		{"id":"e96a76044e23ed73","type":"text","text":"**Vespa Phased Ranking**\nhttps://docs.vespa.ai/en/ranking/phased-ranking.html","x":1828,"y":435,"width":442,"height":126},
+		{"id":"6acf9a5bf424b2f7","type":"text","text":"**WAND:**\nhttps://docs.vespa.ai/en/ranking/wand.html\n","x":1200,"y":675,"width":582,"height":116},
+		{"id":"9fc11503d881652e","type":"text","text":"**CBOR Format:**\nhttps://docs.vespa.ai/en/performance/practical-search-performance-guide#hits-and-summaries","x":1828,"y":675,"width":410,"height":163},
+		{"id":"5546819d34400171","type":"file","file":"AI/RAG/ColBERTv2/Vespa/Roadmap/Vespa Sample Apps.md","x":1436,"y":-640,"width":517,"height":220},
+		{"id":"11ffefda56217d0a","type":"file","file":"AI/RAG/ColBERTv2/Vespa/Roadmap/Tasks/Vespa Product Ranking.md","x":2020,"y":25,"width":500,"height":230},
+		{"id":"ee66bed0db0d51f7","type":"file","file":"AI/RAG/ColBERTv2/Vespa/Roadmap/Tasks/Vespa Full Text with AI.md","x":360,"y":-120,"width":440,"height":320},
+		{"id":"4982a7f257334785","type":"file","file":"AI/RAG/ColBERTv2/Vespa/Roadmap/Tasks/Vespa - Intro into Vector Search.md","x":80,"y":-600,"width":420,"height":220},
+		{"id":"44b93c0e6bfc370f","type":"file","file":"AI/RAG/ColBERTv2/Vespa/Roadmap/Tasks/Vespa Full Text Product Vector Search.md","x":800,"y":-600,"width":468,"height":200},
+		{"id":"833e5ff0037eaca3","type":"text","text":"Embedding","x":950,"y":-120,"width":250,"height":60}
 	],
 	"edges":[
-		{"id":"96fe5a3a2c42be2a","fromNode":"09113db353716619","fromSide":"top","toNode":"c29807c82d806a29","toSide":"bottom"}
+		{"id":"96fe5a3a2c42be2a","fromNode":"09113db353716619","fromSide":"top","toNode":"c29807c82d806a29","toSide":"bottom"},
+		{"id":"8fa379a591727256","fromNode":"c29807c82d806a29","fromSide":"top","toNode":"4982a7f257334785","toSide":"bottom"},
+		{"id":"9d456bb94176ff3b","fromNode":"4982a7f257334785","fromSide":"bottom","toNode":"ee66bed0db0d51f7","toSide":"top"}
 	]
 }

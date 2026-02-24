@@ -1,4 +1,4 @@
-Read https://docs.vespa.ai/en/learn/tutorials/text-search.html
+See [tutorial](https://docs.vespa.ai/en/learn/tutorials/text-search.html)
 
 Implement full text search.
 See also [sample-app](https://github.com/vespa-engine/sample-apps/tree/master/text-search).
