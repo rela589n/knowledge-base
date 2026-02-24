@@ -17,6 +17,7 @@ Characteristics:
 Similar things are close to each other.
 
 ![[BlowBall.png]]
+(see [[Vespa - Intro into Vector Search]])
 
 ![[Similar Words - Similar Vectors.png]]
 
