@@ -2,7 +2,7 @@
 
 ```yaml
 api_frontend_feature_name:
-  resource: '../../Domain/**/{*FrontendApiPoint.php}'
+  resource: '../../../**/{*FrontendApiPoint.php}'
   type: attribute
   prefix: /api/frontend/feature-name
   host: "%api_host%"

@@ -1,1 +1,0 @@
-Implement search for products.
