@@ -2,9 +2,9 @@
 aliases:
   - Vespa Dot Product Search and Sort
   - Vespa Nearest Neighbour
+docs:
+  - https://docs.vespa.ai/en/querying/nearest-neighbor-search-guide#maximum-inner-product-search-using-vespa-wand
 ---
-See [tutorial](https://docs.vespa.ai/en/querying/nearest-neighbor-search-guide#maximum-inner-product-search-using-vespa-wand)
-
 ```shell
 vespa query \
     'yql=select * from track where {targetHits:10}wand(tags, @userProfile)' \

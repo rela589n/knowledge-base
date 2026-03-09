@@ -1,7 +1,6 @@
 ---
 aliases:
-  - Rank Profiles
-  - rank-profile
+  - Rank Profile
 ---
 **Rank Profile** - defines how to score and order matching documents.
 
