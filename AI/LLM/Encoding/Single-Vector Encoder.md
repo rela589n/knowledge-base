@@ -10,13 +10,12 @@ aliases:
 	- Encoding the **query** → single [[Embedding Vector|Vector]]
 	- Encoding the **document** → single [[Embedding Vector|Vector]]
 - Document [[Embedding Vector|Vectors]] are indexed offline
-	- At query time, only the query needs [[Encoder]]
+	- Thus, only the query needs [[Encoder]] at query time
 	- Search becomes a fast [[ANN index]] lookup
 
 > Limitation: entire document is compressed into one [[Embedding Vector|Vector]],
 	 thus fine-grained token-level details get diluted.
 > [[ColBERT|ColBERT]] addresses this by late interaction.
-
 
 Contrast with **[[Cross-encoder]]**:
 - Cross-encoder feeds query + document **together** into one model
