@@ -1,1 +1,2 @@
-AI can know that it don't know something by veryfying that the vector is not close enough to anything known. It's just as you when you encounter the unknown word - it just don't click on the inside of you. It is not close enough to anything that you know.
+AI can know that it don't know something by verifying that the vector is not close enough to anything known.
+It's just as you when you encounter the unknown word - it just don't click on the inside of you. It is not close enough to anything that you know.

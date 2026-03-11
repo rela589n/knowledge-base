@@ -5,10 +5,10 @@ aliases:
 docs:
   - https://docs.vespa.ai/en/rag/binarizing-vectors
 ---
-**Binary Quantization** — compresses [[Embedding Vector|Vectors]]
+**Binary [[Quantization]]** — compresses [[Embedding Vector|Vectors]]
 	by converting each [[Dimension]] into a single bit (0 or 1).
 
-- Values above a threshold (usually 0) become `1`,
+- Values above a threshold become `1`,
   values below become `0`;
 - A 768-dim float32 [[Embedding Vector|Vector]] (3072 bytes) shrinks to 96 bytes
   (**32x** compression).
