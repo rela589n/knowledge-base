@@ -10,3 +10,4 @@ https://docs.vespa.ai/en/rag/model-hub.html
 One might check `jina-embeddings-v5-text-nano`, but it's licenced (CC BY-NC), - non-commercial purposes, or it has to be paid for if used.
 
 For commercial check `embeddinggemma-300m`.
+For model configuration, you can check [pyvespa/models.py](https://github.com/vespa-engine/pyvespa/blob/dc1d0c8afa0661f7dbf7104b435cebf54a393dde/vespa/models.py#L814-L825)
