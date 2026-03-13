@@ -7,7 +7,6 @@
 		{"id":"5546819d34400171","type":"file","file":"AI/RAG/ColBERTv2/Vespa/Roadmap/Vespa Sample Apps.md","x":2860,"y":-516,"width":517,"height":220},
 		{"id":"4982a7f257334785","type":"file","file":"AI/RAG/ColBERTv2/Vespa/Roadmap/Tasks/Vespa - Intro into Vector Search.md","x":80,"y":-580,"width":600,"height":340},
 		{"id":"9fc11503d881652e","type":"text","text":"**CBOR Format:**\nhttps://docs.vespa.ai/en/performance/practical-search-performance-guide#hits-and-summaries","x":2647,"y":652,"width":410,"height":163},
-		{"id":"5effaebb606bd1ab","type":"text","text":"**SPLADE** vs **ColBERT**","x":1861,"y":-120,"width":312,"height":54},
 		{"id":"eb90b1c7112b378f","type":"text","text":"**Life of a Query in Vespa:**\nhttps://docs.vespa.ai/en/performance/sizing-search.html#life-of-a-query-in-vespa","x":919,"y":243,"width":472,"height":131},
 		{"id":"e96a76044e23ed73","type":"text","text":"**Vespa Phased Ranking**\nhttps://docs.vespa.ai/en/ranking/phased-ranking.html","x":1484,"y":248,"width":442,"height":126},
 		{"id":"833e5ff0037eaca3","type":"text","text":"Embedding","x":1611,"y":445,"width":250,"height":60},
@@ -16,9 +15,12 @@
 		{"id":"ee66bed0db0d51f7","type":"file","file":"AI/RAG/ColBERTv2/Vespa/Roadmap/Tasks/Vespa Learn to Rank with AI.md","x":3320,"y":-120,"width":440,"height":320},
 		{"id":"11ffefda56217d0a","type":"file","file":"AI/RAG/ColBERTv2/Vespa/Roadmap/Tasks/Vespa Product Ranking.md","x":3070,"y":422,"width":500,"height":230},
 		{"id":"83b4369e479a2a2b","type":"file","file":"AI/RAG/ColBERTv2/Vespa/Roadmap/Tasks/Vespa Multilingual Search.md","x":868,"y":-580,"width":500,"height":320},
-		{"id":"580e2258594a96ea","type":"text","text":"**Vespa Vector Indexing**","x":1680,"y":-580,"width":337,"height":93},
 		{"id":"44b93c0e6bfc370f","type":"file","file":"AI/RAG/ColBERTv2/Vespa/Roadmap/Tasks/Vespa Meaningful Semantic Text Product Vector Search.md","x":500,"y":-1060,"width":540,"height":307},
-		{"id":"9d40301eb27956cc","type":"file","file":"AI/RAG/ColBERTv2/Vespa/Vespa Multi-Vector Indexing.md","x":1501,"y":-1060,"width":514,"height":240}
+		{"id":"9d40301eb27956cc","type":"file","file":"AI/RAG/ColBERTv2/Vespa/Vespa Multi-Vector Indexing.md","x":1501,"y":-1060,"width":514,"height":240},
+		{"id":"b438f84bb66c0419","type":"text","text":"**Bolding**","x":2142,"y":-592,"width":250,"height":60},
+		{"id":"ae0fff4040800ef0","x":1540,"y":-460,"width":540,"height":340,"type":"file","file":"AI/RAG/ColBERTv2/Vespa/Streaming/Vespa User-Separated Data.md"},
+		{"id":"5effaebb606bd1ab","type":"text","text":"**SPLADE** vs **ColBERT**","x":1654,"y":-13,"width":312,"height":54},
+		{"id":"580e2258594a96ea","type":"text","text":"**Vespa Vector Indexing**","x":1590,"y":-720,"width":337,"height":93}
 	],
 	"edges":[
 		{"id":"96fe5a3a2c42be2a","fromNode":"09113db353716619","fromSide":"top","toNode":"c29807c82d806a29","toSide":"bottom"},
