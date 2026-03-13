@@ -1,7 +1,7 @@
 ---
 aliases:
   - Vespa Dot Product Search and Sort
-  - Vespa Nearest Neighbour
+  - Vespa Nearest Neighbour Set
 docs:
   - https://docs.vespa.ai/en/querying/nearest-neighbor-search-guide#maximum-inner-product-search-using-vespa-wand
 ---
