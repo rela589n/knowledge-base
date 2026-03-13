@@ -10,6 +10,7 @@ aliases:
 Characteristics:
 - [[Dimension]]
 - Data type
+- [[Vector Length|Length]]
 - [[Distance Metric|Distance Metric]]
 
 ![[3D Vectors Angles.png]]
