@@ -8,7 +8,12 @@ An example with configurable nesting:
 
 ```php
 $depth = 7;
-$nestingPattern = str_repeat('{,*/}', $depth);
+$prefixes = array_map(
+    static fn (int $level): string => str_repeat('*/', $level),
+    range(1, $depth),
+);
+
+$nestingPattern = '{'.implode(',', $prefixes).'}';
 
 /** @var list<string> $glob */
 $glob = glob(
