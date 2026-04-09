@@ -1,6 +1,7 @@
 ```shell
 ping db-host          # Checks if host is alive
 telnet db-host 5432   # Checks if PgSQL is listening
+nc -zv db-host 5432
 ```
 
 Ping uses ICMP, which could be blocked for security reasons.
