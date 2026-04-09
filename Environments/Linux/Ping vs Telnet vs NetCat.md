@@ -9,3 +9,8 @@ Telnet uses TCP.
 
 NetCat also supports UDP.
 
+```
+sudo apt-get update
+sudo apt-get install -y netcat-openbsd
+```
+
