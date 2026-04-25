@@ -6,8 +6,10 @@ aliases:
 ##### Schema changes
 
 In [[PostgreSQL]] Schema changes are **[[Transaction|Transactional]]**;
-
 In [[MySQL]] they aren't.
+
+In [[PostgreSQL]] there's **no** table **lock on change**.
+In [[MySQL]] it's all locked.
 
 ##### Deferred Constraints
 
