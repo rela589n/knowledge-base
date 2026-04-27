@@ -1,4 +1,4 @@
-First of all, thank you for writing this beautiful "Architecture of Complex Web Applications" book. It's awesome, and it's the book, that makes you think.
+First of all, thank you for writing your beautiful "Architecture of Complex Web Applications" book. It's awesome! It's the book, that makes you think.
 
 I would like to emphasize on chapter `6-validation.md`, where you say about Value objects and validation.
 
