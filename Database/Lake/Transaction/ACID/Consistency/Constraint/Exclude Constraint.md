@@ -7,3 +7,5 @@ docs:
 It uses [[GIST Index]].
 
 **Equals** operator does create [[Unique Constraint]].
+
+Example: [[PostgreSQL Exclude Constraint]]
