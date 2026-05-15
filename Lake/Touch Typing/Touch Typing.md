@@ -3,6 +3,9 @@ See Layout:
 ![[Touch Typing Layout.png]]
 
 
+Good to study: [[Typing.com]], using [[WorkMan Layout]]
+
+![[WorkMan Layout.png]]
 
 ## Removing subvocalization:
 
