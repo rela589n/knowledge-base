@@ -78,3 +78,87 @@ On [[Typing.com]], you can use this script to adjust the layout:
     });
 })();
 ```
+
+To re-align in the exercise:
+
+```js
+(() => {
+    function getKeyLabel(key) {
+        const labels = [...key.querySelectorAll('.key-label')];
+
+        for (const label of labels.reverse()) {
+            const text = label.textContent.trim();
+
+            if (text && text.length <= 2) {
+                return text.toLowerCase();
+            }
+        }
+
+        return null;
+    }
+
+    function buildKeyMap() {
+        const map = {};
+
+        document.querySelectorAll('.keyboard-key').forEach(key => {
+            const label = getKeyLabel(key);
+
+            if (!label) return;
+
+            const rect = key.getBoundingClientRect();
+
+            map[label] = {
+                x: rect.left + rect.width / 2
+            };
+        });
+
+        return map;
+    }
+
+    function alignFallingLetters() {
+        const keyMap = buildKeyMap();
+
+        document.querySelectorAll('.screenFalling-letter').forEach(letter => {
+            const char = letter.textContent.trim().toLowerCase();
+
+            const key = keyMap[char];
+
+            if (!key) return;
+
+            const parentRect = letter.offsetParent.getBoundingClientRect();
+
+            const x =
+                key.x -
+                parentRect.left -
+                (letter.offsetWidth / 2);
+
+            letter.style.left = `${x}px`;
+        });
+    }
+
+    // Initial alignment
+    alignFallingLetters();
+
+    // Observe falling letters container
+    const container = document.querySelector('.js-falling-lines');
+
+    if (!container) {
+        console.error('Falling letters container not found.');
+        return;
+    }
+
+    const observer = new MutationObserver(() => {
+        alignFallingLetters();
+    });
+
+    observer.observe(container, {
+        childList: true,
+        subtree: true,
+        attributes: true,
+        characterData: true
+    });
+
+    // Re-align on resize too
+    window.addEventListener('resize', alignFallingLetters);
+})();
+```
