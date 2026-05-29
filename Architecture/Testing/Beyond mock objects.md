@@ -1,7 +1,7 @@
 ## Tests are design tools. 
 
 You can detect whether good or bad design is by means of testing. 
-From other hand, TDD promotes us to write better code.
+By the same token, TDD promotes us to write better code.
 
 ## Repeatability
 
