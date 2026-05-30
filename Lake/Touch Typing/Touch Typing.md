@@ -1,15 +1,14 @@
-See Layout:
+[[QWERTY layout]], [[WorkMan Layout]]
 
-![[Touch Typing Layout.png]]
-
-
-> I've changed this so that my middle finger do not get "E" any longer. 
-
-Good to study: [[Typing.com]], using [[WorkMan Layout]]
-
-![[WorkMan Layout.png]]
+Good to study:
+- [[Typing.com]]
+- [[Keyboard layout comparison]]
+- home row modifiers
+- [Carpalx optimizer]()
 
 ## Removing subvocalization:
+
+> TLDR it didn't work out.
 
 Pronounce the letters of the words you recognize, while typing their reversed counterpart.
 
