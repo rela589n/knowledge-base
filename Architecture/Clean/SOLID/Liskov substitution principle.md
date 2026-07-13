@@ -6,8 +6,8 @@ aliases:
 	we could **pass *any* concretion**.
 
 Each **implementation** must ***follow* the interface** (not breaking it), meaning that:
-- **parameters** are **[[Template Contravariance|Contravariant]]** (the same type or wider) with the interface;
-- **return values** are **[[Template Covariance|Covariant]]** (the same or narrower) with the interface.
+- **parameters** are **[[Template Contravariance|Contravariant]]** (same or wider type) with the interface;
+- **return values** are **[[Template Covariance|Covariant]]** (same or narrower) with the interface.
 
 > **Example** of violation:
 > 

@@ -1,3 +1,0 @@
-- [[Template Invariance]]
-- [[Template Covariance]]
-- [[Template Contravariance]]
