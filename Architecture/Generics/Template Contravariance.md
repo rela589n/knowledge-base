@@ -1,6 +1,7 @@
 ---
 aliases:
   - Contravariant
+  - Input-variance
 ---
 **Contravariance** is an <u><b>descending</b></u> **variance** (generic to concrete)
 

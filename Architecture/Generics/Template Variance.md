@@ -1,6 +1,6 @@
-Template variance reflects the inherent ***relationship*** *between* the **abstractions**.
+**Template Variance** reflects the inherent ***relationship*** *between* the **abstractions**.
 
 - [[Template Invariance]]
-- [[Template Covariance]]
-- [[Template Contravariance]]
+- [[Template Covariance]] (out)
+- [[Template Contravariance]] (in)
 
