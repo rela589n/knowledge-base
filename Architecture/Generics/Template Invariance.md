@@ -1,3 +1,5 @@
+**Template Invariance** - neither [[Template Covariance|Covariant]] nor [[Template Contravariance|Contravariant]].
+
 By default, `@template`-s are invariant.
 
 It means that `Collection<Cat>`  and `Collection<Animal>`

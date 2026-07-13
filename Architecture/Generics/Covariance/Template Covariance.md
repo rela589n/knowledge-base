@@ -3,9 +3,11 @@ aliases:
   - Covariant
   - Output-variance
 ---
-**Covariance** allows a **more specific** type be passed ***into*** a **generic** one (ascending variance).
+**Covariance** allows a **more specific** type be *passed* ***into*** a **generic** one (ascending variance).
 
 `@template-covariant` allows to pass `Collection<Orange>` into a `Collection<Fruit>`.
+
+> Use when type must produce <b><u>more specific output</u></b>.
 
 Covariance is <b><u>safe</u> in return</b>, but <b><u>unsafe</u> in parameter</b>.
 Thus, it your collection would not have `add(T)` method.
@@ -18,3 +20,6 @@ As you have an [[Template Invariance|Invariant template]], you can still accept 
 > **Assignment** is covariant:
 > `fn(Fruit $f) => $f->weight;` can accept `Orange`.
 > `Fruit $f = new Orange();` is allowed.
+
+
+![[Covariance by Christopher Okhravi.png]]
