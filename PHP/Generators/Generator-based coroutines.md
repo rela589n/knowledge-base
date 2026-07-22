@@ -52,6 +52,7 @@ function evaluate(Generator $code): mixed
 {
     // for some reason it's just not possible
     // to implement the same with foreach over generator
+    // see https://www.php.net/manual/en/generator.send.php#126068
     do {
         $statement = $code->current();
 
