@@ -1,3 +1,4 @@
+
 Check [[PHP]] extension:
 
 Run:
@@ -11,3 +12,4 @@ for example:
 ```shell
 php --ri xdebug
 ```
+
