@@ -1,3 +1,6 @@
+---
+ali: composer update
+---
 Useful commands:
 
 - `composer outdated` (check for outdated packages);
@@ -30,7 +33,7 @@ Make sure to cover as much as possible with:
 ## Step 4:
 
 1. Upgrade all outdated third-party packages, except `symfony/*` (though, it would be nice to upgarde symfony to latest minor version).
-2. Run & fix tests
+2. Run & make tests green
 3. Commit, deploy
 
 ## Step 5: perform the main upgarde (once it has all been successfully tested and works correctly):
@@ -38,5 +41,5 @@ Make sure to cover as much as possible with:
 1. Upgarde symfony packages (remember, currently there should be not that much dependency issues, because of first phase).
 2. Run & fix tests;
 3. Upgrade rest of the packages to the newest version
-4. Run & fix tests;
+4. Run & make tests green;
 5. Commit, deploy
