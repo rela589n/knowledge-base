@@ -43,3 +43,5 @@ Make sure to cover as much as possible with:
 3. Upgrade rest of the packages to the newest version
 4. Run & make tests green;
 5. Commit, deploy
+
+See also [[Composer Package Upgrade Workflow]]
