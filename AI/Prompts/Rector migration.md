@@ -12,17 +12,17 @@ aliases:
    For example:
 ```diff  
 ---  
-Index: rector.php  
-@@ -39,7 +55,15 @@  
-         ReduceAlwaysFalseIfOrRector::class,  
--    ]);  
-+    ])  
+Index: rector.php
+@@ -39,7 +55,15 @@
+         ReduceAlwaysFalseIfOrRector::class,
+-    ]);
++    ])
 +    ->withSkip([
 +  // FIXME: process these rules, removing them by one:
-+        ExplicitAttributeNamedArgsRector::class,  
-+        AddNameToNullArgumentRector::class,  
-+        NewlineAfterStatementRector::class,  
-+    ]);  
++        ExplicitAttributeNamedArgsRector::class,
++        AddNameToNullArgumentRector::class,
++        NewlineAfterStatementRector::class,
++    ]);
 ```
 3. Verify that `composer ci:rector` reports none;
 
