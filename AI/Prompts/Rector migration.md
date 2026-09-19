@@ -17,7 +17,8 @@ Index: rector.php
          ReduceAlwaysFalseIfOrRector::class,  
 -    ]);  
 +    ])  
-+    ->withSkip([ /// FIXME: process these rules, removing them by one:  
++    ->withSkip([
++  // FIXME: process these rules, removing them by one:
 +        ExplicitAttributeNamedArgsRector::class,  
 +        AddNameToNullArgumentRector::class,  
 +        NewlineAfterStatementRector::class,  
