@@ -1,6 +1,7 @@
 ---
 aliases:
   - Timestamp-based Synchronization
+  - Cursor-based synchronization
 ---
 > **TLDR**: it has more problems than I thought:
 > 
@@ -19,15 +20,18 @@ WHERE (e.updated_at, e.id) > (:lastUpdatedAt, :lastId)
 ORDER BY e.updated_at, e.id
 LIMIT :limit
 ```
-And to solve [[Clock Drift]], we might subtract `interval 30 sec` 
+And to solve [[Clock Drift]] / commit time, we subtract `interval 30 sec` to skip recently committed records.
 
 ## Why the cursor holds two values  
   
 ### The context  
   
-A partner reads the entities in pages. The server sends 100 entities in each page.  
+A partner reads the entities in pages.
+A server returns 100 entities in each page.  
   
-The cursor is the marker at the end of a page. The partner sends the cursor back. The server then continues from the marker.  
+The cursor is the marker at the end of a page:
+- The partner sends the cursor back.
+- The server then continues from the marker.  
   
 The cursor must do two things:  
 - It must not skip an entity.  
@@ -37,52 +41,59 @@ The server sorts the entities by the time of the last change. So you can put tha
   
 ### The example data  
   
-Five entities are in the database. An operator made one bulk edit at 10:05. The edit set the same time on three entities.  
+Five entities are in the database.
+An admin made one bulk edit at 10:05.
+The edit set the same time on three entities.  
   
-| `updated_at` | `id` | Name |  
-|---|---|---|  
-| 10:00 | A | Alpha |  
-| 10:05 | B | Bravo |  
-| 10:05 | C | Charlie |  
-| 10:05 | D | Delta |  
-| 10:09 | E | Echo |  
+| `updated_at` | `id` | Name    |     |
+| ------------ | ---- | ------- | --- |
+| 10:00        | A    | Alpha   |     |
+| 10:05        | B    | Bravo   |     |
+| 10:05        | C    | Charlie |     |
+| 10:05        | D    | Delta   |     |
+| 10:09        | E    | Echo    |     |
   
-The page size is 2. This keeps the example short. The behavior is the same at 100.  
+The page size is 2.
   
 ### Try 1 — the cursor holds only the time. The server uses `>`  
+
+| Page | Query                | Result       | New cursor |     |
+| ---- | -------------------- | ------------ | ---------- | --- |
+| 1    | `updated_at > 00:00` | Alpha, Bravo | `10:05`    |     |
+| 2    | `updated_at > 10:05` | Echo         | `10:09`    |     |
+| 3    | `updated_at > 10:09` | *empty*      | —          |     |
   
-| Page | Query | Result | New cursor |  
-|---|---|---|---|  
-| 1 | `updated_at > 00:00` | Alpha, Bravo | `10:05` |  
-| 2 | `updated_at > 10:05` | Echo | `10:09` |  
-| 3 | `updated_at > 10:09` | *empty* | — |  
-  
-Charlie and Delta have the time 10:05. The time 10:05 is not more than 10:05. Therefore the query does not find them.  
+**Charlie** and **Delta** have the time 10:05.
+The time 10:05 is not more than 10:05.
+Therefore the query does not find them.  
   
 **The server lost two entities. The partner never gets them.**  
   
 ### Try 2 — the cursor holds only the time. The server uses `>=`  
   
-| Page | Query | Result | New cursor |  
-|---|---|---|---|  
-| 1 | `updated_at >= 00:00` | Alpha, Bravo | `10:05` |  
-| 2 | `updated_at >= 10:05` | Bravo, Charlie | `10:05` |  
-| 3 | `updated_at >= 10:05` | Bravo, Charlie | `10:05` |  
+| Page | Query                 | Result         | New cursor |     |
+| ---- | --------------------- | -------------- | ---------- | --- |
+| 1    | `updated_at >= 00:00` | Alpha, Bravo   | `10:05`    |     |
+| 2    | `updated_at >= 10:05` | Bravo, Charlie | `10:05`    |     |
+| 3    | `updated_at >= 10:05` | Bravo, Charlie | `10:05`    |     |
   
-The cursor does not change. The server sends the same two entities again and again.  
+The cursor never advances.
+The server sends the same two entities again and again.  
   
 **The partner is in a loop. Delta and Echo never come.**  
   
 ### Try 3 — the cursor holds the time and the id  
-  
+
+> **Cursor Synchronization** requires a <u><b>Unique ID</b></u> to work as expected.
+
 The server compares the pair `(updated_at, id)`.  
   
-| Page | Query | Result | New cursor |  
-|---|---|---|---|  
-| 1 | `(updated_at, id) > (00:00, "")` | Alpha, Bravo | `(10:05, B)` |  
-| 2 | `(updated_at, id) > (10:05, B)` | Charlie, Delta | `(10:05, D)` |  
-| 3 | `(updated_at, id) > (10:05, D)` | Echo | `(10:09, E)` |  
-| 4 | `(updated_at, id) > (10:09, E)` | *empty* | — |  
+| Page | Query                            | Result         | New cursor   |     |
+| ---- | -------------------------------- | -------------- | ------------ | --- |
+| 1    | `(updated_at, id) > (00:00, "")` | Alpha, Bravo   | `(10:05, B)` |     |
+| 2    | `(updated_at, id) > (10:05, B)`  | Charlie, Delta | `(10:05, D)` |     |
+| 3    | `(updated_at, id) > (10:05, D)`  | Echo           | `(10:09, E)` |     |
+| 4    | `(updated_at, id) > (10:09, E)`  | *empty*        | —            |     |
   
 **The partner gets all five entities. The partner gets each entity one time.**  
   
@@ -104,7 +115,8 @@ The id has an effect only when the times are equal. In all other rows the time d
   
 ### The rule  
   
-The sort key must be unique. If two entities have the same sort key, then the words *"the entities after this entity"* have more than one answer. The server cannot make a correct page.  
+The sort key must be unique.
+If two entities have the same sort key, then the words *"the entities after this entity"* have more than one answer. The server cannot make a correct page.  
   
 The time alone is not unique. The time and the id together are unique. Therefore the cursor holds both.  
   
